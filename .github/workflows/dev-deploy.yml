@@ -17,7 +17,7 @@ jobs:
   dev-deploy:
     name: Dev Deployment
     runs-on: ubuntu-latest
-    if: "contains(github.event.commits[0].message, '[update]')"
+    if: "startsWith(github.event.commits[0].message, 'update:')"
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
