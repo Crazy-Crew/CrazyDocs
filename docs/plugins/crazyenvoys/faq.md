@@ -1,7 +1,7 @@
 ---
-id: ce-faq
-title: CrazyEnchantments FAQ
-slug: /CrazyEnchantments/faq
+id: envoys-faq
+title: CrazyEnvoys FAQ
+slug: /crazyenvoys/faq
 hide_title: false
 hide_table_of_contents: true
 

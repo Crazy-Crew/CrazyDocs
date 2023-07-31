@@ -38,6 +38,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: "/",
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -59,33 +60,21 @@ const config = {
         disableSwitch: false
       },
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo.webp',
       navbar: {
         title: 'Home',
         logo: {
           alt: 'CrazyLogo',
           src: 'img/logo.webp',
         },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'crazySidebar',
-            position: 'left',
-            label: 'Docs',
-          }
-        ],
+        items: [],
       },
       footer: {
         style: 'dark',
         links: [
           {
             title: 'Navigation',
-            items: [
-              {
-                label: 'Docs',
-                to: '/docs/',
-              },
-            ],
+            items: [],
           },
           {
             title: 'Community',
