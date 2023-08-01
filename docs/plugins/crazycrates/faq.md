@@ -53,6 +53,11 @@ sidebar_label: FAQ
         Commands: {} # Optional
         # A list of items to give the player.
         Items: {} # Optional
+      # This next part is only applied to Cosmic Crate
+      Tiers: # Required
+        - 'Basic'
+        - 'UnCommon'
+        - 'Rare'
 ```
 
 ### 2. The description shows there are 10 different crate types but I only see 4 crates in the Crates folder?
