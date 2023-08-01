@@ -8,6 +8,16 @@ The build will fail if you type the wrong one.
 module.exports = {
   docs: [
     {
+      type: 'link',
+      label: 'PaperMC',
+      href: 'https://papermc.io/'
+    },
+    {
+      type: 'link',
+      label: 'PurpurMC',
+      href: 'https://purpurmc.org/'
+    },
+    {
       type: 'category',
       label: 'Getting Started',
       collapsed: false,
