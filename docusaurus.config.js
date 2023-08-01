@@ -67,39 +67,23 @@ const config = {
           alt: 'CrazyLogo',
           src: 'img/logo.webp',
         },
-        items: [],
-      },
-      footer: {
-        style: 'dark',
-        links: [
+        items: [
           {
-            title: 'Navigation',
-            items: [],
+            to: 'https://discord.gg/badbones-s-live-chat-182615261403283459',
+            label: 'Discord',
+            position: 'left'
           },
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Github',
-                href: 'https://github.com/Crazy-Crew',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/badbones-s-live-chat-182615261403283459',
-              }
-            ],
+            to: 'https://github.com/Crazy-Crew',
+            label: 'Github',
+            position: 'right'
           },
           {
-            title: 'More',
-            items: [
-              {
-                label: 'Github Sponsors',
-                href: 'https://github.com/sponsors/Crazy-Crew',
-              },
-            ],
-          },
+            to: 'https://github.com/sponsors/Crazy-Crew',
+            label: 'Github Sponsors',
+            position: 'right'
+          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} CrazyCrew.`,
       },
       prism: {
         theme: lightCodeTheme,
