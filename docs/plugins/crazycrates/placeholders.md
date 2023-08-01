@@ -10,19 +10,19 @@ pagination_prev: null
 
 sidebar_label: Placeholders
 ---
-
 ## Random Number Placeholder:
-Useable places: Commands option for prizes.
+This placeholder can only be used in commands!
 
-How to use:
+### How to use:
 `%random%:min-max`
 
-Example:
-> ` Commands: `
-> 
-> ` - 'eco give %player% %random%:10000-100000' `
+### Example:
+```yml
+Commands:
+- 'eco give %player% %random%:10000-100000'
+```
 
-## 3rd Party Placeholders:
+### 3rd Party Placeholders
 _The first table assumes you are using [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) to parse placeholders._
 
 Placeholder|Example|Description

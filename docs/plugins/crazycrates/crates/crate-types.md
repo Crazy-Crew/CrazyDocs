@@ -10,8 +10,7 @@ pagination_prev: null
 
 sidebar_label: Crate Types
 ---
-
-## List of all Crate Types:
+### List of all Crate Types
 - `Cosmic`
 - `CrateOnTheGo`
 - `CSGO`

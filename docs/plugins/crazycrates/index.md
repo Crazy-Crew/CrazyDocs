@@ -10,14 +10,13 @@ pagination_prev: null
 
 sidebar_label: Home
 ---
+## Welcome to the CrazyCrates Wiki!
+#### Use the sidebar to the left to find the topic you're looking for!
 
-# Welcome to the CrazyCrates Wiki!
-### Use the sidebar to the left to find the topic you're looking for!
-
-## Downloads:
+### Downloads
 <a href="https://modrinth.com/user/plugin/crazycrates">
 <img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/available/modrinth_64h.png"/>
 </a>
 
-## Bugs / Issues
+### Bugs / Issues
 Have a issue or bug? Go to the [issues tab](https://github.com/Crazy-Crew/CrazyCrates/issues) to submit an issue. Please describe in detail what the issue is.

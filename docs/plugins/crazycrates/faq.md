@@ -1,6 +1,6 @@
 ---
 id: crate-faq
-title: CrazyCrates FAQ
+title: Frequently Asked Questions
 slug: /crazycrates/faq
 hide_title: false
 hide_table_of_contents: true
@@ -10,7 +10,6 @@ pagination_prev: null
 
 sidebar_label: FAQ
 ---
-
 ### 1. What is required for a prize to be winnable in the crate?
 ```yaml
     1:

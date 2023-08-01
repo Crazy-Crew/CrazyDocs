@@ -11,38 +11,57 @@ pagination_prev: null
 sidebar_label: Armor Trim
 ---
 
-### An example of how to add armor trim to your prize pool!
+## Armor Trim
+*All armor types ( including `Turtle Helmet` ) except `Leather Armor` support trims*
+
+### [Trim Materials](https://jd.papermc.io/paper/1.20/org/bukkit/inventory/meta/trim/TrimMaterial.html)
+
+### [Trim Patterns](https://jd.papermc.io/paper/1.20/org/bukkit/inventory/meta/trim/TrimPattern.html)
+
+#### An example of how to use the `QUARTZ` trim with pattern `SENTRY` in a prize.
 ```yml
-1:
- DisplayName: '&b&lCheap Helmet'
- DisplayItem: 'GOLDEN_HELMET'
- DisplayTrim:
- # Available Materials: https://jd.papermc.io/paper/1.20/org/bukkit/inventory/meta/trim/TrimMaterial.html
- Material: 'QUARTZ'
- # Available Patterns: https://jd.papermc.io/paper/1.20/org/bukkit/inventory/meta/trim/TrimPattern.html
- Pattern: 'SENTRY'
- DisplayAmount: 1
- Lore:
- - '&7Win a cheap helmet.'
- - '&6&lChance: &c&l60%'
- MaxRange: 100
- Chance: 60
- Items:
- - 'Item:GOLDEN_HELMET, Amount:1, Trim-Pattern:SENTRY, Trim-Material:QUARTZ, Name:&bCheap Helmet, PROTECTION_ENVIRONMENTAL:1, OXYGEN:1'
-2:
- DisplayName: '&2Turtle Helmet'
- DisplayItem: 'TURTLE_HELMET'
- DisplayTrim:
- # Available Materials: https://jd.papermc.io/paper/1.20/org/bukkit/inventory/meta/trim/TrimMaterial.html
- Material: 'AMETHYST'
- # Available Patterns: https://jd.papermc.io/paper/1.20/org/bukkit/inventory/meta/trim/TrimPattern.html
- Pattern: 'RAISER'
- DisplayAmount: 1
- Lore:
- - '&7Win a cheap helmet.'
- - '&6&lChance: &c&l60%'
- MaxRange: 100
- Chance: 60
- Items:
- - 'Item:TURTLE_HELMET, Amount:1, Trim-Pattern:RAISER, Trim-Material:AMETHYST, Name:&2Turtle Helmet'
+Crate:
+  # The crate type.
+  CrateType: CSGO
+  # The title of the crate.
+  CrateName: '&aExample Crate'
+  # The preview name of the crate.
+  Preview-Name: '&aExample Crate Preview'
+  # All the prizes that can be gotten in the Crate.
+  Prizes:
+    1:
+     DisplayName: '&cAn example helmet using Trims.'
+     DisplayItem: 'GOLDEN_HELMET'
+     DisplayAmount: 1
+     DisplayTrim:
+       Material: 'QUARTZ'
+       Pattern: 'SENTRY'
+    MaxRange: 100
+    Chance: 1
+    Items:
+    - 'Item:GOLDEN_HELMET, Amount:1, Trim-Material:QUARTZ, Trim-Pattern: SENTRY, Name: &cAn example helmet using Trims.'
+```
+
+#### An example but instead with `TURTLE_HELMET`
+```yml
+Crate:
+  # The crate type.
+  CrateType: CSGO
+  # The title of the crate.
+  CrateName: '&aExample Crate'
+  # The preview name of the crate.
+  Preview-Name: '&aExample Crate Preview'
+  # All the prizes that can be gotten in the Crate.
+  Prizes:
+    1:
+     DisplayName: '&cAn example helmet using Trims.'
+     DisplayItem: 'TURTLE_HELMET'
+     DisplayAmount: 1
+     DisplayTrim:
+       Material: 'QUARTZ'
+       Pattern: 'SENTRY'
+    MaxRange: 100
+    Chance: 1
+    Items:
+    - 'Item:TURTLE_HELMET, Amount:1, Trim-Material:QUARTZ, Trim-Pattern: SENTRY, Name: &cAn example helmet using Trims.'
 ```

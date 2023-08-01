@@ -10,9 +10,6 @@ pagination_prev: null
 
 sidebar_label: Commands
 ---
-
-# Commands:
-
 Command|Permission|Description
 ---|---|---
 `/key`|`crazycrates.command.player.key`|Check the number of keys you have.
@@ -39,7 +36,6 @@ Command|Permission|Description
 `/crazycrates save <schematic file name>`|`crazycrates.command.admin.schematic.save`|Save the new schematic file to the schematics folder. **1.13+ only**
 `/crazycrates mass-open <amount>`|`crazycrates.command.admin.massopen`|Mass opens crates. Defaults to 10 but can be changed in the crate config files.
 `/crazycrates give-random <virtual/physical> <amount> <player>`|`crazycrates.command.admin.giverandomkey`|Gives a random key out of all the crates available.
-
 # Other
 Node|Description
 ---|---

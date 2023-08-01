@@ -1,6 +1,6 @@
 ---
 id: crate-api-intro
-title: Api Intro
+title: Developer API
 slug: /crazycrates/api/intro
 hide_title: false
 hide_table_of_contents: true
@@ -8,9 +8,8 @@ hide_table_of_contents: true
 pagination_next: null
 pagination_prev: null
 
-sidebar_label: Api Intro
+sidebar_label: API Intro
 ---
-
 # Developer API
 
 <details>
@@ -27,7 +26,7 @@ sidebar_label: Api Intro
   </ol>
 </details>
 
-## Groovy
+### Groovy
 <details>
  <summary>
    Gradle (Groovy)
@@ -43,12 +42,12 @@ repositories {
 
 ```gradle
 dependencies {
-    compileOnly "com.badbones69.crazycrates:crazycrates-paper-api:1.12.0"
+    compileOnly "com.badbones69.crazycrates:crazycrates-paper-api:1.13"
 }
 ```
 </details>
 
-## Kotlin
+### Kotlin
 <details>
  <summary>
    Gradle (Kotlin)
@@ -62,12 +61,12 @@ repositories {
 
 ```gradle
 dependencies {
-    compileOnly("com.badbones69.crazycrates", "crazycrates-paper-api", "1.12.0")
+    compileOnly("com.badbones69.crazycrates", "crazycrates-paper-api", "1.13")
 }
 ```
 </details>
 
-## Maven
+### Maven
 <details>
  <summary>
    Maven
@@ -84,7 +83,7 @@ dependencies {
 <dependency>
   <groupId>com.badbones69.crazycrates</groupId>
   <artifactId>crazycrates-paper-api</artifactId>
-  <version>1.12.0</version>
+  <version>1.13</version>
  </dependency>
 ```
 </details>

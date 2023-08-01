@@ -10,9 +10,7 @@ pagination_prev: null
 
 sidebar_label: Chance System
 ---
-
 This is how the chance system works in Crazy Crates when finding the display item or final prize of a crate.
-
 **Don't use `decimals` in the `Chance` option as that is what the Max Range is meant for.** ( i.e 0.3 )
 
 ### Checking all prizes:
@@ -26,11 +24,9 @@ This is how the chance system works in Crazy Crates when finding the display ite
 2. Once the prize is picked it is the prize that is shown on the display or is given to the player as the final prize depending on what state the crate is currently in.
 
 ### How the Chance/Max Range works:
-
 The max range option is there to allow for higher chances by using math to allow for decimals. This uses basic math to find out the final chance that the prize has.
 
-Examples: (Chance / Max Range = Final Chance)
-
+#### Examples: (Chance / Max Range = Final Chance)
 Chance|Max Range|Final Chance
 --|--|--
 15|100|15%

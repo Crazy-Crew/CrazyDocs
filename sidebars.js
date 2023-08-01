@@ -55,10 +55,11 @@ module.exports = {
                   type: 'category',
                   label: 'Items',
                   items: [
-                    'plugins/crazycrates/prizes/items/crate-colored-leather-armor',
-                    'plugins/crazycrates/prizes/items/crate-custom-heads',
+                    'plugins/crazycrates/prizes/items/crate-colored-leather',
+                    'plugins/crazycrates/prizes/items/crate-colored-potions',
                     'plugins/crazycrates/prizes/items/crate-shields-banners',
                     'plugins/crazycrates/prizes/items/crate-tipped-arrows',
+                    'plugins/crazycrates/prizes/items/crate-custom-heads',
                     'plugins/crazycrates/prizes/items/crate-armor-trim'
                   ]
                 }
