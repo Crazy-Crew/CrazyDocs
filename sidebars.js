@@ -27,6 +27,7 @@ module.exports = {
             'plugins/crazycrates/crate-faq',
             'plugins/crazycrates/crate-commands',
             'plugins/crazycrates/crate-placeholders',
+            'plugins/crazycrates/crate-index',
             {
               type: 'category',
               label: 'Dev API',

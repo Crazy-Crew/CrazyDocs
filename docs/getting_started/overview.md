@@ -18,13 +18,18 @@ Use the sidebar on the left to find what you are looking for!
 ## Welcome to the CrazyCrew docs!
 A freshly updated wiki with all the information and `spoon-feeding` you want! A few common things you'll see in the documentation.
  * {placeholder} - A `variable`, It is something you will have to replace with whatever you need.
- * [Green Text](https://docs.bloom.host) - Links to external url's or any link necessary.
+ * [Green Text](https://docs.crazycrew.us) - Links to external url's or any link necessary.
 
  You can navigate using the `Search` function if you know what you are looking for.
 
 ## Downloads:
-![https://modrinth.com/user/ryderbelserion/plugins](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/available/modrinth_64h.png)
-![https://hangar.papermc.io/CrazyCrew](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/available/hangar_64h.png)
+<a href="ttps://modrinth.com/user/ryderbelserion/plugins">
+<img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/available/modrinth_64h.png"/>
+</a>
+
+<a href="https://hangar.papermc.io/CrazyCrew/">
+<img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/available/hangar_64h.png"/>
+</a>
 
 ## Bugs / Issues
 Have an issue or bug? Please submit a bug report / issue using one of these links below. You can also join using the Discord link below as well.
