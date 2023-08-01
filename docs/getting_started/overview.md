@@ -8,5 +8,21 @@ pagination_next: null
 pagination_prev: null
 sidebar_label: Docs Overview
 ---
+<center>
 
-## Guten Tag!
+# Documentation Overview
+Note: Documentation can be created by the community. Help is always wanted if you spot something. You can visit the guide on [How to contribute to our docs](https://github.com/Crazy-Crew/CrazyDocs/blob/main/README.md), here
+Use the sidebar on the left to find what you are looking for!
+</center>
+
+## Welcome to the CrazyCrew docs!
+A freshly updated wiki with all the information and `spoon-feeding` you want! A few common things you'll see in the documentation.
+ * {placeholder} - A `variable`, It is something you will have to replace with whatever you need.
+ * [Green Text](https://docs.bloom.host) - Links to external url's or any link necessary.
+
+ You can navigate using the `Search` function if you know what you are looking for.
+
+## Discord Support
+ ### [Discord Server](https://discord.gg/badbones-s-live-chat-182615261403283459)
+- If you are using CrazyCrates, go in `#crazycrates` and so on for the other plugins.
+  - `CrazyAuctions`, `CrazyWarps`, `BlockParticles` are in maintenance mode or under a rewrite so previous versions are not supported and we simply don't offer support for them at this time.
