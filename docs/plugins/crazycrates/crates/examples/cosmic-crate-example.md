@@ -108,6 +108,11 @@ Crate:
     2:
       DisplayName: '&b&lCheap Helmet'
       DisplayItem: 'GOLDEN_HELMET'
+      DisplayTrim:
+        # Available Materials: https://jd.papermc.io/paper/1.20/org/bukkit/inventory/meta/trim/TrimMaterial.html
+        Material: 'QUARTZ'
+        # Available Patterns: https://jd.papermc.io/paper/1.20/org/bukkit/inventory/meta/trim/TrimPattern.html
+        Pattern: 'SENTRY'
       DisplayAmount: 1
       Lore:
         - '&7Win a cheap helmet.'
@@ -122,7 +127,7 @@ Crate:
         - 'UnCommon'
         - 'Rare'
       Items:
-        - 'Item:GOLDEN_HELMET, Amount:1, Name:&bCheap Helmet, PROTECTION_ENVIRONMENTAL:1, OXYGEN:1'
+        - 'Item:GOLDEN_HELMET, Amount:1, Trim-Pattern:SENTRY, Trim-Material:DIAMOND, Name:&bCheap Helmet, PROTECTION_ENVIRONMENTAL:1, OXYGEN:1'
     3:
       DisplayName: '&e&l$1,000'
       DisplayItem: 'SUNFLOWER'

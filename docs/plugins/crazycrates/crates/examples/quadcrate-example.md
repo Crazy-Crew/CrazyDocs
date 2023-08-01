@@ -56,6 +56,11 @@ Crate:
     1:
       DisplayName: '&3&lRare ChestPlate'
       DisplayItem: 'DIAMOND_CHESTPLATE'
+      DisplayTrim:
+        # Available Materials: https://jd.papermc.io/paper/1.20/org/bukkit/inventory/meta/trim/TrimMaterial.html
+        Material: 'QUARTZ'
+        # Available Patterns: https://jd.papermc.io/paper/1.20/org/bukkit/inventory/meta/trim/TrimPattern.html
+        Pattern: 'SENTRY'
       DisplayAmount: 1
       Lore:
         - '&7Win a very rare chest plate.'
@@ -66,7 +71,7 @@ Crate:
       MaxRange: 100
       Chance: 40
       Items:
-        - 'Item:DIAMOND_CHESTPLATE, Amount:1, Name:&3Rare ChestPlate, PROTECTION_ENVIRONMENTAL:5, DURABILITY:3'
+        - 'Item:DIAMOND_CHESTPLATE, Amount:1, Trim-Pattern:SENTRY, Trim-Material:EMERALD, Name:&3Rare ChestPlate, PROTECTION_ENVIRONMENTAL:5, DURABILITY:3'
     2:
       DisplayName: '&b&lCrazy &4&lSword'
       DisplayItem: 'GOLDEN_SWORD'
