@@ -24,4 +24,4 @@ sidebar_label: Home
 </a>
 
 ## Bugs / Issues
-Have an issue or bug? Go to the [issues tab](https://github.com/Crazy-Crew/CrazyCrates/issues) to submit an issue. Please describe in detail what the issue is.
+Have a issue or bug? Go to the [issues tab](https://github.com/Crazy-Crew/CrazyCrates/issues) to submit an issue. Please describe in detail what the issue is.
