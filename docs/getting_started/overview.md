@@ -27,10 +27,6 @@ A freshly updated wiki with all the information and `spoon-feeding` you want! A 
 <img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/available/modrinth_64h.png"/>
 </a>
 
-<a href="https://hangar.papermc.io/CrazyCrew/">
-<img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/available/hangar_64h.png"/>
-</a>
-
 ## Bugs / Issues
 Have an issue or bug? Please submit a bug report / issue using one of these links below. You can also join using the Discord link below as well.
  * https://github.com/Crazy-Crew/CrazyCrates/issues

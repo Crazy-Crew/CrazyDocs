@@ -19,9 +19,5 @@ sidebar_label: Home
 <img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/available/modrinth_64h.png"/>
 </a>
 
-<a href="https://hangar.papermc.io/CrazyCrew/CrazyCrates">
-<img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/available/hangar_64h.png"/>
-</a>
-
 ## Bugs / Issues
 Have a issue or bug? Go to the [issues tab](https://github.com/Crazy-Crew/CrazyCrates/issues) to submit an issue. Please describe in detail what the issue is.
