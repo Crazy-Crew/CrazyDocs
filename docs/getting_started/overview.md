@@ -22,6 +22,17 @@ A freshly updated wiki with all the information and `spoon-feeding` you want! A 
 
  You can navigate using the `Search` function if you know what you are looking for.
 
+## Downloads:
+![https://modrinth.com/user/ryderbelserion/plugins](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/available/modrinth_64h.png)
+![https://hangar.papermc.io/CrazyCrew](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/available/hangar_64h.png)
+
+## Bugs / Issues
+Have an issue or bug? Please submit a bug report / issue using one of these links below. You can also join using the Discord link below as well.
+ * https://github.com/Crazy-Crew/CrazyCrates/issues
+ * https://github.com/Crazy-Crew/CrazyEnvoys/issues
+ * https://github.com/Crazy-Crew/CrazyVouchers/issues
+ * https://github.com/Crazy-Crew/CrazyEnchantments/issues
+
 ## Discord Support
  ### [Discord Server](https://discord.gg/badbones-s-live-chat-182615261403283459)
 - If you are using CrazyCrates, go in `#crazycrates` and so on for the other plugins.

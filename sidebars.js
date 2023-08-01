@@ -24,7 +24,51 @@ module.exports = {
           type: 'category',
           label: "CrazyCrates",
           items: [
-            'plugins/crazycrates/crates-faq'
+            'plugins/crazycrates/crate-faq',
+            'plugins/crazycrates/crate-commands',
+            'plugins/crazycrates/crate-placeholders',
+            {
+              type: 'category',
+              label: 'Dev API',
+              items: [
+                'plugins/crazycrates/api/crate-api-usage',
+                'plugins/crazycrates/api/crate-api-intro'
+              ]
+            },
+            {
+              type: 'category',
+              label: 'Prizes',
+              items: [
+                'plugins/crazycrates/prizes/crate-item-options',
+                {
+                  type: 'category',
+                  label: 'Items',
+                  items: [
+                    'plugins/crazycrates/prizes/items/crate-colored-leather-armor',
+                    'plugins/crazycrates/prizes/items/crate-custom-heads',
+                    'plugins/crazycrates/prizes/items/crate-shields-banners',
+                    'plugins/crazycrates/prizes/items/crate-tipped-arrows'
+                  ]
+                }
+              ]
+            },
+            {
+              type: 'category',
+              label: 'Crates',
+              items: [
+                'plugins/crazycrates/crates/crate-types',
+                'plugins/crazycrates/crates/crate-chance-system',
+                {
+                  type: 'category',
+                  label: 'Examples',
+                  items: [
+                    'plugins/crazycrates/crates/examples/crate-cosmic-example',
+                    'plugins/crazycrates/crates/examples/crate-csgo-example',
+                    'plugins/crazycrates/crates/examples/crate-quad-example'
+                  ]
+                }
+              ]
+            }
           ]
         },
         {

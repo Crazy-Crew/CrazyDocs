@@ -1,5 +1,5 @@
 ---
-id: crates-faq
+id: crate-faq
 title: CrazyCrates FAQ
 slug: /crazycrates/faq
 hide_title: false
@@ -9,7 +9,6 @@ pagination_next: null
 pagination_prev: null
 
 sidebar_label: FAQ
-image: https://raw.githubusercontent.com/RyderBelserion/Assets/main/crazycrew/CCCircle.webp
 ---
 
 ### 1. What is required for a prize to be winnable in the crate?
@@ -27,7 +26,7 @@ image: https://raw.githubusercontent.com/RyderBelserion/Assets/main/crazycrew/CC
       Lore: {} # Optional
       # The enchantments to display in the preview.
       DisplayEnchantments: {} # Optional
-      # https://docs.crazycrew.us/crazycrates/chance-system
+      # https://docs.crazycrew.us/crazycrates/crates/chance-system
       MaxRange: 100 # Required
       Chance: 40 # Required
       # If you want fireworks to spawn or not when prize is won.
@@ -57,11 +56,11 @@ image: https://raw.githubusercontent.com/RyderBelserion/Assets/main/crazycrew/CC
 ```
 
 ### 2. The description shows there are 10 different crate types but I only see 4 crates in the Crates folder?
-There is a difference between [Crates](https://github.com/Crazy-Crew/CrazyCrates/tree/gradle/paper/src/main/resources/crates) and [Crate Types](https://docs.crazycrew/crazycrates/crate-types). Each crate has its own CrateType: option in the crate's file to pick which one it is.
+There is a difference between [Crates](https://docs.crazycrew.us/crazycrates/crates/examples/) and [Crate Types](https://docs.crazycrew.us/crazycrates/crates/crate-types). Each crate has its own CrateType: option in the crate's file to pick which one it is.
 ### Crate:
-The crates are the file and control all these options: 
+The crates are the file and control all these options:
 * Prizes
-* The [Crate Type](https://docs.crazycrew/crazycrates/crate-types)
+* The [Crate Type](https://docs.crazycrew.us/crazycrates/crates/crate-types)
 * How the key looks
 * And more!
 
@@ -86,10 +85,10 @@ Adding new crates to CrazyCrates is easy! You have to navigate to the `crates` f
 * Save the file and run `/crazycrates reload`.
 * Profit
 
--> [Crates](https://github.com/Crazy-Crew/CrazyCrates/tree/gradle/paper/src/main/resources/crates) - The directory with a list of default crates in case you need them.
+-> [Crates](https://docs.crazycrew.us/crazycrates/crates/examples/) - The directory with a list of default crates in case you need them.
 
 ### 5. How does the chance system work?
-Check out https://docs.crazycrew.us/crazycrates/chance-system to figure out how the system works!
+Check out https://docs.crazycrew.us/crazycrates/crates/chance-system to figure out how the system works!
 
 ### 6. Is there anyway to make blocks open the CrazyCrates menu?
 * Look at any block besides shulker boxes.
