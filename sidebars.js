@@ -138,6 +138,7 @@ module.exports = {
             'plugins/crazyvouchers/crazyvouchers-faq',
             'plugins/crazyvouchers/crazyvouchers-commands',
             'plugins/crazyvouchers/crazyvouchers-placeholders',
+            'plugins/crazyvouchers/crazyvouchers-chance-system',
             {
               type: 'category',
               label: 'Dev API',
