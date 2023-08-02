@@ -84,13 +84,40 @@ module.exports = {
             }
           ]
         },
+
+
         {
           type: 'category',
           label: "CrazyEnchantments",
           items: [
-            'plugins/crazyenchantments/enchants-faq'
-          ]
+            'plugins/crazyenchantments/crazyenchantments-index',
+            'plugins/crazyenchantments/crazyenchantments-faq',
+            {
+             type: 'category',
+             label: "Wiki",
+             items: [
+               'plugins/crazyenchantments/wiki/crazyenchantments-wiki-commands',
+               'plugins/crazyenchantments/wiki/crazyenchantments-wiki-currency',
+               'plugins/crazyenchantments/wiki/crazyenchantments-wiki-enchantments',
+               'plugins/crazyenchantments/wiki/crazyenchantments-wiki-features',
+               'plugins/crazyenchantments/wiki/crazyenchantments-wiki-items',
+               'plugins/crazyenchantments/wiki/crazyenchantments-wiki-shieldAndBanners'
+             ]
+            },
+            {
+              type: 'category',
+              label: "Dev API",
+              items: [
+                'plugins/crazyenchantments/api/crazyenchantments-api-intro'
+              ]
+            }
+
+            ]
+
+
         },
+
+
         {
           type: 'category',
           label: "CrazyEnvoys",
