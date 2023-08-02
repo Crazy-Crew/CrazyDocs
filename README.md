@@ -25,14 +25,14 @@ To add a new page is very simple!
     * `getting_started/overview` is considered the path while `/overview` is the page id defined above.
     * The build will fail if you type the wrong one.
 * Go to `sidebars.js` and follow what's already in there on how to add one.
-* use the command `npm run dev`
+* use the command `npm run start`
 * Go to http://localhost:3000
 * Make changes until it looks right.
 * Once it look rights, create a pull request!
 
 ## Editing Pages
 * Simply edit the `.md` files.
-* use the command `npm run dev`.
+* use the command `npm run start`.
 * Go to http://localhost:3000
 * Make changes until it looks right.
 * Make a pull request once it looks right.
