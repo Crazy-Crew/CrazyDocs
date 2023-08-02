@@ -1,5 +1,5 @@
 ---
-id: crate-faq
+id: crazycrates-faq
 title: Frequently Asked Questions
 slug: /crazycrates/faq
 hide_title: false
@@ -10,7 +10,10 @@ pagination_prev: null
 
 sidebar_label: FAQ
 ---
-### 1. What is required for a prize to be winnable in the crate?
+### 1. Why do colors in console look weird?
+#### Add this value to your startup flags!
+ * -Dnet.kyori.ansi.colorLevel=truecolor
+### 2. What is required for a prize to be winnable in the crate?
 ```yaml
     1:
       # The name of the prize in the preview.
@@ -59,7 +62,7 @@ sidebar_label: FAQ
         - 'Rare'
 ```
 
-### 2. The description shows there are 10 different crate types but I only see 4 crates in the Crates folder?
+### 3. The description shows there are 10 different crate types but I only see 4 crates in the Crates folder?
 There is a difference between [Crates](https://docs.crazycrew.us/crazycrates/crates/examples/) and [Crate Types](https://docs.crazycrew.us/crazycrates/crates/crate-types). Each crate has its own CrateType: option in the crate's file to pick which one it is.
 ### Crate:
 The crates are the file and control all these options:
@@ -68,7 +71,7 @@ The crates are the file and control all these options:
 * How the key looks
 * And more!
 
-### 3. How do I add my custom item to a prize in a crate?
+### 4. How do I add my custom item to a prize in a crate?
 * You can use the command `/cc additem {crate} {number}`
   * {number} is to be replaced with the prize number you want
     * You can use prize number 5 as an example.
@@ -81,7 +84,7 @@ The crates are the file and control all these options:
      * Where the custom model data can be found varies. Oraxen, ItemsAdder should have the custom model data in their configurations.
      * If using a resource pack directly, You have to open the resource pack and look through the .json files inside.
 
-### 4. How do I add more crates to the plugin?
+### 5. How do I add more crates to the plugin?
 Adding new crates to CrazyCrates is easy! You have to navigate to the `crates` folder
 * Copy paste the any `.yml` of your choice.
 * Rename the `.yml` file so if it is `Example.yml`, Change it to `Example2.yml`
@@ -91,21 +94,21 @@ Adding new crates to CrazyCrates is easy! You have to navigate to the `crates` f
 
 -> [Crates](https://docs.crazycrew.us/crazycrates/crates/examples/) - The directory with a list of default crates in case you need them.
 
-### 5. How does the chance system work?
+### 6. How does the chance system work?
 Check out https://docs.crazycrew.us/crazycrates/crates/chance-system to figure out how the system works!
 
-### 6. Is there anyway to make blocks open the CrazyCrates menu?
+### 7. Is there anyway to make blocks open the CrazyCrates menu?
 * Look at any block besides shulker boxes.
 * Type `/crazycrates set menu`.
 * Right click to the view menu. It's that easy!
 
-### 7. When I set a head as a crate and try to use a physical key. It doesn't do anything?
+### 8. When I set a head as a crate and try to use a physical key. It doesn't do anything?
 #### Reason:
 The issue is the item you have set the key to. Certain items cannot be used on certain blocks like `Tripwire Hooks`. Bukkit/Spigot tells our plugin to ignore the click event because they cancelled it, They don't tell us that they right clicked it.
 #### Solution:
 Use an item that isn't a `TRIPWIRE_HOOK`, Use a `FEATHER` or something.
 
-### 8. What does the alternative prize option do?
+### 9. What does the alternative prize option do?
 The alternative prize option is for when a player has already won a prize.
 
 #### Example #1: 
@@ -122,16 +125,19 @@ The permission can be any permission you want it to be, It could be a permission
 
 *Note: If you are using `/op` or `*`, You will always be given the main prize so please make sure to `de-op` yourself while testing otherwise you'll wonder why it's not working as intended.
 
-### 9. Symbols, color codes or emojis aren't working as intended. They look weird?
+### 10. Symbols, color codes or emojis aren't working as intended. They look weird?
 Server not using UTF-8 encoding. If you are on a server host that doesn't let you edit startup flags ( run ), Contact them to see if they'll add it.
 
 An example: `java -server -Dfile.encoding=UTF8 -Xmx2048M -jar server.jar`
 
 This startup command is an example, Please use https://flags.sh/ to generate proper startup flags.
 
-### 10. Players can't right click to open a crate however players with `/op` or `*` are able to.
+### 11. Players can't right click to open a crate however players with `/op` or `*` are able to.
 The issue is related to a setting in server.properties.
- * Set the option to 0
+ * Set the option to 0  ( requires server restart )
 ```
 spawn-protection=0
 ```
+
+### 12. You are already opening this crate!
+ * It is most likely due to you using decimals/bad inputs for the `Chance` and `MaxRange` sections.

@@ -1,5 +1,5 @@
 ---
-id: crate-cosmic-example
+id: crazycrates-cosmic-example
 title: Cosmic Type
 slug: /crazycrates/crates/examples/cosmic
 hide_title: false

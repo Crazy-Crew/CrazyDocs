@@ -1,5 +1,5 @@
 ---
-id: crate-csgo-example
+id: crazycrates-csgo-example
 title: CSGO Type
 slug: /crazycrates/crates/examples/csgo
 hide_title: false

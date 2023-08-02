@@ -1,5 +1,5 @@
 ---
-id: crate-chance-system
+id: crazycrates-chance-system
 title: Chance System
 slug: /crazycrates/crates/chance-system
 hide_title: false

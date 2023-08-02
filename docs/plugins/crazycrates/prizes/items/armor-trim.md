@@ -1,5 +1,5 @@
 ---
-id: crate-armor-trim
+id: crazycrates-armor-trim
 title: Armor Trim
 slug: /crazycrates/prizes/items/armor-trim
 hide_title: false

@@ -1,7 +1,7 @@
 ---
-id: crazycrates-api-usage
+id: crazyenvoys-api-usage
 title: API Usage
-slug: /crazycrates/api/usage
+slug: /crazyenvoys/api/usage
 hide_title: false
 hide_table_of_contents: true
 

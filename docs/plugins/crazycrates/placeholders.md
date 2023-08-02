@@ -1,5 +1,5 @@
 ---
-id: crate-placeholders
+id: crazycrates-placeholders
 title: Placeholders
 slug: /crazycrates/placeholders
 hide_title: false

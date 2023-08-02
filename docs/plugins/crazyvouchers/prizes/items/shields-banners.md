@@ -1,7 +1,7 @@
 ---
-id: crazycrates-shields-banners
+id: crazyvouchers-shields-banners
 title: Shields & Banners
-slug: /crazycrates/prizes/items/shields-banners
+slug: /crazyvouchers/prizes/items/shields-banners
 hide_title: false
 hide_table_of_contents: true
 

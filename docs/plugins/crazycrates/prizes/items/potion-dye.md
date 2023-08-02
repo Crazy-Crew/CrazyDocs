@@ -1,5 +1,5 @@
 ---
-id: crate-colored-potions
+id: crazycrates-colored-potions
 title: Potion Dye
 slug: /crazycrates/prizes/items/colored-potions
 hide_title: false

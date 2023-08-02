@@ -1,7 +1,7 @@
 ---
-id: crazycrates-api-intro
+id: crazyenvoys-api-intro
 title: API Intro
-slug: /crazycrates/api/intro
+slug: /crazyenvoys/api/intro
 hide_title: false
 hide_table_of_contents: true
 
@@ -16,7 +16,7 @@ sidebar_label: API Intro
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#getting-started">Adding CrazyCrates to your project</a>
+      <a href="#getting-started">Adding CrazyEnvoys to your project</a>
       <ul>
         <li><a href="##maven">Maven</a></li>
         <li><a href="##groovy">Gradle (Groovy)</a></li>
@@ -42,7 +42,7 @@ repositories {
 
 ```gradle
 dependencies {
-    compileOnly "com.badbones69.crazycrates:crazycrates-paper-api:1.13"
+    compileOnly "com.badbones69.crazyenvoys:crazyenvoys-paper-api:1.5"
 }
 ```
 </details>
@@ -61,7 +61,7 @@ repositories {
 
 ```gradle
 dependencies {
-    compileOnly("com.badbones69.crazycrates", "crazycrates-paper-api", "1.13")
+    compileOnly("com.badbones69.crazyenvoys", "crazyenvoys-paper-api", "1.5")
 }
 ```
 </details>
@@ -81,9 +81,9 @@ dependencies {
 
 ```xml
 <dependency>
-  <groupId>com.badbones69.crazycrates</groupId>
-  <artifactId>crazycrates-paper-api</artifactId>
-  <version>1.13</version>
+  <groupId>com.badbones69.crazyenvoys</groupId>
+  <artifactId>crazyenvoys-paper-api</artifactId>
+  <version>1.5</version>
  </dependency>
 ```
 </details>

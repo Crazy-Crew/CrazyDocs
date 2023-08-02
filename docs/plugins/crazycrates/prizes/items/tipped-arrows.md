@@ -1,5 +1,5 @@
 ---
-id: crate-tipped-arrows
+id: crazycrates-tipped-arrows
 title: Tipped Arrows
 slug: /crazycrates/prizes/items/tipped-arrows
 hide_title: false

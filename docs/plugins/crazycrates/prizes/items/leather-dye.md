@@ -1,5 +1,5 @@
 ---
-id: crate-colored-leather
+id: crazycrates-colored-leather
 title: Leather Dye
 slug: /crazycrates/prizes/items/colored-leather
 hide_title: false

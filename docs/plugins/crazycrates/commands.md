@@ -1,5 +1,5 @@
 ---
-id: crate-commands
+id: crazycrates-commands
 title: Commands
 slug: /crazycrates/commands
 hide_title: false

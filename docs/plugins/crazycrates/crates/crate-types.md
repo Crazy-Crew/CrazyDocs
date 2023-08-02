@@ -1,5 +1,5 @@
 ---
-id: crate-types
+id: crazycrates-types
 title: Crate Types
 slug: /crazycrates/crates/crate-types
 hide_title: false

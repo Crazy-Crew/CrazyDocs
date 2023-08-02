@@ -1,5 +1,5 @@
 ---
-id: crate-index
+id: crazycrates-index
 title: CrazyCrates Home
 slug: /crazycrates/home
 hide_title: false
@@ -20,3 +20,6 @@ sidebar_label: Home
 
 ### Bugs / Issues
 Have a issue or bug? Go to the [issues tab](https://github.com/Crazy-Crew/CrazyCrates/issues) to submit an issue. Please describe in detail what the issue is.
+
+### Feature Requests
+https://github.com/Crazy-Crew/CrazyCrates/discussions/categories/features

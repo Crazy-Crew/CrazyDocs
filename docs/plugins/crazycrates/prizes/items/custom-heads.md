@@ -1,5 +1,5 @@
 ---
-id: crate-custom-heads
+id: crazycrates-custom-heads
 title: Custom Heads
 slug: /crazycrates/prizes/items/custom-heads
 hide_title: false

@@ -1,5 +1,5 @@
 ---
-id: crate-quad-example
+id: crazycrates-quad-example
 title: Quad Type
 slug: /crazycrates/crates/examples/quad
 hide_title: false

@@ -1,7 +1,7 @@
 /*
 When adding pages to the sidebar, You must use the "id" found in each .md file you add.
 
-'plugins/crazycrates/crate-faq' is considered the path while '/crates-faq' is the page id.
+'plugins/crazycrates/crazycrates-faq' is considered the path while '/crates-faq' is the page id.
 
 The build will fail if you type the wrong one.
 */
@@ -34,33 +34,33 @@ module.exports = {
           type: 'category',
           label: "CrazyCrates",
           items: [
-            'plugins/crazycrates/crate-index',
-            'plugins/crazycrates/crate-faq',
-            'plugins/crazycrates/crate-commands',
-            'plugins/crazycrates/crate-placeholders',
+            'plugins/crazycrates/crazycrates-index',
+            'plugins/crazycrates/crazycrates-faq',
+            'plugins/crazycrates/crazycrates-commands',
+            'plugins/crazycrates/crazycrates-placeholders',
             {
               type: 'category',
               label: 'Dev API',
               items: [
-                'plugins/crazycrates/api/crate-api-usage',
-                'plugins/crazycrates/api/crate-api-intro'
+                'plugins/crazycrates/api/crazycrates-api-usage',
+                'plugins/crazycrates/api/crazycrates-api-intro'
               ]
             },
             {
               type: 'category',
               label: 'Prizes',
               items: [
-                'plugins/crazycrates/prizes/crate-item-options',
+                'plugins/crazycrates/prizes/crazycrates-item-options',
                 {
                   type: 'category',
                   label: 'Items',
                   items: [
-                    'plugins/crazycrates/prizes/items/crate-colored-leather',
-                    'plugins/crazycrates/prizes/items/crate-colored-potions',
-                    'plugins/crazycrates/prizes/items/crate-shields-banners',
-                    'plugins/crazycrates/prizes/items/crate-tipped-arrows',
-                    'plugins/crazycrates/prizes/items/crate-custom-heads',
-                    'plugins/crazycrates/prizes/items/crate-armor-trim'
+                    'plugins/crazycrates/prizes/items/crazycrates-colored-leather',
+                    'plugins/crazycrates/prizes/items/crazycrates-colored-potions',
+                    'plugins/crazycrates/prizes/items/crazycrates-shields-banners',
+                    'plugins/crazycrates/prizes/items/crazycrates-tipped-arrows',
+                    'plugins/crazycrates/prizes/items/crazycrates-custom-heads',
+                    'plugins/crazycrates/prizes/items/crazycrates-armor-trim'
                   ]
                 }
               ]
@@ -69,15 +69,15 @@ module.exports = {
               type: 'category',
               label: 'Crates',
               items: [
-                'plugins/crazycrates/crates/crate-types',
-                'plugins/crazycrates/crates/crate-chance-system',
+                'plugins/crazycrates/crates/crazycrates-types',
+                'plugins/crazycrates/crates/crazycrates-chance-system',
                 {
                   type: 'category',
                   label: 'Examples',
                   items: [
-                    'plugins/crazycrates/crates/examples/crate-cosmic-example',
-                    'plugins/crazycrates/crates/examples/crate-csgo-example',
-                    'plugins/crazycrates/crates/examples/crate-quad-example'
+                    'plugins/crazycrates/crates/examples/crazycrates-cosmic-example',
+                    'plugins/crazycrates/crates/examples/crazycrates-csgo-example',
+                    'plugins/crazycrates/crates/examples/crazycrates-quad-example'
                   ]
                 }
               ]
@@ -95,14 +95,71 @@ module.exports = {
           type: 'category',
           label: "CrazyEnvoys",
           items: [
-            'plugins/crazyenvoys/envoys-faq'
+            'plugins/crazyenvoys/crazyenvoys-index',
+            'plugins/crazyenvoys/crazyenvoys-faq',
+            'plugins/crazyenvoys/crazyenvoys-commands',
+            'plugins/crazyenvoys/crazyenvoys-placeholders',
+            {
+              type: 'category',
+              label: 'Dev API',
+              items: [
+                'plugins/crazyenvoys/api/crazyenvoys-api-usage',
+                'plugins/crazyenvoys/api/crazyenvoys-api-intro'
+              ]
+            },
+            {
+              type: 'category',
+              label: 'Prizes',
+              items: [
+                'plugins/crazyenvoys/prizes/crazyenvoys-item-options',
+                {
+                  type: 'category',
+                  label: 'Items',
+                  items: [
+                    'plugins/crazyenvoys/prizes/items/crazyenvoys-shields-banners',
+                  ]
+                }
+              ]
+            },
+            {
+              type: 'category',
+              label: 'Tiers',
+              items: [
+                'plugins/crazyenvoys/tiers/crazyenvoys-chance-system'
+              ]
+            }
           ]
         },
         {
           type: 'category',
           label: "CrazyVouchers",
           items: [
-            'plugins/crazyvouchers/vouchers-faq'
+            'plugins/crazyvouchers/crazyvouchers-index',
+            'plugins/crazyvouchers/crazyvouchers-faq',
+            'plugins/crazyvouchers/crazyvouchers-commands',
+            'plugins/crazyvouchers/crazyvouchers-placeholders',
+            {
+              type: 'category',
+              label: 'Dev API',
+              items: [
+                'plugins/crazyvouchers/api/crazyvouchers-api-usage',
+                'plugins/crazyvouchers/api/crazyvouchers-api-intro'
+              ]
+            },
+            {
+              type: 'category',
+              label: 'Prizes',
+              items: [
+                'plugins/crazyvouchers/prizes/crazyvouchers-item-options',
+                {
+                  type: 'category',
+                  label: 'Items',
+                  items: [
+                    'plugins/crazyvouchers/prizes/items/crazyvouchers-shields-banners',
+                  ]
+                }
+              ]
+            }
           ]
         }
       ]

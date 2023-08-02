@@ -1,7 +1,7 @@
 ---
-id: crazycrates-item-options
+id: crazyvouchers-item-options
 title: Options
-slug: /crazycrates/prizes/options
+slug: /crazyvouchers/prizes/options
 hide_title: false
 hide_table_of_contents: true
 
@@ -10,7 +10,6 @@ pagination_prev: null
 
 sidebar_label: Options
 ---
-
 ## List of all values that can be used in the `Items:` option
 
 ### Useful Links
@@ -156,4 +155,4 @@ Items:
 ```
 
 ### `Patterns`
-[Wiki Page: Banner Patterns](https://docs.crazycrew.us/crazycrates/prizes/items/shields-banners)
+[Wiki Page: Banner Patterns](https://docs.crazycrew.us/crazyvouchers/prizes/items/shields-banners)
