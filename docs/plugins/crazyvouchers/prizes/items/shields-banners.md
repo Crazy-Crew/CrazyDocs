@@ -28,9 +28,9 @@ Set the item to either a `BANNER` or a `SHIELD`. Use the option called `Patterns
 ```yml
 1:
  # The name of the shield.
- DisplayName: '&a&lFancy Shield'
+ Name: '&a&lFancy Shield'
  # The item needs to be SHIELD or BANNER
- DisplayItem: 'SHIELD'
+ Item: 'SHIELD'
  # The type of pattern you want on the shield.
  Patterns:
   - 'HALF_HORIZONTAL:RED'
@@ -56,8 +56,8 @@ This is for if you wish to use a custom color instead of preset ones by Minecraf
 #### Example
 ```yml
 1:
- DisplayName: '&a&lFancy Shield'
- DisplayItem: 'SHIELD'
+ Name: '&a&lFancy Shield'
+ Item: 'SHIELD'
  Patterns:
   - 'HALF_HORIZONTAL:255,0,0'
 ```

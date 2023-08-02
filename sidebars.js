@@ -156,7 +156,12 @@ module.exports = {
                   type: 'category',
                   label: 'Items',
                   items: [
+                    'plugins/crazyvouchers/prizes/items/crazyvouchers-colored-leather',
+                    'plugins/crazyvouchers/prizes/items/crazyvouchers-colored-potions',
                     'plugins/crazyvouchers/prizes/items/crazyvouchers-shields-banners',
+                    'plugins/crazyvouchers/prizes/items/crazyvouchers-tipped-arrows',
+                    'plugins/crazyvouchers/prizes/items/crazyvouchers-custom-heads',
+                    'plugins/crazyvouchers/prizes/items/crazyvouchers-armor-trim'
                   ]
                 }
               ]
