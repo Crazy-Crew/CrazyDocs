@@ -15,9 +15,9 @@ Usage: `<Pattern>:<Color>`
 
 RGB: `<Pattern>:<Red>,<Green>,<Blue>`
 
-Colors: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/DyeColor.html
+[Colors](https://jd.papermc.io/paper/1.20/org/bukkit/DyeColor.html)
 
-Patterns: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/block/banner/PatternType.html
+[Pattern Types](https://jd.papermc.io/paper/1.20/org/bukkit/block/banner/PatternType.html)
 
 *Note that the RGB option may not always work due to some internal stuff in MC that doesn't always let every colorwork.
 
