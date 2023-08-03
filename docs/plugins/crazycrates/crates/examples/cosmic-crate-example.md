@@ -10,7 +10,6 @@ pagination_prev: null
 
 sidebar_label: CosmicCrate Example
 ---
-
 ```yaml
 Crate:
   CrateType: Cosmic
@@ -111,6 +110,11 @@ Crate:
     2:
       DisplayName: '&b&lCheap Helmet'
       DisplayItem: 'GOLDEN_HELMET'
+      # Only works on items with durability. This will make the item appear more damaged.
+      # It does not set the durability but subtracts this number from the durability
+      # Durability is 100, It subtracts 5.
+      # It cannot be 0.
+      DisplayDamage: 5
       DisplayTrim:
         # Available Materials: https://jd.papermc.io/paper/1.20/org/bukkit/inventory/meta/trim/TrimMaterial.html
         Material: 'QUARTZ'
@@ -130,7 +134,7 @@ Crate:
         - 'UnCommon'
         - 'Rare'
       Items:
-        - 'Item:GOLDEN_HELMET, Amount:1, Trim-Pattern:SENTRY, Trim-Material:DIAMOND, Name:&bCheap Helmet, PROTECTION_ENVIRONMENTAL:1, OXYGEN:1'
+        - 'Item:GOLDEN_HELMET, Amount:1, Damage:5, Trim-Pattern:SENTRY, Trim-Material:DIAMOND, Name:&bCheap Helmet, PROTECTION_ENVIRONMENTAL:1, OXYGEN:1'
     3:
       DisplayName: '&e&l$1,000'
       DisplayItem: 'SUNFLOWER'
@@ -150,6 +154,10 @@ Crate:
     4:
       DisplayName: '&b&lCrazy &4&lSword'
       DisplayItem: 'GOLDEN_SWORD'
+      # Only works on items with durability. This will make the item appear more damaged.
+      # It does not set the durability but subtracts this number from the durability
+      # Durability is 100, It subtracts 12.
+      DisplayDamage: 12
       DisplayAmount: 1
       Lore:
         - '&7Win a crazy cool sword.'
@@ -162,7 +170,7 @@ Crate:
       Tiers:
         - 'Rare'
       Items:
-        - 'Item:GOLDEN_SWORD, Amount:1, Name:&b&lCrazy &4&lSword, DAMAGE_ALL:5, FIRE_ASPECT:1'
+        - 'Item:GOLDEN_SWORD, Amount:1, Damage:12, Name:&b&lCrazy &4&lSword, DAMAGE_ALL:5, FIRE_ASPECT:1'
     5:
       DisplayName: '&e&l$1,000,000'
       DisplayItem: 'SUNFLOWER'

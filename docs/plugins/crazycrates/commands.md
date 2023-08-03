@@ -3,7 +3,7 @@ id: crazycrates-commands
 title: Commands
 slug: /crazycrates/commands
 hide_title: false
-hide_table_of_contents: true
+hide_table_of_contents: false
 
 pagination_next: null
 pagination_prev: null
@@ -36,6 +36,7 @@ Command|Permission|Description
 `/crazycrates save <schematic file name>`|`crazycrates.command.admin.schematic.save`|Save the new schematic file to the schematics folder. **1.13+ only**
 `/crazycrates mass-open <amount>`|`crazycrates.command.admin.massopen`|Mass opens crates. Defaults to 10 but can be changed in the crate config files.
 `/crazycrates give-random <virtual/physical> <amount> <player>`|`crazycrates.command.admin.giverandomkey`|Gives a random key out of all the crates available.
+
 # Other
 Node|Description
 ---|---

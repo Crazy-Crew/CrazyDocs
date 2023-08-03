@@ -101,7 +101,7 @@ module.exports = {
                'plugins/crazyenchantments/wiki/crazyenchantments-wiki-enchantments',
                'plugins/crazyenchantments/wiki/crazyenchantments-wiki-features',
                'plugins/crazyenchantments/wiki/crazyenchantments-wiki-items',
-               'plugins/crazyenchantments/wiki/crazyenchantments-wiki-shieldAndBanners'
+               'plugins/crazyenchantments/wiki/crazyenchantments-wiki-shields-banners'
              ]
             },
             {

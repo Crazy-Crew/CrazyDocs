@@ -3,7 +3,7 @@ id: crazycrates-colored-potions
 title: Potion Dye
 slug: /crazycrates/prizes/items/colored-potions
 hide_title: false
-hide_table_of_contents: true
+hide_table_of_contents: false
 
 pagination_next: null
 pagination_prev: null

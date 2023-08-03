@@ -3,7 +3,7 @@ id: crazycrates-item-options
 title: Options
 slug: /crazycrates/prizes/options
 hide_title: false
-hide_table_of_contents: true
+hide_table_of_contents: false
 
 pagination_next: null
 pagination_prev: null

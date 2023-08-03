@@ -2,7 +2,7 @@
 id: crazyenchantments-wiki-commands
 title: Commands
 slug: /crazyenchantments/wiki/commands
-hide_title: true
+hide_title: false
 hide_table_of_contents: false
 
 pagination_next: null
@@ -10,9 +10,6 @@ pagination_prev: null
 
 sidebar_label: Commands
 ---
-
-## Commands
-
 Command|Permission|Description
 ---|---|---
 `/tinker`|`crazyenchantments.tinker`|Opens up the Tinkerer GUI.

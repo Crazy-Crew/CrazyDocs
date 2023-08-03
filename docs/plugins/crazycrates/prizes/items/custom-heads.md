@@ -3,7 +3,7 @@ id: crazycrates-custom-heads
 title: Custom Heads
 slug: /crazycrates/prizes/items/custom-heads
 hide_title: false
-hide_table_of_contents: true
+hide_table_of_contents: false
 
 pagination_next: null
 pagination_prev: null

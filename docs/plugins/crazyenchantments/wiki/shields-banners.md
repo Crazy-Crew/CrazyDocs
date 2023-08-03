@@ -1,9 +1,9 @@
 ---
-id: crazyenchantments-wiki-shieldAndBanners
-title:  Colors and patterns for shields and banners
-slug: /crazyenchantments/wiki/shieldAndBanners
+id: crazyenchantments-wiki-shields-banners
+title:  Shields & Banners
+slug: /crazyenchantments/wiki/shields-banners
 hide_title: false
-hide_table_of_contents: true
+hide_table_of_contents: false
 
 pagination_next: null
 pagination_prev: null
@@ -28,16 +28,18 @@ Set the item to either a banner or a shield and then use the option called `Patt
 
 Example:
 ```yaml
-    1:
-      DisplayName: '&a&lFancy Shield'
-      DisplayItem: 'SHIELD'
-      Patterns:
-        - 'HALF_HORIZONTAL:RED'
-        - 'RHOMBUS_MIDDLE:BLACK'
-        - 'STRIPE_TOP:RED'
-        - 'STRIPE_BOTTOM:WHITE'
-        - 'STRIPE_MIDDLE:BLACK'
-        - 'CIRCLE_MIDDLE:WHITE'
+  Gkitz:
+    Hero:
+      Display:
+        Name: '&a&lFancy Shield'
+        Item: 'SHIELD'
+        Patterns:
+         - 'HALF_HORIZONTAL:RED'
+         - 'RHOMBUS_MIDDLE:BLACK'
+         - 'STRIPE_TOP:RED'
+         - 'STRIPE_BOTTOM:WHITE'
+         - 'STRIPE_MIDDLE:BLACK'
+         - 'CIRCLE_MIDDLE:WHITE'
 ```
 
 ### Item: option
@@ -54,10 +56,12 @@ This is for if you wish to use a custom color instead of preset ones by Minecraf
 
 Example:
 ```yaml
-    1:
-      DisplayName: '&a&lFancy Shield'
-      DisplayItem: 'SHIELD'
-      Patterns:
+  Gkitz:
+    Hero:
+      Display:
+        Name: '&a&lFancy Shield'
+        Item: 'SHIELD'
+        Patterns:
         - 'HALF_HORIZONTAL:255,0,0'
 ```
 ```yaml

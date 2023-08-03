@@ -3,7 +3,7 @@ id: crazycrates-index
 title: CrazyCrates Home
 slug: /crazycrates/home
 hide_title: false
-hide_table_of_contents: true
+hide_table_of_contents: false
 
 pagination_next: null
 pagination_prev: null

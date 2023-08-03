@@ -3,7 +3,7 @@ id: crazyenvoys-armor-trim
 title: Armor Trim
 slug: /crazyenvoys/prizes/items/armor-trim
 hide_title: false
-hide_table_of_contents: true
+hide_table_of_contents: false
 
 pagination_next: null
 pagination_prev: null

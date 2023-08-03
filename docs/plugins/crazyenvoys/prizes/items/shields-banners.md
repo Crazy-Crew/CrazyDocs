@@ -3,7 +3,7 @@ id: crazyenvoys-shields-banners
 title: Shields & Banners
 slug: /crazyenvoys/prizes/items/shields-banners
 hide_title: false
-hide_table_of_contents: true
+hide_table_of_contents: false
 
 pagination_next: null
 pagination_prev: null

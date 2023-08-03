@@ -3,7 +3,7 @@ id: crazycrates-faq
 title: Frequently Asked Questions
 slug: /crazycrates/faq
 hide_title: false
-hide_table_of_contents: true
+hide_table_of_contents: false
 
 pagination_next: null
 pagination_prev: null
@@ -20,6 +20,11 @@ sidebar_label: FAQ
       DisplayName: 'Example Prize' # Required
       # The item shown in the preview.
       DisplayItem: 'CHEST' # Required
+      # Only works on items with durability. This will make the item appear more damaged.
+      # It does not set the durability but subtracts this number from the durability
+      # Durability is 100, It subtracts 1.
+      # It cannot be 0.
+      DisplayDamage: 1 # Optional
       # If the item is a piece of armor or a turtle helmet, You can use trims.
       DisplayTrim: {} # Optional
       # The amount to display in the preview.
@@ -64,8 +69,8 @@ sidebar_label: FAQ
 
 ### 3. The description shows there are 10 different crate types but I only see 4 crates in the Crates folder?
 There is a difference between [Crates](https://docs.crazycrew.us/crazycrates/crates/examples/) and [Crate Types](https://docs.crazycrew.us/crazycrates/crates/crate-types). Each crate has its own CrateType: option in the crate's file to pick which one it is.
-### Crate:
-The crates are the file and control all these options:
+
+The crates are the files i.e example.yml and control all these options:
 * Prizes
 * The [Crate Type](https://docs.crazycrew.us/crazycrates/crates/crate-types)
 * How the key looks

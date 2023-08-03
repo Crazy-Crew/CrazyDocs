@@ -3,7 +3,7 @@ id: crazyvouchers-custom-heads
 title: Custom Heads
 slug: /crazyvouchers/prizes/items/custom-heads
 hide_title: false
-hide_table_of_contents: true
+hide_table_of_contents: false
 
 pagination_next: null
 pagination_prev: null

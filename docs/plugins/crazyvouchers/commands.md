@@ -2,14 +2,16 @@
 id: crazyvouchers-commands
 title: Commands
 slug: /crazyvouchers/commands
-hide_title: false
-hide_table_of_contents: true
+hide_title: true
+hide_table_of_contents: false
 
 pagination_next: null
 pagination_prev: null
 
 sidebar_label: Commands
 ---
+# Commands
+
 Command|Permission|Description
 ---|---|---
 `/vouchers`|`voucher.admin`|Manager your vouchers however you want.
@@ -21,7 +23,8 @@ Command|Permission|Description
 `/vouchers give <type> <amount> <player> <arguments>`|`voucher.admin`|Gives a player a voucher from Config.yml
 `/vouchers giveall <type> <amount> <arguments>`|`voucher.admin`|Gives all players a voucher from Config.yml
 
-# Permissions:
+# Permissions
+
 Wildcard|Description
 ---|---
 `voucher.access`|`Gives access to the help menu.`

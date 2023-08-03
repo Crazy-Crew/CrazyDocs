@@ -1,31 +1,15 @@
 ---
 id: crazyvouchers-api-intro
-title: API Intro
+title: Developer API
 slug: /crazyvouchers/api/intro
 hide_title: false
-hide_table_of_contents: true
+hide_table_of_contents: false
 
 pagination_next: null
 pagination_prev: null
 
 sidebar_label: API Intro
 ---
-# Developer API
-
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#getting-started">Adding CrazyVouchers to your project</a>
-      <ul>
-        <li><a href="##maven">Maven</a></li>
-        <li><a href="##groovy">Gradle (Groovy)</a></li>
-        <li><a href="##kotlin">Gradle (Kotlin)</a></li>
-      </ul>
-    </li>
-  </ol>
-</details>
-
 ### Groovy
 <details>
  <summary>

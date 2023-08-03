@@ -3,14 +3,13 @@ id: crazyvouchers-armor-trim
 title: Armor Trim
 slug: /crazyvouchers/prizes/items/armor-trim
 hide_title: false
-hide_table_of_contents: true
+hide_table_of_contents: false
 
 pagination_next: null
 pagination_prev: null
 
 sidebar_label: Armor Trim
 ---
-
 ## Armor Trim
 *All armor types ( including `Turtle Helmet` ) except `Leather Armor` support trims*
 

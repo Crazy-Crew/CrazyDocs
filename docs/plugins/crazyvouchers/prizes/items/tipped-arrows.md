@@ -3,7 +3,7 @@ id: crazyvouchers-tipped-arrows
 title: Tipped Arrows
 slug: /crazyvouchers/prizes/items/tipped-arrows
 hide_title: false
-hide_table_of_contents: true
+hide_table_of_contents: false
 
 pagination_next: null
 pagination_prev: null

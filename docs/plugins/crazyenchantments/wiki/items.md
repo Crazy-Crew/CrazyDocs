@@ -10,34 +10,31 @@ pagination_prev: null
 
 sidebar_label: Items
 ---
-### List of all values that can be used in the `Items:` option
+## List of all values that can be used in the `Items:` option
 
-### Useful Links:
-Material Names:
-- ~~1.12.2-: http://badbones69.com/javadocs/1.12.2/org/bukkit/Material.html~~
-- 1.13+: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+### Useful Links
+* [Material Names](https://jd.papermc.io/paper/1.20/org/bukkit/Material.html)
 
-Enchantment Names: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
-
-Leather/Potion Color Names: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Color.html
-
-Item Flags: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/ItemFlag.html
-
-Mob Names: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+* [Enchantment Names](https://jd.papermc.io/paper/1.20/org/bukkit/enchantments/Enchantment.html) 
+* [Leather/Potion Color Names](https://jd.papermc.io/paper/1.20/org/bukkit/Color.html)
+* [Item Flags](https://jd.papermc.io/paper/1.20/org/bukkit/inventory/ItemFlag.html)
+* [Mob Types](https://jd.papermc.io/paper/1.20/org/bukkit/entity/EntityType.html)
+* [Potion Types](https://jd.papermc.io/paper/1.20/org/bukkit/potion/PotionType.html)
 
 ### `Item:`
-Description:
-This option is used to set the item material and some of the item's data.
+#### Description
+This option is used to set the item material and some of the items data.
 
-Usages:
-- `Item:<Material>`
-- `Item:<Material>:<Durability>`
-- `Item:<Material>:<Durability>#<Custom Model Data>`
-- `Item:<Material>#<Custom Model Data>`
-- `Item:<Leather Armor/Potion>:<Color>`
-- `Item:<Leather Armor/Potion>:<Red>,<Green>,<Blue>`
+#### Usages
+- `Item:{Material}`
+- `Item:{Material}:{Durability}`
+- `Item:{Material}:{Durability}#{Custom Model Data}`
+- `Item:{Material}#{Custom Model Data}`
+- `Item:{Leather Armor/Potion}:{Color}`
+- `Item:{Leather Armor/Potion}:{Red},{Green},{Blue}`
+- `Item:{Potion}:{PotionEffect}`
 
-Examples:
+#### Examples
 ```yaml
 Items:
   - 'Item:Golden_Apple'
@@ -46,62 +43,62 @@ Items:
   - 'Item:Diamond_Chestplate#32'
   - 'Item:Leather_Chestplate:Blue'
   - 'Item:Leather_Chestplate:0,0,255'
+  - 'Item:Potion:Heal'
 ```
 
 1.9-1.12.2 Mob Eggs:
-- `Item:<MONSTER_EGG>:<Mob Name>`
+- `Item:{MONSTER_EGG}:{Mob Name}`
 
-Example:
+#### Example
 ```yaml
 Items:
   - 'Item:MONSTER_EGG:Creeper'
 ```
 
-
 ### `Name:`
 Description:
 This option is used to set the name of the item.
 
-Usage:
-- `Name:<Name of the item>`
+#### Usage:
+- `Name:{Name of the item}`
 
-Example:
+#### Example
 ```yaml
 Items:
   - 'Item:Diamond_Sword, Name:&4Sword of lost souls'
 ```
 
 ### `Lore:`
-Description:
-This option is used to set the lore on the item. If you wish to add a line split the line with a `,` with no spaces.
+#### Description
+This option is used to set the lore on the item. If you wish to add a line split the line with a `,` with no spaces. 
 
-Usage:
-- `Lore:<Line 1>,<Line 2>,<Line 3>,<Line 4>,...ect`
+#### Usage
+- `Lore:{Line 1},{Line 2>,{Line 3},{Line 4},...etc`
 
-Example:
+#### Example
 ```yaml
 Items:
   - 'Item:Diamond_Sword, Lore:&7An old sword once lost in time,&7but has now been found and,&7is eager for battle.'
 ```
 
 ### `Amount:`
-Description:
+#### Description
 This option is used to set how many items are in the stack given to the player.
 
-Usage:
-- `Amount:<Number of item in stack>`
+#### Usage
+- `Amount:{Number of item in stack}`
 
-Example:
+#### Example
 ```yaml
 Items:
   - 'Item:Golden_Apple, Amount:32'
 ```
 
 ### `Player:`
-Description:
+#### Description
 This option is used to set the player of a player head item. You can use a few different options for this.
 
-Options:
+#### Options
 - Player's Name Usage:
     - `Player:BadBones69`
 - Hash/Base64 Usage:
@@ -109,7 +106,7 @@ Options:
 - URL Usage:
     - `Player:http://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e`
 
-Examples:
+#### Examples
 ```yaml
 Items:
   - 'Item:PLAYER_HEAD, Player:BadBones69'
@@ -118,44 +115,44 @@ Items:
 ```
 
 ### `Unbreakable-Item:`
-Description:
+#### Description
 This option is used to make an item unbreakable.
 
-Usage:
-- `Unbreakable-Item:<true/false>`
+#### Usage
+- `Unbreakable-Item:{true/false}`
 
-Example:
+#### Example
 ```yaml
 Items:
   - 'Item:Diamond_Sword, Unbreakable-Item:true'
 ```
 
 ### `Enchantments`
-Description:
+#### Description
 This option is used to set the enchantments on the item.
 
-Usage:
-- `<Enchantment Name>:<Level>`
+#### Usage
+- `{Enchantment Name}:{Level}`
 
-Example:
+#### Example
 ```yaml
 Items:
   - 'Item:Diamond_Sword, Sharpness:5, Durability:2'
 ```
 
 ### `Item Flags`
-Description:
+#### Description
 These options are used to add flags to the item.
 
-Usage:
-- `<Flag Name>`
+#### Usage
+- `{Flag Name}`
 
-Examples:
+#### Examples
 ```yaml
 Items:
   - 'Item:Potion:lime, HIDE_POTION_EFFECTS'
   - 'Item:Diamond_Sword, Unbreakable-Item:true, HIDE_UNBREAKABLE'
 ```
 
-## Shields And Banners
-[Shields-and-Banners](plugins\crazyenchantments\wiki\shieldAndBanners.md)
+### `Patterns`
+[Wiki Page: Banner Patterns](https://docs.crazycrew.us/crazyenchantments/wiki/shields-banners)

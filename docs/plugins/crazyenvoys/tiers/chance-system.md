@@ -3,7 +3,7 @@ id: crazyenvoys-chance-system
 title: Chance System
 slug: /crazyenvoys/tiers/chance-system
 hide_title: false
-hide_table_of_contents: true
+hide_table_of_contents: false
 
 pagination_next: null
 pagination_prev: null
