@@ -10,8 +10,7 @@ pagination_prev: null
 
 sidebar_label: Shields And Banners
 ---
-
-### Usage and info:
+## Usage and info
 Usage: `<Pattern>:<Color>`
 
 RGB: `<Pattern>:<Red>,<Green>,<Blue>`
@@ -22,7 +21,7 @@ Patterns: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/block/banner/Patte
 
 *Note that the RGB option may not always work due to some internal stuff in MC that doesn't always let every colorwork.
 
-### Display Items:
+### Display Items
 If you wish to add the colors and patterns to your shields and banners this is how you would for the Display Items.
 Set the item to either a banner or a shield and then use the option called `Patterns:` and use the option like this.
 
@@ -51,7 +50,7 @@ Items:
   - 'Item:Shield, HALF_HORIZONTAL:RED, RHOMBUS_MIDDLE:BLACK, STRIPE_TOP:RED, STRIPE_BOTTOM:WHITE, STRIPE_MIDDLE:BLACK, CIRCLE_MIDDLE:WHITE'
 ```
 
-### RGB Example:
+### RGB Example
 This is for if you wish to use a custom color instead of preset ones by Minecraft.
 
 Example:

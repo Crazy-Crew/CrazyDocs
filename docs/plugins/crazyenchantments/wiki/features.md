@@ -13,7 +13,7 @@ sidebar_label: Features
 ## Tinkerer
 The Tinkerer is a tool that allows you to recycle old enchanted items such as armor, tools, weapons, or enchantment books. Instead of discarding them into the lava, you can use the Tinkerer to receive rewards such as XP and mystery dust in exchange for these items.
 
-#### Example:
+#### Example
 1. Run the command `/Tinkerer` `/Tinker`
 2. Click the items you want to recycle
 3. Look at the rewards you get on the right side
@@ -23,7 +23,7 @@ The Tinkerer is a tool that allows you to recycle old enchanted items such as ar
 ## Black Smith
 The Black Smith is a tool that allows you to combine custom enchantments. It functions similarly to a regular anvil, but specifically for custom enchantments. As you add new enchantments or upgrade existing ones on an item, the XP cost will increase.
 
-#### Example:
+#### Example
 1. Run the command `/BlackSmith` `/BS`
 2. Click the two items you wish to combine
 3. Check out how much the new item will cost
@@ -32,7 +32,7 @@ The Black Smith is a tool that allows you to combine custom enchantments. It fun
 ## GKitz
 GKitz are similar to regular kits, but the items they contain can have random enchantment levels. This makes them ideal for daily or weekly kits, as the player may receive armor that is fully upgraded or has randomly leveled enchantments.
 
-#### Example:
+#### Example
 https://github.com/Crazy-Crew/CrazyEnchantments/blob/main/src/main/resources/GKitz.yml
 
 ## Lost Books

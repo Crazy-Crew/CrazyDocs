@@ -12,7 +12,7 @@ sidebar_label: Shields & Banners
 ---
 ### How to add color and patterns to your shields and banners:
 
-### Information:
+### Information
 Usage: `{Pattern}:{Color}`
 
 RGB: `{Pattern}:{Red},{Green},{Blue}`

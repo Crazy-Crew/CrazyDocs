@@ -11,7 +11,7 @@ pagination_prev: null
 sidebar_label: Enchantments
 ---
 
-## Helmets:
+## Helmets
 | Enchantments | Description                           |
 |--------------|---------------------------------------|
 | Glowing      | Allows the user to see in the dark.   |
@@ -19,7 +19,7 @@ sidebar_label: Enchantments
 | Implants     | Slowly feeds the player as they walk. |
 | *Commander   | Gives nearby faction members haste.   |
 
-## Boots:
+## Boots
 | Enchantments | Description                                                                              |
 |--------------|------------------------------------------------------------------------------------------|
 | Springs      | Gives the player a small jump boost.                                                     |
@@ -63,7 +63,7 @@ sidebar_label: Enchantments
 | Necromancer   | Spawns in 2 zombie (+2 for every level) that fight with you for one minute. Has a cool down of two minutes.                              |
 | Infestation   | Spawns in 3 silverfish and 3 endermites (+3 of each for every level) that fight with you for one minute. Has a cool down of two minutes. |
 
-## Bow:
+## Bow
 | Enchantments | Description                                             |
 |--------------|---------------------------------------------------------|
 | Piercing     | Has a chance to deal double damage.                     |
@@ -75,7 +75,7 @@ sidebar_label: Enchantments
 | Multi-Arrow  | Has a chance to shoot multiple arrows.                  |
 | Pull         | Has a chance to send the player you hit flying at you.  |
 
-## Swords:
+## Swords
 | Enchantments  | Description                                                                            |
 |---------------|----------------------------------------------------------------------------------------|
 | Vampire       | Has a chance to heal you by one heart when attacking.                                  |
@@ -100,7 +100,7 @@ sidebar_label: Enchantments
 | Wither        | Has a chance to give your enemy wither.                                                |
 | Rage          | Does more damage the longer you fight an enemy.                                        |
 
-## Axes:
+## Axes
 | Enchantments | Description                                                                               |
 |--------------|-------------------------------------------------------------------------------------------|
 | Blessed      | Has a chance to remove all negative effects from the user.                                |
@@ -112,14 +112,14 @@ sidebar_label: Enchantments
 | Decapitation | Has a chance to drop the players head on death.                                           |
 | BattleCry    | During combat it has a 10%(+5% per level) chance to send nearby players flying backwards. |
 
-## Tools:
+## Tools
 | Enchantments | Description                                                          |
 |--------------|----------------------------------------------------------------------|
 | Telepathy    | When you break a block it will automatically go into your inventory. |
 | Haste        | When placed in your hand it will give you haste.                     |
 | Oxygenate    | When placed in your hand it will let you breath under water.         |
 
-## Pickaxe:
+## Pickaxe
 | Enchantments | Description                                                                      |
 |--------------|----------------------------------------------------------------------------------|
 | Auto-Smelt   | Has a chance to smelt ore and drop more then one ore.                            |
@@ -127,7 +127,7 @@ sidebar_label: Enchantments
 | Blast        | Breaks a radius of 3x3 and gets thicker the higher the level is the enchantment. |
 | Furnace      | Always smelts your ores into ingots.                                             |
 
-## Misc:
+## Misc
 | Enchantments | Description                                                                      |
 |--------------|----------------------------------------------------------------------------------|
 | HellForged   | Place on any item that takes damage and while walking will slowly fix that item. |
