@@ -1,7 +1,7 @@
 ---
 id: crazyenchantments-wiki-commands
 title: Commands
-slug: /crazyenchantments/
+slug: /crazyenchantments/wiki/commands
 hide_title: true
 hide_table_of_contents: false
 
