@@ -128,7 +128,7 @@ The permission can be any permission you want it to be, It could be a permission
 3. Set the toggle to true and create the alternative prize.
 [An example of an alternative prize](https://github.com/Crazy-Crew/CrazyCrates/blob/eeab4ad344f637570ec72a88493384456fe57719/paper/src/main/resources/crates/CrateExample.yml#L154)
 
-*Note: If you are using `/op` or `*`, You will always be given the main prize so please make sure to `de-op` yourself while testing otherwise you'll wonder why it's not working as intended.
+##### Note: If you are using `/op` or `*`, You will always be given the main prize so please make sure to `de-op` yourself while testing otherwise you'll wonder why it's not working as intended.
 
 ### 10. Symbols, color codes or emojis aren't working as intended. They look weird?
 Server not using UTF-8 encoding. If you are on a server host that doesn't let you edit startup flags ( run ), Contact them to see if they'll add it.
