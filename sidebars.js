@@ -89,8 +89,6 @@ module.exports = {
             }
           ]
         },
-
-
         {
           type: 'category',
           label: "CrazyEnchantments",
@@ -101,6 +99,7 @@ module.exports = {
              type: 'category',
              label: "Wiki",
              items: [
+               'plugins/crazyenchantments/wiki/crazyenchantments-wiki-pluginSupport',
                'plugins/crazyenchantments/wiki/crazyenchantments-wiki-commands',
                'plugins/crazyenchantments/wiki/crazyenchantments-wiki-currency',
                'plugins/crazyenchantments/wiki/crazyenchantments-wiki-enchantments',
@@ -118,11 +117,7 @@ module.exports = {
             }
 
             ]
-
-
         },
-
-
         {
           type: 'category',
           label: "CrazyEnvoys",
