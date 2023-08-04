@@ -82,7 +82,8 @@ module.exports = {
                   items: [
                     'plugins/crazycrates/crates/examples/crazycrates-cosmic-example',
                     'plugins/crazycrates/crates/examples/crazycrates-csgo-example',
-                    'plugins/crazycrates/crates/examples/crazycrates-quad-example'
+                    'plugins/crazycrates/crates/examples/crazycrates-quad-example',
+                    'plugins/crazycrates/crates/examples/crazycrates/quick-example'
                   ]
                 }
               ]

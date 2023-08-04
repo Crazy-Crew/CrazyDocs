@@ -1,37 +1,37 @@
 ---
-id: crazycrates-quad-example
-title: QuadCrate
-slug: /crazycrates/crates/examples/quad
+id: crazycrates-quick-example
+title: QuickCrate
+slug: /crazycrates/crates/examples/quickcrate
 hide_title: false
 hide_table_of_contents: true
 
 pagination_next: null
 pagination_prev: null
 
-sidebar_label: QuadCrate Example
+sidebar_label: QuickCrate Example
 ---
-```yaml
+```yml
 Crate:
   # Type of crate -> CSGO/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War
   # See CosmicCrateExample.yml to see how the Cosmic CrateType works.
-  # Spawns 4 chests and a custom structure.
-  CrateType: QuadCrate
-  CrateName: '&bQuad Crate Preview'
-  Preview-Name: '&bQuad Crate Preview'
+  # QuickCrate simply allows you to speed open crates.
+  CrateType: QuickCrate
+  CrateName: '&eClassic Crate'
+  Preview-Name: '&eClassic Crate Preview'
   StartingKeys: 0
   RequiredKeys: 0
   Max-Mass-Open: 10
-  InGUI: true
-  Slot: 25
+  InGUI: false
+  Slot: 14
   OpeningBroadCast: true
-  BroadCast: '%prefix%&6&l%player%&r &7is opening a &b&lQuad Crate.'
+  BroadCast: '%prefix%&6&l%player%&r &7is opening a &e&lClassic Chest&7.'
   Prize-Message:
     - '&7You have won &c%reward% &7from &c%crate%.'
   Item: 'CHEST'
   Glowing: false
-  Name: '&b&lQuad Crate'
+  Name: '&e&lClassic Chest'
   Lore:
-    - '&7This crate contains crazy things.'
+    - '&7This crate contains classic items.'
     - '&7You have &6%Keys% keys &7to open this crate with.'
     - '&7&l(&e&l!&7&l) Right click to view rewards.'
   Preview:
@@ -41,9 +41,9 @@ Crate:
       Toggle: true
       # The name of the border item.
       Name: ' '
-      Item: 'BLACK_STAINED_GLASS_PANE'
+      Item: 'YELLOW_STAINED_GLASS_PANE'
   PhysicalKey:
-    Name: '&b&lQuad Crate &6&lKey'
+    Name: '&e&lClassic Crate &c&lKey'
     Lore:
       - '&7A special Key'
       - '&7For a special Crate.'
@@ -53,16 +53,16 @@ Crate:
     Toggle: true
     Height: 1.5
     Message:
-      - '&b&lCrazy Chest'
+      - '&e&lClassic Chest'
   Prizes:
     1:
-      DisplayName: '&3&lRare ChestPlate'
-      DisplayItem: 'DIAMOND_CHESTPLATE'
+      DisplayName: '&a&lFancy Pants'
+      DisplayItem: 'CHAINMAIL_LEGGINGS'
       # Only works on items with durability. This will make the item appear more damaged.
       # It does not set the durability but subtracts this number from the durability
-      # Durability is 100, It subtracts 25.
+      # Durability is 100, It subtracts 75.
       # It cannot be 0.
-      DisplayDamage: 25
+      DisplayDamage: 75
       DisplayTrim:
         # Available Materials: https://jd.papermc.io/paper/1.20/org/bukkit/inventory/meta/trim/TrimMaterial.html
         Material: 'QUARTZ'
@@ -70,47 +70,49 @@ Crate:
         Pattern: 'SENTRY'
       DisplayAmount: 1
       Lore:
-        - '&7Win a very rare chest plate.'
+        - '&7Win a fancy pair of pants.'
         - '&6&lChance: &c&l40%'
       DisplayEnchantments:
-        - 'PROTECTION_ENVIRONMENTAL:5'
-        - 'DURABILITY:3'
+        - 'PROTECTION_ENVIRONMENTAL:2'
       MaxRange: 100
       Chance: 40
       Items:
-        - 'Item:DIAMOND_CHESTPLATE, Amount:1, Damage:25, Trim-Pattern:SENTRY, Trim-Material:EMERALD, Name:&3Rare ChestPlate, PROTECTION_ENVIRONMENTAL:5, DURABILITY:3'
+        - 'Item:CHAINMAIL_LEGGINGS, Amount:1, Damage:75, Trim-Pattern:SENTRY, Trim-Material:LAPIS, Name:&aFancy Pants, PROTECTION_ENVIRONMENTAL:2'
+      Messages:
+        - '&7You just won a &r%reward%.'
     2:
-      DisplayName: '&b&lCrazy &4&lSword'
-      DisplayItem: 'GOLDEN_SWORD'
+      DisplayName: '&b&lClassic Sword'
+      DisplayItem: 'DIAMOND_SWORD'
       # Only works on items with durability. This will make the item appear more damaged.
       # It does not set the durability but subtracts this number from the durability
-      # Durability is 100, It subtracts 13.
-      DisplayDamage: 13
+      # Durability is 100, It subtracts 7.
+      # It cannot be 0.
+      DisplayDamage: 7
       DisplayAmount: 1
       Lore:
-        - '&7Win a crazy cool sword.'
+        - '&7Win a old classic sword.'
         - '&6&lChance: &c&l35%'
       DisplayEnchantments:
-        - 'DAMAGE_ALL:5'
+        - 'DAMAGE_ALL:2'
         - 'FIRE_ASPECT:1'
       MaxRange: 100
       Chance: 35
       Items:
-        - 'Item:GOLDEN_SWORD, Amount:1, Damage:13, Name:&b&lCrazy &4&lSword, DAMAGE_ALL:5, FIRE_ASPECT:1'
+        - 'Item:DIAMOND_SWORD, Amount:1, Damage:7, Name:&bClassic Sword, DAMAGE_ALL:2, FIRE_ASPECT:1'
       Messages:
         - '&7You just won &r%reward%.'
     3:
-      DisplayName: '&e&l$1,000,000'
+      DisplayName: '&e&l$100,000'
       DisplayItem: 'SUNFLOWER'
       DisplayAmount: 1
       Lore:
-        - '&7Make it rain a butt load of Money.'
+        - '&7Make it rain a lot of Money.'
         - '&6&lChance: &c&l20%'
       MaxRange: 100
       Chance: 20
       Firework: true
       Commands:
-        - 'eco give %player% 1000000'
+        - 'eco give %player% 100000'
       Messages:
         - '&7You just won &r%reward%.'
 ```
