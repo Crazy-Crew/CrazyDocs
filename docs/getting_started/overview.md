@@ -23,7 +23,7 @@ A freshly updated wiki with all the information and `spoon-feeding` you want! A 
  You can navigate using the `Search` function if you know what you are looking for.
 
 ## Downloads:
-<a href="ttps://modrinth.com/user/ryderbelserion/plugins">
+<a href="https://modrinth.com/user/ryderbelserion/plugins">
 <img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/available/modrinth_64h.png"/>
 </a>
 

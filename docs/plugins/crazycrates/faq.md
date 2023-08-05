@@ -68,7 +68,7 @@ sidebar_label: FAQ
 ```
 
 ### 3. The description shows there are 10 different crate types but I only see 4 crates in the Crates folder?
-There is a difference between [Crates](https://docs.crazycrew.us/crazycrates/crates/examples/) and [Crate Types](https://docs.crazycrew.us/crazycrates/crates/crate-types). Each crate has its own CrateType: option in the crate's file to pick which one it is.
+There is a difference between [Crates](https://docs.crazycrew.us/crazycrates/crates/examples/quickcrate) and [Crate Types](https://docs.crazycrew.us/crazycrates/crates/crate-types). Each crate has its own CrateType: option in the crate's file to pick which one it is.
 
 The crates are the files i.e example.yml and control all these options:
 * Prizes
@@ -97,7 +97,7 @@ Adding new crates to CrazyCrates is easy! You have to navigate to the `crates` f
 * Save the file and run `/crazycrates reload`.
 * Profit
 
--> [Crates](https://docs.crazycrew.us/crazycrates/crates/examples/) - The directory with a list of default crates in case you need them.
+-> [Crates](https://docs.crazycrew.us/crazycrates/crates/examples/quickcrate) - The directory with a list of default crates in case you need them.
 
 ### 6. How does the chance system work?
 Check out https://docs.crazycrew.us/crazycrates/crates/chance-system to figure out how the system works!

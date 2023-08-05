@@ -20,7 +20,7 @@ module.exports = {
     {
       type: 'link',
       label: 'Support Server',
-      href: 'https://discord.gg/badbones-s-live-chat-182615261403283459/'
+      href: 'https://discord.gg/badbones-s-live-chat-182615261403283459'
     },
     {
       type: 'category',

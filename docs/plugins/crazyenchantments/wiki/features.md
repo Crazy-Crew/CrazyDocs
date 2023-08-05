@@ -33,7 +33,7 @@ The Black Smith is a tool that allows you to combine custom enchantments. It fun
 GKitz are similar to regular kits, but the items they contain can have random enchantment levels. This makes them ideal for daily or weekly kits, as the player may receive armor that is fully upgraded or has randomly leveled enchantments.
 
 #### Example
-https://github.com/Crazy-Crew/CrazyEnchantments/blob/main/src/main/resources/GKitz.yml
+https://github.com/Crazy-Crew/CrazyEnchantments/blob/main/paper/src/main/resources/GKitz.yml
 
 ## Lost Books
 Lost books make great rewards for players because they contain unknown enchantments. The enchantment within the book is not revealed until the player right-clicks on it. Once right-clicked, the book will reveal its enchantment.
