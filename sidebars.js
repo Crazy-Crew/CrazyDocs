@@ -41,8 +41,21 @@ module.exports = {
           items: [
             'plugins/crazycrates/crazycrates-index',
             'plugins/crazycrates/crazycrates-faq',
-            'plugins/crazycrates/crazycrates-commands',
             'plugins/crazycrates/crazycrates-placeholders',
+            {
+              type: 'category',
+              label: 'Commands',
+              items: [
+                'plugins/crazycrates/commands/crazycrates-commands-v2',
+                {
+                  type: 'category',
+                  label: 'Version 1',
+                  items: [
+                    'plugins/crazycrates/commands/v1/crazycrates-commands-v1'
+                  ]
+                }
+              ]
+            },
             {
               type: 'category',
               label: 'Dev API',

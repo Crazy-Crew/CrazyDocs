@@ -1,15 +1,18 @@
 ---
-id: crazycrates-commands
-title: Commands
-slug: /crazycrates/commands
+id: crazycrates-commands-v1
+title: Permissions
+slug: /crazycrates/v1/permissions
 hide_title: false
 hide_table_of_contents: false
 
 pagination_next: null
 pagination_prev: null
 
-sidebar_label: Commands
+sidebar_label: Permissions
 ---
+## The permission and command format is changing in CrazyCrates v1.15
+### Please see the changes @ https://docs.crazycrew.us/crazycrates/v2/permissions
+
 Command|Permission|Description
 ---|---|---
 `/key`|`crazycrates.command.player.key`|Check the number of keys you have.
