@@ -10,6 +10,8 @@ pagination_prev: null
 
 sidebar_label: Permissions
 ---
+## These permissions are for an unreleased version of CrazyCrates, (ver 1.15)
+
 Command|Permission|Description
 ---|---|---
 `/key`|`crazycrates.key`|Check the number of keys you have.
