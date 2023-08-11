@@ -25,9 +25,9 @@ Command|Permission|Description|Default
 `/crazycrates:transfer <crate> <player> <amount>`|`crazycrates.transfer`|Allows players to send virtual keys to another player.|op
 `/crazycrates:menu`|`crazycrates.crate-menu`|Opens the primary crate menu.|op
 `/crazycrates:help player`|`crazycrates.help`|Shows all player commands for CrazyCrates.|true
-`/crazycrates:help admin`|`crazycrates.access`|Shows all admin commands for CrazyCrates.|op
+`/crazycrates:help admin`|`crazycrates.admin-access`|Shows all admin commands for CrazyCrates.|op
 `/crazycrates:additem <crate> <prize>`|`crazycrates.additem`|Add items in-game to a prize in a crate.|op
-`/crazycrates:admin`|`crazycrates.access`|Opens the Admin Keys GUI.|op
+`/crazycrates:admin`|`crazycrates.admin-access`|Opens the Admin Keys GUI.|op
 `/crazycrates:preview <crate> [player]`|`crazycrates.preview`|Opens the preview of a crate for a player.|op
 `/crazycrates:debug`|`crazycrates.debug`|Allows you to debug prizes.|op
 `/crazycrates:list`|`crazycrates.list`|Displays a list of all crates.|op
