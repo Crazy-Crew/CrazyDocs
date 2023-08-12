@@ -19,7 +19,7 @@ sidebar_label: Home
 </a>
 
 ### Bugs / Issues
-Have a issue or bug? Go to the [issues tab](https://github.com/Crazy-Crew/CrazyEnchantments/issues) to submit an issue. Please describe in detail what the issue is.
+Have an issue or found a bug? Go to the [issues tab](https://github.com/Crazy-Crew/CrazyEnchantments/issues) to submit an issue. Please describe in detail what the issue is.
 
 ### Feature Requests
 https://github.com/Crazy-Crew/CrazyEnchantments/discussions/categories/features
