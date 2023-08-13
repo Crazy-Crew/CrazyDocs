@@ -9,7 +9,6 @@ pagination_next: null
 pagination_prev: null
 
 sidebar_label: FAQ
-image: https://raw.githubusercontent.com/RyderBelserion/Assets/main/crazycrew/CCCircle.webp
 ---
 ### 1. Why do colors in console look weird?
 #### Add this value to your startup flags!
@@ -27,7 +26,7 @@ image: https://raw.githubusercontent.com/RyderBelserion/Assets/main/crazycrew/CC
 
 ### 4. How do I give permissions to players?
  * Use a plugin such as [LuckPerms](https://luckperms.net), Please do read through their [wiki](https://luckperms.net/wiki)
-   * Make sure to check our [Commands](https://docs.crazycrew.us/crazyenvoys/commands) page for updated permissions.
+   * Make sure to check our [Commands](./commands.md) page for updated permissions.
 
 ### 5. Why can I claim envoys but my players can't?
  #### Potential Solutions

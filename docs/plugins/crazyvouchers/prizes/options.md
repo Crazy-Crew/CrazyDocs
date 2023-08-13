@@ -33,6 +33,7 @@ This option is used to set the item material and some of the items data.
 - `Item:{Leather Armor/Potion}:{Color}`
 - `Item:{Leather Armor/Potion}:{Red},{Green},{Blue}`
 - `Item:{Potion}:{PotionEffect}`
+- `Item:{Material}, Damage:{Amount}`
 
 #### Examples
 ```yaml

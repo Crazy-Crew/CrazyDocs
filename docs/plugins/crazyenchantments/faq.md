@@ -10,26 +10,34 @@ pagination_prev: null
 
 sidebar_label: FAQ
 ---
-### Enchantment Limit | Only ops can | Item with blast not working
-
-Grab your favorite permission plugin and set the correct [permissions](./wiki/commands.md#options).
-We recommend using [LuckPerms](https://luckperms.net/).
+### What is required to use this plugin?
+Take a read on [permissions](./wiki/commands.md#options).<br></br>
+We recommend using [LuckPerms](https://luckperms.net/) with our plugin as well as [Vault](https://www.spigotmc.org/resources/vault.34315/).
 
 ### Plugin wont load | Internal Error
-- Is the plugin up to date.
-- Are you using the correct plugin version.
-- Is the server type supported.
-- Is the server version still supported.
+- Is the plugin up to date?
+  - Check the modrinth page: https://modrinth.com/plugin/crazyenchantments/versions
+- Are you using the correct plugin version?
+  - Run the command `/version crazyenchantments` to get the version.
+- Is the server type supported?
+  - We only guaranteed it to work on Paper.
+- Is the server version still supported?
+  - Supported server versions are 1.20.1 and above.
 
-### Give myself money
-Use your economy plugin.
+### How do I give myself money?
+Use an economy plugin that hooks into [Vault](https://www.spigotmc.org/resources/vault.34315/) such as [EssentialsX](https://modrinth.com/plugin/essentialsx) which is considered one example.
 
-### Rage spamming chat
+[Let Me Google That For You](https://letmegooglethat.com/?q=economy+plugins+spigotmc)
+
+### How can I limit enchantments on items?
+Add the permission `crazyenchantments.limit.5` to a group or player of your choosing with a permissions plugin of your choosing. `5` can be replaced with anything.
+
+### Is the rage enchant spamming chat?
 Try out `Rage-Boss-Bar: true` in config.yml or set the message to ''.
 
-### Compatability
+### Compatibility
 - 2.0.0 will work with all builds after.
-- 1.9.9.4-rc was a test build and is not 100% compatable with any other builds.
+- 1.9.9.4-rc was a test build and is not 100% compatible with any other builds.
 - 1.9.9.3 items and below will not work on newer versions.
   - `/ce updateenchants` could be used to convert enchanted items only.
 
