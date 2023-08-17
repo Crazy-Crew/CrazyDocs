@@ -29,4 +29,4 @@ sidebar_label: Plugin Support
 | SuperiorSkyBlock                 | https://bg-software.com/superiorskyblock/                                            |
 | Towny                            | https://github.com/TownyAdvanced/Towny                                               |
 | PlotSquared                      | https://github.com/IntellectualSites/PlotSquared/                                    |
-| WorldGuard - Requires WorldEdit! | https://enginehub.org/worldguard https://dev.bukkit.org/projects/worldedit           |
+| WorldGuard - Requires WorldEdit! | https://enginehub.org/worldguard https://enginehub.org/worldedit                     |
