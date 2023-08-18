@@ -132,6 +132,9 @@ sidebar_label: Enchantments
 |--------------|----------------------------------------------------------------------------------|
 | HellForged   | Place on any item that takes damage and while walking will slowly fix that item. |
 
-Any enchantments with * means they only work with one of these plugins. [Feudal](https://www.spigotmc.org/resources/feudal-completely-configurable.22873/), [Factions By Massive Craft](https://www.spigotmc.org/resources/factions.1900/), or [FactionsUUID](https://www.spigotmc.org/resources/factionsuuid.1035/).
+___
+Any enchantment prefixed with an asterisk(*) means it only work with one of these plugins. [FactionsUUID](https://www.spigotmc.org/resources/factionsuuid.1035/).
 
-Any enchantments with ** mean they work with Factions plugins, [World Guard](https://dev.bukkit.org/bukkit-plugins/worldguard/) regions, and [ASkyBlock](https://www.spigotmc.org/resources/a-skyblock.1220/).
+Any enchantment prefixed with two asterisks(**) means it only works with Factions plugins, [World Guard](https://enginehub.org/worldguard) regions, [Towny](https://github.com/TownyAdvanced/Towny) and [SuperiorSkyBlock](https://bg-software.com/superiorskyblock/).
+
+The plugin list stated above might be outdated, so feel free to check out [supported plugins](plugin-support.md) for more that might work.

@@ -155,4 +155,4 @@ Items:
 ```
 
 ### `Patterns`
-[Wiki Page: Banner Patterns](https://docs.crazycrew.us/crazyenchantments/wiki/shields-banners)
+[Wiki Page: Banner Patterns](shields-banners.md)
