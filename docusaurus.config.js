@@ -79,8 +79,8 @@ const config = {
             position: 'right'
           },
           {
-            to: 'https://github.com/sponsors/Crazy-Crew',
-            label: 'Github Sponsors',
+            to: 'https://ko-fi.com/ryderbelserion',
+            label: 'Kofi',
             position: 'right'
           }
         ],
