@@ -1,7 +1,7 @@
 ---
 id: crazyenvoys-permissions
 title: Permissions
-slug: /crazyenvoys/info/commands
+slug: /crazyenvoys/info/commands/permissions
 hide_title: false
 hide_table_of_contents: true
 

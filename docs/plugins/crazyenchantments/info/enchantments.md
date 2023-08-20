@@ -137,4 +137,4 @@ Any enchantment prefixed with an asterisk(*) means it only work with one of thes
 
 Any enchantment prefixed with two asterisks(**) means it only works with Factions plugins, [World Guard](https://enginehub.org/worldguard) regions, [Towny](https://github.com/TownyAdvanced/Towny) and [SuperiorSkyBlock](https://bg-software.com/superiorskyblock/).
 
-The plugin list stated above might be outdated, so feel free to check out [supported plugins](plugin-support.md) for more that might work.
+The plugin list stated above might be outdated, so feel free to check out [supported plugins](plugin-support) for more that might work.

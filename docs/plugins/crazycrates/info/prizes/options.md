@@ -157,4 +157,4 @@ Items:
 ```
 
 ### `Patterns`
-[Wiki Page: Banner Patterns](https://docs.crazycrew.us/crazycrates/prizes/items/shields-banners)
+[Wiki Page: Banner Patterns](items/shields-banners)

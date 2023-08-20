@@ -1,7 +1,7 @@
 ---
 id: crazycrates-permissions-v2
 title: Permissions
-slug: /crazycrates/info/v2/permissions
+slug: /crazycrates/info/commands/v2/permissions
 hide_title: false
 hide_table_of_contents: false
 

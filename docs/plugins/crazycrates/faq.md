@@ -68,11 +68,11 @@ sidebar_label: FAQ
 ```
 
 ### 3. The description shows there are 10 different crate types but I only see 4 crates in the Crates folder?
-There is a difference between [Crates](./crates/examples/crate-example.md) and [Crate Types](./crates/crate-types.md). Each crate has its own CrateType: option in the crate's file to pick which one it is.
+There is a difference between [Crates](info/crates/examples/crate-example) and [Crate Types](info/crates/crate-types). Each crate has its own CrateType: option in the crate's file to pick which one it is.
 
 The crates are the files i.e example.yml and control all these options:
 * Prizes
-* The [Crate Type](./crates/crate-types.md)
+* The [Crate Type](info/crates/crate-types)
 * How the key looks
 * And more!
 
@@ -97,10 +97,10 @@ Adding new crates to CrazyCrates is easy! You have to navigate to the `crates` f
 * Save the file and run `/crazycrates reload`.
 * Profit
 
--> [Crates](./crates/examples/crate-example.md) - The directory with a list of default crates in case you need them.
+-> [Crates](info/crates/examples/crate-example) - The directory with a list of default crates in case you need them.
 
 ### 6. How does the chance system work?
-Check out [this page](./crates/chance-system.md) to figure out how the system works!
+Check out [this page](info/crates/chance-system) to figure out how the system works!
 
 ### 7. Is there anyway to make blocks open the CrazyCrates menu?
 * Look at any block besides shulker boxes.

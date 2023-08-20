@@ -156,4 +156,4 @@ Items:
 ```
 
 ### `Patterns`
-[Wiki Page: Banner Patterns](./items/shields-banners.md)
+[Wiki Page: Banner Patterns](items/shields-banners.md)

@@ -1,7 +1,7 @@
 ---
 id: crazyvouchers-permissions
 title: Permissions
-slug: /crazyvouchers/info/commands
+slug: /crazyvouchers/info/commands/permissions
 hide_title: false
 hide_table_of_contents: false
 

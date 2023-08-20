@@ -11,7 +11,7 @@ pagination_prev: null
 sidebar_label: FAQ
 ---
 ### What is required to use this plugin?
-Take a read on [permissions](./info/commands.md#options).<br></br>
+Take a read on [permissions](info/commands/permissions#options).<br></br>
 We recommend using [LuckPerms](https://luckperms.net/) with our plugin as well as [Vault](https://www.spigotmc.org/resources/vault.34315/).
 
 ### Plugin wont load | Internal Error
@@ -25,7 +25,7 @@ We recommend using [LuckPerms](https://luckperms.net/) with our plugin as well a
   - Supported server versions are 1.20.1 and above.
 
 ### Do I need any plugins to run this?
-Check out our [plugin support](./info/plugin-support.md) page.
+Check out our [plugin support](info/plugin-support) page.
 
 ### How do I give myself money?
 Use an economy plugin that hooks into [Vault](https://www.spigotmc.org/resources/vault.34315/) such as [EssentialsX](https://modrinth.com/plugin/essentialsx) which is considered one example.
@@ -45,4 +45,4 @@ Try out `Rage-Boss-Bar: true` in config.yml or set the message to ''.
   - `/ce updateenchants` could be used to convert enchanted items only.
 
 ### Where is the API?
-There is currently no documented [API](./api/intro.md).
+There is currently no documented [API](api/intro).

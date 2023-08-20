@@ -1,7 +1,7 @@
 ---
 id: crazyenchantments-permissions
 title: Permissions
-slug: /crazyenchantments/info/commands
+slug: /crazyenchantments/info/commands/permissions
 hide_title: false
 hide_table_of_contents: false
 

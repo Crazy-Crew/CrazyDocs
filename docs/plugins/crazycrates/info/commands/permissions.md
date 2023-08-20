@@ -1,7 +1,7 @@
 ---
 id: crazycrates-permissions-v1
 title: Permissions
-slug: /crazycrates/info/permissions
+slug: /crazycrates/info/commands/permissions
 hide_title: false
 hide_table_of_contents: false
 
@@ -11,7 +11,7 @@ pagination_prev: null
 sidebar_label: Permissions
 ---
 ## The permission and command format is changing in CrazyCrates v1.15
-### Please see the changes @ [v2](./v2/permissions.md)
+### Please see the changes @ [v2](v2/permissions)
 
 Command|Permission|Description
 ---|---|---

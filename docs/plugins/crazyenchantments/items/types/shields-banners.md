@@ -1,14 +1,14 @@
 ---
 id: crazyenchantments-shields-banners
 title:  Shields & Banners
-slug: /crazyenchantments/items/types//shields-banners
+slug: /crazyenchantments/items/types/shields-banners
 hide_title: false
 hide_table_of_contents: false
 
 pagination_next: null
 pagination_prev: null
 
-sidebar_label: Shields And Banners
+sidebar_label: Shields & Banners
 ---
 ## Usage and info
 Usage: `<Pattern>:<Color>`
