@@ -97,7 +97,7 @@ Adding new crates to CrazyCrates is easy! You have to navigate to the `crates` f
 * Save the file and run `/crazycrates reload`.
 * Profit
 
--> [Crates](info/crates/examples/crate-example) - The directory with a list of default crates in case you need them.
+-> [Crates](info/crates/examples/csgo) - The directory with a list of default crates in case you need them.
 
 ### 6. How does the chance system work?
 Check out [this page](info/crates/chance-system) to figure out how the system works!
