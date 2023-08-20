@@ -37,28 +37,20 @@ module.exports = {
       items: [
         {
           type: 'category',
+          label: "BlockParticles",
+          items: [
+            'plugins/blockparticles/blockparticles-index'
+          ]
+        },
+        {
+          type: 'category',
           label: "CrazyCrates",
           items: [
             'plugins/crazycrates/crazycrates-index',
             'plugins/crazycrates/crazycrates-faq',
-            'plugins/crazycrates/crazycrates-placeholders',
             {
               type: 'category',
-              label: 'Commands',
-              items: [
-                'plugins/crazycrates/commands/crazycrates-commands-v2',
-                {
-                  type: 'category',
-                  label: 'Version 1',
-                  items: [
-                    'plugins/crazycrates/commands/v1/crazycrates-commands-v1'
-                  ]
-                }
-              ]
-            },
-            {
-              type: 'category',
-              label: 'Dev API',
+              label: 'Developers',
               items: [
                 'plugins/crazycrates/api/crazycrates-api-usage',
                 'plugins/crazycrates/api/crazycrates-api-intro'
@@ -66,41 +58,62 @@ module.exports = {
             },
             {
               type: 'category',
-              label: 'Prizes',
+              label: "Information",
               items: [
-                'plugins/crazycrates/prizes/crazycrates-item-options',
+                'plugins/crazycrates/info/crazycrates-placeholders',
                 {
                   type: 'category',
-                  label: 'Items',
+                  label: 'Commands',
                   items: [
-                    'plugins/crazycrates/prizes/items/crazycrates-colored-leather',
-                    'plugins/crazycrates/prizes/items/crazycrates-colored-potions',
-                    'plugins/crazycrates/prizes/items/crazycrates-shields-banners',
-                    'plugins/crazycrates/prizes/items/crazycrates-tipped-arrows',
-                    'plugins/crazycrates/prizes/items/crazycrates-custom-heads',
-                    'plugins/crazycrates/prizes/items/crazycrates-armor-trim'
+                    'plugins/crazycrates/info/commands/crazycrates-permissions-v1',
+                    {
+                      type: 'category',
+                      label: 'Version 2',
+                      items: [
+                        'plugins/crazycrates/info/commands/v2/crazycrates-permissions-v2'
+                      ]
+                    }
+                  ]
+                },
+                {
+                  type: 'category',
+                  label: 'Prizes',
+                  items: [
+                    'plugins/crazycrates/info/prizes/crazycrates-item-options',
+                    {
+                      type: 'category',
+                      label: 'Items',
+                      items: [
+                        'plugins/crazycrates/info/prizes/items/crazycrates-colored-leather',
+                        'plugins/crazycrates/info/prizes/items/crazycrates-colored-potions',
+                        'plugins/crazycrates/info/prizes/items/crazycrates-shields-banners',
+                        'plugins/crazycrates/info/prizes/items/crazycrates-tipped-arrows',
+                        'plugins/crazycrates/info/prizes/items/crazycrates-custom-heads',
+                        'plugins/crazycrates/info/prizes/items/crazycrates-armor-trim'
+                      ]
+                    }
+                  ]
+                },
+                {
+                  type: 'category',
+                  label: 'Crates',
+                  items: [
+                    'plugins/crazycrates/info/crates/crazycrates-types',
+                    'plugins/crazycrates/info/crates/crazycrates-chance-system',
+                    {
+                      type: 'category',
+                      label: 'Examples',
+                      items: [
+                        'plugins/crazycrates/info/crates/examples/crazycrates-cosmic-example',
+                        'plugins/crazycrates/info/crates/examples/crazycrates-csgo-example',
+                        'plugins/crazycrates/info/crates/examples/crazycrates-quad-example',
+                        'plugins/crazycrates/info/crates/examples/crazycrates-quick-example'
+                      ]
+                    }
                   ]
                 }
               ]
-            },
-            {
-              type: 'category',
-              label: 'Crates',
-              items: [
-                'plugins/crazycrates/crates/crazycrates-types',
-                'plugins/crazycrates/crates/crazycrates-chance-system',
-                {
-                  type: 'category',
-                  label: 'Examples',
-                  items: [
-                    'plugins/crazycrates/crates/examples/crazycrates-cosmic-example',
-                    'plugins/crazycrates/crates/examples/crazycrates-csgo-example',
-                    'plugins/crazycrates/crates/examples/crazycrates-quad-example',
-                    'plugins/crazycrates/crates/examples/crazycrates-quick-example'
-                  ]
-                }
-              ]
-            }
+             }
           ]
         },
         {
@@ -110,27 +123,44 @@ module.exports = {
             'plugins/crazyenchantments/crazyenchantments-index',
             'plugins/crazyenchantments/crazyenchantments-faq',
             {
-             type: 'category',
-             label: "Wiki",
-             items: [
-               'plugins/crazyenchantments/wiki/crazyenchantments-wiki-plugin-support',
-               'plugins/crazyenchantments/wiki/crazyenchantments-wiki-commands',
-               'plugins/crazyenchantments/wiki/crazyenchantments-wiki-currency',
-               'plugins/crazyenchantments/wiki/crazyenchantments-wiki-enchantments',
-               'plugins/crazyenchantments/wiki/crazyenchantments-wiki-features',
-               'plugins/crazyenchantments/wiki/crazyenchantments-wiki-items',
-               'plugins/crazyenchantments/wiki/crazyenchantments-wiki-shields-banners'
-             ]
-            },
-            {
               type: 'category',
-              label: "Dev API",
+              label: "Developers",
               items: [
                 'plugins/crazyenchantments/api/crazyenchantments-api-intro'
               ]
-            }
-
-            ]
+            },
+            {
+              type: 'category',
+              label: 'ItemBuilder',
+              items: [
+                'plugins/crazyenchantments/items/crazyenchantments-options',
+                {
+                  type: 'category',
+                  label: 'Types',
+                  items: [
+                    'plugins/crazyenchantments/items/types/crazyenchantments-shields-banners'
+                  ]
+                }
+              ]
+             },
+            {
+             type: 'category',
+             label: "Information",
+             items: [
+              {
+                type: 'category',
+                label: 'Commands',
+                items: [
+                  'plugins/crazyenchantments/info/commands/crazyenchantments-permissions'
+                ]
+              },
+               'plugins/crazyenchantments/info/crazyenchantments-plugin-support',
+               'plugins/crazyenchantments/info/crazyenchantments-enchantments',
+               'plugins/crazyenchantments/info/crazyenchantments-currency',
+               'plugins/crazyenchantments/info/crazyenchantments-features'
+             ]
+            },
+          ]
         },
         {
           type: 'category',
@@ -138,11 +168,9 @@ module.exports = {
           items: [
             'plugins/crazyenvoys/crazyenvoys-index',
             'plugins/crazyenvoys/crazyenvoys-faq',
-            'plugins/crazyenvoys/crazyenvoys-commands',
-            'plugins/crazyenvoys/crazyenvoys-placeholders',
             {
               type: 'category',
-              label: 'Dev API',
+              label: 'Developers',
               items: [
                 'plugins/crazyenvoys/api/crazyenvoys-api-usage',
                 'plugins/crazyenvoys/api/crazyenvoys-api-intro'
@@ -150,23 +178,37 @@ module.exports = {
             },
             {
               type: 'category',
-              label: 'Prizes',
+              label: 'Information',
               items: [
-                'plugins/crazyenvoys/prizes/crazyenvoys-item-options',
+                'plugins/crazyenvoys/info/crazyenvoys-placeholders',
                 {
                   type: 'category',
-                  label: 'Items',
+                  label: 'Commands',
                   items: [
-                    'plugins/crazyenvoys/prizes/items/crazyenvoys-shields-banners',
+                    'plugins/crazyenvoys/info/commands/crazyenvoys-permissions'
+                  ]
+                },
+                {
+                  type: 'category',
+                  label: 'Prizes',
+                  items: [
+                    'plugins/crazyenvoys/info/prizes/crazyenvoys-item-options',
+                    {
+                      type: 'category',
+                      label: 'Items',
+                      items: [
+                        'plugins/crazyenvoys/info/prizes/items/crazyenvoys-shields-banners',
+                      ]
+                    }
+                  ]
+                },
+                {
+                  type: 'category',
+                  label: 'Tiers',
+                  items: [
+                    'plugins/crazyenvoys/info/tiers/crazyenvoys-chance-system'
                   ]
                 }
-              ]
-            },
-            {
-              type: 'category',
-              label: 'Tiers',
-              items: [
-                'plugins/crazyenvoys/tiers/crazyenvoys-chance-system'
               ]
             }
           ]
@@ -177,12 +219,9 @@ module.exports = {
           items: [
             'plugins/crazyvouchers/crazyvouchers-index',
             'plugins/crazyvouchers/crazyvouchers-faq',
-            'plugins/crazyvouchers/crazyvouchers-commands',
-            'plugins/crazyvouchers/crazyvouchers-placeholders',
-            'plugins/crazyvouchers/crazyvouchers-chance-system',
             {
               type: 'category',
-              label: 'Dev API',
+              label: 'Developers',
               items: [
                 'plugins/crazyvouchers/api/crazyvouchers-api-usage',
                 'plugins/crazyvouchers/api/crazyvouchers-api-intro'
@@ -190,19 +229,34 @@ module.exports = {
             },
             {
               type: 'category',
-              label: 'Prizes',
+              label: 'Information',
               items: [
-                'plugins/crazyvouchers/prizes/crazyvouchers-item-options',
+                'plugins/crazyvouchers/info/crazyvouchers-placeholders',
+                'plugins/crazyvouchers/info/crazyvouchers-chance-system',
                 {
                   type: 'category',
-                  label: 'Items',
+                  label: 'Commands',
                   items: [
-                    'plugins/crazyvouchers/prizes/items/crazyvouchers-colored-leather',
-                    'plugins/crazyvouchers/prizes/items/crazyvouchers-colored-potions',
-                    'plugins/crazyvouchers/prizes/items/crazyvouchers-shields-banners',
-                    'plugins/crazyvouchers/prizes/items/crazyvouchers-tipped-arrows',
-                    'plugins/crazyvouchers/prizes/items/crazyvouchers-custom-heads',
-                    'plugins/crazyvouchers/prizes/items/crazyvouchers-armor-trim'
+                    'plugins/crazyvouchers/info/commands/crazyvouchers-permissions'
+                  ]
+                },
+                {
+                  type: 'category',
+                  label: 'Prizes',
+                  items: [
+                    'plugins/crazyvouchers/info/prizes/crazyvouchers-item-options',
+                    {
+                      type: 'category',
+                      label: 'Items',
+                      items: [
+                        'plugins/crazyvouchers/info/prizes/items/crazyvouchers-colored-leather',
+                        'plugins/crazyvouchers/info/prizes/items/crazyvouchers-colored-potions',
+                        'plugins/crazyvouchers/info/prizes/items/crazyvouchers-shields-banners',
+                        'plugins/crazyvouchers/info/prizes/items/crazyvouchers-tipped-arrows',
+                        'plugins/crazyvouchers/info/prizes/items/crazyvouchers-custom-heads',
+                        'plugins/crazyvouchers/info/prizes/items/crazyvouchers-armor-trim'
+                      ]
+                    }
                   ]
                 }
               ]

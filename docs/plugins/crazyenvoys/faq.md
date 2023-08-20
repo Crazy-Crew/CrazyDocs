@@ -1,6 +1,6 @@
 ---
 id: crazyenvoys-faq
-title: CrazyEnvoys FAQ
+title: CrazyEnvoys Q/A
 slug: /crazyenvoys/faq
 hide_title: false
 hide_table_of_contents: false
@@ -26,7 +26,7 @@ sidebar_label: FAQ
 
 ### 4. How do I give permissions to players?
  * Use a plugin such as [LuckPerms](https://luckperms.net), Please do read through their [wiki](https://luckperms.net/wiki)
-   * Make sure to check our [Commands](./commands.md) page for updated permissions.
+   * Make sure to check our [Commands](./info/commands.md) page for updated permissions.
 
 ### 5. Why can I claim envoys but my players can't?
  #### Potential Solutions

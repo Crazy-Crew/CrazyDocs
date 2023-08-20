@@ -1,12 +1,12 @@
 ---
 id: overview
-title: Docs Overview
+title: Overview
 slug: /
 hide_title: true
 hide_table_of_contents: true
 pagination_next: null
 pagination_prev: null
-sidebar_label: Docs Overview
+sidebar_label: Overview
 ---
 <center>
 
@@ -23,9 +23,8 @@ A freshly updated wiki with all the information and `spoon-feeding` you want! A 
  You can navigate using the `Search` function if you know what you are looking for.
 
 ## Downloads:
-<a href="https://modrinth.com/user/ryderbelserion/plugins">
-<img src="https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/available/modrinth_64h.png"/>
-</a>
+[![Hangar](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/available/hangar_46h.png)](https://hangar.papermc.io/CrazyCrew/)
+[![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/available/modrinth_46h.png)](https://modrinth.com/user/ryderbelserion)
 
 ## Bugs / Issues
 Have an issue or bug? Please submit a bug report / issue using one of these links below. You can also join using the Discord link below as well.
@@ -33,6 +32,7 @@ Have an issue or bug? Please submit a bug report / issue using one of these link
  * https://github.com/Crazy-Crew/CrazyEnvoys/issues
  * https://github.com/Crazy-Crew/CrazyVouchers/issues
  * https://github.com/Crazy-Crew/CrazyEnchantments/issues
+ * https://github.com/Crazy-Crew/BlockParticles/issues
 
 ## Discord Support
  ### [Discord Server](https://discord.gg/badbones-s-live-chat-182615261403283459)
