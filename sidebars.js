@@ -60,6 +60,7 @@ module.exports = {
               type: 'category',
               label: "Information",
               items: [
+                'plugins/crazycrates/info/crazycrates-plugin-support',
                 'plugins/crazycrates/info/crazycrates-placeholders',
                 {
                   type: 'category',
@@ -180,6 +181,7 @@ module.exports = {
               type: 'category',
               label: 'Information',
               items: [
+                'plugins/crazyenvoys/info/crazyenvoys-plugin-support',
                 'plugins/crazyenvoys/info/crazyenvoys-placeholders',
                 {
                   type: 'category',
