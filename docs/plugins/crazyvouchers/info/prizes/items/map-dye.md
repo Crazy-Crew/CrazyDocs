@@ -13,13 +13,13 @@ sidebar_label: Map Dye
 ### An example of how to dye your maps!
 ```yml
 Items:
- - Item:{MAP/FILLED_MAP}:GREEN
+ - Item:{FILLED_MAP}:GREEN
 ```
 You have a selection of [colors](https://jd.papermc.io/paper/1.20/org/bukkit/Color.html) to use with this option.
 
 ```yml
 Items:
- - Item:{MAP/FILLED_MAP}:133,50,73
+ - Item:{FILLED_MAP}:133,50,73
 ```
 This allows you to dye your map any color you want.
 
