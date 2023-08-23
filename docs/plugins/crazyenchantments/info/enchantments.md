@@ -27,6 +27,7 @@ sidebar_label: Enchantments
 | Gears        | Gives the player a speed boost.                                                          |
 | Rocket       | When the player is low on HP there is a chance they will fly backwards to escape battle. |
 | **Wings      | Allows players to fly in faction land or in specified regions.                           |
+| Adrenaline   | When on low HP, Has a chance to get a huge speed boost.                                  |
 
 ## Armor:
 | Enchantments  | Description                                                                                                                              |
@@ -62,6 +63,10 @@ sidebar_label: Enchantments
 | Guards        | Spawns in an iron golem (+1 for every level) that will fight for you for one minute. Has a cool down of two minutes.                     |
 | Necromancer   | Spawns in 2 zombie (+2 for every level) that fight with you for one minute. Has a cool down of two minutes.                              |
 | Infestation   | Spawns in 3 silverfish and 3 endermites (+3 of each for every level) that fight with you for one minute. Has a cool down of two minutes. |
+| ShockWave     | Has a chance to knock enemies back when they damage you.                                                                                 |
+| Maneuver      | Has a chance to dodge an attack.                                                                                                         |
+| Crouch        | While sneaking, take less damage.                                                                                                        |
+| SystemReboot  | An attack that would normally kill you can instead heal you to full HP.                                                                  |
 
 ## Bow
 | Enchantments | Description                                             |
@@ -111,6 +116,7 @@ sidebar_label: Enchantments
 | Rekt         | Has a chance to deal double damage.                                                       |
 | Decapitation | Has a chance to drop the players head on death.                                           |
 | BattleCry    | During combat it has a 10%(+5% per level) chance to send nearby players flying backwards. |
+| DemonForged  | It causes durability on armor to drop faster.                                             |
 
 ## Tools
 | Enchantments | Description                                                          |
@@ -126,6 +132,7 @@ sidebar_label: Enchantments
 | Experience   | Has a chance to give you a lot more XP from block breaking.                      |
 | Blast        | Breaks a radius of 3x3 and gets thicker the higher the level is the enchantment. |
 | Furnace      | Always smelts your ores into ingots.                                             |
+| VeinMiner    | Mines 1 extra block from ore veins per level.                                    |
 
 ## Misc
 | Enchantments | Description                                                                      |
