@@ -87,6 +87,7 @@ module.exports = {
                       items: [
                         'plugins/crazycrates/info/prizes/items/crazycrates-colored-leather',
                         'plugins/crazycrates/info/prizes/items/crazycrates-colored-potions',
+                        'plugins/crazycrates/info/prizes/items/crazycrates-colored-maps',
                         'plugins/crazycrates/info/prizes/items/crazycrates-shields-banners',
                         'plugins/crazycrates/info/prizes/items/crazycrates-tipped-arrows',
                         'plugins/crazycrates/info/prizes/items/crazycrates-custom-heads',
@@ -199,7 +200,13 @@ module.exports = {
                       type: 'category',
                       label: 'Items',
                       items: [
+                        'plugins/crazyenvoys/info/prizes/items/crazyenvoys-colored-leather',
+                        'plugins/crazyenvoys/info/prizes/items/crazyenvoys-colored-potions',
+                        'plugins/crazyenvoys/info/prizes/items/crazyenvoys-colored-maps',
                         'plugins/crazyenvoys/info/prizes/items/crazyenvoys-shields-banners',
+                        'plugins/crazyenvoys/info/prizes/items/crazyenvoys-tipped-arrows',
+                        'plugins/crazyenvoys/info/prizes/items/crazyenvoys-custom-heads',
+                        'plugins/crazyenvoys/info/prizes/items/crazyenvoys-armor-trim'
                       ]
                     }
                   ]
@@ -253,6 +260,7 @@ module.exports = {
                       items: [
                         'plugins/crazyvouchers/info/prizes/items/crazyvouchers-colored-leather',
                         'plugins/crazyvouchers/info/prizes/items/crazyvouchers-colored-potions',
+                        'plugins/crazyvouchers/info/prizes/items/crazyvouchers-colored-maps',
                         'plugins/crazyvouchers/info/prizes/items/crazyvouchers-shields-banners',
                         'plugins/crazyvouchers/info/prizes/items/crazyvouchers-tipped-arrows',
                         'plugins/crazyvouchers/info/prizes/items/crazyvouchers-custom-heads',
