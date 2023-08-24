@@ -10,6 +10,8 @@ pagination_prev: null
 
 sidebar_label: FAQ
 ---
+### Why do my enchantments no longer have colour?
+Since version 2.0.0, the use of `Color:` and `BookColor:` have been removed. Instead, you now have to edit the `Name:`.
 ### What is required to use this plugin?
 Take a read on [permissions](info/commands/permissions#options).<br></br>
 We recommend using [LuckPerms](https://luckperms.net/) with our plugin as well as [Vault](https://www.spigotmc.org/resources/vault.34315/).

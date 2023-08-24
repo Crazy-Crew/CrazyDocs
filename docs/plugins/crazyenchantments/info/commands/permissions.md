@@ -33,6 +33,7 @@ Command|Permission|Description
 `/ce book <enchantment> [level] [amount] [player]`|`crazyenchantments.book`|Give a player enchantment books.
 `/ce book <enchantment> [minlevel-maxlevel] [amount] [player]`|`crazyenchantments.book`|Gives a player an enchantment book with a random level from a set range.
 `/ce lostbook <category> [amount] [player]`|`crazyenchantments.lostbook`|Give a player lost books.
+`/ce updateenchants`|`crazyenchantments.updateenchants`|Iterates through the lore of the item in your main hand and updates how the enchantments are stored.
 
 ## Options
 | Option           | Permission                  | Description                                                                                           |
