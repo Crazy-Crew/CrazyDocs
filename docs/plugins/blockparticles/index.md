@@ -15,7 +15,7 @@ sidebar_label: Home
 
 ### Downloads
 [![Hangar](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/available/hangar_46h.png)](https://hangar.papermc.io/CrazyCrew/BlockParticles)
-[![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/available/modrinth_46h.png)](https://modrinth.com/user/plugin/blockparticles)
+[![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/available/modrinth_46h.png)](https://modrinth.com/plugin/blockparticles)
 
 ### Bug Reports / Feature Requests
 Have an issue/bug or a feature request? Go to the [issues tab](https://github.com/Crazy-Crew/BlockParticles/issues) to submit an issue. Please describe in detail what the issue is.

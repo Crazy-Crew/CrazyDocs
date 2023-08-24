@@ -15,7 +15,7 @@ sidebar_label: Home
 
 ### Downloads
 [![Hangar](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/available/hangar_46h.png)](https://hangar.papermc.io/CrazyCrew/CrazyCrates)
-[![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/available/modrinth_46h.png)](https://modrinth.com/user/plugin/crazycrates)
+[![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/available/modrinth_46h.png)](https://modrinth.com/plugin/crazycrates)
 
 ### Bug Reports / Feature Requests
 Have an issue/bug or a feature request? Go to the [issues tab](https://github.com/Crazy-Crew/CrazyCrates/issues) to submit an issue. Please describe in detail what the issue is.
