@@ -90,6 +90,7 @@ module.exports = {
                         'plugins/crazycrates/info/prizes/items/crazycrates-colored-maps',
                         'plugins/crazycrates/info/prizes/items/crazycrates-shields-banners',
                         'plugins/crazycrates/info/prizes/items/crazycrates-tipped-arrows',
+                        'plugins/crazycrates/info/prizes/items/crazycrates-custom-items',
                         'plugins/crazycrates/info/prizes/items/crazycrates-custom-heads',
                         'plugins/crazycrates/info/prizes/items/crazycrates-armor-trim'
                       ]
@@ -205,6 +206,7 @@ module.exports = {
                         'plugins/crazyenvoys/info/prizes/items/crazyenvoys-colored-maps',
                         'plugins/crazyenvoys/info/prizes/items/crazyenvoys-shields-banners',
                         'plugins/crazyenvoys/info/prizes/items/crazyenvoys-tipped-arrows',
+                        'plugins/crazyenvoys/info/prizes/items/crazyenvoys-custom-items',
                         'plugins/crazyenvoys/info/prizes/items/crazyenvoys-custom-heads',
                         'plugins/crazyenvoys/info/prizes/items/crazyenvoys-armor-trim'
                       ]
@@ -263,6 +265,7 @@ module.exports = {
                         'plugins/crazyvouchers/info/prizes/items/crazyvouchers-colored-maps',
                         'plugins/crazyvouchers/info/prizes/items/crazyvouchers-shields-banners',
                         'plugins/crazyvouchers/info/prizes/items/crazyvouchers-tipped-arrows',
+                        'plugins/crazyvouchers/info/prizes/items/crazyvouchers-custom-items',
                         'plugins/crazyvouchers/info/prizes/items/crazyvouchers-custom-heads',
                         'plugins/crazyvouchers/info/prizes/items/crazyvouchers-armor-trim'
                       ]
