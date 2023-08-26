@@ -18,7 +18,7 @@ sidebar_label: Home
 [![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/available/modrinth_46h.png)](https://modrinth.com/plugin/blockparticles)
 
 ## Other
-[![Jenkins](https://www.jenkins.io/images/logo-title-opengraph.png)](https://ci.crazycrew.us/view/crazycrew/job/BlockParticles/)
+https://ci.crazycrew.us/view/crazycrew/job/BlockParticles/
 
 ### Bug Reports / Feature Requests
 Have an issue/bug or a feature request? Go to the [issues tab](https://github.com/Crazy-Crew/BlockParticles/issues) to submit an issue. Please describe in detail what the issue is.
