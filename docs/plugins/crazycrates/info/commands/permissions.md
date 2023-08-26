@@ -10,7 +10,7 @@ pagination_prev: null
 
 sidebar_label: Permissions
 ---
-## The permission and command format is changing in CrazyCrates v1.15
+## The permission and command format is changing in an unforseen version.
 ### Please see the changes @ [v2](v2/permissions)
 
 Command|Permission|Description
