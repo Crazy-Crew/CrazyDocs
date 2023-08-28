@@ -146,3 +146,10 @@ spawn-protection=0
 
 ### 12. You are already opening this crate!
  * It is most likely due to you using decimals/bad inputs for the `Chance` and `MaxRange` sections.
+
+### 13. Why are my Crates/Crate Keys not working?
+This is a very vague question, and this website does not have the ability to steal your data and find out for you. (Or does it?) You will have to go to [our support server](https://discord.gg/badbones-s-live-chat-182615261403283459) to have such issues handled.
+
+#### Steps you can do before quickly jumping for support.
+ * Run all your configuration files through [yamlint](https://www.yamllint.com/), It will tell you if you have any errors.
+ * If you are confused on how to fix errors or read yaml, A nifty little guide for you by our favorite [longdick122](https://longbow122.github.io/learnerForYAML/)
