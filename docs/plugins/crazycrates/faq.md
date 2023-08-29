@@ -1,6 +1,6 @@
 ---
 id: crazycrates-faq
-title: Frequently Asked Questions
+title: CrazyCrates Q/A
 slug: /crazycrates/faq
 hide_title: false
 hide_table_of_contents: false
