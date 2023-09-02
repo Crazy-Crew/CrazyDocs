@@ -27,6 +27,6 @@ sidebar_label: FAQ
 
 ### 5. My player heads aren't working / Can I use player heads?
  * Q1
-  * You likely have 2 `Player: ''` in your config, One with the url and one empty so the plugin doesn't know what to do.
+   * You likely have 2 `Player: ''` in your config, One with the url and one empty so the plugin doesn't know what to do.
  * Q2
-  * Yes
+   * Yes
