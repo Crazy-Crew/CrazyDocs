@@ -20,31 +20,31 @@ sidebar_label: Permissions
 
 Command|Permission|Description|Default
 ---|---|---|---
-`/crazycrates:key`|`crazycrates.key`|Check the number of keys you have.|op
-`/crazycrates:key [player]`|`crazycrates.key-others`|Check the number of keys a player has.|op
-`/crazycrates:transfer <crate> <player> <amount>`|`crazycrates.transfer`|Allows players to send virtual keys to another player.|op
-`/crazycrates:menu`|`crazycrates.crate-menu`|Opens the primary crate menu.|op
+`/crazycrates:key`|`crazycrates.key`|Check the number of keys you have.|true
+`/crazycrates:key [player]`|`crazycrates.key-others`|Check the number of keys a player has.|true
+`/crazycrates:transfer <crate> <player> <amount>`|`crazycrates.transfer`|Allows players to send virtual keys to another player.|false
+`/crazycrates:menu`|`crazycrates.crate-menu`|Opens the primary crate menu.|true
 `/crazycrates:help player`|`crazycrates.help`|Shows all player commands for CrazyCrates.|true
-`/crazycrates:help admin`|`crazycrates.admin-access`|Shows all admin commands for CrazyCrates.|op
-`/crazycrates:additem <crate> <prize>`|`crazycrates.additem`|Add items in-game to a prize in a crate.|op
-`/crazycrates:admin`|`crazycrates.admin-access`|Opens the Admin Keys GUI.|op
-`/crazycrates:preview <crate> [player]`|`crazycrates.preview`|Opens the preview of a crate for a player.|op
-`/crazycrates:debug`|`crazycrates.debug`|Allows you to debug prizes.|op
-`/crazycrates:list`|`crazycrates.list`|Displays a list of all crates.|op
-`/crazycrates:open <crate>`|`crazycrates.open`|Tries to open a crate for yourself if you have a key.|op
-`/crazycrates:open-others <crate> [player]`|`crazycrates.open-others`|Tries to open a crate for a player if they have a key.|op
-`/crazycrates:forceopen <crate> [player]`|`crazycrates.force-open`|Opens a crate for a player for free.|op
-`/crazycrates:tp <location>`|`crazycrates.teleport`|Teleport to a crate.|op
-`/crazycrates:give <physical/virtual> <crate> [amount] [player]`|`crazycrates.give-key`|Give a key(s) to a player to use on a crate.|op
-`/crazycrates:giveall <physical/virtual> <crate> [amount]`|`crazycrates.give-all`|Gives all online players keys to use on a crate.|op
-`/crazycrates:take <physical/virtual> <crate> [amount] [player]`|`crazycrates.take-key`|Allows you to take keys from a player.|op
-`/crazycrates:set <crate>`|`crazycrates.set-menu`|Set a block you are looking at as the specified crate.|op
-`/crazycrates:reload`|`crazycrates.reload`|Reloads the configuration and data files.|op
-`/crazycrates:convert`|`crazycrates.convert`|Tries to convert supported plugin's crate files into crazy crate's crate files.|op
-`/crazycrates:set1/set2`|`crazycrates.schematic-set`|Set position #1 or #2 for when making a new schematic for quadcrates.|op
-`/crazycrates:save <schematic file name>`|`crazycrates.schematic-save`|Save the new schematic file to the schematics folder.|op
-`/crazycrates:mass-open <amount>`|`crazycrates.mass-open`|Mass opens crates. Defaults to 10 but can be changed in the crate config files.|op
-`/crazycrates:give-random <virtual/physical> <amount> <player>`|`crazycrates.give-random-key`|Gives a random key out of all the crates available.|op
+`/crazycrates:help admin`|`crazycrates.admin-access`|Shows all admin commands for CrazyCrates.|false
+`/crazycrates:additem <crate> <prize>`|`crazycrates.additem`|Add items in-game to a prize in a crate.|false
+`/crazycrates:admin`|`crazycrates.admin-access`|Opens the Admin Keys GUI.|false
+`/crazycrates:preview <crate> [player]`|`crazycrates.preview`|Opens the preview of a crate for a player.|false
+`/crazycrates:debug`|`crazycrates.debug`|Allows you to debug prizes.|false
+`/crazycrates:list`|`crazycrates.list`|Displays a list of all crates.|false
+`/crazycrates:open <crate>`|`crazycrates.open`|Tries to open a crate for yourself if you have a key.|false
+`/crazycrates:open-others <crate> [player]`|`crazycrates.open-others`|Tries to open a crate for a player if they have a key.|false
+`/crazycrates:forceopen <crate> [player]`|`crazycrates.force-open`|Opens a crate for a player for free.|false
+`/crazycrates:tp <location>`|`crazycrates.teleport`|Teleport to a crate.|false
+`/crazycrates:give <physical/virtual> <crate> [amount] [player]`|`crazycrates.give-key`|Give a key(s) to a player to use on a crate.|false
+`/crazycrates:giveall <physical/virtual> <crate> [amount]`|`crazycrates.give-all`|Gives all online players keys to use on a crate.|false
+`/crazycrates:take <physical/virtual> <crate> [amount] [player]`|`crazycrates.take-key`|Allows you to take keys from a player.|false
+`/crazycrates:set <crate>`|`crazycrates.set-crate`|Set a block you are looking at as the specified crate.|false
+`/crazycrates:reload`|`crazycrates.reload`|Reloads the configuration and data files.|false
+`/crazycrates:convert`|`crazycrates.convert`|Tries to convert supported plugin's crate files into crazy crate's crate files.|false
+`/crazycrates:set1/set2`|`crazycrates.schematic-set`|Set position #1 or #2 for when making a new schematic for quadcrates.|false
+`/crazycrates:save <schematic file name>`|`crazycrates.schematic-save`|Save the new schematic file to the schematics folder.|false
+`/crazycrates:mass-open <amount>`|`crazycrates.mass-open`|Mass opens crates. Defaults to 10 but can be changed in the crate config files.|false
+`/crazycrates:give-random <virtual/physical> <amount> <player>`|`crazycrates.give-random-key`|Gives a random key out of all the crates available.|false
 
 # Other
 Permission|Description|Default
