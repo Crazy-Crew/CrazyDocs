@@ -14,7 +14,7 @@ sidebar_label: Permissions
 ### Please see the changes @ [v2](v2/permissions)
 
 Command|Permission|Description|Default
----|---|---
+---|---|---|---
 `/key`|`crazycrates.command.player.key`|Check the number of keys you have.|true
 `/key [player]`|`crazycrates.command.player.key.others`|Check the number of keys a player has.|op
 `/crazycrates transfer <crate> <player> <amount>`|`crazycrates.command.player.transfer`|Allows players to send virtual keys to another player.|op
@@ -42,13 +42,13 @@ Command|Permission|Description|Default
 
 # Other
 Node|Description|Default
----|---
+---|---|---
 `crazycrates.open.<crate-name>`|`Lets you choose who can open what crate or not open.`|false
 `crazycrates.command.exclude.player.giveall`|`Prevents you from getting keys when using giveall.`|op
 
 # Permissions
 Wildcard|Description|Default
----|---
+---|---|---
 `crazycrates.open.*`|`Allows players to open all crates.`|true
 `crazycrates.command.players.*`|`Gives access to all player commands.`|false
 `crazycrates.command.admin.*`|`Gives access to all admin commands.`|false
