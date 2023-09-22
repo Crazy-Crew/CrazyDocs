@@ -256,6 +256,7 @@ module.exports = {
                   label: 'Examples',
                   items: [
                     'plugins/crazyvouchers/info/examples/voucher-example',
+                    'plugins/crazyvouchers/info/examples/voucher-example-arg',
                     'plugins/crazyvouchers/info/examples/player-head-example'
                   ]
                 },
