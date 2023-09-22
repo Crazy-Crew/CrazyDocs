@@ -37,7 +37,7 @@ This option is used to set the item material and some of the items data.
 
 #### Examples
 ```yaml
-Items:
+items:
   - 'Item:Golden_Apple'
   - 'Item:Diamond_Chestplate:50'
   - 'Item:Diamond_Chestplate:50#32'
@@ -52,7 +52,7 @@ Items:
 
 #### Example
 ```yaml
-Items:
+items:
   - 'Item:MONSTER_EGG:Creeper'
 ```
 
@@ -65,7 +65,7 @@ This option is used to set the name of the item.
 
 #### Example
 ```yaml
-Items:
+items:
   - 'Item:Diamond_Sword, Name:&4Sword of lost souls'
 ```
 
@@ -78,7 +78,7 @@ This option is used to set the lore on the item. If you wish to add a line split
 
 #### Example
 ```yaml
-Items:
+items:
   - 'Item:Diamond_Sword, Lore:&7An old sword once lost in time,&7but has now been found and,&7is eager for battle.'
 ```
 
@@ -91,7 +91,7 @@ This option is used to set how many items are in the stack given to the player.
 
 #### Example
 ```yaml
-Items:
+items:
   - 'Item:Golden_Apple, Amount:32'
 ```
 
@@ -109,7 +109,7 @@ This option is used to set the player of a player head item. You can use a few d
 
 #### Examples
 ```yaml
-Items:
+items:
   - 'Item:PLAYER_HEAD, Player:BadBones69'
   - 'Item:PLAYER_HEAD, Player:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWVlMzEyNmZmMmMzNDNkYTUyNWVlZjJiOTMyNzJiOWZlZDM2MjczZDBlYTA4YzI2MTZiODAwMDk5NDhhZDU3ZSJ9fX0='
   - 'Item:PLAYER_HEAD, Player:http://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e'
@@ -124,7 +124,7 @@ This option is used to make an item unbreakable.
 
 #### Example
 ```yaml
-Items:
+items:
   - 'Item:Diamond_Sword, Unbreakable-Item:true'
 ```
 
@@ -137,7 +137,7 @@ This option is used to set the enchantments on the item.
 
 #### Example
 ```yaml
-Items:
+items:
   - 'Item:Diamond_Sword, Sharpness:5, Durability:2'
 ```
 
@@ -150,7 +150,7 @@ These options are used to add flags to the item.
 
 #### Examples
 ```yaml
-Items:
+items:
   - 'Item:Potion:lime, HIDE_POTION_EFFECTS'
   - 'Item:Diamond_Sword, Unbreakable-Item:true, HIDE_UNBREAKABLE'
 ```

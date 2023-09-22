@@ -19,26 +19,24 @@ sidebar_label: Armor Trim
 
 #### An example of how to use the `QUARTZ` trim with pattern `SENTRY` in a prize.
 ```yml
-Vouchers:
-  ExampleVoucher:
-    Name: '&cAn example helmet using Trims.'
-    Item: 'GOLDEN_HELMET'
-    Trim:
-       Material: 'QUARTZ'
-       Pattern: 'SENTRY'
-    Items:
-    - 'Item:GOLDEN_HELMET, Amount:1, Trim-Material:QUARTZ, Trim-Pattern: SENTRY, Name: &cAn example helmet using Trims.'
+voucher:
+  name: '&cAn example helmet using Trims.'
+  item: 'GOLDEN_HELMET'
+  trim:
+    material: 'QUARTZ'
+    pattern: 'SENTRY'
+  items:
+  - 'Item:GOLDEN_HELMET, Amount:1, Trim-Material:QUARTZ, Trim-Pattern: SENTRY, Name: &cAn example helmet using Trims.'
 ```
 
 #### An example but instead with `TURTLE_HELMET`
 ```yml
-Vouchers:
-  ExampleVoucher:
-    Name: '&cAn example helmet using Trims.'
-    Item: 'TURTLE_HELMET'
-    Trim:
-      Material: 'QUARTZ'
-      Pattern: 'SENTRY'
-    Items:
-    - 'Item:TURTLE_HELMET, Amount:1, Trim-Material:QUARTZ, Trim-Pattern: SENTRY, Name: &cAn example helmet using Trims.'
+voucher:
+  name: '&cAn example helmet using Trims.'
+  item: 'TURTLE_HELMET'
+  trim:
+    material: 'QUARTZ'
+    pattern: 'SENTRY'
+  items:
+  - 'Item:TURTLE_HELMET, Amount:1, Trim-Material:QUARTZ, Trim-Pattern: SENTRY, Name: &cAn example helmet using Trims.'
 ```
