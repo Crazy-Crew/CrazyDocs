@@ -26,7 +26,7 @@ repositories {
 
 ```gradle
 dependencies {
-    compileOnly "com.badbones69.crazyenchantments:crazyenchantments-paper-api:2.0.1"
+    compileOnly "com.badbones69.crazyenchantments:crazyenchantments-paper-api:2.2"
 }
 ```
 </details>
@@ -45,7 +45,7 @@ repositories {
 
 ```gradle
 dependencies {
-    compileOnly("com.badbones69.crazyenchantments", "crazyenchantments-paper-api", "2.0.1")
+    compileOnly("com.badbones69.crazyenchantments", "crazyenchantments-paper-api", "2.2")
 }
 ```
 </details>
@@ -67,7 +67,7 @@ dependencies {
 <dependency>
   <groupId>com.badbones69.crazyenchantments</groupId>
   <artifactId>crazyenchantments-paper-api</artifactId>
-  <version>2.0.1</version>
+  <version>2.2</version>
  </dependency>
 ```
 </details>
