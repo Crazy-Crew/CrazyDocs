@@ -16,7 +16,20 @@ sidebar_label: Default Example
 # A) Use your permissions plugin like LuckPerms, You can run /lp user {player} permission set your_permission
 
 # Q) Do I need everything in this config?
-# A) No, You can view PlayerHead.yml for an example where as much as possible can be removed.
+# A) No, You can view PlayerHead.yml for an example whereas much as possible can be removed.
+
+###################################
+#             Items: Options
+# Item: <ID:MD> - You can choose the item with its id and meta data.
+# Amount: <Number> - Choose how many of the item you get.
+# Name: <Name> - The display name that goes on the item.
+# Lore: <Line 1>,<Line 2>,<Line 3>,<Line 4> - The lore that will go under the enchantments. Split lines with a ','
+# <Enchantment>:<Level> - Choose the enchantment you want to add to the item. You can use the in-game names of the enchantment if you want. Replace the spaces in the name with a "_".
+###################################################################
+#                         Firework Colors:                        #
+#      Aqua, Black, Blue, Fuchsia, Gray, Green, Lime, Maroon,     #
+#  Navy, Olive, Orange, Purple, Red, Silver, Teal, White, Yellow  #
+###################################################################
 voucher:
   # The material.
   item: 'DIAMOND_HELMET'
