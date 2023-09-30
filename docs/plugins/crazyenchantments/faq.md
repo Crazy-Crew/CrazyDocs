@@ -46,5 +46,14 @@ Try out `Rage-Boss-Bar: true` in config.yml or set the message to ''.
 - 1.9.9.3 items and below will not work on newer versions.
   - `/ce updateenchants` could be used to convert enchanted items only.
 
+### I am using an older minecraft version and want to have the latest updates?
+You can either clone the project and make the adjustments on your own, or you can try to modify the API version.
+1. Download the .jar file.
+2. Download a program that can edit the file. We recommend using [NanaZip](https://apps.microsoft.com/store/detail/nanazip/9N8G7TSCL18R).
+3. Right-click on the file and with the editor and open it.
+4. Select the `plugin.yml` file and open it.
+5. Navigate to `api-version: '1.20'` and change it over to the preffered version.
+6. Save all changes and move the jar file over to your server.
+
 ### Where is the API?
 There is currently no documented [API](api/intro).
