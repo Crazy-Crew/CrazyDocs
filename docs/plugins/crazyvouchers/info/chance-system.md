@@ -19,14 +19,13 @@ When using the chance system it uses a raffle type of system. The more tickets y
 ### Example:
 Layout: `- '<Chance> <Command goes after>'`
 
-`- '45 eco give %Player% 100'`
-
-`- '25 eco give %Player% 1000'`
-
-`- '15 eco give %Player% 10000'`
-
-`- '10 eco give %Player% 100000'`
-
-`- '5 eco give %Player% 1000000'`
+```yml
+chance-commands:
+  - '45 eco give {player} 100'
+  - '25 eco give {player} 1000'
+  - '15 eco give {player} 10000'
+  - '10 eco give {player} 100000'
+  - '5 eco give {player} 1000000'
+```
 
 Each prize has it's own tickets(chance) of being picked out of the big bukkit of tickets.

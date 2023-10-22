@@ -26,13 +26,13 @@ Set the item to either a `BANNER` or a `SHIELD`. Use the option called `Patterns
 
 #### Example
 ```yml
-1:
+voucher:
  # The name of the shield.
- Name: '&a&lFancy Shield'
+ name: '&a&lFancy Shield'
  # The item needs to be SHIELD or BANNER
- Item: 'SHIELD'
+ item: 'SHIELD'
  # The type of pattern you want on the shield.
- Patterns:
+ patterns:
   - 'HALF_HORIZONTAL:RED'
   - 'RHOMBUS_MIDDLE:BLACK'
   - 'STRIPE_TOP:RED'
@@ -46,7 +46,7 @@ If you wish to give players a banner or shield with the colors and patterns on t
 
 #### Example
 ```yml
-Items:
+items:
   - 'Item:Shield, HALF_HORIZONTAL:RED, RHOMBUS_MIDDLE:BLACK, STRIPE_TOP:RED, STRIPE_BOTTOM:WHITE, STRIPE_MIDDLE:BLACK, CIRCLE_MIDDLE:WHITE'
 ```
 
@@ -55,14 +55,14 @@ This is for if you wish to use a custom color instead of preset ones by Minecraf
 
 #### Example
 ```yml
-1:
- Name: '&a&lFancy Shield'
- Item: 'SHIELD'
- Patterns:
+voucher:
+ name: '&a&lFancy Shield'
+ item: 'SHIELD'
+ patterns:
   - 'HALF_HORIZONTAL:255,0,0'
 ```
 ```yml
-Items:
+items:
   - 'Item:Shield, HALF_HORIZONTAL:255,0,0'
 ```
 *Note `255,0,0` is red in RGB.

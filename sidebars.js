@@ -253,6 +253,15 @@ module.exports = {
                 },
                 {
                   type: 'category',
+                  label: 'Examples',
+                  items: [
+                    'plugins/crazyvouchers/info/examples/voucher-example',
+                    'plugins/crazyvouchers/info/examples/voucher-example-arg',
+                    'plugins/crazyvouchers/info/examples/player-head-example'
+                  ]
+                },
+                {
+                  type: 'category',
                   label: 'Prizes',
                   items: [
                     'plugins/crazyvouchers/info/prizes/crazyvouchers-item-options',

@@ -14,19 +14,19 @@ sidebar_label: Tipped Arrows
 
 ### 1. How to make a tipped arrow as a prize item:
 ```yml
-Items:
+items:
  - Item:TIPPED_ARROW:{POTION_EFFECT}, Amount:64, Name:Posion Arrow
 ```
 #### Example
 ```yml
-Items:
+items:
  - Item:TIPPED_ARROW:POISON, Amount:64, Name:Posion Arrow
 ```
 ### 2. How to make a tipped arrow as a display item:
 ```yml
-Item: TIPPED_ARROW:{POTION_EFFECT}
+item: TIPPED_ARROW:{POTION_EFFECT}
 ```
 #### Example
 ```yml
-Item: TIPPED_ARROW:FIRE_RESISTANCE
+item: TIPPED_ARROW:FIRE_RESISTANCE
 ```

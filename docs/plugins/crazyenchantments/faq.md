@@ -53,3 +53,15 @@ There is currently no documented [API](api/intro).
 This is not possible unless you have extensive knowledge of Bukkit/Spigot plugin development and Java. If you hold both, you can get acquainted with our [codebase](https://github.com/Crazy-Crew/CrazyEnchantments) and [API](api/intro.md) to develop your own enchantments.
 
 If you have seen someone make use of CrazyEnchantments configurations to make their own custom enchantments, they would have been using an extremely outdated version that allowed for such configurations. We no longer support custom enchantment creation through configurations alone for multiple reasons. If you do not know how to program, it is recommended that you find someone to commission. We (CrazyCrew) do not openly accept or offer commissions. 
+=======
+### I am using an older minecraft version and want to have the latest updates?
+You can either clone the project and make the adjustments on your own, or you can try to modify the API version.
+1. Download the .jar file.
+2. Download a program that can edit the file. We recommend using [NanaZip](https://apps.microsoft.com/store/detail/nanazip/9N8G7TSCL18R).
+3. Right-click on the file and with the editor and open it.
+4. Select the `plugin.yml` file and open it.
+5. Navigate to `api-version: '1.20'` and change it over to the preffered version.
+6. Save all changes and move the jar file over to your server.
+
+### Where is the API?
+There is currently no documented [API](api/intro).

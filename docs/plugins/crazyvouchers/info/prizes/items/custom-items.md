@@ -33,14 +33,13 @@ arrow_next_icon: -> ID you need to use ( don't add the : )
 
 #### An example of how to use it for display items.
 ```yaml
-Vouchers: #Where you make your vouchers.
-  Money: #The name of the voucher.
-    Item: 'emerald_helmet' #The item the voucher is.
+voucher:
+  item: 'emerald_helmet' #The item the voucher is.
 ```
 
 #### An example of how to use it in the items section.
 ```yaml
-Items:
+items:
   - 'Item:emerald_helmet, Amount:1, Name:&aA custom item'
 ```
 
@@ -49,13 +48,12 @@ I don't have access to itemsadder so if anyone would like to contribute to the d
 
 #### An example of how to use it for display items.
 ```yaml
-Vouchers: #Where you make your vouchers.
-  Money: #The name of the voucher.
-    Item: 'your_item_id' #The item the voucher is.
+voucher:
+  item: 'your_item_id' #The item the voucher is.
 ```
 
 #### An example of how to use it in the items section.
 ```yaml
-Items:
+items:
   - 'Item:your_item_id, Amount:1, Name:&aA custom item'
 ```
