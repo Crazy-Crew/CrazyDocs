@@ -68,6 +68,7 @@ dependencies {
   <groupId>com.badbones69.crazyenchantments</groupId>
   <artifactId>crazyenchantments-paper-api</artifactId>
   <version>2.1.2</version>
+  <scope>provided</scope>
  </dependency>
 ```
 </details>

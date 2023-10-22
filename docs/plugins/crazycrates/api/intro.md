@@ -68,6 +68,7 @@ dependencies {
   <groupId>com.badbones69.crazycrates</groupId>
   <artifactId>crazycrates-paper-api</artifactId>
   <version>1.15</version>
+  <scope>provided</scope>
  </dependency>
 ```
 </details>

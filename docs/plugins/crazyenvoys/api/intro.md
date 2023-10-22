@@ -26,7 +26,7 @@ repositories {
 
 ```gradle
 dependencies {
-    compileOnly "com.badbones69.crazyenvoys:crazyenvoys-paper-api:1.7"
+    compileOnly "com.badbones69.crazyenvoys:crazyenvoys-paper-api:1.7.6"
 }
 ```
 </details>
@@ -45,7 +45,7 @@ repositories {
 
 ```gradle
 dependencies {
-    compileOnly("com.badbones69.crazyenvoys", "crazyenvoys-paper-api", "1.7")
+    compileOnly("com.badbones69.crazyenvoys", "crazyenvoys-paper-api", "1.7.6")
 }
 ```
 </details>
@@ -67,7 +67,8 @@ dependencies {
 <dependency>
   <groupId>com.badbones69.crazyenvoys</groupId>
   <artifactId>crazyenvoys-paper-api</artifactId>
-  <version>1.7</version>
+  <version>1.7.6</version>
+  <scope>provided</scope>
  </dependency>
 ```
 </details>
