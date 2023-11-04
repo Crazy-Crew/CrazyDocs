@@ -26,7 +26,7 @@ repositories {
 
 ```gradle
 dependencies {
-    compileOnly "com.badbones69.crazycrates:crazycrates-paper-api:1.15"
+    compileOnly "us.crazycrew.crazycrates:api:0.1"
 }
 ```
 </details>
@@ -45,7 +45,7 @@ repositories {
 
 ```gradle
 dependencies {
-    compileOnly("com.badbones69.crazycrates", "crazycrates-paper-api", "1.15")
+    compileOnly("us.crazycrew.crazycrates:api:0.1")
 }
 ```
 </details>
@@ -65,9 +65,9 @@ dependencies {
 
 ```xml
 <dependency>
-  <groupId>com.badbones69.crazycrates</groupId>
-  <artifactId>crazycrates-paper-api</artifactId>
-  <version>1.15</version>
+  <groupId>us.crazycrew.crazycrates</groupId>
+  <artifactId>api</artifactId>
+  <version>0.1</version>
   <scope>provided</scope>
  </dependency>
 ```
