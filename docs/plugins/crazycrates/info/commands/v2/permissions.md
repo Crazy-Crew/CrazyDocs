@@ -10,7 +10,7 @@ pagination_prev: null
 
 sidebar_label: Permissions
 ---
-### Commands and Permissions are changing in version v2.0 of CrazyCrates ( v1.15 is the current public release ). Please check back here frequently.
+### Commands and Permissions are changing in version v2.0 of CrazyCrates ( v1.17.1 is the current public release ). Please check back here frequently.
 *To make this transition as smooth as possible, You should preemptively create versions of your configs with the new commands*
 
 ### What do the changes mean?
