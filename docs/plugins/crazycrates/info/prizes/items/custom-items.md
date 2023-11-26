@@ -56,9 +56,12 @@ Items:
 #### ItemsAdder
 I don't have access to itemsadder so if anyone would like to contribute to the docs, Please do.
 
+#### Find Custom Model Data of your custom Item
+You just have to do `/iacustommodeldata your_item_id`, the server will send you the `ITEM` followed by the `CustomModelData`.
+
 #### An example of how to use it for display items.
 ```yaml
-DisplayItem: 'your_item_id'
+DisplayItem: 'your_item_id#your_custom_model_data'
 ```
 
 #### An example of how to use it for keys.
@@ -69,11 +72,11 @@ PhysicalKey:
   # Lore of the Key.
   Lore: []
   # The custom item from itemsadder.
-  Item: 'your_item_id'
+  Item: 'your_item_id#your_custom_model_data'
 ```
 
 #### An example of how to use it in the items section.
 ```yaml
 Items:
-  - 'Item:your_item_id, Amount:1, Name:&aA custom item'
+  - 'Item:your_item_id#your_custom_model_data, Amount:1, Name:&aA custom item'
 ```
