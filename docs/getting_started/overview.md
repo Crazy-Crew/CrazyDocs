@@ -17,7 +17,7 @@ Use the sidebar on the left to find what you are looking for!
 
 ## Welcome to the CrazyCrew docs!
 A freshly updated wiki with all the information and `spoon-feeding` you want! A few common things you'll see in the documentation.
- * [placeholder] - A `variable`, It is something you will have to replace with whatever you need.
+ * `{placeholder}` - A `variable`, It is something you will have to replace with whatever you need.
  * [Green Text](https://docs.crazycrew.us) - Links to external url's or any link necessary.
 
  You can navigate using the `Search` function if you know what you are looking for.
