@@ -78,7 +78,7 @@ The crates are the files i.e example.yml and control all these options:
 
 ### 4. How do I add my custom item to a prize in a crate?
 * You can use the command `/cc additem {crate} {number}`
-  * {number} is to be replaced with the prize number you want
+  * `{number}` is to be replaced with the prize number you want
     * You can use prize number 5 as an example.
 * It adds the current item you are holding in your hand to the crate of your choice.
 
