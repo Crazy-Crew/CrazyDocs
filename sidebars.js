@@ -61,6 +61,7 @@ module.exports = {
               label: "Information",
               items: [
                 'plugins/crazyauctions/info/crazyauctions-plugin-support',
+                'plugins/crazyauctions/info/crazyauctions-translations',
                 {
                   type: 'category',
                   label: 'Commands',
