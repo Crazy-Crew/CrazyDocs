@@ -44,6 +44,43 @@ module.exports = {
         },
         {
           type: 'category',
+          label: "CrazyAuctions",
+          items: [
+            'plugins/crazyauctions/crazyauctions-index',
+            'plugins/crazyauctions/crazyauctions-faq',
+            {
+              type: 'category',
+              label: 'Developers',
+              items: [
+                'plugins/crazyauctions/api/crazyauctions-api-usage',
+                'plugins/crazyauctions/api/crazyauctions-api-intro'
+              ]
+            },
+            {
+              type: 'category',
+              label: "Information",
+              items: [
+                'plugins/crazyauctions/info/crazyauctions-plugin-support',
+                {
+                  type: 'category',
+                  label: 'Commands',
+                  items: [
+                    'plugins/crazyauctions/info/commands/crazyauctions-permissions-v1',
+                    {
+                      type: 'category',
+                      label: 'Version 2',
+                      items: [
+                        'plugins/crazyauctions/info/commands/v2/crazyauctions-permissions-v2'
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          type: 'category',
           label: "CrazyCrates",
           items: [
             'plugins/crazycrates/crazycrates-index',

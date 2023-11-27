@@ -16,7 +16,7 @@ List of different placeholders that can be used in different parts of the plugin
 ### Random Number Placeholder:
 Usable places: Command option for prizes.
 
-How to use: {random}:minimum-maximum
+How to use: `{random}:minimum-maximum`
 
 #### Commands Option Example:
 ```yaml
@@ -35,9 +35,9 @@ These placeholders apply to all "Command:" options for vouchers in both the vouc
 
 Placeholder|Description|Example
 ---|---|---|
-{player}|Name of the player|`- 'eco give {player} 1000'`
-{world}|World player is currently in|`- lp user {player} parent set crazyvouchers.redeem {world}`
-{z}|X coordinate of the player.|`- 'tp {x} {y} {z}'`
-{y}|Y coordinate of the player.|`- 'tp {x} {y} {z}'`
-{x}|Z coordinate of the player.|`- 'tp {x} {y} {z}'`
-{random}|Allows you to get a random number between any number|`- {random}:10000-100000`
+`{player}`|Name of the player|`- 'eco give {player} 1000'`
+`{world}`|World player is currently in|`- lp user {player} parent set crazyvouchers.redeem {world}`
+`{z}`|X coordinate of the player.|`- 'tp {x} {y} {z}'`
+`{y}`|Y coordinate of the player.|`- 'tp {x} {y} {z}'`
+`{x}`|Z coordinate of the player.|`- 'tp {x} {y} {z}'`
+`{random}`|Allows you to get a random number between any number|`- {random}:10000-100000`
