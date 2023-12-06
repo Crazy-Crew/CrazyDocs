@@ -31,6 +31,7 @@ _The first table assumes you are using [PlaceholderAPI](https://www.spigotmc.org
 | `%crazycrates_<crate>%`          | `%crazycrates_galactic%`          | Returns the amount of virtual keys a player has.                     |
 | `%crazycrates_<crate>_physical%` | `%crazycrates_galactic_physical%` | Returns the amount of physical keys a player has in their inventory. |
 | `%crazycrates_<crate>_total%`    | `%crazycrates_galactic_total%`    | Returns the total amount of virtual and physical keys a player has.  |
+| `%crazycrates_<crate>_opened%`   | `%crazycrates_galactic_opened%`   | Returns how many times a player has opened an individual crate.      |
 | `%crazycrates_crates_opened%`    | `%crazycrates_crates_opened%`     | Returns the total amount of crates opened.                           |
 
 #### Player Placeholders ( Only in version 1.16 which is currently being beta tested in the [discord](https://discord.gg/badbones-s-live-chat-182615261403283459))
