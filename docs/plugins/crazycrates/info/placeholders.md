@@ -34,7 +34,7 @@ _The first table assumes you are using [PlaceholderAPI](https://www.spigotmc.org
 | `%crazycrates_<crate>_opened%`   | `%crazycrates_galactic_opened%`   | Returns how many times a player has opened an individual crate.      |
 | `%crazycrates_crates_opened%`    | `%crazycrates_crates_opened%`     | Returns the total amount of crates opened.                           |
 
-#### Player Placeholders ( Only in version 1.16 which is currently being beta tested in the [discord](https://discord.gg/badbones-s-live-chat-182615261403283459))
+#### Player Placeholders ( Only in version 1.16 and higher )
 | Placeholder                               | Example                                        | Description                                                          |
 |-------------------------------------------|------------------------------------------------|----------------------------------------------------------------------|
 | `%crazycrates_<player>_opened%`           | `%crazycrates_rukkhadevata_opened%`            | Returns the total amount of crates opened.                           |
