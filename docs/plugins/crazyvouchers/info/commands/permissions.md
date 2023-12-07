@@ -17,9 +17,9 @@ Command|Permission|Description
 `/vouchers reload`|`voucher.admin`|Reloads the plugin.
 `/vouchers admin/open`|`voucher.admin`|Shows a gui of easy to grab vouchers.
 `/vouchers types/list`|`voucher.admin`|Shows a list of voucher codes & items.
-`/vouchers redeem <code>`|`voucher.redeem`|Redeems a voucher code from Voucher-Codes.yml
-`/vouchers give <type> <amount> <player> <arguments>`|`voucher.admin`|Gives a player a voucher from Config.yml
-`/vouchers giveall <type> <amount> <arguments>`|`voucher.admin`|Gives all players a voucher from Config.yml
+`/vouchers redeem <code>`|`voucher.redeem`|Redeems a voucher code from the `codes` directory.
+`/vouchers give <type> <amount> <player> <arguments>`|`voucher.admin`|Gives a player a voucher from the `vouchers` directory.
+`/vouchers giveall <type> <amount> <arguments>`|`voucher.admin`|Gives all players a voucher from the `vouchers` directory.
 
 # Permissions
 
