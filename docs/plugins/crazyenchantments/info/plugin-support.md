@@ -16,11 +16,6 @@ sidebar_label: Plugin Support
 | Vault        | https://www.spigotmc.org/resources/vault.34315/ |
 | SilkSpawners | https://dev.bukkit.org/projects/silkspawners    |
 
-## Anticheat 
-| Plugin       |  Link                                                                                                         |
-|--------------|---------------------------------------------------------------------------------------------------------------|
-| Spartan      | https://www.spigotmc.org/resources/spartan-anti-cheat-advanced-cheat-detection-hack-blocker-1-7-1-20-1.25638/ |
-
 ## Protection Plugins
 | Plugin                                                               | Link                                                                                    |
 |----------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
