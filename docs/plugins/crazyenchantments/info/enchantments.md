@@ -32,41 +32,41 @@ sidebar_label: Enchantments
 ## Armor:
 | Enchantments  | Description                                                                                                                              |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| Recover       | After killing a player you gain regeneration and absorption hearts.                                                                      |
+| Self-Destruct | When the player dies it will cause an explosion.                                                                                         |
+| *Leadership   | When faction members are near it makes you do more damage.                                                                               |
+| Crouch        | While sneaking, take less damage.                                                                                                        |
+| SystemReboot  | An attack that would normally kill you can instead heal you to full HP.                                                                  |
 | Burn-Shield   | Gives the player fire resistance.                                                                                                        |
 | Overload      | Gives the player health boost.                                                                                                           |
-| Self-Destruct | When the player dies it will cause an explosion.                                                                                         |
 | Hulk          | Gives the player strength, damage resistance, and slowness.                                                                              |
 | Ninja         | Gives the player health boost and speed.                                                                                                 |
-| Enlightened   | Has a chance to heal you when being attacked.                                                                                            |
-| Freeze        | Has a chance to give your attacker slowness.                                                                                             |
-| Fortify       | Has a chance to give your attacker weakness.                                                                                             |
+| Valor         | Gives the player resistance.                                                                                                             |
+| Insomnia      | Gives you confusion, mining fatigue, and slowness but gives you a high chance to deal double damage.                                     |
+| Drunk         | Gives you strength, mining fatigue, and slowness.                                                                                        |
+| Intimidate    | Gives all nearby players on weakness until they are away from you.                                                                       |
+| *Angel        | Gives nearby faction members regeneration.                                                                                               |
+| Blizzard      | Gives nearby players slowness until they are away from you.                                                                              |
+| SandStorm     | Gives nearby players blindness for 10 seconds, 1/38 chance, and a 30 second cool down time (-5sec per level).                            |
+| AcidRain      | Gives nearby players poison II for 4 seconds, 1/45 chance, and a 30 second cool down time (-5sec per level).                             |
+| Radiant       | Sets nearby players on fire until they are away from you, 5 Seconds 1/25 chance with a 15 second cool down (-5sec per level).            |
+| Maneuver      | Has a chance to dodge an attack.                                                                                                         |
+| Nursery       | Has a chance to heal you while walking.                                                                                                  |
 | Molten        | Has a chance to set your attacker on fire.                                                                                               |
 | Pain-Giver    | Has a chance to give your attacker poison.                                                                                               |
 | Savior        | Has a chance to cut incoming damage in half.                                                                                             |
-| Nursery       | Has a chance to heal you while walking.                                                                                                  |
-| Insomnia      | Gives you confusion, mining fatigue, and slowness but gives you a high chance to deal double damage.                                     |
-| Valor         | Gives the player resistance.                                                                                                             |
-| Smoke-Bomb    | Has a chance to give the attacker slowness and blindness so you can get away.                                                            |
-| Drunk         | Gives you strength, mining fatigue, and slowness.                                                                                        |
 | Voodoo        | Has a chance to give your attacker weakness.                                                                                             |
-| Recover       | After killing a player you gain regeneration and absorption hearts.                                                                      |
-| Cactus        | Has a chance to damage the player that damaged you.                                                                                      |
-| *Angel        | Gives nearby faction members regeneration.                                                                                               |
+| Fortify       | Has a chance to give your attacker weakness.                                                                                             |
+| Enlightened   | Has a chance to heal you when being attacked.                                                                                            |
+| Freeze        | Has a chance to give your attacker slowness.                                                                                             |
 | StormCaller   | Has a chance to strike the player attacking you.                                                                                         |
-| *Leadership   | When faction members a near it makes you do more damage.                                                                                 |
-| Blizzard      | Gives nearby enemies slowness until they are away from you.                                                                              |
-| Intimidate    | Gives all nearby players on weakness until they are away from you.                                                                       |
-| SandStorm     | Gives nearby players blindness for 10 seconds, 1/38 chance, and a 30 second cool down time (-5sec per level).                            |
-| AcidRain      | Gives nearby players poison II for 4 seconds, 1/45 chance, and a 30 second cool down time (-5sec per level).                             |
-| Radiant       | Sets all nearby players on fire until they are away from you, 5 Seconds 1/25 chance with a 15 second cool down (-5sec per level).        |
+| Cactus        | Has a chance to damage the player that damaged you.                                                                                      |
+| ShockWave     | Has a chance to knock enemies back when they damage you.                                                                                 |
+| Smoke-Bomb    | Has a chance to give the attacker slowness and blindness so you can get away.                                                            |
 | Tamer         | Spawns in a wolf (+1 for every level) that fight with you for one minute. Has a cool down of two minutes.                                |
 | Guards        | Spawns in an iron golem (+1 for every level) that will fight for you for one minute. Has a cool down of two minutes.                     |
 | Necromancer   | Spawns in 2 zombie (+2 for every level) that fight with you for one minute. Has a cool down of two minutes.                              |
 | Infestation   | Spawns in 3 silverfish and 3 endermites (+3 of each for every level) that fight with you for one minute. Has a cool down of two minutes. |
-| ShockWave     | Has a chance to knock enemies back when they damage you.                                                                                 |
-| Maneuver      | Has a chance to dodge an attack.                                                                                                         |
-| Crouch        | While sneaking, take less damage.                                                                                                        |
-| SystemReboot  | An attack that would normally kill you can instead heal you to full HP.                                                                  |
 
 ## Bow
 | Enchantments | Description                                             |
@@ -91,7 +91,7 @@ sidebar_label: Enchantments
 | Viper         | Has a chance to give the enemy poison.                                                 |
 | Fast-Turn     | Has a chance to deal more damage.                                                      |
 | Light-Weight  | Has a chance to give the user haste.                                                   |
-| Confusion     | Has the chance to give the enemy confusion.                                            |
+| Confusion     | Has a chance to give the enemy confusion.                                              |
 | Disarmer      | Has a chance to take the enemies's armor off.                                          |
 | Execute       | Has a chance to get strength when the enemy is low HP.                                 |
 | Headless      | Has a chance to drop the enemies's head.                                               |
@@ -116,28 +116,28 @@ sidebar_label: Enchantments
 | Rekt         | Has a chance to deal double damage.                                                       |
 | Decapitation | Has a chance to drop the players head on death.                                           |
 | BattleCry    | During combat it has a 10%(+5% per level) chance to send nearby players flying backwards. |
-| DemonForged  | It causes durability on armor to drop faster.                                             |
+| DemonForged  | Higher durability damage.                                                                 |
 
 ## Tools
 | Enchantments | Description                                                          |
 |--------------|----------------------------------------------------------------------|
 | Telepathy    | When you break a block it will automatically go into your inventory. |
-| Haste        | When placed in your hand it will give you haste.                     |
-| Oxygenate    | When placed in your hand it will let you breath under water.         |
+| Haste        | When used, will give you haste.                                      |
+| Oxygenate    | When used, will let you breath under water.                          |
 
 ## Pickaxe
-| Enchantments | Description                                                                      |
-|--------------|----------------------------------------------------------------------------------|
-| Auto-Smelt   | Has a chance to smelt ore and drop more then one ore.                            |
-| Experience   | Has a chance to give you a lot more XP from block breaking.                      |
-| Blast        | Breaks a radius of 3x3 and gets thicker the higher the level is the enchantment. |
-| Furnace      | Always smelts your ores into ingots.                                             |
-| VeinMiner    | Mines 1 extra block from ore veins per level.                                    |
+| Enchantments | Description                                                                         |
+|--------------|-------------------------------------------------------------------------------------|
+| Auto-Smelt   | Has a chance to smelt ore and drop more then one ore.                               |
+| Experience   | Has a chance to give you a lot more XP from block breaking.                         |
+| Furnace      | Always smelts your ores into ingots.                                                |
+| Blast        | Breaks a 3x3 area of blocks. The higher the level, the more depth.                  |
+| VeinMiner    | Mines multiple blocks from ore veins at once. The higher the level, the more depth. |
 
 ## Misc
-| Enchantments | Description                                                                      |
-|--------------|----------------------------------------------------------------------------------|
-| HellForged   | Place on any item that takes damage and while walking will slowly fix that item. |
+| Enchantments | Description                         |
+|--------------|-------------------------------------|
+| HellForged   | Slowly repairs items while walking. |
 
 ___
 Any enchantment prefixed with an asterisk(*) means it only work with one of these plugins. [FactionsUUID](https://www.spigotmc.org/resources/factionsuuid.1035/).
