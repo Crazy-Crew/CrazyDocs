@@ -27,7 +27,7 @@ sidebar_label: Enchantments
 | Gears        | Gives the player a speed boost.                                                          |
 | Rocket       | When the player is low on HP there is a chance they will fly backwards to escape battle. |
 | **Wings      | Allows players to fly in faction land or in specified regions.                           |
-| Adrenaline   | When on low HP, Has a chance to get a huge speed boost.                                  |
+| Adrenaline   | Chance to get a huge speed boost when low on HP.                                         |
 
 ## Armor:
 | Enchantments  | Description                                                                                                                              |
@@ -42,7 +42,7 @@ sidebar_label: Enchantments
 | Fortify       | Has a chance to give your attacker weakness.                                                                                             |
 | Molten        | Has a chance to set your attacker on fire.                                                                                               |
 | Pain-Giver    | Has a chance to give your attacker poison.                                                                                               |
-| Savior        | Has a cut incoming damage in half.                                                                                                       |
+| Savior        | Has a chance to cut incoming damage in half.                                                                                             |
 | Nursery       | Has a chance to heal you while walking.                                                                                                  |
 | Insomnia      | Gives you confusion, mining fatigue, and slowness but gives you a high chance to deal double damage.                                     |
 | Valor         | Gives the player resistance.                                                                                                             |
