@@ -11,7 +11,7 @@ pagination_prev: null
 sidebar_label: Permissions
 ---
 Command|Permission|Description|Default
----|---|---
+---|---|---|---
 `/envoy` `/envoy time`|`envoy.time`|Shows the time till the envoy starts or ends.|true
 `/envoy help`|`envoy.help`|Shows all crazy envoy commands.|true
 `/envoy reload`|`envoy.reload`|Reloads all the files and tiers.|false
