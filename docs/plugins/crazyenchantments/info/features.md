@@ -65,7 +65,10 @@ When placed onto an item with custom enchantments, it will remove a random encha
 When applied to an item with custom enchantments, it will rearrange the item’s lore and add a number to its name indicating the total number of enchantments on the item.
 
 ## Protection Crystal
-Protection crystals can be applied to any item and prevent it from being lost on death.
+Protection crystals can be applied to any item and prevents it from being lost on death.
+
+## Slot Crystal
+Slot crystals are used to increase the amount of enchantments that you can have on an item from `crazyenchantments.base-limit.#` to `crazyenchantments.limit.#`.
 
 ## The Scrambler
 The Scrambler allows players to re-roll the success and destroy rates of a custom enchantment book. This provides an opportunity to improve the rates of a less desirable book.

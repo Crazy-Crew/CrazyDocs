@@ -33,14 +33,17 @@ Command|Permission|Description
 `/ce book <enchantment> [level] [amount] [player]`|`crazyenchantments.book`|Give a player enchantment books.
 `/ce book <enchantment> [minlevel-maxlevel] [amount] [player]`|`crazyenchantments.book`|Gives a player an enchantment book with a random level from a set range.
 `/ce lostbook <category> [amount] [player]`|`crazyenchantments.lostbook`|Give a player lost books.
+`/ce give [player] [data]` | `crazyenchantments.give` |Give a player and item with crazy enchantments.
+`/ce bottle [player] [amount]` | `crazyenchantments.give` |Give a player a bottle with the specified amount stored.
 `/ce updateenchants`|`crazyenchantments.updateenchants`|Iterates through the lore of the item in your main hand and updates how the enchantments are stored.
 
 ## Options
-| Option           | Permission                  | Description                                                                                           |
-|------------------|-----------------------------|-------------------------------------------------------------------------------------------------------|
-| Sign Shops       | `crazyenchantments.sign`    | Allows the player to make sign shops.                                                                 |
-| Max Enchantments | `crazyenchantments.limit.#` | Replace the # with a number to set the limit for how many enchantments a player can have on the item. |
-| All Commands     | `crazyenchantments.admin`   | Allows you to access all commands.                                                                    |
+| Option           | Permission                      | Description                                                                                            |
+|------------------|---------------------------------|--------------------------------------------------------------------------------------------------------|
+| Sign Shops       | `crazyenchantments.sign`        | Allows the player to make sign shops.                                                                  |
+| Max Enchantments | `crazyenchantments.limit.#`     | Replace the # with a number to set the limit for how many enchantments a player can have on the item.  |
+| Base Enchantments| `crazyenchantments.base-limit.#`| Replace the # with a number to set base amount for how many enchantments a player can have on the item.|
+| All Commands     | `crazyenchantments.admin`       | Allows you to access all commands.                                                                     |
 
 ## Bypass
 | Option              | Permission                                   | Description                                           |
@@ -48,6 +51,7 @@ Command|Permission|Description
 | Max Enchantments    | `crazyenchantments.bypass.limit`             | Bypasses the enchantment limit.                       |
 | Aura Enchantments   | `crazyenchantments.bypass.aura`              | Bypass all the aura enchantment effects.              |
 | Blast Enchantment   | `crazyenchantments.blast.use`                | Allows you to use Blast.                              |
+| Enchant Blacklist   | `crazyenchantments.<enchantmentName>.deny`   | Stops players from being able to use enchants.        |
 | Wings Enemy         | `crazyenchantments.bypass.wings`             | Bypass the enemy detection for the wings enchantment. |
 | Gkit Timers         | `crazyenchantments.bypass.gkitz`             | Bypass the gkit cooldowns.                            |
 | Protection Crystals | `crazyenchantments.bypass.protectioncrystal` | Make protection crystals work every time.             |
