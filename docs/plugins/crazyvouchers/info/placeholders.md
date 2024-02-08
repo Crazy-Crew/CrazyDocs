@@ -33,11 +33,11 @@ commands:
 ### Description
 These placeholders apply to all "Command:" options for vouchers in both the vouchers folder and VoucherCodes.yml files.
 
-Placeholder|Description|Example
----|---|---|
-`{player}`|Name of the player|`- 'eco give {player} 1000'`
-`{world}`|World player is currently in|`- lp user {player} parent set crazyvouchers.redeem {world}`
-`{z}`|X coordinate of the player.|`- 'tp {x} {y} {z}'`
-`{y}`|Y coordinate of the player.|`- 'tp {x} {y} {z}'`
-`{x}`|Z coordinate of the player.|`- 'tp {x} {y} {z}'`
-`{random}`|Allows you to get a random number between any number|`- {random}:10000-100000`
+| Placeholder | Description                                          | Example                                                      |
+|-------------|------------------------------------------------------|--------------------------------------------------------------|
+| `{player}`  | Name of the player                                   | `- 'eco give {player} 1000'`                                 |
+| `{world}`   | World player is currently in                         | `- lp user {player} parent set crazyvouchers.redeem {world}` |
+| `{z}`       | X coordinate of the player.                          | `- 'tp {x} {y} {z}'`                                         |
+| `{y}`       | Y coordinate of the player.                          | `- 'tp {x} {y} {z}'`                                         |
+| `{x}`       | Z coordinate of the player.                          | `- 'tp {x} {y} {z}'`                                         |
+| `{random}`  | Allows you to get a random number between any number | `- {random}:10000-100000`                                    |
