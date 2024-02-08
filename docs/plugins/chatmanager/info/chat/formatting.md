@@ -14,20 +14,10 @@ sidebar_label: Chat Formatting
 Chat format is a simple yet powerful per-group chat formatting feature where players will automatically be placed in their chat format group, 
 depending on which permission group they are in. A default chat format is added so if the players format group doesn’t exist for their permissions rank, they will be placed in the default format group automatically.
 
-## Requirements
-To use the chat format feature it requires the two plugins Vault and a permissions plugin (I.E. LuckPerms, UltraPermissions, PEX, GroupManager) on your server at all times to run properly. 
-The plugin needs these plugins since players are placed in their group automatically, and without vault or a permissions plugin that feature wont work properly and will cause a lot of errors in console. 
-Right now chat manager has some checks to see if you are running vault and a permissions plugin on your server. If you don't have vault on your server when starting up your server chat manager will tell console that vault is required to use chat manager then the plugin will be disabled. 
-Chat Manager also checks for a permissions plugin on startup and will say either "hooked into permissions plugin" or "A permissions plugin is required to use Chat Manager, otherwise errors will occur!" depending if you have one or not.
-
-As of right now chat manager only checks if you have the permissions plugins LuckPerms, UltraPermissions, PEX, or GroupManager. 
-If you are running another permissions plugin that isn't one of those four please let me know, and I'll add a check for that plugin so you don't get that message. 
-Chat Manager WILL NOT be disabled if you don't have a permissions plugin.
-
 ## Understanding Chat Formatting
 This area will help you understand the chat formatting feature as simple as possible.
 
-This is the main section of the config, I'm gonna try and break it down so everyone can understand it and know how to use it properly.
+This is the main section of the config, I'm going to try and break it down so everyone can understand it and know how to use it properly.
 ```
 Chat_Format:
 
@@ -64,8 +54,8 @@ Groups:
       Format: "&b[&6Moderator&b] &a[&b{world}&a] &b{player} &9> &e{message}"
 ```
 
-1. To create a new group you first need to create it in your permissions plugin.
-   Lets create the group owner and add our permissions and prefix/ suffix to the group (You can add the permissions and prefix/ suffix after your done setting up the chat format is you want).
+1. To create a new group you first need to create it in your permissions' plugin.
+   Let's create the group owner and add our permissions and prefix/ suffix to the group (You can add the permissions and prefix/ suffix after your done setting up the chat format is you want).
 
 This is a default example how a group can look like while using the permissions plugin PermissionsEx.
 ```  
@@ -82,22 +72,22 @@ https://imgur.com/a/h7SXgDl
 **Important Information when using LuckPerms**
 
 If you are using the permissions plugin LuckPerms please make sure all the group names are set to **lowercase** when adding the groups to the chat format! ALSO, make sure you do NOT add a displayname to the groups, or they will not work with the chat format. 
-To see and remove the displayname do /lp editor, click the link, click the group, and remove the permission looking node displayname.{name} and that will remove it.
+To see and remove the displayname do /lp editor, click the link, click the group, and remove the permission looking node displayname.`{name}` and that will remove it.
 
-2. Now to create a new format group you just need to do is add this to the groups section to your config.
+1. Now to create a new format group you just need to do is add this to the groups section to your config.
 
 ```
     Owner:
       Format: "&b[&6Owner&b] &b{player} &9>> &e{message}"
 ```
 
-3. You need to first add the permissions group name in the file. `Owner:` Make sure you add four spaces then add the name. Make sure the name is exactly whats in the permissions file. **It is case sensitive**!
+1. You need to first add the permissions group name in the file. `Owner:` Make sure you add four spaces then add the name. Make sure the name is exactly what's in the permissions file. **It is case-sensitive**!
 
-4. Then you add `Format:` right under `Owner:`. Make sure you add six spaces before you add "Format:".
+2. Then you add `Format:` right under `Owner:`. Make sure you add six spaces before you add "Format:".
 
-5. Then you create the format you want to use for the rank, you can add as much as you want to it, but be careful, it can make your chat look a mess.
+3. Then you create the format you want to use for the rank, you can add as much as you want to it, but be careful, it can make your chat look a mess.
 
-6. Finally press save, then reload the config (/ChatManager Reload) then you're done.
+4. Finally press save, then reload the config (/chatmanager reload) then you're done.
 
 After all that the section should look like this.
 ```
