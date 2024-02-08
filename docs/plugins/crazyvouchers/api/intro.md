@@ -26,7 +26,7 @@ repositories {
 
 ```gradle
 dependencies {
-    compileOnly "com.badbones69.crazyvouchers:crazyvouchers-paper-api:3.1.5"
+    compileOnly "com.badbones69.crazyvouchers:crazyvouchers-paper-api:3.2.1"
 }
 ```
 </details>
@@ -45,7 +45,7 @@ repositories {
 
 ```gradle
 dependencies {
-    compileOnly("com.badbones69.crazyvouchers", "crazyvouchers-paper-api", "3.1.5")
+    compileOnly("com.badbones69.crazyvouchers", "crazyvouchers-paper-api", "3.2.1")
 }
 ```
 </details>
@@ -67,7 +67,7 @@ dependencies {
 <dependency>
   <groupId>com.badbones69.crazyvouchers</groupId>
   <artifactId>crazyvouchers-paper-api</artifactId>
-  <version>3.1.5</version>
+  <version>3.2.1</version>
   <scope>provided</scope>
  </dependency>
 ```
