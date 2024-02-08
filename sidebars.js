@@ -255,6 +255,7 @@ module.exports = {
               items: [
                 'plugins/crazyenvoys/info/crazyenvoys-plugin-support',
                 'plugins/crazyenvoys/info/crazyenvoys-placeholders',
+                'plugins/crazyenvoys/info/crazyenvoys-translations',
                 {
                   type: 'category',
                   label: 'Commands',
