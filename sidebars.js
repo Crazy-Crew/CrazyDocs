@@ -82,6 +82,38 @@ module.exports = {
         },
         {
           type: 'category',
+          label: "ChatManager",
+          items: [
+            'plugins/chatmanager/chatmanager-index',
+            'plugins/chatmanager/chatmanager-faq',
+            {
+              type: 'category',
+              label: "Information",
+              items: [
+                'plugins/chatmanager/info/chatmanager-plugin-support',
+                'plugins/chatmanager/info/chatmanager-placeholders',
+                {
+                  type: 'category',
+                  label: 'Commands',
+                  items: [
+                    'plugins/chatmanager/info/commands/chatmanager-permissions'
+                  ]
+                },
+                {
+                  type: 'category',
+                  label: 'Chat',
+                  items: [
+                      'plugins/chatmanager/info/chat/chatmanager-formatting',
+                      'plugins/chatmanager/info/chat/chatmanager-join-quit',
+                      'plugins/chatmanager/info/chat/chatmanager-chat-radius'
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          type: 'category',
           label: "CrazyCrates",
           items: [
             'plugins/crazycrates/crazycrates-index',
