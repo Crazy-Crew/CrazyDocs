@@ -52,7 +52,7 @@ sidebar_label: FAQ
       # A list of messages to send to the player.
       Messages: {} # Optional
       Alternative-Prize: # Required if you want to use this section.
-        # If it should enabled.
+        # If it should be enabled.
         Toggle: false # Optional
         # A list of messages to send to the player.
         Messages: {} # Optional
@@ -70,7 +70,7 @@ sidebar_label: FAQ
 ### 3. The description shows there are 10 different crate types but I only see 4 crates in the Crates folder?
 There is a difference between [Crates](info/crates/examples/csgo) and [Crate Types](info/crates/crate-types). Each crate has its own CrateType: option in the crate's file to pick which one it is.
 
-The crates are the files i.e example.yml and control all these options:
+The crates are the files i.e. example.yml and control all these options:
 * Prizes
 * The [Crate Type](info/crates/crate-types)
 * How the key looks
@@ -91,7 +91,7 @@ The crates are the files i.e example.yml and control all these options:
 
 ### 5. How do I add more crates to the plugin?
 Adding new crates to CrazyCrates is easy! You have to navigate to the `crates` folder
-* Copy paste the any `.yml` of your choice.
+* Copy and paste any `.yml` of your choice.
 * Rename the `.yml` file so if it is `Example.yml`, Change it to `Example2.yml`
 * Open `Example2.yml` and simply edit the crate like any other file.
 * Save the file and run `/crazycrates reload`.
@@ -137,7 +137,7 @@ An example: `java -server -Dfile.encoding=UTF8 -Xmx2048M -jar server.jar`
 
 This startup command is an example, Please use https://flags.sh/ to generate proper startup flags.
 
-### 11. Players can't right click to open a crate however players with `/op` or `*` are able to.
+### 11. Players can't right-click to open a crate however players with `/op` or `*` are able to.
 The issue is related to a setting in server.properties.
  * Set the option to 0  ( requires server restart )
 ```

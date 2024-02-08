@@ -15,7 +15,7 @@ sidebar_label: Plugin Support
 |----------------|-------------------------------------------------------------------|
 | PlaceholderAPI | https://www.spigotmc.org/resources/placeholderapi.6245/           |
 
-## Hologramss
+## Holograms
 | Plugin           |  Link                                                                                                                                  |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | DecentHolograms  | https://www.spigotmc.org/resources/decentholograms-1-8-1-19-papi-support-no-dependencies.96927/                                        |
