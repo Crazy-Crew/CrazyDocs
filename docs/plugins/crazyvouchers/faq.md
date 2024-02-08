@@ -15,7 +15,7 @@ sidebar_label: FAQ
  * -Dnet.kyori.ansi.colorLevel=truecolor
 
 ### 2. Unsupported api-version 1.20
- * You need to use [1.20.1](https://papermc.io/) as we do not support legacy versions.
+ * You need to use [1.20.4](https://papermc.io/) as we do not support legacy versions.
  * You can open the plugin in 7zip, winrar or peazip, nanazip or whatever zip flavor you like and edit the plugin.yml's api-version or simply go to the [modrinth's version tab](https://modrinth.com/plugin/crazyvouchers/versions) and filter by version.
 
 ### 3. How do I give permissions to players?
