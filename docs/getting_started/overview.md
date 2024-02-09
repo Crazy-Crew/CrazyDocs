@@ -31,6 +31,7 @@ Have an issue or bug? Please submit a bug report / issue using one of these link
  * https://github.com/Crazy-Crew/CrazyCrates/issues
  * https://github.com/Crazy-Crew/CrazyEnvoys/issues
  * https://github.com/Crazy-Crew/CrazyVouchers/issues
+ * https://github.com/Crazy-Crew/ChatManager/issues
  * https://github.com/Crazy-Crew/CrazyEnchantments/issues
  * https://github.com/Crazy-Crew/BlockParticles/issues
 
