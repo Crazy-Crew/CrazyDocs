@@ -34,7 +34,7 @@ sidebar_label: Permissions
 | `/ce book <enchantment> [minlevel-maxlevel] [amount] [player]`   | `crazyenchantments.book`                                                | Gives a player an enchantment book with a random level from a set range.                             |
 | `/ce lostbook <category> [amount] [player]`                      | `crazyenchantments.lostbook`                                            | Give a player lost books.                                                                            |
 | `/ce give [player] [data]`                                       | `crazyenchantments.give`                                                | Give a player and item with crazy enchantments.                                                      |
-| `/ce bottle [player] [amount]`                                   | `crazyenchantments.give`                                                | Give a player a bottle with the specified amount stored.                                             |
+| `/ce bottle [player] [storedAmount] [amount]`                                   | `crazyenchantments.give`                                                | Give a player a bottle with the specified amount stored.                                             |
 | `/ce updateenchants`                                             | `crazyenchantments.updateenchants`                                      | Iterates through the lore of the item in your main hand and updates how the enchantments are stored. |
 
 ## Options
