@@ -11,7 +11,7 @@ sidebar_label: Overview
 <center>
 
 # Documentation Overview
-Note: Documentation can be created by the community. Help is always wanted if you spot something. You can visit the guide on [How to contribute to our docs](https://github.com/Crazy-Crew/CrazyDocs/blob/main/README.md), here
+Note: Documentation can be created by the community. Help is always wanted if you spot something. You can visit the guide on [How to contribute to our docs](https://github.com/Crazy-Crew/CrazyDocs/blob/main/README.md) here,
 Use the sidebar on the left to find what you are looking for!
 </center>
 
@@ -31,6 +31,7 @@ Have an issue or bug? Please submit a bug report / issue using one of these link
  * https://github.com/Crazy-Crew/CrazyCrates/issues
  * https://github.com/Crazy-Crew/CrazyEnvoys/issues
  * https://github.com/Crazy-Crew/CrazyVouchers/issues
+ * https://github.com/Crazy-Crew/ChatManager/issues
  * https://github.com/Crazy-Crew/CrazyEnchantments/issues
  * https://github.com/Crazy-Crew/BlockParticles/issues
 
