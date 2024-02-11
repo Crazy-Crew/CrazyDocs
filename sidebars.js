@@ -177,10 +177,13 @@ module.exports = {
                       type: 'category',
                       label: 'Examples',
                       items: [
-                        'plugins/crazycrates/info/crates/examples/crazycrates-cosmic-example',
-                        'plugins/crazycrates/info/crates/examples/crazycrates-csgo-example',
-                        'plugins/crazycrates/info/crates/examples/crazycrates-quad-example',
-                        'plugins/crazycrates/info/crates/examples/crazycrates-quick-example'
+                        'plugins/crazycrates/info/crates/examples/crazycrates-cosmiccrate-example',
+                        'plugins/crazycrates/info/crates/examples/crazycrates-csgocrate-example',
+                        'plugins/crazycrates/info/crates/examples/crazycrates-quadcrate-example',
+                        'plugins/crazycrates/info/crates/examples/crazycrates-quickcrate-example',
+                        'plugins/crazycrates/info/crates/examples/crazycrates-warcrate-example',
+                        'plugins/crazycrates/info/crates/examples/crazycrates-casinocrate-example',
+                        'plugins/crazycrates/info/crates/examples/crazycrates-quickcrate-example'
                       ]
                     }
                   ]
