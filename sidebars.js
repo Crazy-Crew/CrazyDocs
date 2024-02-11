@@ -19,6 +19,11 @@ module.exports = {
     },
     {
       type: 'link',
+      label: 'SimplyFlags',
+      href: 'https://simplymc.art/flags/'
+    },
+    {
+      type: 'link',
       label: 'Support Server',
       href: 'https://discord.gg/badbones-s-live-chat-182615261403283459'
     },
