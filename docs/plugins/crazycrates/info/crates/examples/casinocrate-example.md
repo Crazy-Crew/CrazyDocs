@@ -1,5 +1,5 @@
 ---
-id: crazycrates-casino-example
+id: crazycrates-casinocrate-example
 title: Casino Crate
 slug: /crazycrates/info/crates/examples/casinocrate
 hide_title: false
