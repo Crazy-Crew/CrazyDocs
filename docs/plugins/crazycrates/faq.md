@@ -68,7 +68,7 @@ sidebar_label: FAQ
 ```
 
 ### 3. The description shows there are 10 different crate types, but I only see 4 crates in the Crates folder?
-There is a difference between [Crates](info/crates/examples/csgocrate) and [Crate Types](info/crates/crate-types). Each crate has its own CrateType: option in the crate's file to pick which one it is.
+There is a difference between [Crates](info/crates/examples/csgocrate-example.md) and [Crate Types](info/crates/crate-types). Each crate has its own CrateType: option in the crate's file to pick which one it is.
 
 The crates are the files i.e. example.yml and control all these options:
 * Prizes
