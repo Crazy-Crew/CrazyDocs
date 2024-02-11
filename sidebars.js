@@ -136,14 +136,7 @@ module.exports = {
                   type: 'category',
                   label: 'Commands',
                   items: [
-                    'plugins/crazycrates/info/commands/crazycrates-permissions-v1',
-                    {
-                      type: 'category',
-                      label: 'Version 2',
-                      items: [
-                        'plugins/crazycrates/info/commands/v2/crazycrates-permissions-v2'
-                      ]
-                    }
+                    'plugins/crazycrates/info/commands/crazycrates-permissions'
                   ]
                 },
                 {
