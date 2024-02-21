@@ -19,8 +19,8 @@ module.exports = {
     },
     {
       type: 'link',
-      label: 'SimplyFlags',
-      href: 'https://simplymc.art/flags/'
+      label: 'flags.sh',
+      href: 'https://flags.sh/'
     },
     {
       type: 'link',
