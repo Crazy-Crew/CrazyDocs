@@ -46,7 +46,6 @@ sidebar_label: Permissions
 # Permissions
 | Wildcard                                | Description                                            | Default |
 |-----------------------------------------|--------------------------------------------------------|---------|
-| `crazycrates.open.*`                    | `Allows players to open all crates.`                   | true    |
 | `crazycrates.command.players.*`         | `Gives access to all player commands.`                 | false   |
 | `crazycrates.command.admin.*`           | `Gives access to all admin commands.`                  | false   |
 | `crazycrates.command.admin.schematic.*` | `Gives access to all commands relating to schematics.` | false   |
