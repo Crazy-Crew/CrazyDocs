@@ -14,7 +14,7 @@ sidebar_label: FAQ
 #### Add this value to your startup flags!
  * -Dnet.kyori.ansi.colorLevel=truecolor
 
-### 2. Unsupported api-version 1.20
+### 2. Unsupported api-version 1.20  Warning, You will be on your own if you run into any errors if we deem it's because of missing api/new fixes not available on older versions.
  * You need to use [1.20.4](https://papermc.io/) as we do not support legacy versions.
  * You can open the plugin in 7zip, winrar or peazip, nanazip or whatever zip flavor you like and edit the plugin.yml's api-version or simply go to the [modrinth's version tab](https://modrinth.com/plugin/crazyvouchers/versions) and filter by version.
 
