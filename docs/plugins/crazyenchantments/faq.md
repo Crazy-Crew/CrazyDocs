@@ -35,7 +35,8 @@ Use an economy plugin that hooks into [Vault](https://www.spigotmc.org/resources
 [Let Me Google That For You](https://letmegooglethat.com/?q=economy+plugins+spigotmc)
 
 ### 6. How can I limit enchantments on items?
-Add the permission `crazyenchantments.limit.5` to a group or player of your choosing with a permissions plugin of your choosing. `5` can be replaced with anything.
+Add the permissions `crazyenchantments.limit.5` and `crazyenchantments.base-limit.1` to a group or player of your choosing with a permissions plugin of your choosing. `5` and `1` can be replaced with any number.   
+[More Info](./info/features.md)
 
 ### 7. Is the rage enchant spamming chat?
 Try out `Rage-Boss-Bar: true` in config.yml or set the message to ''.
