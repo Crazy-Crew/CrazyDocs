@@ -23,7 +23,7 @@ sidebar_label: FAQ
    * Make sure to check our [Commands](info/commands/permissions) page for updated permissions.
 
 ### 4. Is there a way to make a player confirm when they want to redeem a voucher?
- * https://github.com/Crazy-Crew/CrazyVouchers/blob/759eb71eb3acadf87b46aed8c3f997947da70074/paper/src/main/resources/vouchers/Trims.yml#L27
+ * https://github.com/Crazy-Crew/CrazyVouchers/blob/e4431f79f5805ac839b992921701d1c305b5bf80/paper/src/main/resources/vouchers/Example.yml#L101
 
 ### 5. My player heads aren't working / Can I use player heads?
  * Q1
