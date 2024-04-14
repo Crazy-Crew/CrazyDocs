@@ -19,14 +19,14 @@ sidebar_label: API Intro
 ```gradle
 repositories {
     maven {
-        url = "https://repo.crazycrew.us/releases"
+        url = "https://repo.crazycrew.us/snapshots"
     }
 }
 ```
 
 ```gradle
 dependencies {
-    compileOnly "us.crazycrew.crazycrates:api:0.3"
+    compileOnly "us.crazycrew.crazycrates:api:1.0-snapshot"
 }
 ```
 </details>
@@ -39,13 +39,13 @@ dependencies {
 
 ```gradle
 repositories {
-    maven("https://repo.crazycrew.us/releases")
+    maven("https://repo.crazycrew.us/snapshots")
 }
 ```
 
 ```gradle
 dependencies {
-    compileOnly("us.crazycrew.crazycrates:api:0.3")
+    compileOnly("us.crazycrew.crazycrates:api:1.0-snapshot")
 }
 ```
 </details>
@@ -59,7 +59,7 @@ dependencies {
 ```xml
 <repository>
   <id>crazycrew-releases</id>
-  <url>https://repo.crazycrew.us/releases</url>
+  <url>https://repo.crazycrew.us/snapshots</url>
 </repository>
 ```
 
@@ -67,7 +67,7 @@ dependencies {
 <dependency>
   <groupId>us.crazycrew.crazycrates</groupId>
   <artifactId>api</artifactId>
-  <version>0.3</version>
+  <version>1.0-snapshot</version>
   <scope>provided</scope>
  </dependency>
 ```
