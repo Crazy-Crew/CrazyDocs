@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'CrazyCrew Docs',
   tagline: 'crazydocs',
-  favicon: 'img/favicon.ico',
+  favicon: '/img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://docs.crazycrew.us/',
@@ -34,19 +34,32 @@ const config: Config = {
       'classic',
       {
         docs: {
+          lastVersion: 'current',
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/Crazy-Crew/CrazyDocs/tree/main/',
+          versions: {
+            current: {
+              label: '1.20.5',
+              path: '1.20.5',
+              banner: 'none'
+            },
+            '1.20.4': {
+              label: '1.20.4',
+              path: '1.20.4',
+              banner: 'unmaintained',
+            }
+          },
         },
-        blog: {
+        /*blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/Crazy-Crew/CrazyDocs/tree/main/',
-        },
+        },*/
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -55,6 +68,11 @@ const config: Config = {
   ],
 
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false
+    },
     // Replace with your project's social card
     image: 'img/logo.webp',
     navbar: {
@@ -64,28 +82,40 @@ const config: Config = {
         src: 'img/logo.webp',
       },
       items: [
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://discord.gg/badbones-s-live-chat-182615261403283459',
+          type: 'docsVersionDropdown',
+          position: 'right'
+        },
+        {
+          type: 'localeDropdown',
+          position: 'right'
+        },
+        /*{
+          to: '/blog',
+          label: 'Blog',
+          position: 'left'
+        },*/
+        {
+          to: 'https://discord.gg/badbones-s-live-chat-182615261403283459',
           label: 'Discord',
           position: 'left',
         },
         {
-          href: 'https://github.com/Crazy-Crew',
+          to: 'https://github.com/Crazy-Crew',
           label: 'Github',
-          position: 'right',
+          position: 'left',
         },
         {
-          href: 'https://ko-fi.com/ryderbelserion',
+          to: 'https://ko-fi.com/ryderbelserion',
           label: 'Kofi',
-          position: 'right',
+          position: 'left',
         }
       ],
     },
     footer: {
       style: 'dark',
       links: [
-        {
+        /*{
           title: 'Blog',
           items: [
             {
@@ -93,15 +123,14 @@ const config: Config = {
               to: '/blog',
             }
           ],
-        },
+        },*/
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} CrazyCrew. Built with Docusaurus.`,
     },
-
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
-    },
+    }
   } satisfies Preset.ThemeConfig,
 };
 
