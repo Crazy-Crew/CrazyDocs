@@ -1,0 +1,75 @@
+---
+title: Developer API
+description: Get started with the api
+
+hide_title: false
+hide_table_of_contents: false
+
+pagination_next: null
+pagination_prev: null
+
+sidebar_label: API Intro
+sidebar_position: 1
+---
+### Groovy
+<details>
+ <summary>
+   Gradle (Groovy)
+ </summary>
+
+```gradle
+repositories {
+    maven {
+        url = "https://repo.crazycrew.us/snapshots"
+    }
+}
+```
+
+```gradle
+dependencies {
+    compileOnly "us.crazycrew.crazycrates:api:1.0-snapshot"
+}
+```
+</details>
+
+### Kotlin
+<details>
+ <summary>
+   Gradle (Kotlin)
+ </summary>
+
+```gradle
+repositories {
+    maven("https://repo.crazycrew.us/snapshots")
+}
+```
+
+```gradle
+dependencies {
+    compileOnly("us.crazycrew.crazycrates:api:1.0-snapshot")
+}
+```
+</details>
+
+### Maven
+<details>
+ <summary>
+   Maven
+ </summary>
+
+```xml
+<repository>
+  <id>crazycrew-snapshots</id>
+  <url>https://repo.crazycrew.us/snapshots</url>
+</repository>
+```
+
+```xml
+<dependency>
+  <groupId>us.crazycrew.crazycrates</groupId>
+  <artifactId>api</artifactId>
+  <version>1.0-snapshot</version>
+  <scope>provided</scope>
+ </dependency>
+```
+</details>

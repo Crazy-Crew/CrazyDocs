@@ -1,6 +1,6 @@
 ---
-id: crazyvouchers-faq
-title: FAQ
+title: Frequently Asked Questions
+description: Questions frequently asked by our users
 
 hide_title: false
 hide_table_of_contents: false
@@ -8,7 +8,7 @@ hide_table_of_contents: false
 pagination_next: null
 pagination_prev: null
 
-sidebar_label: FAQ
+sidebar_label: Frequently Asked Questions
 sidebar_position: 2
 ---
 ### 1. Why do colors in console look weird?
@@ -21,7 +21,7 @@ sidebar_position: 2
 
 ### 3. How do I give permissions to players?
  * Use a plugin such as [LuckPerms](https://luckperms.net), Please do read through their [wiki](https://luckperms.net/wiki)
-   * Make sure to check our [Commands](info/commands/permissions) page for updated permissions.
+   * Make sure to check our [Commands](commands/permissions) page for updated permissions.
 
 ### 4. Is there a way to make a player confirm when they want to redeem a voucher?
  * https://github.com/Crazy-Crew/CrazyVouchers/blob/e4431f79f5805ac839b992921701d1c305b5bf80/paper/src/main/resources/vouchers/Example.yml#L101
@@ -32,6 +32,6 @@ sidebar_position: 2
  * Q2
    * Yes
 
-### 6. There is so much in the [Example.yml](info/examples/voucher-example). Do I need all of that?
+### 6. There is so much in the [Example.yml](guides/examples/voucher-example). Do I need all of that?
  * No
-   * You can view [PlayerHead.yml](info/examples/player-head-example) for a version of the voucher where you can remove as much as possible.
+   * You can view [PlayerHead.yml](guides/examples/player-head-example) for a version of the voucher where you can remove as much as possible.

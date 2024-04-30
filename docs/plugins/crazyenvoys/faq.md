@@ -1,6 +1,6 @@
 ---
-id: crazyenvoys-faq
-title: FAQ
+title: Frequently Asked Questions
+description: Questions frequently asked by our users
 
 hide_title: false
 hide_table_of_contents: false
@@ -8,7 +8,7 @@ hide_table_of_contents: false
 pagination_next: null
 pagination_prev: null
 
-sidebar_label: FAQ
+sidebar_label: Frequently Asked Questions
 sidebar_position: 2
 ---
 ### 1. Why do colors in console look weird?
@@ -31,7 +31,7 @@ sidebar_position: 2
 
 ### 5. How do I give permissions to players?
  * Use a plugin such as [LuckPerms](https://luckperms.net), Please do read through their [wiki](https://luckperms.net/wiki)
-   * Make sure to check our [Commands](info/commands/permissions) page for updated permissions.
+   * Make sure to check our [Commands](commands/permissions) page for updated permissions.
 
 ### 6. Why can I claim envoys but my players can't?
  #### Potential Solutions

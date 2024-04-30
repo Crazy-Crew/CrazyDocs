@@ -1,6 +1,6 @@
 ---
-id: crazycrates-faq
-title: FAQ
+title: Frequently Asked Questions
+description: Questions frequently asked by our users
 
 hide_title: false
 hide_table_of_contents: false
@@ -8,7 +8,7 @@ hide_table_of_contents: false
 pagination_next: null
 pagination_prev: null
 
-sidebar_label: FAQ
+sidebar_label: Frequently Asked Questions
 sidebar_position: 2
 ---
 ### 1. Why do colors in console look weird?
@@ -69,11 +69,11 @@ sidebar_position: 2
 ```
 
 ### 3. The description shows there are 10 different crate types, but I only see 4 crates in the Crates folder?
-There is a difference between [Crates](info/crates/examples/csgocrate) and [Crate Types](info/crates/crate-types). Each crate has its own CrateType: option in the crate's file to pick which one it is.
+There is a difference between [Crates](guides/crates/examples/csgocrate) and [Crate Types](misc/crate-types.md). Each crate has its own CrateType: option in the crate's file to pick which one it is.
 
 The crates are the files i.e. example.yml and control all these options:
 * Prizes
-* The [Crate Type](info/crates/crate-types)
+* The [Crate Type](misc/crate-types.md)
 * How the key looks
 * And more!
 
@@ -98,10 +98,10 @@ Adding new crates to CrazyCrates is easy! You have to navigate to the `crates` f
 * Save the file and run `/crazycrates reload`.
 * Profit
 
--> [Crates](info/crates/examples/csgocrate) - The directory with a list of default crates in case you need them.
+-> [Crates](guides/crates/examples/csgocrate) - The directory with a list of default crates in case you need them.
 
 ### 6. How does the chance system work?
-Check out [this page](info/crates/chance-system) to figure out how the system works!
+Check out [this page](guides/crates/chance-system) to figure out how the system works!
 
 ### 7. Is there anyway to make blocks open the CrazyCrates menu?
 * Look at any block besides shulker boxes.
