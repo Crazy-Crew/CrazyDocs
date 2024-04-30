@@ -1,5 +1,6 @@
 ---
 title: Chance System
+description: A guide on how the chance system works
 
 hide_title: false
 hide_table_of_contents: false

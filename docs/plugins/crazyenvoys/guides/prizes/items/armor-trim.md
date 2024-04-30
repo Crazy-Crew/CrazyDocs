@@ -1,5 +1,6 @@
 ---
 title: Armor Trim
+description: Examples of how to use armor trims!
 
 hide_title: false
 hide_table_of_contents: false

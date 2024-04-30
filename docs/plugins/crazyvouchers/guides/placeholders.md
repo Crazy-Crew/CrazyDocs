@@ -9,7 +9,7 @@ pagination_next: null
 pagination_prev: null
 
 sidebar_label: Placeholders
-sidebar_position: 3
+sidebar_position: 2
 ---
 ### Description
 List of different placeholders that can be used in different parts of the plugin.

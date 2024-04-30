@@ -1,5 +1,6 @@
 ---
 title: Custom Items
+description: Examples of how to use custom items!
 
 hide_title: false
 hide_table_of_contents: false

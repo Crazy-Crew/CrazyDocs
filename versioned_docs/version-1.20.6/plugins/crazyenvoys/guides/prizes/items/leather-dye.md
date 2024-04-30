@@ -1,5 +1,6 @@
 ---
 title: Leather Dye
+description: Examples of how to dye your leather!
 
 hide_title: false
 hide_table_of_contents: false

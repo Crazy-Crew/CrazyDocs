@@ -1,5 +1,6 @@
 ---
-title: FAQ
+title: Frequently Asked Questions
+description: Questions frequently asked by our users
 
 hide_title: false
 hide_table_of_contents: false
@@ -7,7 +8,7 @@ hide_table_of_contents: false
 pagination_next: null
 pagination_prev: null
 
-sidebar_label: FAQ
+sidebar_label: Frequently Asked Questions
 sidebar_position: 2
 ---
 ### 1. Why do colors in console look weird?
@@ -15,8 +16,8 @@ sidebar_position: 2
  * -Dnet.kyori.ansi.colorLevel=truecolor
 
 ### 2. What hologram plugins do you support?
- * [DecentHolograms](https://www.spigotmc.org/resources/decentholograms-1-8-1-20-4-papi-support-no-dependencies.96927/)
- * [CMI Holograms](https://www.spigotmc.org/resources/cmi-298-commands-insane-kits-portals-essentials-economy-mysql-sqlite-much-more.3742/)
+* [DecentHolograms](https://www.spigotmc.org/resources/decentholograms-1-8-1-20-4-papi-support-no-dependencies.96927/)
+* [CMI Holograms](https://www.spigotmc.org/resources/cmi-298-commands-insane-kits-portals-essentials-economy-mysql-sqlite-much-more.3742/)
    * Note: CMI Holograms required the holograms module to be enabled in `modules.yml`
 
 ### 3. How do I add items?
@@ -26,7 +27,7 @@ sidebar_position: 2
 
 ### 4. How do I give permissions to players?
  * Use a plugin such as [LuckPerms](https://luckperms.net), Please do read through their [wiki](https://luckperms.net/wiki)
-   * Make sure to check our [Commands](information/commands/permissions) page for updated permissions.
+   * Make sure to check our [Commands](commands/permissions) page for updated permissions.
 
 ### 5. Why can I claim envoys but my players can't?
  #### Potential Solutions

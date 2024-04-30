@@ -1,5 +1,6 @@
 ---
 title: Custom Heads
+description: Examples of how to use custom heads!
 
 hide_title: false
 hide_table_of_contents: false

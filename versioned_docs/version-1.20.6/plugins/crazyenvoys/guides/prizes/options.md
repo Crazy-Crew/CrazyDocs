@@ -1,5 +1,6 @@
 ---
 title: Options
+description: An in-depth guide on how to use the `Items:` section!
 
 hide_title: false
 hide_table_of_contents: false
