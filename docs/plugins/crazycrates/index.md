@@ -17,8 +17,8 @@ CrazyCrates requires you to use **Paper 1.20.6** or a fork of and **Java 21** to
 :::
 
 ### Downloading CrazyCrates
-[![Hangar](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/hangar_46h.png)](https://hangar.papermc.io/CrazyCrew/CrazyCrates)
-[![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/modrinth_46h.png)](https://modrinth.com/plugin/crazycrates)
+[![Hangar](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/hangar_64h.png)](https://hangar.papermc.io/CrazyCrew/CrazyCrates)
+[![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/modrinth_64h.png)](https://modrinth.com/plugin/crazycrates)
 
 ### Feature Requests
 https://github.com/Crazy-Crew/CrazyCrates/discussions/categories/features

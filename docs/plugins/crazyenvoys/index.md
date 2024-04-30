@@ -17,8 +17,8 @@ CrazyEnvoys requires you to use **Paper 1.20.6** or a fork of and **Java 21** to
 :::
 
 ### Downloading CrazyEnvoys
-[![Hangar](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/hangar_46h.png)](https://hangar.papermc.io/CrazyCrew/CrazyEnvoys)
-[![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/modrinth_46h.png)](https://modrinth.com/plugin/crazyenvoys)
+[![Hangar](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/hangar_64h.png)](https://hangar.papermc.io/CrazyCrew/CrazyEnvoys)
+[![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/modrinth_64h.png)](https://modrinth.com/plugin/crazyenvoys)
 
 ### Feature Requests
 https://github.com/Crazy-Crew/CrazyEnvoys/discussions/categories/features
