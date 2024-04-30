@@ -1,24 +1,23 @@
 ---
-id: crazyenvoys-index
-title: CrazyEnvoys Home
-slug: /crazyenvoys/home
+title: CrazyEnvoys
+description: How to get started with CrazyEnvoys
+
 hide_title: false
-hide_table_of_contents: false
 
-pagination_next: null
-pagination_prev: null
-
-sidebar_label: Home
+sidebar_label: Getting Started
+sidebar_position: 1
 ---
-## Welcome to the CrazyEnvoys Wiki!
-#### Use the sidebar to the left to find the topic you're looking for!
+## Requirements
+:::tip
+CrazyEnvoys requires you to use **Paper 1.20.4** or a fork of and **Java 17** to run
+:::
 
-### Downloads
-[![Hangar](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/available/hangar_46h.png)](https://hangar.papermc.io/CrazyCrew/CrazyEnvoys)
-[![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/available/modrinth_46h.png)](https://modrinth.com/plugin/crazyenvoys)
+### Downloading CrazyEnvoys
+[![Hangar](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/hangar_64h.png)](https://hangar.papermc.io/CrazyCrew/CrazyEnvoys)
+[![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/modrinth_64h.png)](https://modrinth.com/plugin/crazyenvoys)
 
-## Other
-https://ci.crazycrew.us/view/crazycrew/job/CrazyEnvoys/
+### Feature Requests
+https://github.com/Crazy-Crew/CrazyEnvoys/discussions/categories/features
 
-### Bug Reports / Feature Requests
-Have an issue/bug or a feature request? Go to the [issues tab](https://github.com/Crazy-Crew/CrazyEnvoys/issues) to submit an issue. Please describe in detail what the issue is.
+### Bug Reports
+https://github.com/Crazy-Crew/CrazyEnvoys/issues

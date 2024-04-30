@@ -1,24 +1,23 @@
 ---
-id: crazycrates-index
-title: CrazyCrates Home
-slug: /crazycrates/home
+title: CrazyCrates
+description: How to get started with CrazyCrates
+
 hide_title: false
-hide_table_of_contents: false
 
-pagination_next: null
-pagination_prev: null
-
-sidebar_label: Home
+sidebar_label: Getting Started
+sidebar_position: 1
 ---
-## Welcome to the CrazyCrates Wiki!
-#### Use the sidebar to the left to find the topic you're looking for!
+## Requirements
+:::tip
+CrazyCrates requires you to use **Paper 1.20.4** or a fork of and **Java 17** to run
+:::
 
-### Downloads
-[![Hangar](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/available/hangar_46h.png)](https://hangar.papermc.io/CrazyCrew/CrazyCrates)
-[![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/available/modrinth_46h.png)](https://modrinth.com/plugin/crazycrates)
+### Downloading CrazyCrates
+[![Hangar](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/hangar_64h.png)](https://hangar.papermc.io/CrazyCrew/CrazyCrates)
+[![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/modrinth_64h.png)](https://modrinth.com/plugin/crazycrates)
 
-## Other
-https://ci.crazycrew.us/view/crazycrew/job/CrazyCrates/
+### Feature Requests
+https://github.com/Crazy-Crew/CrazyCrates/discussions/categories/features
 
-### Bug Reports / Feature Requests
-Have an issue/bug or a feature request? Go to the [issues tab](https://github.com/Crazy-Crew/CrazyCrates/issues) to submit an issue. Please describe in detail what the issue is.
+### Bug Reports
+https://github.com/Crazy-Crew/CrazyCrates/issues
