@@ -24,7 +24,7 @@ We recommend using [LuckPerms](https://luckperms.net/) with our plugin as well a
 - Is the server type supported?
   - We only guaranteed it to work on Paper.
 - Is the server version still supported?
-  - Supported server versions are 1.20.4 and above.
+  - Supported server versions are 1.20.6 and above.
 
 ### 4. Do I need any plugins to run this?
 Check out our [plugin support](information/plugin-support) page.

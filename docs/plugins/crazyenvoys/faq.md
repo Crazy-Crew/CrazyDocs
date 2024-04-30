@@ -20,9 +20,9 @@ sidebar_position: 2
 * You can open the plugin in 7zip, winrar or peazip, nanazip or whatever zip flavor you like and edit the plugin.yml's api-version or simply go to the [modrinth's version tab](https://modrinth.com/plugin/crazyenvoys/versions) and filter by version.
 
 ### 3. What hologram plugins do you support?
- * DecentHolograms
- * CMI Holograms
-   * Note: CMI Holograms required the holograms module to be enabled in `modules.yml`
+* [DecentHolograms](https://www.spigotmc.org/resources/decentholograms-1-8-1-20-4-papi-support-no-dependencies.96927/)
+* [CMI Holograms](https://www.spigotmc.org/resources/cmi-298-commands-insane-kits-portals-essentials-economy-mysql-sqlite-much-more.3742/)
+    * Note: CMI Holograms required the holograms module to be enabled in `modules.yml`
 
 ### 4. How do I add items?
  * Open up your `tiers` folder
