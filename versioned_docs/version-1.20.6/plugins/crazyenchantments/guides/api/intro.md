@@ -1,5 +1,6 @@
 ---
 title: Developer API
+description: Get started with the api
 
 hide_title: false
 hide_table_of_contents: false
@@ -8,6 +9,7 @@ pagination_next: null
 pagination_prev: null
 
 sidebar_label: API Intro
+sidebar_position: 1
 ---
 ## Groovy
 <details>

@@ -1,5 +1,6 @@
 ---
 title: Economy Plugins
+description: A list of supported economy plugins!
 
 hide_title: false
 hide_table_of_contents: true

@@ -1,5 +1,6 @@
 ---
 title:  Shields & Banners
+description: Examples of how to use color/patterns on shields/banners!
 
 hide_title: false
 hide_table_of_contents: false

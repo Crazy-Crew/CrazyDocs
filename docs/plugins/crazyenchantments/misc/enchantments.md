@@ -1,5 +1,6 @@
 ---
 title: Enchantments
+description: A list of valid enchants!
 
 hide_title: true
 hide_table_of_contents: false
