@@ -1,5 +1,6 @@
 ---
 title: Developer API
+description: Get started with the api
 
 hide_title: false
 hide_table_of_contents: false

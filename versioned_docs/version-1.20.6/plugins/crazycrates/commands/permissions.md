@@ -1,5 +1,6 @@
 ---
 title: Permissions
+description: A list of commands with updated permissions
 
 hide_title: false
 hide_table_of_contents: false

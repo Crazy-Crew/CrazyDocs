@@ -33,4 +33,4 @@ userManager.addOpenedCrate(uuid, "CrateName");
 
 ## An example of the api in use in a plugin.
 > https://github.com/Crazy-Crew/ExamplePlugin/tree/main
-> You can compile the plugin using ./gradlew assemble
+> You can compile the plugin using gradle assemble
