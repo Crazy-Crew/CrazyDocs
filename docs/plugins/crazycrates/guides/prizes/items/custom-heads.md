@@ -3,11 +3,6 @@ title: Custom Heads
 description: Examples of how to use custom heads!
 
 hide_title: false
-hide_table_of_contents: false
-
-pagination_next: null
-pagination_prev: null
-
 sidebar_label: Custom Heads
 sidebar_position: 3
 ---

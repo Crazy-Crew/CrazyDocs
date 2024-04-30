@@ -3,11 +3,6 @@ title: Plugin Support
 description: A list of supported plugins!
 
 hide_title: false
-hide_table_of_contents: false
-
-pagination_next: null
-pagination_prev: null
-
 sidebar_label: Plugin Support
 sidebar_position: 1
 ---

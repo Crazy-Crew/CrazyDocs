@@ -2,10 +2,6 @@
 title: Voucher Example Arg
 
 hide_title: false
-hide_table_of_contents: true
-
-pagination_next: null
-pagination_prev: null
 
 sidebar_label: Voucher Example Arg
 sidebar_position: 1

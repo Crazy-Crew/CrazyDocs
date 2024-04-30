@@ -2,10 +2,7 @@
 title: Options
 
 hide_title: true
-hide_table_of_contents: true
 
-pagination_next: null
-pagination_prev: null
 
 sidebar_label: Options
 sidebar_position: 1

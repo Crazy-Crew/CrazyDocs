@@ -3,11 +3,6 @@ title: Chance System
 description: A guide on how the chance system works
 
 hide_title: false
-hide_table_of_contents: false
-
-pagination_next: null
-pagination_prev: null
-
 sidebar_label: Chance System
 sidebar_position: 1
 ---

@@ -3,10 +3,7 @@ title: Options
 description: An in-depth guide on how to use the `Items:` section!
 
 hide_title: true
-hide_table_of_contents: true
 
-pagination_next: null
-pagination_prev: null
 
 sidebar_label: Options
 sidebar_position: 1

@@ -3,11 +3,6 @@ title: Placeholders
 description: A list of the placeholders we use!
 
 hide_title: false
-hide_table_of_contents: false
-
-pagination_next: null
-pagination_prev: null
-
 sidebar_label: Placeholders
 sidebar_position: 2
 ---

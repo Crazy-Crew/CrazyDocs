@@ -3,11 +3,6 @@ title: Tipped Arrows
 description: Example of how to apply custom potions to tipped arrows!
 
 hide_title: false
-hide_table_of_contents: false
-
-pagination_next: null
-pagination_prev: null
-
 sidebar_label: Tipped Arrows
 sidebar_position: 1
 ---

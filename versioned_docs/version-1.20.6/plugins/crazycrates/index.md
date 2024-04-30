@@ -3,11 +3,6 @@ title: CrazyCrates
 description: How to get started with CrazyCrates
 
 hide_title: false
-hide_table_of_contents: false
-
-pagination_next: null
-pagination_prev: null
-
 sidebar_label: Getting Started
 sidebar_position: 1
 ---

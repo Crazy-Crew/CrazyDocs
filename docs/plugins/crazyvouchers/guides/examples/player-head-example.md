@@ -2,10 +2,6 @@
 title: Player Head Example
 
 hide_title: false
-hide_table_of_contents: true
-
-pagination_next: null
-pagination_prev: null
 
 sidebar_label: Player Head Example
 sidebar_position: 2

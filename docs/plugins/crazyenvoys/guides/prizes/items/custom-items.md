@@ -3,11 +3,6 @@ title: Custom Items
 description: Examples of how to use custom items!
 
 hide_title: false
-hide_table_of_contents: false
-
-pagination_next: null
-pagination_prev: null
-
 sidebar_label: Custom Items
 sidebar_position: 4
 ---

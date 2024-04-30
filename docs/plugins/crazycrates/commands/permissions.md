@@ -3,11 +3,6 @@ title: Permissions
 description: A list of commands with updated permissions
 
 hide_title: false
-hide_table_of_contents: false
-
-pagination_next: null
-pagination_prev: null
-
 sidebar_label: Permissions
 ---
 | Command                                                          | Permission                                | Description                                                                     | Default |

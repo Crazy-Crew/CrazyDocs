@@ -3,10 +3,7 @@ title: Enchantments
 description: A list of valid enchants!
 
 hide_title: true
-hide_table_of_contents: false
 
-pagination_next: null
-pagination_prev: null
 
 sidebar_label: Enchantments
 sidebar_position: 2

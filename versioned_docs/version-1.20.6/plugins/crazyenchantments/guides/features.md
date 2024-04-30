@@ -3,10 +3,7 @@ title: Features
 description: Explaining the features of the plugin!
 
 hide_title: true
-hide_table_of_contents: false
 
-pagination_next: null
-pagination_prev: null
 
 sidebar_label: Features
 sidebar_position: 4

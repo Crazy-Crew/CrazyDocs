@@ -3,10 +3,6 @@ title: Economy Plugins
 description: A list of supported economy plugins!
 
 hide_title: false
-hide_table_of_contents: true
-
-pagination_next: null
-pagination_prev: null
 
 sidebar_label: Economy
 sidebar_position: 1
