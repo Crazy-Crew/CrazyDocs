@@ -1,5 +1,6 @@
 ---
 title: Developer API
+description: Get started with the api
 
 hide_title: false
 hide_table_of_contents: false
@@ -58,17 +59,17 @@ dependencies {
 
 ```xml
 <repository>
-  <id>crazycrew-releases</id>
-  <url>https://repo.crazycrew.us/releases</url>
+    <id>crazycrew-releases</id>
+    <url>https://repo.crazycrew.us/releases</url>
 </repository>
 ```
 
 ```xml
 <dependency>
-  <groupId>com.badbones69.crazyvouchers</groupId>
-  <artifactId>crazyvouchers-paper-api</artifactId>
-  <version>3.2.1</version>
-  <scope>provided</scope>
- </dependency>
+    <groupId>com.badbones69.crazyvouchers</groupId>
+    <artifactId>crazyvouchers-paper-api</artifactId>
+    <version>3.2.1</version>
+    <scope>provided</scope>
+</dependency>
 ```
 </details>

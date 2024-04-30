@@ -69,7 +69,7 @@ sidebar_position: 2
 ```
 
 ### 3. The description shows there are 10 different crate types, but I only see 4 crates in the Crates folder?
-There is a difference between [Crates](guides/crates/examples/csgocrate) and [Crate Types](misc/crate-types.md). Each crate has its own CrateType: option in the crate's file to pick which one it is.
+There is a difference between [Crates](guides/crates/examples/csgocrate-example.md) and [Crate Types](misc/crate-types.md). Each crate has its own CrateType: option in the crate's file to pick which one it is.
 
 The crates are the files i.e. example.yml and control all these options:
 * Prizes
@@ -110,7 +110,7 @@ Check out [this page](guides/crates/chance-system) to figure out how the system 
 
 ### 8. When I set a head as a crate and try to use a physical key. It doesn't do anything?
 #### Reason:
-The issue is the item you have set the key to. Certain items cannot be used on certain blocks like `Tripwire Hooks`. Bukkit/Spigot tells our plugin to ignore the click event because they cancelled it, They don't tell us that they right clicked it.
+The issue is the item you have set the key to. Certain items cannot be used on certain blocks like `Tripwire Hooks`. The server tells our plugin to ignore the click event because they cancelled it, They don't tell us that they right clicked it.
 #### Solution:
 Use an item that isn't a `TRIPWIRE_HOOK`, Use a `FEATHER` or something.
 

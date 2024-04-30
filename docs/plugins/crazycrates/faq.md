@@ -69,7 +69,7 @@ sidebar_position: 2
 ```
 
 ### 3. The description shows there are 10 different crate types, but I only see 4 crates in the Crates folder?
-There is a difference between [Crates](guides/crates/examples/csgocrate) and [Crate Types](misc/crate-types.md). Each crate has its own CrateType: option in the crate's file to pick which one it is.
+There is a difference between [Crates](guides/crates/examples/csgocrate-example.md) and [Crate Types](misc/crate-types.md). Each crate has its own CrateType: option in the crate's file to pick which one it is.
 
 The crates are the files i.e. example.yml and control all these options:
 * Prizes
@@ -98,7 +98,7 @@ Adding new crates to CrazyCrates is easy! You have to navigate to the `crates` f
 * Save the file and run `/crazycrates reload`.
 * Profit
 
--> [Crates](guides/crates/examples/csgocrate) - The directory with a list of default crates in case you need them.
+-> [Crates](guides/crates/examples/csgocrate-example.md) - The directory with a list of default crates in case you need them.
 
 ### 6. How does the chance system work?
 Check out [this page](guides/crates/chance-system) to figure out how the system works!
@@ -110,7 +110,7 @@ Check out [this page](guides/crates/chance-system) to figure out how the system 
 
 ### 8. When I set a head as a crate and try to use a physical key. It doesn't do anything?
 #### Reason:
-The issue is the item you have set the key to. Certain items cannot be used on certain blocks like `Tripwire Hooks`. Bukkit/Spigot tells our plugin to ignore the click event because they cancelled it, They don't tell us that they right clicked it.
+The issue is the item you have set the key to. Certain items cannot be used on certain blocks like `Tripwire Hooks`. The server tells our plugin to ignore the click event because they cancelled it, They don't tell us that they right clicked it.
 #### Solution:
 Use an item that isn't a `TRIPWIRE_HOOK`, Use a `FEATHER` or something.
 
@@ -118,9 +118,9 @@ Use an item that isn't a `TRIPWIRE_HOOK`, Use a `FEATHER` or something.
 The alternative prize option is for when a player has already won a prize.
 
 #### Example #1: 
-* The player has a tag from DeluxeTags but you don't want them winning it again.
+* The player has a tag from DeluxeTags, but you don't want them winning it again.
 #### Example #2:
-* The player wins a rank from the crate but they already have said crate.
+* The player wins a rank from the crate, but they already have said crate.
   * The rank the player has will have a permission such as `example.ignore` which will prevent them from winning the prize.
 
 1. User must have one of the permissions to be given the alternative prize.

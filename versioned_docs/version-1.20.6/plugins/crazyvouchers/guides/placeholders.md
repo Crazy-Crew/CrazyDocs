@@ -1,5 +1,6 @@
 ---
 title: Placeholders
+description: A list of the placeholders we use!
 
 hide_title: false
 hide_table_of_contents: false

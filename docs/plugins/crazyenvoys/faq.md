@@ -23,7 +23,7 @@ sidebar_position: 2
 ### 3. How do I add items?
  * Open up your `tiers` folder
  * Open up one of your `.yml` files
- * Scroll down to the `prize` section and copy paste what's already there.
+ * Scroll down to the `prize` section and copy and paste what's already there.
 
 ### 4. How do I give permissions to players?
  * Use a plugin such as [LuckPerms](https://luckperms.net), Please do read through their [wiki](https://luckperms.net/wiki)

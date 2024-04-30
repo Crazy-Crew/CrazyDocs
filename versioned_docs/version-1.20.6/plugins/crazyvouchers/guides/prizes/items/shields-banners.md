@@ -1,5 +1,6 @@
 ---
 title: Shields & Banners
+description: Examples of how to use color/patterns on shields/banners!
 
 hide_title: false
 hide_table_of_contents: false
@@ -12,7 +13,7 @@ sidebar_position: 1
 ---
 ### How to add color and patterns to your shields and banners:
 
-### Information:
+### Information
 Usage: `{Pattern}:{Color}`
 
 RGB: `{Pattern}:{Red},{Green},{Blue}`
@@ -26,13 +27,13 @@ Set the item to either a `BANNER` or a `SHIELD`. Use the option called `Patterns
 
 #### Example
 ```yml
-voucher:
+1:
  # The name of the shield.
- name: '&a&lFancy Shield'
+ DisplayName: '&a&lFancy Shield'
  # The item needs to be SHIELD or BANNER
- item: 'SHIELD'
+ DisplayItem: 'SHIELD'
  # The type of pattern you want on the shield.
- patterns:
+ Patterns:
   - 'HALF_HORIZONTAL:RED'
   - 'RHOMBUS_MIDDLE:BLACK'
   - 'STRIPE_TOP:RED'
@@ -46,7 +47,7 @@ If you wish to give players a banner or shield with the colors and patterns on t
 
 #### Example
 ```yml
-items:
+Items:
   - 'Item:Shield, HALF_HORIZONTAL:RED, RHOMBUS_MIDDLE:BLACK, STRIPE_TOP:RED, STRIPE_BOTTOM:WHITE, STRIPE_MIDDLE:BLACK, CIRCLE_MIDDLE:WHITE'
 ```
 
@@ -55,14 +56,14 @@ This is for if you wish to use a custom color instead of preset ones by Minecraf
 
 #### Example
 ```yml
-voucher:
- name: '&a&lFancy Shield'
- item: 'SHIELD'
- patterns:
+1:
+ DisplayName: '&a&lFancy Shield'
+ DisplayItem: 'SHIELD'
+ Patterns:
   - 'HALF_HORIZONTAL:255,0,0'
 ```
 ```yml
-items:
+Items:
   - 'Item:Shield, HALF_HORIZONTAL:255,0,0'
 ```
 *Note `255,0,0` is red in RGB.

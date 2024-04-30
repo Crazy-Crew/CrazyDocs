@@ -1,5 +1,6 @@
 ---
 title: Custom Heads
+description: Examples of how to use custom heads!
 
 hide_title: false
 hide_table_of_contents: false
@@ -15,26 +16,28 @@ Custom Heads only work on [Paper](https://papermc.io) or [Purpur](https://purpur
 
 #### Warning: always remember to do some research into forks outside of Paper/Purpur including their configurations
 ```yml
-voucher:
-  name: '&cAn example helmet using Trims.'
-  item: 'PLAYER_HEAD'
-  player: 'https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e'
-  items:
-    - 'Item:PLAYER_HEAD, Player:https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Amount:1'
-```
-
-```yml
-item: 'PLAYER_HEAD'
-
-player: 'https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e'
+  Prizes:
+    1:
+      DisplayName: '&cAn example player head.'
+      DisplayItem: 'PLAYER_HEAD'
+      DisplayAmount: 1
+      Player: 'https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e'
+      MaxRange: 100
+      Chance: 5
+      Items:
+        - 'Item:PLAYER_HEAD, Player:https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Amount:1'
 ```
 
 #### You can also do the following if you don't want a custom texture from https://minecraft-heads.com/
 ```yml
-voucher:
-  name: '&cAn example helmet using Trims.'
-  item: 'PLAYER_HEAD'
-  player: 'Badbones69'
-  items:
-    - 'Item:PLAYER_HEAD, Player:Badbones69, Amount:1'
+  Prizes:
+    1:
+      DisplayName: '&cAn example helmet using Trims.'
+      DisplayItem: 'PLAYER_HEAD'
+      DisplayAmount: 1
+      Player: 'Badbones69'
+      MaxRange: 100
+      Chance: 5
+      Items:
+        - 'Item:PLAYER_HEAD, Player:Badbones69, Amount:1'
 ```

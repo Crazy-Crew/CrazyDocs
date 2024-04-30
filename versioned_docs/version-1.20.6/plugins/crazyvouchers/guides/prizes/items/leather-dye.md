@@ -1,5 +1,6 @@
 ---
 title: Leather Dye
+description: Examples of how to dye your leather!
 
 hide_title: false
 hide_table_of_contents: false
@@ -12,13 +13,26 @@ sidebar_position: 5
 ---
 ### An example of how to dye your leather armor!
 ```yml
-items:
+  Prizes:
+    1:
+     DisplayName: '&cAn leather helmet.'
+     DisplayItem: 'LEATHER_HELMET:GREEN'
+     # DisplayItem: 'LEATHER_HELMET:133,50,73'
+     DisplayAmount: 1
+     MaxRange: 100
+     Chance: 1
+     Items:
+     - 'Item:{LEATHER_HELMET/LEATHER_HORSE_ARMOR}:GREEN'
+```
+
+```yml
+Items:
  - Item:{LEATHER_HELMET/LEATHER_HORSE_ARMOR}:GREEN
 ```
 You have a selection of [colors](https://jd.papermc.io/paper/1.20/org/bukkit/Color.html) to use with this option.
 
 ```yml
-items:
+Items:
  - Item:{LEATHER_HELMET/LEATHER_HORSE_ARMOR}:133,50,73
 ```
 This allows you to dye your leather any color you want.
