@@ -34,7 +34,7 @@ const config: Config = {
           versions: {
             current: {
               label: '1.20.4',
-              path: '1.20.4',
+              path: '',
               banner: 'none',
             },
             '1.20.6': {
