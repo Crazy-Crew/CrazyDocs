@@ -3,6 +3,7 @@ title: Frequently Asked Questions
 description: Questions frequently asked by our users
 
 hide_title: false
+
 sidebar_label: Frequently Asked Questions
 sidebar_position: 2
 ---

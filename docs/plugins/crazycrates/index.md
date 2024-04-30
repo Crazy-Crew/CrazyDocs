@@ -3,6 +3,7 @@ title: CrazyCrates
 description: How to get started with CrazyCrates
 
 hide_title: false
+
 sidebar_label: Getting Started
 sidebar_position: 1
 ---

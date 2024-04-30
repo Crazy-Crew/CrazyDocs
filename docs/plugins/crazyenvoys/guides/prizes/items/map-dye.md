@@ -3,6 +3,7 @@ title: Map Dye
 description: Examples of how to dye your maps!
 
 hide_title: false
+
 sidebar_label: Map Dye
 sidebar_position: 8
 ---

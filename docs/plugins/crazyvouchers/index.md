@@ -3,6 +3,7 @@ title: Getting Started
 description: How to get started with CrazyVouchers
 
 hide_title: false
+
 sidebar_label: Getting Started
 sidebar_position: 1
 ---

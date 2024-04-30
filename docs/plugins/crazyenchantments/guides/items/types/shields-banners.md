@@ -1,8 +1,9 @@
 ---
-title:  Shields & Banners
+title: Shields & Banners
 description: Examples of how to use color/patterns on shields/banners!
 
 hide_title: false
+
 sidebar_label: Shields & Banners
 sidebar_position: 1
 ---

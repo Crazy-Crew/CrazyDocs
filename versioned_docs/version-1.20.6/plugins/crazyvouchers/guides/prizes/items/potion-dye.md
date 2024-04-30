@@ -3,6 +3,7 @@ title: Potion Dye
 description: Examples of how to dye your potions!
 
 hide_title: false
+
 sidebar_label: Potion Dye
 sidebar_position: 6
 ---

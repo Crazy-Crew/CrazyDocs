@@ -3,6 +3,7 @@ title: Armor Trim
 description: Examples of how to use armor trims!
 
 hide_title: false
+
 sidebar_label: Armor Trim
 sidebar_position: 7
 ---

@@ -3,6 +3,7 @@ title: Plugin Support
 description: A list of plugins we support!
 
 hide_title: false
+
 sidebar_label: Plugin Support
 sidebar_position: 3
 ---

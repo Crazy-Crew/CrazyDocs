@@ -3,6 +3,7 @@ title: Developer API
 description: Get started with the api
 
 hide_title: false
+
 sidebar_label: API Intro
 sidebar_position: 1
 ---

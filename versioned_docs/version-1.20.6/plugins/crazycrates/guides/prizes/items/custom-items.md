@@ -3,6 +3,7 @@ title: Custom Items
 description: Examples of how to use custom items!
 
 hide_title: false
+
 sidebar_label: Custom Items
 sidebar_position: 4
 ---

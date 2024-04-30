@@ -3,6 +3,7 @@ title: Custom Heads
 description: Examples of how to use custom heads!
 
 hide_title: false
+
 sidebar_label: Custom Heads
 sidebar_position: 3
 ---

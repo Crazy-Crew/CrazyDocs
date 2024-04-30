@@ -3,6 +3,7 @@ title: Translations
 description: Translations made by our community!
 
 hide_title: false
+
 sidebar_label: Translations
 sidebar_position: 3
 ---

@@ -3,6 +3,7 @@ title: Placeholders
 description: A list of the placeholders we use!
 
 hide_title: false
+
 sidebar_label: Placeholders
 sidebar_position: 2
 ---
