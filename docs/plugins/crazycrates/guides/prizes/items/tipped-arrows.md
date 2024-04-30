@@ -1,5 +1,6 @@
 ---
 title: Tipped Arrows
+description: Example of how to apply custom potions to tipped arrows!
 
 hide_title: false
 hide_table_of_contents: false
@@ -23,7 +24,7 @@ sidebar_position: 1
      MaxRange: 100
      Chance: 1
      Items:
-     - 'Item:{LEATHER_HELMET/LEATHER_HORSE_ARMOR}:GREEN'
+     - 'Item:TIPPED_ARROW:{POTION_EFFECT}'
 ```
 
 ### 1. How to make a tipped arrow as a prize item:

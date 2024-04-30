@@ -1,5 +1,6 @@
 ---
 title: Crate Types
+description: A list of valid crate types!
 
 hide_title: false
 hide_table_of_contents: true
@@ -11,8 +12,8 @@ sidebar_label: Crate Types
 sidebar_position: 2
 ---
 ### List of all Crate Types
-- `Cosmic` See [Cosmic Crate Example](../../info/crates/examples/cosmiccrate)
-- `Casino` See [Casino Crate Example](../../info/crates/examples/casinocrate)
+- `Cosmic` See [Cosmic Crate Example](../crates/examples/cosmiccrate)
+- `Casino` See [Casino Crate Example](../crates/examples/casinocrate)
 - `CrateOnTheGo`
 - `CSGO`
 - `FireCracker`

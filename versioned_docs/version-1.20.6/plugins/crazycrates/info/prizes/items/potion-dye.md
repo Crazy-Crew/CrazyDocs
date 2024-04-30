@@ -1,5 +1,6 @@
 ---
 title: Potion Dye
+description: Examples of how to dye your potions!
 
 hide_title: false
 hide_table_of_contents: false

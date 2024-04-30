@@ -1,5 +1,6 @@
 ---
 title: Overview
+description: The welcome mat with all the bells and whistles
 
 hide_title: true
 hide_table_of_contents: true

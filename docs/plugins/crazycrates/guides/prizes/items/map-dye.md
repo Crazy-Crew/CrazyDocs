@@ -1,5 +1,6 @@
 ---
 title: Map Dye
+description: Examples of how to dye your maps!
 
 hide_title: false
 hide_table_of_contents: false

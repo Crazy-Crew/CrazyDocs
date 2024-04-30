@@ -1,6 +1,6 @@
 ---
 title: Plugin Support
-description: A list of plugins we support!
+description: A list of supported plugins!
 
 hide_title: false
 hide_table_of_contents: false

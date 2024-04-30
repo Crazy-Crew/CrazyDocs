@@ -1,5 +1,6 @@
 ---
 title: Crate Types
+description: A list of valid crate types!
 
 hide_title: false
 hide_table_of_contents: true
