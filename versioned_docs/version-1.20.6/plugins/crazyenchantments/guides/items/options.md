@@ -4,7 +4,6 @@ description: An in-depth guide on how to use the `Items:` section!
 
 hide_title: true
 
-
 sidebar_label: Options
 sidebar_position: 1
 ---

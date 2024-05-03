@@ -6,7 +6,7 @@ hide_title: true
 
 
 sidebar_label: Features
-sidebar_position: 4
+sidebar_position: 2
 ---
 ## Tinkerer
 The Tinkerer is a tool that allows you to recycle old enchanted items such as armor, tools, weapons, or enchantment books. Instead of discarding them into the lava, you can use the Tinkerer to receive rewards such as XP and mystery dust in exchange for these items.
