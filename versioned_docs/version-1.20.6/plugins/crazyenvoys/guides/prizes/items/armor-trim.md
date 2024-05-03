@@ -11,9 +11,43 @@ sidebar_position: 7
 ## Armor Trim
 *All armor types ( including `Turtle Helmet` ) except `Leather Armor` support trims*
 
-### [Trim Materials](https://jd.papermc.io/paper/1.20/org/bukkit/inventory/meta/trim/TrimMaterial.html)
+<details>
+  <summary>Trim Materials</summary>
 
-### [Trim Patterns](https://jd.papermc.io/paper/1.20/org/bukkit/inventory/meta/trim/TrimPattern.html)
+* amethyst
+* copper
+* diamond
+* emerald
+* gold
+* iron
+* lapis
+* netherite
+* quartz
+* redstone
+</details>
+
+<details>
+  <summary>Trim Patterns</summary>
+
+* bolt
+* coast
+* dune
+* eye
+* flow
+* host
+* raiser
+* rib
+* sentry
+* shaper
+* silence
+* snout
+* spire
+* tide
+* vex
+* ward
+* wayfinder
+* wild
+</details>
 
 #### An example of how to use the `QUARTZ` trim with pattern `SENTRY` in a prize.
 ```yml

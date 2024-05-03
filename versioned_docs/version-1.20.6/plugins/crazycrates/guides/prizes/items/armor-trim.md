@@ -11,40 +11,74 @@ sidebar_position: 7
 ## Armor Trim
 *All armor types ( including `Turtle Helmet` ) except `Leather Armor` support trims*
 
-### [Trim Materials](https://jd.papermc.io/paper/1.20/org/bukkit/inventory/meta/trim/TrimMaterial.html)
+<details>
+  <summary>Trim Materials</summary>
 
-### [Trim Patterns](https://jd.papermc.io/paper/1.20/org/bukkit/inventory/meta/trim/TrimPattern.html)
+  * amethyst
+  * copper
+  * diamond
+  * emerald
+  * gold
+  * iron
+  * lapis
+  * netherite
+  * quartz
+  * redstone
+</details>
 
-#### An example of how to use the `QUARTZ` trim with pattern `SENTRY` in a prize.
+<details>
+  <summary>Trim Patterns</summary>
+
+  * bolt
+  * coast
+  * dune
+  * eye
+  * flow
+  * host
+  * raiser
+  * rib
+  * sentry
+  * shaper
+  * silence
+  * snout
+  * spire
+  * tide
+  * vex
+  * ward
+  * wayfinder
+  * wild
+</details>
+
+#### An example of how to use the `quartz` trim with pattern `sentry` in a prize.
 ```yml
 Crate:
   Prizes:
     1:
-     DisplayName: '&cAn example helmet using Trims.'
-     DisplayItem: 'GOLDEN_HELMET'
+     DisplayName: '<red>An example helmet using Trims.'
+     DisplayItem: 'golden_helmet'
      DisplayAmount: 1
      DisplayTrim:
-       Material: 'QUARTZ'
-       Pattern: 'SENTRY'
+       Material: 'quartz'
+       Pattern: 'sentry'
      MaxRange: 100
      Chance: 1
      Items:
-     - 'Item:GOLDEN_HELMET, Amount:1, Trim-Material:QUARTZ, Trim-Pattern: SENTRY, Name: &cAn example helmet using Trims.'
+     - 'Item:golden_helmet, Amount:1, Trim-Material:quartz, Trim-Pattern:sentry, Name:<red>An example helmet using trims.'
 ```
 
-#### An example but instead with `TURTLE_HELMET`
+#### An example but instead with `turtle_helmet`
 ```yml
 Crate:
   Prizes:
     1:
-     DisplayName: '&cAn example helmet using Trims.'
-     DisplayItem: 'TURTLE_HELMET'
+     DisplayName: '<red>An example helmet using Trims.'
+     DisplayItem: 'turtle_helmet'
      DisplayAmount: 1
      DisplayTrim:
-       Material: 'QUARTZ'
-       Pattern: 'SENTRY'
+       Material: 'quartz'
+       Pattern: 'sentry'
      MaxRange: 100
      Chance: 1
      Items:
-     - 'Item:TURTLE_HELMET, Amount:1, Trim-Material:QUARTZ, Trim-Pattern: SENTRY, Name: &cAn example helmet using Trims.'
+     - 'Item:turtle_helmet, Amount:1, Trim-Material:quartz, Trim-Pattern:sentry, Name:<red>An example helmet using trims.'
 ```
