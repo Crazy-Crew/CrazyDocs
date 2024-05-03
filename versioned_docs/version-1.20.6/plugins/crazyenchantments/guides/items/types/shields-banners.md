@@ -12,9 +12,17 @@ Usage: `<Pattern>:<Color>`
 
 RGB: `<Pattern>:<Red>,<Green>,<Blue>`
 
-[Colors](https://jd.papermc.io/paper/1.20/org/bukkit/DyeColor.html)
+<details>
+  <summary>Dye Colors</summary>
 
-[Pattern Types](https://jd.papermc.io/paper/1.20/org/bukkit/block/banner/PatternType.html)
+* https://jd.papermc.io/paper/1.20/org/bukkit/DyeColor.html
+</details>
+
+<details>
+  <summary>Pattern Types</summary>
+
+* https://jd.papermc.io/paper/1.20/org/bukkit/block/banner/PatternType.html
+</details>
 
 *Note that the RGB option may not always work due to some internal stuff in MC that doesn't always let every colorwork.
 
@@ -27,8 +35,8 @@ Example:
   Gkitz:
     Hero:
       Display:
-        Name: '&a&lFancy Shield'
-        Item: 'SHIELD'
+        Name: '<bold><green>Fancy Shield</green></bold>'
+        Item: 'shield'
         Patterns:
          - 'HALF_HORIZONTAL:RED'
          - 'RHOMBUS_MIDDLE:BLACK'
@@ -44,7 +52,7 @@ If you wish to give players a banner or shield with the colors and patterns on t
 Example:
 ```yaml
 Items:
-  - 'Item:Shield, HALF_HORIZONTAL:RED, RHOMBUS_MIDDLE:BLACK, STRIPE_TOP:RED, STRIPE_BOTTOM:WHITE, STRIPE_MIDDLE:BLACK, CIRCLE_MIDDLE:WHITE'
+  - 'Item:shield, HALF_HORIZONTAL:RED, RHOMBUS_MIDDLE:BLACK, STRIPE_TOP:RED, STRIPE_BOTTOM:WHITE, STRIPE_MIDDLE:BLACK, CIRCLE_MIDDLE:WHITE'
 ```
 
 ### RGB Example
@@ -55,13 +63,13 @@ Example:
   Gkitz:
     Hero:
       Display:
-        Name: '&a&lFancy Shield'
-        Item: 'SHIELD'
+        Name: '<bold><green>Fancy Shield</green></bold>'
+        Item: 'shield'
         Patterns:
         - 'HALF_HORIZONTAL:255,0,0'
 ```
 ```yaml
 Items:
-  - 'Item:Shield, HALF_HORIZONTAL:255,0,0'
+  - 'Item:shield, HALF_HORIZONTAL:255,0,0'
 ```
 *Note `255,0,0` is red in RGB.

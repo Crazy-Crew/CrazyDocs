@@ -12,9 +12,17 @@ Usage: `<Pattern>:<Color>`
 
 RGB: `<Pattern>:<Red>,<Green>,<Blue>`
 
-[Colors](https://jd.papermc.io/paper/1.20/org/bukkit/DyeColor.html)
+<details>
+  <summary>Dye Colors</summary>
 
-[Pattern Types](https://jd.papermc.io/paper/1.20/org/bukkit/block/banner/PatternType.html)
+  * https://jd.papermc.io/paper/1.20/org/bukkit/DyeColor.html
+</details>
+
+<details>
+  <summary>Pattern Types</summary>
+
+  * https://jd.papermc.io/paper/1.20/org/bukkit/block/banner/PatternType.html
+</details>
 
 *Note that the RGB option may not always work due to some internal stuff in MC that doesn't always let every colorwork.
 
@@ -27,7 +35,7 @@ Example:
   Gkitz:
     Hero:
       Display:
-        Name: '&a&lFancy Shield'
+        Name: '<bold><green>Fancy Shield</green></bold>'
         Item: 'SHIELD'
         Patterns:
          - 'HALF_HORIZONTAL:RED'
@@ -55,7 +63,7 @@ Example:
   Gkitz:
     Hero:
       Display:
-        Name: '&a&lFancy Shield'
+        Name: '<bold><green>Fancy Shield</green></bold>'
         Item: 'SHIELD'
         Patterns:
         - 'HALF_HORIZONTAL:255,0,0'
