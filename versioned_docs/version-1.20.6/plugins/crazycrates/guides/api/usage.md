@@ -10,14 +10,14 @@ sidebar_label: API Usage
 ```java
 UserManager userManager = CratesProvider.get().getUserManager():
 
-userManager.addKeys(5, uuid, "CrateName", KeyType.virtual_key);
+userManager.addKeys(uuid, "CrateName", KeyType.virtual_key, 5);
 ```
 
 ## Add physical keys to a player
 ```java
 UserManager userManager = CratesProvider.get().getUserManager():
 
-userManager.addKeys(5, uuid, "CrateName", KeyType.physical_key);
+userManager.addKeys(uuid, "CrateName", KeyType.physical_key, 5);
 ```
 
 ## Update or add how many times a player has opened a crate.
