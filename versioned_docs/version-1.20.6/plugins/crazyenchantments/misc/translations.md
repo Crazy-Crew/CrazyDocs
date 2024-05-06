@@ -7,7 +7,6 @@ hide_title: false
 sidebar_label: Translations
 sidebar_position: 4
 ---
-## Do you have a translation for us? Submit it here by creating a pull request!
 :::tip
 This requires you to fork CrazyDocs to make your changes and make a pull request!
 The layout of the page is undecided but that can be figured out eventually.
