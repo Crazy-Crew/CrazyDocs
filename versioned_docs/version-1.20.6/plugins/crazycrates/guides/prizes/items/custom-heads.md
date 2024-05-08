@@ -17,11 +17,11 @@ Custom Heads only work on [Paper](https://papermc.io) or [Purpur](https://purpur
       DisplayName: '&cAn example player head.'
       DisplayItem: 'PLAYER_HEAD'
       DisplayAmount: 1
-      Player: 'https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e'
+      Player: '1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e'
       MaxRange: 100
       Chance: 5
       Items:
-        - 'Item:PLAYER_HEAD, Player:https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Amount:1'
+        - 'Item:PLAYER_HEAD, Player:1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Amount:1'
 ```
 
 #### You can also do the following if you don't want a custom texture from https://minecraft-heads.com/

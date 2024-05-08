@@ -100,17 +100,14 @@ This option is used to set the player of a player head item. You can use a few d
 #### Options
 - Player's Name Usage:
     - `Player:BadBones69`
-- Hash/Base64 Usage:
-    - `Player:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWVlMzEyNmZmMmMzNDNkYTUyNWVlZjJiOTMyNzJiOWZlZDM2MjczZDBlYTA4YzI2MTZiODAwMDk5NDhhZDU3ZSJ9fX0=`
 - URL Usage:
-    - `Player:http://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e`
+    - `Player:1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e`
 
 #### Examples
 ```yaml
 Items:
   - 'Item:PLAYER_HEAD, Player:BadBones69'
-  - 'Item:PLAYER_HEAD, Player:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWVlMzEyNmZmMmMzNDNkYTUyNWVlZjJiOTMyNzJiOWZlZDM2MjczZDBlYTA4YzI2MTZiODAwMDk5NDhhZDU3ZSJ9fX0='
-  - 'Item:PLAYER_HEAD, Player:https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e'
+  - 'Item:PLAYER_HEAD, Player:1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e'
 ```
 
 ### `Unbreakable-Item:`

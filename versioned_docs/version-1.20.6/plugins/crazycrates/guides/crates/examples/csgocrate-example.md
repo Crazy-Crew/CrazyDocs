@@ -158,13 +158,13 @@ Crate:
       Chance: 25 # The chance out of MaxRange to win an item.
 
       # Can be a name as well.
-      Player: "https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e" # Custom Texture Example.
+      Player: "1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e" # Custom Texture Example.
 
       # If you do not want a player supplied, Set the "Player:" to look like the line below.
       # Player: ""
 
       Items: # Give any item you want to the winning player & with a custom texture.
-        - "Item:PLAYER_HEAD, Player:https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Amount:1"
+        - "Item:PLAYER_HEAD, Player:1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Amount:1"
       # If you do not want to give items, Set the "Items:" to look like the line below.
       # Items: []
 
