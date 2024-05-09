@@ -45,13 +45,10 @@ Items:
   - 'Item:Potion:Heal'
 ```
 
-1.9-1.12.2 Mob Eggs:
-- `Item:{MONSTER_EGG}:{Mob Name}`
-
-#### Example
+#### Mob Eggs
 ```yaml
 Items:
-  - 'Item:MONSTER_EGG:Creeper'
+  - 'Item:creeper_egg'
 ```
 
 ### `Name:`
