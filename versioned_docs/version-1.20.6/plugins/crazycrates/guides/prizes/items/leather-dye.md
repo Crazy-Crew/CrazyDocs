@@ -12,24 +12,24 @@ sidebar_position: 5
   Prizes:
     1:
      DisplayName: '&cAn leather helmet.'
-     DisplayItem: 'LEATHER_HELMET:GREEN'
-     # DisplayItem: 'LEATHER_HELMET:133,50,73'
+     DisplayItem: 'leather_helmet:GREEN'
+     # DisplayItem: 'leather_helmet:133,50,73'
      DisplayAmount: 1
      MaxRange: 100
      Chance: 1
      Items:
-     - 'Item:{LEATHER_HELMET/LEATHER_HORSE_ARMOR}:GREEN'
+      - 'Item:{leather_helmet/leather_horse_armor}:GREEN'
 ```
 
 ```yml
 Items:
- - Item:{LEATHER_HELMET/LEATHER_HORSE_ARMOR}:GREEN
+ - 'Item:{leather_helmet/leather_horse_armor}:GREEN'
 ```
 You have a selection of [colors](https://jd.papermc.io/paper/1.20/org/bukkit/Color.html) to use with this option.
 
 ```yml
 Items:
- - Item:{LEATHER_HELMET/LEATHER_HORSE_ARMOR}:133,50,73
+ - Item:{leather_helmet/leather_horse_armor}:133,50,73
 ```
 This allows you to dye your leather any color you want.
 

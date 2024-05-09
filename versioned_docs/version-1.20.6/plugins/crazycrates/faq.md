@@ -16,7 +16,7 @@ sidebar_position: 2
       # The name of the prize in the preview.
       DisplayName: 'Example Prize' # Required
       # The item shown in the preview.
-      DisplayItem: 'CHEST' # Required
+      DisplayItem: 'chest' # Required
       # Only works on items with durability. This will make the item appear more damaged.
       # It does not set the durability but subtracts this number from the durability
       # Durability is 100, It subtracts 1.

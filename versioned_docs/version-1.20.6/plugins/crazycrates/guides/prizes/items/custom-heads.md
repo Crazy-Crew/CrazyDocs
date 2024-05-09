@@ -15,13 +15,13 @@ Custom Heads only work on [Paper](https://papermc.io) or [Purpur](https://purpur
   Prizes:
     1:
       DisplayName: '&cAn example player head.'
-      DisplayItem: 'PLAYER_HEAD'
+      DisplayItem: 'player_head'
       DisplayAmount: 1
       Player: '1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e'
       MaxRange: 100
       Chance: 5
       Items:
-        - 'Item:PLAYER_HEAD, Player:1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Amount:1'
+        - 'Item:player_head, Player:1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Amount:1'
 ```
 
 #### You can also do the following if you don't want a custom texture from https://minecraft-heads.com/
@@ -29,11 +29,11 @@ Custom Heads only work on [Paper](https://papermc.io) or [Purpur](https://purpur
   Prizes:
     1:
       DisplayName: '&cAn example helmet using Trims.'
-      DisplayItem: 'PLAYER_HEAD'
+      DisplayItem: 'player_head'
       DisplayAmount: 1
       Player: 'Badbones69'
       MaxRange: 100
       Chance: 5
       Items:
-        - 'Item:PLAYER_HEAD, Player:Badbones69, Amount:1'
+        - 'Item:player_head, Player:Badbones69, Amount:1'
 ```

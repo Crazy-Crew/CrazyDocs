@@ -11,25 +11,25 @@ sidebar_position: 6
 ```yml
   Prizes:
     1:
-     DisplayName: '&cAn leather helmet.'
-     DisplayItem: 'POTION:GREEN'
-     # DisplayItem: 'POTION:133,50,73'
+     DisplayName: '&cA green potion.'
+     DisplayItem: 'potion:GREEN'
+     # DisplayItem: 'potion:133,50,73'
      DisplayAmount: 1
      MaxRange: 100
      Chance: 1
      Items:
-     - 'Item:POTION:GREEN'
+     - 'Item:potion:GREEN'
 ```
 ```yml
 Items:
- - Item:POTION:GREEN
+ - Item:potion:GREEN
 ```
 This allows you to dye your potion green.
 You have a selection of [colors](https://jd.papermc.io/paper/1.20/org/bukkit/Color.html) to use with this option.
 
 ```yml
 Items:
- - Item:POTION:133,50,73
+ - Item:potion:133,50,73
 ```
 This allows you to dye your potion any color.
 

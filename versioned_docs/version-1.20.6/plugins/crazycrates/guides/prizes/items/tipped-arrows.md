@@ -13,31 +13,31 @@ sidebar_position: 1
 ```yml
   Prizes:
     1:
-     DisplayName: '&cAn leather helmet.'
-     DisplayItem: 'TIPPED_ARROW:{POTION_EFFECT}'
-     # DisplayItem: 'TIPPED_ARROW:FIRE_RESISTANCE'
+     DisplayName: '&cAn arrow with a potion effect.'
+     DisplayItem: 'tipped_arrow:{POTION_EFFECT}'
+     # DisplayItem: 'tipped_arrow:fire_resistance'
      DisplayAmount: 1
      MaxRange: 100
      Chance: 1
      Items:
-     - 'Item:TIPPED_ARROW:{POTION_EFFECT}'
+     - 'Item:tipped_arrow:{POTION_EFFECT}'
 ```
 
 ### 1. How to make a tipped arrow as a prize item:
 ```yml
 Items:
- - Item:TIPPED_ARROW:{POTION_EFFECT}, Amount:64, Name:Posion Arrow
+ - Item:tipped_arrow:{POTION_EFFECT}, Amount:64, Name:Posion Arrow
 ```
 #### Example
 ```yml
 Items:
- - Item:TIPPED_ARROW:POISON, Amount:64, Name:Posion Arrow
+ - Item:tipped_arrow:poison, Amount:64, Name:Posion Arrow
 ```
 ### 2. How to make a tipped arrow as a display item:
 ```yml
-DisplayItem: TIPPED_ARROW:{POTION_EFFECT}
+DisplayItem: tipped_arrow:{POTION_EFFECT}
 ```
 #### Example
 ```yml
-DisplayItem: TIPPED_ARROW:FIRE_RESISTANCE
+DisplayItem: tipped_arrow:fire_resistance
 ```
