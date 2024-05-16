@@ -1,40 +1,38 @@
 ---
-title: QuickCrate
+title: Quad Crate
 
 hide_title: false
 
-sidebar_label: QuickCrate Example
+sidebar_label: QuadCrate
 ---
 ```yml
 Crate:
-  # Type of crate -> CSGO/Casino/Cosmic/QuadCrate/QuickCrate/Roulette/CrateOnTheGo/FireCracker/Wonder/Wheel/War
+  # https://docs.crazycrew.us/docs/plugins/crazycrates/misc/crate-types
 
   # Make sure to check out the wiki for anything not explained here.
-  # https://docs.crazycrew.us/crazycrates/home
+  # https://docs.crazycrew.us/docs/category/crazycrates
 
-  # See CosmicCrateExample.yml or CasinoExample.yml to see how the Cosmic/Casino CrateType works.
-
-  # QuickCrate simply allows you to speed open crates.
-  CrateType: QuickCrate
+  # See CosmicCrate.yml or CasinoCrate.yml to see how the Cosmic/Casino CrateType works.
+  CrateType: QuadCrate
   # Name of the Inventory if a GUI crate.
-  CrateName: "<yellow>Classic Crate"
+  CrateName: "<blue>Quad Crate"
   # The name of the inventory that will be in the preview GUI.
-  Preview-Name: "<yellow>Classic Crate Preview"
+  Preview-Name: "<blue>Quad Crate Preview"
   # Starting amount of keys when the player 1st joins.
   StartingKeys: 0
   # The amount of keys required to use the crate.
   RequiredKeys: 0
-  # Max amount of crates that can be opened at once using /cc mass-open
+  # Max amount of crates that can be opened at once using /crates mass-open
   Max-Mass-Open: 10
-  # If the crate shows in the /cc GUI.
+  # If the crate shows in the /crates.
   # If the type is QuickCrate/CrateOnTheGo/FireCracker, They will not work as they require a Physical Crate.
   InGUI: true
   # Slot the item is in the GUI.
-  Slot: 14
+  Slot: 32
   # Enables/Disables the Broadcasts message when they open a crate.
   OpeningBroadCast: true
   # Message that is broadcast when opening the crate.
-  BroadCast: "%prefix%<bold><gold>%player%</bold><reset> <gray>is opening a <bold><yellow>Classic Crate.</bold>"
+  BroadCast: "%prefix%<bold><gold>%player%</bold><reset> <gray>is opening a <bold><blue>Quad Crate.</bold>"
   # This section is related to commands opening when a crate is opened.
   opening-command:
     # If the commands should be sent or not.
@@ -49,9 +47,9 @@ Crate:
     cycle-sound:
       # If sound should be enabled or not.
       toggle: true
-      # The type of sound to use.
-      # https://jd.papermc.io/paper/1.20/org/bukkit/Sound.html
-      value: "BLOCK_NOTE_BLOCK_XYLOPHONE"
+      # The type of sound to use. Custom sounds from texture packs are supported!
+      # https://minecraft.wiki/w/Sounds.json#Java_Edition_values
+      value: "block.note_block.xylophone"
       # The volume of the pitch.
       volume: 1.0
       # The speed of the sound.
@@ -60,9 +58,9 @@ Crate:
     click-sound:
       # If sound should be enabled or not.
       toggle: true
-      # The type of sound to use.
-      # https://jd.papermc.io/paper/1.20/org/bukkit/Sound.html
-      value: "UI_BUTTON_CLICK"
+      # The type of sound to use. Custom sounds from texture packs are supported!
+      # https://minecraft.wiki/w/Sounds.json#Java_Edition_values
+      value: "ui.button.click"
       # The volume of the pitch.
       volume: 1.0
       # The speed of the sound.
@@ -71,13 +69,19 @@ Crate:
     stop-sound:
       # If sound should be enabled or not.
       toggle: true
-      # The type of sound to use.
-      # https://jd.papermc.io/paper/1.20/org/bukkit/Sound.html
-      value: "ENTITY_PLAYER_LEVELUP"
+      # The type of sound to use. Custom sounds from texture packs are supported!
+      # https://minecraft.wiki/w/Sounds.json#Java_Edition_values
+      value: "entity.player.levelup"
       # The volume of the pitch.
       volume: 1.0
       # The speed of the sound.
       pitch: 1.0
+  # Only used for quadcrates
+  particles:
+    # Only used for "dust" particle
+    color: "235,64,52"
+    # https://minecraft.wiki/w/Particles_(Java_Edition)
+    type: "crimson_spore"
   # A default message if the prize doesn't have any Messages
   # i.e. Messages: [] or the value isn't there.
   Prize-Message:
@@ -86,11 +90,11 @@ Crate:
   # i.e. Commands: [] or the value isn't there.
   Prize-Commands: []
   # Item the crate is in the GUI
-  Item: "CHEST"
-  # If the crate in the main /cc GUI is glowing or not.
+  Item: "brewing_stand"
+  # If the crate in the main /crates is glowing or not.
   Glowing: false
   # Name of the item in the GUI.
-  Name: "<bold><yellow>Classic Crate</bold>"
+  Name: "<bold><blue>Quad Crate</bold>"
   # The lore of the item in the GUI.
   Lore:
     - "<gray>This crate contains strange objects."
@@ -108,16 +112,22 @@ Crate:
       # The name of the border item.
       Name: " "
       # The item that shows in the border. Can be glass or any other item.
-      Item: "GRAY_STAINED_GLASS_PANE"
+      Item: "gray_stained_glass_pane"
+  # This section is related to .nbt files.
+  structure:
+    # If it should randomly use an .nbt file.
+    random: true
+    # The file to use inside schematic"s folder.
+    file: "classic.nbt"
   PhysicalKey:
     # Name of the Key.
-    Name: "<bold><yellow>Classic Crate Key</bold>"
+    Name: "<bold><blue>Quad Crate Key</bold>"
     # Lore of the Key.
     Lore:
       - "<gray>A special Key"
       - "<gray>For a special Crate."
     # The item the key is.
-    Item: "TRIPWIRE_HOOK"
+    Item: "light_blue_dye"
     # Makes the key look enchanted.
     Glowing: true
   # Settings for the holograms.
@@ -134,64 +144,88 @@ Crate:
     # The message that will be displayed above the crate.
     # Note: MiniMessage or Color Codes being supported is depending on the 'holograms' plugin.
     Message:
-      - "<bold><yellow>Classic Crate</bold>"
+      - "<bold><blue>Quad Crate</bold>"
   Prizes:
-    1:
+    '1':
+      # The name of the item to display in the gui.
+      DisplayName: "<gold>Ryder Belserion"
+      # The item to display in the gui.
+      DisplayItem: "player_head"
+      # The amount to display in the gui.
+      DisplayAmount: 1
+      # The max range i.e. 1/100 = 1% chance to win.
+      MaxRange: 100
+      # The chance to win i.e. 1%
+      Chance: 1
+      # Tiers are available in Cosmic and Casino crate types.
+      # The Tiers the rewards can be found in.
+      Tiers:
+        - "Basic"
+      # An example of a custom player head.
+      # This can be a player head as well.
+      # https://minecraft-heads.com/
+      Player: "1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e"
+    "2":
+      # The name of the item to display in the gui.
       DisplayName: "<bold><green>Fancy Pants</bold>"
-      DisplayItem: "CHAINMAIL_LEGGINGS"
+      # The item to display in the gui.
+      DisplayItem: "chainmail_leggings"
+      # The enchants on the item.
+      DisplayEnchantments:
+        - "protection:2"
       # Only works on items with durability. This will make the item appear more damaged.
       # It does not set the durability but subtracts this number from the durability is 100, It subtracts 75.
       # It cannot be 0.
       DisplayDamage: 75
+      # https://docs.crazycrew.us/docs/plugins/crazycrates/guides/prizes/items/armor-trim
       DisplayTrim:
-        # Available Materials: https://jd.papermc.io/paper/1.20/org/bukkit/inventory/meta/trim/TrimMaterial.html
-        Material: "QUARTZ"
-        # Available Patterns: https://jd.papermc.io/paper/1.20/org/bukkit/inventory/meta/trim/TrimPattern.html
-        Pattern: "SENTRY"
+        # The list of materials to use can be found on the link above
+        Material: "lapis"
+        # The list of patterns to use can be found on the link above
+        Pattern: "sentry"
+      # The amount to display in the gui.
       DisplayAmount: 1
+      # The max range i.e. 40/1000 = 4% chance to win.
+      MaxRange: 1000
+      # The chance to win i.e. 4%
+      Chance: 40
+      # The lore of the item.
       Lore:
         - "<gray>Win a fancy pair of pants."
-        - "<bold><gold>Chance: <red>40%</bold>"
-      DisplayEnchantments:
-        - "PROTECTION_ENVIRONMENTAL:2"
-      MaxRange: 100
-      Chance: 40
+        - "<bold><gold>Chance: <red>4%</bold>"
+      # The items to win.
       Items:
-        - "Item:CHAINMAIL_LEGGINGS, Amount:1, Damage:75, Trim-Pattern:SENTRY, Trim-Material:LAPIS, Name:<bold><green>Fancy Pants</bold>, PROTECTION_ENVIRONMENTAL:2"
+        - "Item:chainmail_leggings, Amount:1, Damage:75, Trim-Pattern:sentry, Trim-Material:lapis, Name:<bold><green>Fancy Pants</bold>, protection:2"
+      # The messages to send.
       Messages:
         - "<gray>You just won a <reset>%reward%."
-    2:
+    "3":
+      # The name of the item to display in the gui.
       DisplayName: "<bold><blue>Classic Sword</bold>"
-      DisplayItem: "DIAMOND_SWORD"
+      # The item to display in the gui.
+      DisplayItem: "diamond_sword"
+      # The enchants on the item.
+      DisplayEnchantments:
+        - "sharpness:2"
+        - "fire_aspect:1"
       # Only works on items with durability. This will make the item appear more damaged.
       # It does not set the durability but subtracts this number from the durability is 100, It subtracts 7.
       # It cannot be 0.
       DisplayDamage: 7
+      # The amount to display in the gui.
       DisplayAmount: 1
+      # The lore of the item.
       Lore:
         - "<gray>Win a old classic sword."
-        - "<bold><gold>Chance: <red>35%</bold>"
-      DisplayEnchantments:
-        - "DAMAGE_ALL:2"
-        - "FIRE_ASPECT:1"
-      MaxRange: 100
+        - "<bold><gold>Chance: <red>3.5%</bold>"
+      # The max range i.e. 35/1000 = 3.5% chance to win.
+      MaxRange: 1000
+      # The chance to win i.e. 3.5%.
       Chance: 35
+      # The items to win.
       Items:
-        - "Item:DIAMOND_SWORD, Amount:1, Damage:7, Name:<bold><blue>Classic Sword</bold>, DAMAGE_ALL:2, FIRE_ASPECT:1"
-      Messages:
-        - "<gray>You just won <reset>%reward%."
-    3:
-      DisplayName: "<bold><yellow>$100,000</bold>"
-      DisplayItem: "SUNFLOWER"
-      DisplayAmount: 1
-      Lore:
-        - "<gray>Make it rain a lot of Money."
-        - "<bold><gold>Chance: <red>20%</bold>"
-      MaxRange: 100
-      Chance: 20
-      Firework: true
-      Commands:
-        - "eco give %player% 100000"
+        - "Item:diamond_sword, Amount:1, Damage:7, Name:<bold><blue>Classic Sword</bold>, sharpness:2, fire_aspect:1"
+      # The messages to send.
       Messages:
         - "<gray>You just won <reset>%reward%."
 ```
