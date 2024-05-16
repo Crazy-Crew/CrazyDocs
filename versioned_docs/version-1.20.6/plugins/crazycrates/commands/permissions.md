@@ -16,7 +16,7 @@ sidebar_label: Permissions
 | `/crazycrates giveall <virtual/physical> <crate> [amount]`       | `crazycrates.giveall`       | Gives all online players keys to use on a crate.                                | op      |
 | `/crazycrates additem <crate> <prize> <chance> [tier]`           | `crazycrates.additem`       | Add items in-game to a prize in a crate.                                        | op      |
 | `/crazycrates transfer <crate> <player> <amount>`                | `crazycrates.transfer`      | Allows players to send virtual keys to another player.                          | op      |
-| `/crazycrates open-others <crate> [player]`                      | `crazycrates.open-others`   | Tries to open a crate for a player if they have a key.                          | op      |
+| `/crazycrates open-others <crate> [player] <virtual/physical>`   | `crazycrates.open-others`   | Tries to open a crate for a player if they have a key.                          | op      |
 | `/crazycrates forceopen <crate> [player]`                        | `crazycrates.forceopen`     | Opens a crate for a player for free.                                            | op      |
 | `/crazycrates preview <crate> [player]`                          | `crazycrates.preview`       | Opens the preview of a crate for a player.                                      | op      |
 | `/crazycrates save <schematic file name>`                        | `crazycrates.save`          | Save the new schematic file to the schematics folder.                           | op      |
