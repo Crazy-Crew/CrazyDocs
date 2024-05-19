@@ -1,8 +1,8 @@
 ---
 title: Options
+description: An in-depth guide on how to use the `Items:` section!
 
 hide_title: true
-
 
 sidebar_label: Options
 sidebar_position: 1
@@ -108,7 +108,7 @@ This option is used to set the player of a player head item. You can use a few d
 Items:
   - 'Item:PLAYER_HEAD, Player:BadBones69'
   - 'Item:PLAYER_HEAD, Player:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWVlMzEyNmZmMmMzNDNkYTUyNWVlZjJiOTMyNzJiOWZlZDM2MjczZDBlYTA4YzI2MTZiODAwMDk5NDhhZDU3ZSJ9fX0='
-  - 'Item:PLAYER_HEAD, Player:http://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e'
+  - 'Item:PLAYER_HEAD, Player:https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e'
 ```
 
 ### `Unbreakable-Item:`

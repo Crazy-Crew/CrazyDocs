@@ -5,7 +5,6 @@ description: Get started with the api
 hide_title: false
 
 sidebar_label: API Intro
-sidebar_position: 1
 ---
 ### Groovy
 <details>
@@ -23,7 +22,7 @@ repositories {
 
 ```gradle
 dependencies {
-    compileOnly "us.crazycrew.crazycrates:api:0.4"
+    compileOnly "us.crazycrew.crazycrates:api:0.5"
 }
 ```
 </details>
@@ -42,7 +41,7 @@ repositories {
 
 ```gradle
 dependencies {
-    compileOnly("us.crazycrew.crazycrates:api:0.4")
+    compileOnly("us.crazycrew.crazycrates:api:0.5")
 }
 ```
 </details>
@@ -64,7 +63,7 @@ dependencies {
 <dependency>
   <groupId>us.crazycrew.crazycrates</groupId>
   <artifactId>api</artifactId>
-  <version>0.4</version>
+  <version>0.5</version>
   <scope>provided</scope>
  </dependency>
 ```

@@ -11,25 +11,25 @@ sidebar_position: 8
 ```yml
   Prizes:
     1:
-     DisplayName: '&cA colored map.'
-     DisplayItem: 'FILLED_MAP:GREEN'
-     # DisplayItem: 'FILLED_MAP:133,50,73'
+     DisplayName: '&cAn map colored green.'
+     DisplayItem: 'filled_map:GREEN'
+     # DisplayItem: 'filled_map:133,50,73'
      DisplayAmount: 1
      MaxRange: 100
      Chance: 1
      Items:
-     - 'Item:FILLED_MAP:GREEN'
+     - 'Item:filled_map:GREEN'
 ```
 
 ```yml
 Items:
- - Item:{FILLED_MAP}:GREEN
+ - Item:{filled_map}:GREEN
 ```
 You have a selection of [colors](https://jd.papermc.io/paper/1.20/org/bukkit/Color.html) to use with this option.
 
 ```yml
 Items:
- - Item:{FILLED_MAP}:133,50,73
+ - Item:{filled_map}:133,50,73
 ```
 This allows you to dye your map any color you want.
 

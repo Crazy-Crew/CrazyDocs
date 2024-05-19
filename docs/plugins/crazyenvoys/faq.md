@@ -45,7 +45,7 @@ sidebar_position: 2
 
 ### 6. Why did you stop supporting Holographic Displays?
  * Filoghost has put the plugin into maintenance mode, The last update for Holographic Displays was at least a month ago & does not have 1.20.1 support.
-   * I recommend switching to [DecentHolograms](https://www.spigotmc.org/resources/decentholograms-1-8-1-20-1-papi-support-no-dependencies.96927/)
+   * I recommend switching to [FancyHolograms](https://modrinth.com/plugin/fancyholograms)
 
 ### 7. What's wrong with my config or envoy files?
 #### Steps you can do before quickly jumping for support.

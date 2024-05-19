@@ -9,7 +9,7 @@ sidebar_position: 1
 ---
 ## Requirements
 :::tip
-CrazyEnchantments requires you to use **Paper 1.20.4** or a fork of and **Java 17** to run
+CrazyEnchantments requires you to use **Paper 1.20.6** or a fork of and **Java 21** to run
 :::
 
 ### Downloading CrazyEnchantments

@@ -36,14 +36,14 @@ const config: Config = {
             'https://github.com/Crazy-Crew/CrazyDocs/tree/main/',
           versions: {
             current: {
-              label: '1.20.4',
+              label: '1.20.6',
               path: '',
               banner: 'none',
             },
-            '1.20.6': {
-              label: '1.20.6',
-              path: '1.20.6',
-              banner: 'unreleased'
+            '1.20.4': {
+              label: '1.20.4',
+              path: '1.20.4',
+              banner: 'unmaintained'
             }
           }
         },

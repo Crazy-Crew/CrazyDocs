@@ -16,7 +16,7 @@ sidebar_position: 2
       # The name of the prize in the preview.
       DisplayName: 'Example Prize' # Required
       # The item shown in the preview.
-      DisplayItem: 'CHEST' # Required
+      DisplayItem: 'chest' # Required
       # Only works on items with durability. This will make the item appear more damaged.
       # It does not set the durability but subtracts this number from the durability
       # Durability is 100, It subtracts 1.
@@ -65,7 +65,7 @@ sidebar_position: 2
 ```
 
 ### 3. The description shows there are 10 different crate types, but I only see 4 crates in the Crates folder?
-There is a difference between [Crates](guides/crates/examples/csgocrate-example.md) and [Crate Types](misc/crate-types.md). Each crate has its own CrateType: option in the crate's file to pick which one it is.
+There is a difference between [Crates](guides/crates/examples/basiccrate.md) and [Crate Types](misc/crate-types.md). Each crate has its own CrateType: option in the crate's file to pick which one it is.
 
 The crates are the files i.e. example.yml and control all these options:
 * Prizes
@@ -94,7 +94,7 @@ Adding new crates to CrazyCrates is easy! You have to navigate to the `crates` f
 * Save the file and run `/crazycrates reload`.
 * Profit
 
--> [Crates](guides/crates/examples/csgocrate-example.md) - The directory with a list of default crates in case you need them.
+-> [Crates](guides/crates/examples/basiccrate.md) - The directory with a list of default crates in case you need them.
 
 ### 6. How does the chance system work?
 Check out [this page](guides/crates/chance-system) to figure out how the system works!
@@ -114,9 +114,9 @@ Use an item that isn't a `TRIPWIRE_HOOK`, Use a `FEATHER` or something.
 The alternative prize option is for when a player has already won a prize.
 
 #### Example #1: 
-* The player has a tag from DeluxeTags, but you don't want them winning it again.
+* The player has a tag from DeluxeTags but you don't want them winning it again.
 #### Example #2:
-* The player wins a rank from the crate, but they already have said crate.
+* The player wins a rank from the crate but they already have said crate.
   * The rank the player has will have a permission such as `example.ignore` which will prevent them from winning the prize.
 
 1. User must have one of the permissions to be given the alternative prize.

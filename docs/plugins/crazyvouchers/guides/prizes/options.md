@@ -7,13 +7,12 @@ hide_title: false
 sidebar_label: Options
 sidebar_position: 1
 ---
-
 ## List of all values that can be used in the `Items:` option
 
 ### Useful Links
 * [Material Names](https://jd.papermc.io/paper/1.20/org/bukkit/Material.html)
 
-* [Enchantment Names](https://jd.papermc.io/paper/1.20/org/bukkit/enchantments/Enchantment.html)
+* [Enchantment Names](https://jd.papermc.io/paper/1.20/org/bukkit/enchantments/Enchantment.html) 
 * [Leather/Potion Color Names](https://jd.papermc.io/paper/1.20/org/bukkit/Color.html)
 * [Item Flags](https://jd.papermc.io/paper/1.20/org/bukkit/inventory/ItemFlag.html)
 * [Mob Types](https://jd.papermc.io/paper/1.20/org/bukkit/entity/EntityType.html)
@@ -35,7 +34,7 @@ This option is used to set the item material and some of the items data.
 
 #### Examples
 ```yaml
-Items:
+items:
   - 'Item:Golden_Apple'
   - 'Item:Diamond_Chestplate:50'
   - 'Item:Diamond_Chestplate:50#32'
@@ -45,10 +44,13 @@ Items:
   - 'Item:Potion:Heal'
 ```
 
-#### Mob Eggs
+1.9-1.12.2 Mob Eggs:
+- `Item:{MONSTER_EGG}:{Mob Name}`
+
+#### Example
 ```yaml
-Items:
-  - 'Item:creeper_egg'
+items:
+  - 'Item:MONSTER_EGG:Creeper'
 ```
 
 ### `Name:`
@@ -60,20 +62,20 @@ This option is used to set the name of the item.
 
 #### Example
 ```yaml
-Items:
+items:
   - 'Item:Diamond_Sword, Name:&4Sword of lost souls'
 ```
 
 ### `Lore:`
 #### Description
-This option is used to set the lore on the item. If you wish to add a line split the line with a `,` with no spaces.
+This option is used to set the lore on the item. If you wish to add a line split the line with a `,` with no spaces. 
 
 #### Usage
 - `Lore:{Line 1},{Line 2>,{Line 3},{Line 4},...etc`
 
 #### Example
 ```yaml
-Items:
+items:
   - 'Item:Diamond_Sword, Lore:&7An old sword once lost in time,&7but has now been found and,&7is eager for battle.'
 ```
 
@@ -86,7 +88,7 @@ This option is used to set how many items are in the stack given to the player.
 
 #### Example
 ```yaml
-Items:
+items:
   - 'Item:Golden_Apple, Amount:32'
 ```
 
@@ -96,15 +98,15 @@ This option is used to set the player of a player head item. You can use a few d
 
 #### Options
 - Player's Name Usage:
-  - `Player:BadBones69`
+    - `Player:BadBones69`
 - Hash/Base64 Usage:
-  - `Player:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWVlMzEyNmZmMmMzNDNkYTUyNWVlZjJiOTMyNzJiOWZlZDM2MjczZDBlYTA4YzI2MTZiODAwMDk5NDhhZDU3ZSJ9fX0=`
+    - `Player:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWVlMzEyNmZmMmMzNDNkYTUyNWVlZjJiOTMyNzJiOWZlZDM2MjczZDBlYTA4YzI2MTZiODAwMDk5NDhhZDU3ZSJ9fX0=`
 - URL Usage:
-  - `Player:http://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e`
+    - `Player:http://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e`
 
 #### Examples
 ```yaml
-Items:
+items:
   - 'Item:PLAYER_HEAD, Player:BadBones69'
   - 'Item:PLAYER_HEAD, Player:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWVlMzEyNmZmMmMzNDNkYTUyNWVlZjJiOTMyNzJiOWZlZDM2MjczZDBlYTA4YzI2MTZiODAwMDk5NDhhZDU3ZSJ9fX0='
   - 'Item:PLAYER_HEAD, Player:https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e'
@@ -119,7 +121,7 @@ This option is used to make an item unbreakable.
 
 #### Example
 ```yaml
-Items:
+items:
   - 'Item:Diamond_Sword, Unbreakable-Item:true'
 ```
 
@@ -132,7 +134,7 @@ This option is used to set the enchantments on the item.
 
 #### Example
 ```yaml
-Items:
+items:
   - 'Item:Diamond_Sword, Sharpness:5, Durability:2'
 ```
 
@@ -145,7 +147,7 @@ These options are used to add flags to the item.
 
 #### Examples
 ```yaml
-Items:
+items:
   - 'Item:Potion:lime, HIDE_POTION_EFFECTS'
   - 'Item:Diamond_Sword, Unbreakable-Item:true, HIDE_UNBREAKABLE'
 ```

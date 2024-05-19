@@ -36,13 +36,13 @@ This option is used to set the item material and some of the items data.
 #### Examples
 ```yaml
 Items:
-  - 'Item:Golden_Apple'
-  - 'Item:Diamond_Chestplate:50'
-  - 'Item:Diamond_Chestplate:50#32'
-  - 'Item:Diamond_Chestplate#32'
-  - 'Item:Leather_Chestplate:Blue'
-  - 'Item:Leather_Chestplate:0,0,255'
-  - 'Item:Potion:Heal'
+  - 'Item:golden_apple'
+  - 'Item:diamond_chestplate:50'
+  - 'Item:diamond_chestplate:50#32'
+  - 'Item:diamond_chestplate#32'
+  - 'Item:leather_chestplate:Blue'
+  - 'Item:leather_chestplate:0,0,255'
+  - 'Item:potion:Heal'
 ```
 
 #### Mob Eggs
@@ -61,7 +61,7 @@ This option is used to set the name of the item.
 #### Example
 ```yaml
 Items:
-  - 'Item:Diamond_Sword, Name:&4Sword of lost souls'
+  - 'Item:diamond_sword, Name:&4Sword of lost souls'
 ```
 
 ### `Lore:`
@@ -74,7 +74,7 @@ This option is used to set the lore on the item. If you wish to add a line split
 #### Example
 ```yaml
 Items:
-  - 'Item:Diamond_Sword, Lore:&7An old sword once lost in time,&7but has now been found and,&7is eager for battle.'
+  - 'Item:diamond_sword, Lore:&7An old sword once lost in time,&7but has now been found and,&7is eager for battle.'
 ```
 
 ### `Amount:`
@@ -87,7 +87,7 @@ This option is used to set how many items are in the stack given to the player.
 #### Example
 ```yaml
 Items:
-  - 'Item:Golden_Apple, Amount:32'
+  - 'Item:golden_apple, Amount:32'
 ```
 
 ### `Player:`
@@ -97,17 +97,14 @@ This option is used to set the player of a player head item. You can use a few d
 #### Options
 - Player's Name Usage:
     - `Player:BadBones69`
-- Hash/Base64 Usage:
-    - `Player:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWVlMzEyNmZmMmMzNDNkYTUyNWVlZjJiOTMyNzJiOWZlZDM2MjczZDBlYTA4YzI2MTZiODAwMDk5NDhhZDU3ZSJ9fX0=`
 - URL Usage:
-    - `Player:http://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e`
+    - `Player:1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e`
 
 #### Examples
 ```yaml
 Items:
-  - 'Item:PLAYER_HEAD, Player:BadBones69'
-  - 'Item:PLAYER_HEAD, Player:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWVlMzEyNmZmMmMzNDNkYTUyNWVlZjJiOTMyNzJiOWZlZDM2MjczZDBlYTA4YzI2MTZiODAwMDk5NDhhZDU3ZSJ9fX0='
-  - 'Item:PLAYER_HEAD, Player:https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e'
+  - 'Item:player_head, Player:BadBones69'
+  - 'Item:player_head, Player:1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e'
 ```
 
 ### `Unbreakable-Item:`
@@ -120,7 +117,7 @@ This option is used to make an item unbreakable.
 #### Example
 ```yaml
 Items:
-  - 'Item:Diamond_Sword, Unbreakable-Item:true'
+  - 'Item:diamond_sword, Unbreakable-Item:true'
 ```
 
 ### `Enchantments`
@@ -133,7 +130,7 @@ This option is used to set the enchantments on the item.
 #### Example
 ```yaml
 Items:
-  - 'Item:Diamond_Sword, Sharpness:5, Durability:2'
+  - 'Item:diamond_sword, Sharpness:5, Durability:2'
 ```
 
 ### `Item Flags`
@@ -146,9 +143,9 @@ These options are used to add flags to the item.
 #### Examples
 ```yaml
 Items:
-  - 'Item:Potion:lime, HIDE_POTION_EFFECTS'
-  - 'Item:Diamond_Sword, Unbreakable-Item:true, HIDE_UNBREAKABLE'
+  - 'Item:potion:lime, HIDE_POTION_EFFECTS'
+  - 'Item:diamond_sword, Unbreakable-Item:true, HIDE_UNBREAKABLE'
 ```
 
 ### `Patterns`
-[Wiki Page: Banner Patterns](items/shields-banners.md)
+[Wiki Page: Banner Patterns](items/shields-banners)

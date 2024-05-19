@@ -18,7 +18,7 @@ The `arrow_next_icon` is the id.
 ```yaml
 arrow_next_icon:
   displayname: <#D5D6D8>Next page
-  material: PAPER
+  material: paper
   excludeFromInventory: true
   Pack:
     generate_model: true

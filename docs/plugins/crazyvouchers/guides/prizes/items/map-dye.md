@@ -11,7 +11,7 @@ sidebar_position: 8
 ```yml
   Prizes:
     1:
-     DisplayName: '&cA colored map.'
+     DisplayName: '&cAn leather helmet.'
      DisplayItem: 'FILLED_MAP:GREEN'
      # DisplayItem: 'FILLED_MAP:133,50,73'
      DisplayAmount: 1

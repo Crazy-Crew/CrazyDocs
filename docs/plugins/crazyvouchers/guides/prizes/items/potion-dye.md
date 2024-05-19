@@ -11,7 +11,7 @@ sidebar_position: 6
 ```yml
   Prizes:
     1:
-     DisplayName: '&cA potion with color.'
+     DisplayName: '&cAn leather helmet.'
      DisplayItem: 'POTION:GREEN'
      # DisplayItem: 'POTION:133,50,73'
      DisplayAmount: 1
