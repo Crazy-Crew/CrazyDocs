@@ -11,8 +11,11 @@ const config: Config = {
 
   baseUrl: '/',
 
-  organizationName: 'crazycrew',
+  organizationName: 'Crazy-Crew',
   projectName: 'CrazyDocs',
+
+  deploymentBranch: 'main',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
