@@ -39,12 +39,3 @@ _The first table assumes you are using [PlaceholderAPI](https://www.spigotmc.org
 | `%crazycrates_<player>_<crate>_physical%` | `%crazycrates_rukkhadevata_galactic_physical%` | Returns the amount of physical keys a player has in their inventory. |
 | `%crazycrates_<player>_<crate>_virtual%`  | `%crazycrates_rukkhadevata_galactic_virtual%`  | Returns the amount of virtual keys a player has.                     |
 | `%crazycrates_<player>_<crate>_total%`    | `%crazycrates_rukkhadevata_galactic_total%`    | Returns the total amount of virtual and physical keys a player has.  |
-
-### [MVdWPlaceholderAPI](https://www.spigotmc.org/resources/11182/) *Only used for [Legacy Versions](https://modrinth.com/plugin/crazycrates/versions?g=1.8.8,1.12.2,1.16.5)*
-| Placeholder                      | Example                            | Description                                                          |
-|----------------------------------|------------------------------------|----------------------------------------------------------------------|
-| `{crazycrates_<crate>}`          | `{crazycrates_galactic}​`          | Returns the amount of virtual keys a player has.                     |
-| `{crazycrates_<crate>_physical}` | `{crazycrates_galactic_physical}​` | Returns the amount of physical keys a player has in their inventory. |
-| `{crazycrates_<crate>_total}`    | `{crazycrates_galactic_total}​`    | Returns the total amount of virtual AND physical keys a player has.  |
-
-*MVdWPlaceholderAPI is needed for the placeholders to work.
