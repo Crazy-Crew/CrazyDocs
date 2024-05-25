@@ -20,7 +20,7 @@ sidebar_label: Permissions
 | `/crazycrates forceopen <crate> [player]`                        | `crazycrates.forceopen`     | Opens a crate for a player for free.                                            | op      |
 | `/crazycrates preview <crate> [player]`                          | `crazycrates.preview`       | Opens the preview of a crate for a player.                                      | op      |
 | `/crazycrates save <schematic file name>`                        | `crazycrates.save`          | Save the new schematic file to the schematics folder.                           | op      |
-| `/crazycrates mass-open <amount>`                                | `crazycrates.massopen`      | Mass opens crates. Defaults to 10 but can be changed in the crate config files. | op      |
+| `/crazycrates mass-open <crate> <virtual/physical> <amount>`     | `crazycrates.massopen`      | Mass opens crates. Defaults to 10 but can be changed in the crate config files. | op      |
 | `/crazycrates tp <location>`                                     | `crazycrates.teleport`      | Teleport to a crate.                                                            | op      |
 | `/crazycrates debug <crate>`                                     | `crazycrates.debug`         | Gives all the prizes to you so you can see if your crate works.                 | op      |
 | `/crazycrates open <crate>`                                      | `crazycrates.open`          | Tries to open a crate for yourself if you have a key.                           | op      |

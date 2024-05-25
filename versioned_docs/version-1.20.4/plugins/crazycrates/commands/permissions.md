@@ -31,7 +31,7 @@ sidebar_label: Permissions
 | `/crazycrates wand`                                              | `crazycrates.wand`                        | Gives a wand that lets you select 2 points to create schematics.                | op      |
 | `/crazycrates debug <crate>`                                     | `crazycrates.command.admin.debug`         | Gives all the prizes to you so you can see if your crate works.                 | op      |
 | `/crazycrates save <schematic file name>`                        | `crazycrates.save`                        | Save the new schematic file to the schematics folder.                           | op      |
-| `/crazycrates mass-open <amount>`                                | `crazycrates.command.admin.massopen`      | Mass opens crates. Defaults to 10 but can be changed in the crate config files. | op      |
+| `/crazycrates mass-open <crate> <virtual/physical> <amount>`     | `crazycrates.command.admin.massopen`      | Mass opens crates. Defaults to 10 but can be changed in the crate config files. | op      |
 | `/crazycrates give-random <virtual/physical> <amount> <player>`  | `crazycrates.command.admin.giverandomkey` | Gives a random key out of all the crates available.                             | op      |
 
 # Other
