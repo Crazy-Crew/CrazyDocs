@@ -66,6 +66,6 @@ dependencies {
   <artifactId>crazyvouchers-paper-api</artifactId>
   <version>3.4</version>
   <scope>provided</scope>
- </dependency>
+</dependency>
 ```
 </details>
