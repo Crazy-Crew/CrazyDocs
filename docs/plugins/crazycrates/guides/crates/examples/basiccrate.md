@@ -126,6 +126,8 @@ Crate:
     Height: 1.5
     # The distance the hologram can be seen.
     Range: 8
+    # How often should the hologram update? -1 is disabled.
+    Update-Interval: -1
     # The background color of the hologram. It uses hex colors. This only works with CMI/FancyHolograms
     # Set the color to transparent if you don't want any color.
     Color: "transparent"
@@ -165,7 +167,7 @@ Crate:
       # The chance to win i.e. 7%
       Chance: 7
       # An example of a custom player head using minecraft players.
-      Player: "rukkhadevata"
+      Player: "Rukkhadevata"
     '3':
       # The name of the item to display in the gui.
       DisplayName: "<red>Diamond Sword"

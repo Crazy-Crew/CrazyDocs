@@ -115,7 +115,7 @@ Crate:
       - "<gray>A special Key"
       - "<gray>For a special Crate."
     # The item the key is.
-    Item: "lime_dye"
+    Item: "red_dye"
     # Makes the key look enchanted.
     Glowing: true
   # Settings for the holograms.
@@ -126,6 +126,8 @@ Crate:
     Height: 1.5
     # The distance the hologram can be seen.
     Range: 8
+    # How often should the hologram update? -1 is disabled.
+    Update-Interval: -1
     # The background color of the hologram. It uses hex colors. This only works with CMI/FancyHolograms
     # Set the color to transparent if you don't want any color.
     Color: "transparent"
@@ -137,7 +139,7 @@ Crate:
   # This is a slightly more advanced version. If you want simple!
   # See the CrateExample.yml for a more simple crate.
   Prizes:
-    "1":
+    '1':
       # The name of the item to display in the gui.
       DisplayName: "<bold><dark_red>Warlord's Set</bold>"
       # The item to display in the gui.
@@ -189,7 +191,7 @@ Crate:
         # Alternatively, instead of commands. You can have an Items section which functions the same as the Items section above.
         Items:
           - "Item:gold_nugget, Amount:16"
-    "2":
+    '2':
       # The enchants to be stored on the book.
       DisplayEnchantments:
         - "protection:5"
