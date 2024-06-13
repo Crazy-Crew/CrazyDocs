@@ -40,7 +40,7 @@ voucher:
       # The sound pitch
       pitch: 1.0
       # The sound or sounds to use.
-      # https://jd.papermc.io/paper/1.20.6/org/bukkit/Sound.html
+      # https://jd.papermc.io/paper/1.21/org/bukkit/Sound.html
       sounds:
       - 'BLOCK_AMETHYST_CLUSTER_STEP'
 ```
