@@ -12,7 +12,7 @@ sidebar_position: 8
 Items:
  - Item:{FILLED_MAP}:GREEN
 ```
-You have a selection of [colors](https://jd.papermc.io/paper/1.20/org/bukkit/Color.html) to use with this option.
+You have a selection of [colors](https://jd.papermc.io/paper/1.20.6/org/bukkit/Color.html) to use with this option.
 
 ```yml
 Items:

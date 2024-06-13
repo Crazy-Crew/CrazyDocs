@@ -14,7 +14,7 @@ Usage: `{Pattern}:{Color}`
 
 RGB: `{Pattern}:{Red},{Green},{Blue}`
 
-[Colors](https://jd.papermc.io/paper/1.20/org/bukkit/DyeColor.html)
+[Colors](https://jd.papermc.io/paper/1.20.6/org/bukkit/DyeColor.html)
 
 [Pattern Types](https://jd.papermc.io/paper/1.20/org/bukkit/block/banner/PatternType.html)
 

@@ -48,7 +48,7 @@ Crate:
       # If sound should be enabled or not.
       toggle: true
       # The type of sound to use.
-      # https://jd.papermc.io/paper/1.20/org/bukkit/Sound.html
+      # https://jd.papermc.io/paper/1.20.6/org/bukkit/Sound.html
       value: "BLOCK_NOTE_BLOCK_XYLOPHONE"
       # The volume of the pitch.
       volume: 1.0
@@ -59,7 +59,7 @@ Crate:
       # If sound should be enabled or not.
       toggle: true
       # The type of sound to use.
-      # https://jd.papermc.io/paper/1.20/org/bukkit/Sound.html
+      # https://jd.papermc.io/paper/1.20.6/org/bukkit/Sound.html
       value: "UI_BUTTON_CLICK"
       # The volume of the pitch.
       volume: 1.0
@@ -70,7 +70,7 @@ Crate:
       # If sound should be enabled or not.
       toggle: true
       # The type of sound to use.
-      # https://jd.papermc.io/paper/1.20/org/bukkit/Sound.html
+      # https://jd.papermc.io/paper/1.20.6/org/bukkit/Sound.html
       value: "ENTITY_PLAYER_LEVELUP"
       # The volume of the pitch.
       volume: 1.0
@@ -154,9 +154,9 @@ Crate:
       # It cannot be 0.
       DisplayDamage: 25
       DisplayTrim:
-        # Available Materials: https://jd.papermc.io/paper/1.20/org/bukkit/inventory/meta/trim/TrimMaterial.html
+        # Available Materials: https://jd.papermc.io/paper/1.20.6/org/bukkit/inventory/meta/trim/TrimMaterial.html
         Material: "QUARTZ"
-        # Available Patterns: https://jd.papermc.io/paper/1.20/org/bukkit/inventory/meta/trim/TrimPattern.html
+        # Available Patterns: https://jd.papermc.io/paper/1.20.6/org/bukkit/inventory/meta/trim/TrimPattern.html
         Pattern: "SENTRY"
       DisplayAmount: 1
       Lore:

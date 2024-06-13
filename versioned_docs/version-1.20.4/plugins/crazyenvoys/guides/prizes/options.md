@@ -10,7 +10,7 @@ sidebar_position: 1
 ## List of all values that can be used in the `Items:` option
 
 ### Useful Links
-* [Material Names](https://jd.papermc.io/paper/1.20/org/bukkit/Material.html)
+* [Material Names](https://jd.papermc.io/paper/1.20.6/org/bukkit/Material.html)
 
 * [Enchantment Names](https://jd.papermc.io/paper/1.20/org/bukkit/enchantments/Enchantment.html) 
 * [Leather/Potion Color Names](https://jd.papermc.io/paper/1.20/org/bukkit/Color.html)
