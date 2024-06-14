@@ -111,6 +111,6 @@ This is how I have the format in that picture formatted.
 As you can see, if you put your mind to it possibilities are endless, with this example you can see all the placeholders added to it and the support for hex codes (1.16+).
 
 ## Placeholders
-If you like to see a list of all the available placeholders you can use for the chat format please go [here](../placeholders).
+If you like to see a list of all the available placeholders you can use for the chat format please go [here](../placeholders.md).
 
 If you wish to use PlaceholderAPI's placeholders, You can find them [here](https://wiki.placeholderapi.com/users/placeholder-list/#).
