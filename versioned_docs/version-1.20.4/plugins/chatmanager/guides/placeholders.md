@@ -10,7 +10,7 @@ pagination_prev: null
 
 sidebar_label: Placeholders
 ---
-These are all the available placeholders Chat Manager has build into the plugin. These placeholders can be used for the chat format, auto broadcast, first join, join, quit messages, actionbar, title messages, motd, private message, and more sections.
+These are all the available placeholders Chat Manager has built into the plugin. These placeholders can be used for the chat format, auto broadcast, first join, join, quit messages, actionbar, title messages, motd, private message, and more sections.
 
 Available Placeholders:
 * `{player}` - Shows the players name.

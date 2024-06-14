@@ -8,7 +8,7 @@ sidebar_position: 2
 ---
 ## Chat Format
 Chat format is a simple yet powerful per-group chat formatting feature where players will automatically be placed in their chat format group, 
-depending on which permission group they are in. A default chat format is added so if the players format group doesn’t exist for their permissions rank, they will be placed in the default format group automatically.
+depending on which permission group they are in. A default chat format is added so if the players format group doesn't exist for their permissions rank, they will be placed in the default format group automatically.
 
 ## Understanding Chat Formatting
 This area will help you understand the chat formatting feature as simple as possible.

@@ -10,7 +10,7 @@ sidebar_position: 1
 
 ## Join & Quit messages
 
-This section will help you better understand the concept and the how to use Join and Quit messages. Chat Manager offers per group join and quit messages so you can have a separate message for each group. 
+This section will help you better understand the concept and the how to use Join and Quit messages. Chat Manager offers per group join and quit messages, so you can have a separate message for each group. 
 If you don't want to use them just add a message the Default_Format section and don't do anything else and players will only send and receive that message when players Join and Quit the server. 
 Each section can be enabled/disabled and customized to your liking in any way.
 
@@ -72,7 +72,7 @@ Join, Title, and Actionbar Messages all have a default message, this message wil
 
 If for some reason Join Messages don't send at all, please do /chatmanager debug config in console to see if you are missing any sections in the config. Missing sections can cause this feature not to work correctly.
 
-## Understanding quit messages [(top)](https://github.com/Crazy-Crew/ChatManager/wiki/Join-&-Quit-Messages)
+## Understanding quit messages
 
 Quit Messages is the message players send when they quit the server. You can also set the sound that's played to all players on the server when a player quits your server.
 

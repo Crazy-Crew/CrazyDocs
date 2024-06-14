@@ -25,7 +25,7 @@ The most common causes of this problem could be caused by not having Vault on yo
  * No
 
 ### What are the available placeholders?
- * You can find available placeholders at [Placeholders](info/placeholders)
+ * You can find available placeholders at [Placeholders](guides/placeholders.md)
 
 ### Why can players use color codes in chat?
  * External plugins might override or have their own color codes in chat.
@@ -33,7 +33,7 @@ The most common causes of this problem could be caused by not having Vault on yo
    * You can disable color codes in ChatManager in the config.yml, I cannot say for other plugins.
 
 ### Why isn't clear chat working?
- * You likely are opped or have the bypass permission which means chat won't clear for you.
+ * You likely are using /op or have the bypass permission which means chat won't clear for you.
 
 ### Why isn't chat bot working?
  * It was removed.

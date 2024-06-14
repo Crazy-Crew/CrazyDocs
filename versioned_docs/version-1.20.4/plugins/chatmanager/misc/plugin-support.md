@@ -21,7 +21,7 @@ Chat Manager is a complex plugin that cant work by itself, the plugin has a few 
 **Information**
 The plugin itself requires Vault and LuckPerms to run properly, without the plugin, ChatManager can easily break and send out a lot of errors in console. Vault is required to use the chat format feature correctly without causing any errors.
 
-An in-depth reason for why you need Vault and LuckPerms, Please go on the chat format page [here](https://github.com/Crazy-Crew/ChatManager/wiki/Chat-Format).
+An in-depth reason for why you need Vault and LuckPerms, Please go on the chat format page [here](../guides/chat/formatting.md).
 
 ## Soft Dependencies
 | Plugin         | Link                                                              |
