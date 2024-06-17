@@ -24,16 +24,16 @@ Custom Heads only work on [Paper](https://papermc.io) or [Purpur](https://purpur
         - 'Item:player_head, Player:1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Amount:1'
 ```
 
-#### You can also do the following if you don't want a custom texture from https://minecraft-heads.com/
+#### This requires [HeadDatabase](https://www.spigotmc.org/resources/head-database.14280/) which pulls heads from minecraft-heads in a safe manner. The previous way heads were done via player name will likely be removed as it's wildly inefficient
 ```yml
   Prizes:
     1:
       DisplayName: '&cAn example helmet using Trims.'
       DisplayItem: 'player_head'
       DisplayAmount: 1
-      Player: 'Badbones69'
+      Skull: '7129'
       MaxRange: 100
       Chance: 5
       Items:
-        - 'Item:player_head, Player:Badbones69, Amount:1'
+        - 'Item:player_head, Skull:7129, Amount:1'
 ```
