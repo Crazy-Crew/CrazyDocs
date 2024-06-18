@@ -17,7 +17,7 @@ CrazyCrates requires you to use **Paper 1.20.4** or a fork of and **Java 17** to
 [![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/modrinth_64h.png)](https://modrinth.com/plugin/crazycrates)
 
 ### Feature Requests
-https://github.com/Crazy-Crew/CrazyCrates/discussions/categories/features
+https://github.com/Crazy-Crew/CrazyCrates/issues
 
 ### Bug Reports
 https://github.com/Crazy-Crew/CrazyCrates/issues

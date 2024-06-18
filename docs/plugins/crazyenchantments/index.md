@@ -17,7 +17,7 @@ CrazyEnchantments requires you to use **Paper 1.20.6** or a fork of and **Java 2
 [![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/modrinth_64h.png)](https://modrinth.com/plugin/crazyenchantments)
 
 ### Feature Requests
-https://github.com/Crazy-Crew/CrazyEnchantments/discussions/categories/features
+https://github.com/Crazy-Crew/CrazyEnchantments/issues
 
 ### Bug Reports
 https://github.com/Crazy-Crew/CrazyEnchantments/issues
