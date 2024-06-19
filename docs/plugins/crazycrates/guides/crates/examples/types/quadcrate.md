@@ -192,7 +192,7 @@ Crate:
       # The chance to win i.e. 4%
       Chance: 40
       # The lore of the item.
-      Lore:
+      DisplayLore:
         - "<gray>Win a fancy pair of pants."
         - "<bold><gold>Chance: <red>4%</bold>"
       # The items to win.
@@ -217,7 +217,7 @@ Crate:
       # The amount to display in the gui.
       DisplayAmount: 1
       # The lore of the item.
-      Lore:
+      DisplayLore:
         - "<gray>Win a old classic sword."
         - "<bold><gold>Chance: <red>3.5%</bold>"
       # The max range i.e. 35/1000 = 3.5% chance to win.

@@ -271,7 +271,7 @@ Crate:
       # The chance to win i.e. 60%.
       Chance: 60
       # The lore of the item.
-      Lore:
+      DisplayLore:
         - "<gray>Win a cheap helmet."
         - "<bold><gold>Chance: <red>60%</bold>"
       # The tiers the prize can be won from.
@@ -294,7 +294,7 @@ Crate:
       # The chance to win i.e. 20%.
       Chance: 20
       # The lore of the item.
-      Lore:
+      DisplayLore:
         - "<gray>Make it rain Money."
         - "<bold><gold>Chance: <red>20%</bold>"
       # If the prize should spawn fireworks.
@@ -326,7 +326,7 @@ Crate:
       # The chance to win i.e. 10%.
       Chance: 10
       # The lore of the item.
-      Lore:
+      DisplayLore:
         - "<gray>Win a crazy cool sword."
         - "<bold><gold>Chance: <red>10%</bold>"
       # The tiers the prize can be won from.
@@ -347,7 +347,7 @@ Crate:
       # The chance to win i.e. 20%.
       Chance: 20
       # The lore of the item.
-      Lore:
+      DisplayLore:
         - "<gray>Make it rain a butt load of Money."
         - "<bold><gold>Chance: <red>20%</bold>"
       # If the prize should spawn fireworks.
@@ -370,7 +370,7 @@ Crate:
       # The chance to win i.e. 1.0%.
       Chance: 10
       # The lore of the item.
-      Lore:
+      DisplayLore:
         - "<gray>A special Key"
         - "<gray>For a special Crate."
         - "<bold><gold>Chance: <red>1.0%</bold>"

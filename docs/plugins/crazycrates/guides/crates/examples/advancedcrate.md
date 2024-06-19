@@ -202,7 +202,7 @@ Crate:
       # The amount to display in the gui.
       DisplayAmount: 3
       # The lore of the item.
-      Lore:
+      DisplayLore:
         - "<gradient:#8fcfa0:#32a852>A gradient lore!"
       # The max range i.e. 25/100 = 15% chance to win.
       MaxRange: 100
