@@ -26,6 +26,7 @@ sidebar_position: 2
 | Rocket       | When the player is low on HP there is a chance they will fly backwards to escape battle. |
 | **Wings      | Allows players to fly in faction land or in specified regions.                           |
 | Adrenaline   | Chance to get a huge speed boost when low on HP.                                         |
+| Sniper       | Has a chance to deal poison damage.                                                      |
 
 ## Armor:
 | Enchantments  | Description                                                                                                                              |
@@ -39,6 +40,7 @@ sidebar_position: 2
 | Overload      | Gives the player health boost.                                                                                                           |
 | Hulk          | Gives the player strength, damage resistance, and slowness.                                                                              |
 | Ninja         | Gives the player health boost and speed.                                                                                                 |
+| Cyborg        | Gives you speed, strength and jump boost.                                                                                                |
 | Valor         | Gives the player resistance.                                                                                                             |
 | Insomnia      | Gives you confusion, mining fatigue, and slowness but gives you a high chance to deal double damage.                                     |
 | Drunk         | Gives you strength, mining fatigue, and slowness.                                                                                        |
@@ -51,7 +53,7 @@ sidebar_position: 2
 | Maneuver      | Has a chance to dodge an attack.                                                                                                         |
 | Nursery       | Has a chance to heal you while walking.                                                                                                  |
 | Molten        | Has a chance to set your attacker on fire.                                                                                               |
-| Pain-Giver    | Has a chance to give your attacker poison.                                                                                               |
+| PainGiver     | Has a chance to give your attacker poison.                                                                                               |
 | Savior        | Has a chance to cut incoming damage in half.                                                                                             |
 | Voodoo        | Has a chance to give your attacker weakness.                                                                                             |
 | Fortify       | Has a chance to give your attacker weakness.                                                                                             |
@@ -60,11 +62,12 @@ sidebar_position: 2
 | StormCaller   | Has a chance to strike the player attacking you.                                                                                         |
 | Cactus        | Has a chance to damage the player that damaged you.                                                                                      |
 | ShockWave     | Has a chance to knock enemies back when they damage you.                                                                                 |
-| Smoke-Bomb    | Has a chance to give the attacker slowness and blindness so you can get away.                                                            |
+| SmokeBomb     | Has a chance to give the attacker slowness and blindness so you can get away.                                                            |
 | Tamer         | Spawns in a wolf (+1 for every level) that fight with you for one minute. Has a cool down of two minutes.                                |
 | Guards        | Spawns in an iron golem (+1 for every level) that will fight for you for one minute. Has a cool down of two minutes.                     |
 | Necromancer   | Spawns in 2 zombie (+2 for every level) that fight with you for one minute. Has a cool down of two minutes.                              |
 | Infestation   | Spawns in 3 silverfish and 3 endermites (+3 of each for every level) that fight with you for one minute. Has a cool down of two minutes. |
+| BeeKeeper     | Spawns in bees.                                                                                                                          |
 
 ## Bow
 | Enchantments | Description                                             |
@@ -73,10 +76,19 @@ sidebar_position: 2
 | Doctor       | Has a chance to heal a player when hit.                 |
 | Boom         | Has a chance to spawn TnT where the arrow lands.        |
 | Venom        | Has a chance to give poison to the player shot.         |
-| Ice-Freeze   | Has a chance to give the player shot slowness.          |
+| IceFreeze    | Has a chance to give the player shot slowness.          |
 | Lightning    | Has a chance to strike lightning where the arrow lands. |
-| Multi-Arrow  | Has a chance to shoot multiple arrows.                  |
+| MultiArrow   | Has a chance to shoot multiple arrows.                  |
 | Pull         | Has a chance to send the player you hit flying at you.  |
+| StickyShot   | Has a chance to spawn webs around the arror on impact.  |
+
+## Hoe
+| Enchantments | Description                                                                                      |
+|--------------|--------------------------------------------------------------------------------------------------|
+| Planter      | When tilling soil, it will automatically plant seeds from your hotbar.                           |
+| Tiller       | Increase the AOE of the hoe to 3x3.                                                              |
+| Harvester    | When harvesting crops, breaks sarrounding crops.                                                 |
+| GreenThumb   | When right clicking a seed with the hoe, has a chance to make it grow at the cost of durability. |
 
 ## Swords
 | Enchantments  | Description                                                                            |
@@ -87,8 +99,8 @@ sidebar_position: 2
 | SlowMo        | Has a chance to give the enemy slowness.                                               |
 | Blindness     | Has a chance to give the enemy blindness.                                              |
 | Viper         | Has a chance to give the enemy poison.                                                 |
-| Fast-Turn     | Has a chance to deal more damage.                                                      |
-| Light-Weight  | Has a chance to give the user haste.                                                   |
+| FastTurn      | Has a chance to deal more damage.                                                      |
+| LightWeight   | Has a chance to give the user haste.                                                   |
 | Confusion     | Has a chance to give the enemy confusion.                                              |
 | Disarmer      | Has a chance to take the enemies's armor off.                                          |
 | Execute       | Has a chance to get strength when the enemy is low HP.                                 |
@@ -97,11 +109,15 @@ sidebar_position: 2
 | Nutrition     | Has a chance to feed you while fighting.                                               |
 | Obliterate    | Has a chance to send your enemy flying backwards.                                      |
 | Paralyze      | Has a chance to lightning strike your enemy and give them slowness and mining fatigue. |
-| Skill-Swipe   | Has a chance to steal your enemies's XP.                                               |
+| SkillSwipe    | Has a chance to steal your enemies's XP.                                               |
 | Snare         | Has a chance to give your enemy slowness and mining fatigue.                           |
 | Trap          | Has a chance to give your enemy a high dose of slowness.                               |
 | Wither        | Has a chance to give your enemy wither.                                                |
+| DoubleDamage  | Has a chance to deal double damage.                                                    |
 | Rage          | Does more damage the longer you fight an enemy.                                        |
+| Disorder      | Has a chance to reorder your enemies hotbar.                                           |
+| Charge        | When you kill an enemy, nearby allys get a speed boost.                                |
+| Famished      | During combat, ha a chance to give your enemy hunger.                                  |
 
 ## Axes
 | Enchantments | Description                                                                               |
@@ -126,7 +142,7 @@ sidebar_position: 2
 ## Pickaxe
 | Enchantments | Description                                                                         |
 |--------------|-------------------------------------------------------------------------------------|
-| Auto-Smelt   | Has a chance to smelt ore and drop more then one ore.                               |
+| AutoSmelt    | Has a chance to smelt ore and drop more then one ore.                               |
 | Experience   | Has a chance to give you a lot more XP from block breaking.                         |
 | Furnace      | Always smelts your ores into ingots.                                                |
 | Blast        | Breaks a 3x3 area of blocks. The higher the level, the more depth.                  |

@@ -18,7 +18,7 @@ sidebar_position: 3
 | Towny                                                               | [Download](https://github.com/TownyAdvanced/Towny)                   |
 
 ## Misc
-| Plugin       | Link                                                        |
-|--------------|-------------------------------------------------------------|
-| Vault        | [Download](https://www.spigotmc.org/resources/vault.34315/) |
-| SilkSpawners | [Download](https://dev.bukkit.org/projects/silkspawners)    |
+| Plugin           | Link                                                            |
+|------------------|-----------------------------------------------------------------|
+| Vault            | [Download](https://www.spigotmc.org/resources/vault.34315/)     |
+| ~~SilkSpawners~~ | ~~[Download](https://dev.bukkit.org/projects/silkspawners)~~    |
