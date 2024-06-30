@@ -14,9 +14,9 @@ Usage: `{Pattern}:{Color}`
 
 RGB: `{Pattern}:{Red},{Green},{Blue}`
 
-[Colors](https://jd.papermc.io/paper/1.20.6/org/bukkit/DyeColor.html)
+[Colors](https://jd.papermc.io/paper/1.21/org/bukkit/DyeColor.html)
 
-[Pattern Types](https://jd.papermc.io/paper/1.20.6/org/bukkit/block/banner/PatternType.html)
+[Pattern Types](https://jd.papermc.io/paper/1.21/org/bukkit/block/banner/PatternType.html)
 
 ### Display Items
 Set the item to either a `BANNER` or a `SHIELD`. Use the option called `Patterns:` then follow the example below.

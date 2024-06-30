@@ -14,9 +14,9 @@ Usage: `{Pattern}:{Color}`
 
 RGB: `{Pattern}:{Red},{Green},{Blue}`
 
-[Colors](https://jd.papermc.io/paper/1.20.6/org/bukkit/DyeColor.html)
+[Colors](https://jd.papermc.io/paper/1.21/org/bukkit/DyeColor.html)
 
-[Pattern Types](https://jd.papermc.io/paper/1.20.6/org/bukkit/block/banner/PatternType.html)
+[Pattern Types](https://jd.papermc.io/paper/1.21/org/bukkit/block/banner/PatternType.html)
 
 ### Item: option
 If you wish to give players a banner or shield with the colors and patterns on them then they work just like any other item in the `Items:` section.
