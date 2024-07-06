@@ -91,6 +91,8 @@ Crate:
   Prize-Commands: []
   # Item the crate is in the GUI
   Item: "brewing_stand"
+  # The custom model data of the item, -1 is disabled.
+  Custom-Model-Data: -1
   # If the crate in the main /crates is glowing or not.
   Glowing: false
   # Name of the item in the GUI.
@@ -113,6 +115,8 @@ Crate:
       Name: " "
       # The item that shows in the border. Can be glass or any other item.
       Item: "gray_stained_glass_pane"
+      # The custom model data of the item, -1 is disabled.
+      Custom-Model-Data: -1
   # This section is related to .nbt files.
   structure:
     # If it should randomly use an .nbt file.
@@ -128,6 +132,8 @@ Crate:
       - "<gray>For a special Crate."
     # The item the key is.
     Item: "light_blue_dye"
+    # The custom model data of the item, -1 is disabled.
+    Custom-Model-Data: -1
     # Makes the key look enchanted.
     Glowing: true
   # Settings for the holograms.
@@ -153,6 +159,10 @@ Crate:
       DisplayName: "<gold>Ryder Belserion"
       # The item to display in the gui.
       DisplayItem: "player_head"
+      # Prize settings
+      Settings:
+        # The custom model data of the item, -1 is disabled.
+        Custom-Model-Data: -1
       # The amount to display in the gui.
       DisplayAmount: 1
       # The max range i.e. 1/100 = 1% chance to win.
@@ -172,6 +182,10 @@ Crate:
       DisplayName: "<bold><green>Fancy Pants</bold>"
       # The item to display in the gui.
       DisplayItem: "chainmail_leggings"
+      # Prize settings
+      Settings:
+        # The custom model data of the item, -1 is disabled.
+        Custom-Model-Data: -1
       # The enchants on the item.
       DisplayEnchantments:
         - "protection:2"
@@ -187,14 +201,14 @@ Crate:
         Pattern: "sentry"
       # The amount to display in the gui.
       DisplayAmount: 1
-      # The max range i.e. 40/1000 = 4% chance to win.
-      MaxRange: 1000
-      # The chance to win i.e. 4%
-      Chance: 40
       # The lore of the item.
       DisplayLore:
         - "<gray>Win a fancy pair of pants."
         - "<bold><gold>Chance: <red>4%</bold>"
+      # The max range i.e. 40/1000 = 4% chance to win.
+      MaxRange: 1000
+      # The chance to win i.e. 4%
+      Chance: 40
       # The items to win.
       Items:
         - "Item:chainmail_leggings, Amount:1, Damage:75, Trim-Pattern:sentry, Trim-Material:lapis, Name:<bold><green>Fancy Pants</bold>, protection:2"
@@ -206,6 +220,10 @@ Crate:
       DisplayName: "<bold><blue>Classic Sword</bold>"
       # The item to display in the gui.
       DisplayItem: "diamond_sword"
+      # Prize settings
+      Settings:
+        # The custom model data of the item, -1 is disabled.
+        Custom-Model-Data: -1
       # The enchants on the item.
       DisplayEnchantments:
         - "sharpness:2"

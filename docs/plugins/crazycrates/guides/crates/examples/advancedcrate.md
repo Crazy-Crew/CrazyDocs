@@ -85,6 +85,8 @@ Crate:
   Prize-Commands: []
   # Item the crate is in the GUI
   Item: "chest"
+  # The custom model data of the item, -1 is disabled.
+  Custom-Model-Data: -1
   # If the crate in the main /cc GUI is glowing or not.
   Glowing: false
   # Name of the item in the GUI.
@@ -107,6 +109,8 @@ Crate:
       Name: " "
       # The item that shows in the border. Can be glass or any other item.
       Item: "gray_stained_glass_pane"
+      # The custom model data of the item, -1 is disabled.
+      Custom-Model-Data: -1
   PhysicalKey:
     # Name of the Key.
     Name: "<bold><light_purple>Advanced Crate Key</bold>"
@@ -116,6 +120,8 @@ Crate:
       - "<gray>For a special Crate."
     # The item the key is.
     Item: "red_dye"
+    # The custom model data of the item, -1 is disabled.
+    Custom-Model-Data: -1
     # Makes the key look enchanted.
     Glowing: true
   # Settings for the holograms.
@@ -144,6 +150,10 @@ Crate:
       DisplayName: "<bold><dark_red>Warlord's Set</bold>"
       # The item to display in the gui.
       DisplayItem: "netherite_helmet"
+      # Prize settings
+      Settings:
+        # The custom model data of the item, -1 is disabled.
+        Custom-Model-Data: -1
       # The enchants on the item.
       DisplayEnchantments:
         - "protection:5"
@@ -157,7 +167,7 @@ Crate:
       # The amount to display in the gui.
       DisplayAmount: 1
       # The lore of the item.
-      Lore:
+      DisplayLore:
         - "<gray>Win the warlord's set."
         - "<bold><gold>Chance: <red>40%</bold>"
       # The max range i.e. 40/100 = 40% chance to win.
@@ -199,6 +209,10 @@ Crate:
       # The item to display in the gui.
       # The enchanted book will function with the enchants properly in an anvil.
       DisplayItem: "enchanted_book"
+      # Prize settings
+      Settings:
+        # The custom model data of the item, -1 is disabled.
+        Custom-Model-Data: -1
       # The amount to display in the gui.
       DisplayAmount: 3
       # The lore of the item.

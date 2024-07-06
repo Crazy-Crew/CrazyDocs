@@ -85,6 +85,8 @@ Crate:
   Prize-Commands: []
   # Item the crate is in the GUI
   Item: "diamond"
+  # The custom model data of the item, -1 is disabled.
+  Custom-Model-Data: -1
   # If the crate in the main /crates is glowing or not.
   Glowing: false
   # Name of the item in the GUI.
@@ -107,6 +109,8 @@ Crate:
       Name: " "
       # The item that shows in the border. Can be glass or any other item.
       Item: "gray_stained_glass_pane"
+      # The custom model data of the item, -1 is disabled.
+      Custom-Model-Data: -1
   PhysicalKey:
     # Name of the Key.
     Name: "<bold><green>Basic Crate Key</bold>"
@@ -116,6 +120,8 @@ Crate:
       - "<gray>For a special Crate."
     # The item the key is.
     Item: "lime_dye"
+    # The custom model data of the item, -1 is disabled.
+    Custom-Model-Data: -1
     # Makes the key look enchanted.
     Glowing: true
   # Settings for the holograms.
@@ -145,6 +151,10 @@ Crate:
       DisplayName: "<gold>BadBones69"
       # The item to display in the gui.
       DisplayItem: "player_head"
+      # Prize settings
+      Settings:
+        # The custom model data of the item, -1 is disabled.
+        Custom-Model-Data: -1
       # The amount to display in the gui.
       DisplayAmount: 1
       # The max range i.e. 1/100 = 1% chance to win.
@@ -155,22 +165,9 @@ Crate:
       # This can be a player head as well.
       # https://minecraft-heads.com/
       Player: "1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e"
-    '2':
-      # The name of the item to display in the gui.
-      DisplayName: "<gold>Rukkhadevata"
-      # The item to display in the gui.
-      DisplayItem: "player_head"
-      # The amount to display in the gui.
-      DisplayAmount: 1
-      # The max range i.e. 7/100 = 7% chance to win.
-      MaxRange: 100
-      # The chance to win i.e. 7%
-      Chance: 7
-      # An example of a custom player head using minecraft players.
-      Player: "Rukkhadevata"
       # Only uncomment this if using HeadDatabase by Arcaniax
       # Skull: "7129"
-    '3':
+    '2':
       # The name of the item to display in the gui.
       DisplayName: "<red>Diamond Sword"
       # The enchants to display in the gui.
@@ -179,13 +176,17 @@ Crate:
         - "looting:3"
       # The item to display in the gui.
       DisplayItem: "diamond_sword"
+      # Prize settings
+      Settings:
+        # The custom model data of the item, -1 is disabled.
+        Custom-Model-Data: -1
       # The amount to display in the gui.
       DisplayAmount: 1
       # The max range i.e. 15/100 = 15% chance to win.
       MaxRange: 100
       # The chance to win i.e. 15%
       Chance: 15
-    '4':
+    '3':
       # The name of the item to display in the gui.
       DisplayName: "<red>Diamond Helmet"
       DisplayEnchantments:
@@ -199,6 +200,10 @@ Crate:
         Pattern: "sentry"
       # The item to display in the gui.
       DisplayItem: "diamond_helmet"
+      # Prize settings
+      Settings:
+        # The custom model data of the item, -1 is disabled.
+        Custom-Model-Data: -1
       # The amount to display in the gui.
       DisplayAmount: 1
       # The lore of the item.
@@ -208,7 +213,7 @@ Crate:
       MaxRange: 100
       # The chance to win i.e. 15%
       Chance: 15
-    '5':
+    '4':
       # The enchants to be stored on the book.
       DisplayEnchantments:
         - "protection:5"
@@ -216,6 +221,10 @@ Crate:
       # The item to display in the gui.
       # The enchanted book will function with the enchants properly in an anvil.
       DisplayItem: "enchanted_book"
+      # Prize settings
+      Settings:
+        # The custom model data of the item, -1 is disabled.
+        Custom-Model-Data: -1
       # The amount to display in the gui.
       DisplayAmount: 3
       # The lore of the item.
@@ -225,12 +234,16 @@ Crate:
       MaxRange: 100
       # The chance to win i.e. 25%
       Chance: 25
-    '6':
+    '5':
       # The display name of the item.
       DisplayName: "<yellow>$1,000"
       # The item to display in the gui.
       # The enchanted book will function with the enchants properly in an anvil.
       DisplayItem: "sunflower"
+      # Prize settings
+      Settings:
+        # The custom model data of the item, -1 is disabled.
+        Custom-Model-Data: -1
       # The amount to display in the gui.
       DisplayAmount: 5
       # The lore of the item.
