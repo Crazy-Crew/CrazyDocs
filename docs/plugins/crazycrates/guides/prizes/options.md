@@ -26,8 +26,8 @@ This option is used to set the item material and some of the items data.
 #### Usages
 - `Item:{Material}`
 - `Item:{Material}:{Durability}`
-- `Item:{Material}:{Durability}#{Custom Model Data}`
-- `Item:{Material}#{Custom Model Data}`
+- `Item:{Material}:{Durability}, Custom-Model-Data:-1`
+- `Item:{Material}, Custom-Model-Data:-1`
 - `Item:{Leather Armor/Potion}:{Color}`
 - `Item:{Leather Armor/Potion}:{Red},{Green},{Blue}`
 - `Item:{Potion}:{PotionEffect}`
@@ -38,8 +38,8 @@ This option is used to set the item material and some of the items data.
 Items:
   - 'Item:golden_apple'
   - 'Item:diamond_chestplate:50'
-  - 'Item:diamond_chestplate:50#32'
-  - 'Item:diamond_chestplate#32'
+  - 'Item:diamond_chestplate:50, Custom-Model-Data:32'
+  - 'Item:diamond_chestplate, Custom-Model-Data:32'
   - 'Item:leather_chestplate:Blue'
   - 'Item:leather_chestplate:0,0,255'
   - 'Item:potion:Heal'
