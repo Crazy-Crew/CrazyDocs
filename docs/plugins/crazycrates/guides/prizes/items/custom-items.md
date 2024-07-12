@@ -53,10 +53,20 @@ Items:
 ### ItemsAdder
 #### Find the custom model data of your custom item
 You have to do `/iacustommodeldata your_item_id`, The plugin will send you the `ITEM` followed by the `CustomModelData`.
+Note: you can find more places to use `CustomModelData` by going to https://docs.crazycrew.us/docs/plugins/crazycrates/guides/crates/examples/basiccrate
 
 #### An example of how to use it for display items.
 ```yaml
-DisplayItem: 'your_item_id#your_custom_model_data'
+  Prizes:
+    '1':
+      # The name of the item to display in the gui.
+      DisplayName: "<gold>BadBones69"
+      # The item to display in the gui.
+      DisplayItem: "your_item_id"
+      # Prize settings
+      Settings:
+        # The custom model data of the item, -1 is disabled.
+        Custom-Model-Data: your_custom_model_data
 ```
 
 #### An example of how to use it for keys.
@@ -67,11 +77,13 @@ PhysicalKey:
   # Lore of the Key.
   Lore: []
   # The custom item from itemsadder.
-  Item: 'your_item_id#your_custom_model_data'
+  Item: 'your_item_id'
+  # The custom model data of the item, -1 is disabled.
+  Custom-Model-Data: your_custom_model_data
 ```
 
 #### An example of how to use it in the items section.
 ```yaml
 Items:
-  - 'Item:your_item_id#your_custom_model_data, Amount:1, Name:&aA custom item'
+  - 'Item:your_item_id, Custom-Model-Data:your_custom_model_data, Amount:1, Name:&aA custom item'
 ```
