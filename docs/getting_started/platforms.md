@@ -17,7 +17,8 @@ All our resources will now be uploaded on Hangar and Modrinth, you can find link
 CrazyVouchers has been a free for a total of 2 years, Any purchase made on Spigot for CrazyVouchers was you simply supporting the Developers.
 
 ### Will you ever move back to Spigot?
-Paper would have to completely disappear without a chance of recovery even through other people taking up the mantle.
+1) Spigot adds a section for Paper resources.
+2) Paper would have to completely disappear without a chance of recovery even through other people taking up the mantle.
 
 ### What if I don't want to use Paper?
 That sucks since Paper simply providers a better experience with plugins and for server performance, however Paper at this time is a drop in replacement... a large share of plugins will simply function as they always do and quite a few plugins will have a lot of improvements with chunk loading or new features not available on Spigot.
