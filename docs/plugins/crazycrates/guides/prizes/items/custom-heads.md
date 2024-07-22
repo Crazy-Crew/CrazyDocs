@@ -14,7 +14,7 @@ Custom Heads only work on [Paper](https://papermc.io) or [Purpur](https://purpur
 ```yml
   Prizes:
     1:
-      DisplayName: '&cAn example player head.'
+      DisplayName: '<red>An example player head.'
       DisplayItem: 'player_head'
       DisplayAmount: 1
       Player: '1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e'
@@ -28,7 +28,7 @@ Custom Heads only work on [Paper](https://papermc.io) or [Purpur](https://purpur
 ```yml
   Prizes:
     1:
-      DisplayName: '&cAn example helmet using Trims.'
+      DisplayName: '<red>An example helmet using Trims.'
       DisplayItem: 'player_head'
       DisplayAmount: 1
       Skull: '7129'

@@ -13,7 +13,7 @@ sidebar_position: 1
 ```yml
   Prizes:
     1:
-     DisplayName: '&cAn arrow with a potion effect.'
+     DisplayName: '<red>An arrow with a potion effect.'
      DisplayItem: 'tipped_arrow:{POTION_EFFECT}'
      # DisplayItem: 'tipped_arrow:fire_resistance'
      DisplayAmount: 1

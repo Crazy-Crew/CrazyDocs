@@ -11,7 +11,7 @@ sidebar_position: 5
 ```yml
   Prizes:
     1:
-     DisplayName: '&cAn leather helmet.'
+     DisplayName: '<red>An leather helmet.'
      DisplayItem: 'leather_helmet:GREEN'
      # DisplayItem: 'leather_helmet:133,50,73'
      DisplayAmount: 1
