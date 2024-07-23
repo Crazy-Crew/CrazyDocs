@@ -26,16 +26,17 @@ Set the item to either a `BANNER` or a `SHIELD`. Use the option called `Patterns
 1:
  # The name of the shield.
  DisplayName: '<bold><green>Fancy Shield</bold>'
- # The item needs to be SHIELD or BANNER
+ # The item needs to be shield or banner
  DisplayItem: 'shield'
- # The type of pattern you want on the shield.
+   # A list of patterns: https://jd.papermc.io/paper/1.21/org/bukkit/block/banner/PatternType.html
+   # The patterns don't need to be uppercased. you can type them lowercased along with the colors.
+   # Patterns have to be laid out in a specific order, otherwise it won't look right.
+   # This also applies to the Items section.
  Patterns:
-  - 'HALF_HORIZONTAL:RED'
-  - 'RHOMBUS_MIDDLE:BLACK'
-  - 'STRIPE_TOP:RED'
-  - 'STRIPE_BOTTOM:WHITE'
-  - 'STRIPE_MIDDLE:BLACK'
-  - 'CIRCLE_MIDDLE:WHITE'
+   - "base:white"
+   - "gradient_up:light_gray"
+   - "straight_cross:light_blue"
+   - "flower:light_blue"
 ```
 
 ### Item: option
@@ -44,7 +45,7 @@ If you wish to give players a banner or shield with the colors and patterns on t
 #### Example
 ```yml
 Items:
-  - 'Item:shield, HALF_HORIZONTAL:RED, RHOMBUS_MIDDLE:BLACK, STRIPE_TOP:RED, STRIPE_BOTTOM:WHITE, STRIPE_MIDDLE:BLACK, CIRCLE_MIDDLE:WHITE'
+  - "Item:shield, base:white, gradient_up:light_gray, straight_cross:light_blue, flower:light_blue"
 ```
 
 ### RGB Example:
@@ -56,10 +57,10 @@ This is for if you wish to use a custom color instead of preset ones by Minecraf
  DisplayName: '<bold><green>Fancy Shield</bold>'
  DisplayItem: 'shield'
  Patterns:
-  - 'HALF_HORIZONTAL:255,0,0'
+  - 'half_horizontal:255,0,0'
 ```
 ```yml
 Items:
-  - 'Item:shield, HALF_HORIZONTAL:255,0,0'
+  - 'Item:shield, half_horizontal:255,0,0'
 ```
 *Note `255,0,0` is red in RGB.
