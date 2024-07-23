@@ -268,13 +268,14 @@ Crate:
       # The enchants to display in the gui.
       DisplayItem: "shield"
       # A list of patterns: https://jd.papermc.io/paper/1.21/org/bukkit/block/banner/PatternType.html
+      # The patterns don't need to be uppercased. you can type them lowercased along with the colors.
+      # Patterns have to be laid out in a specific order, otherwise it won't look right.
+      # This also applies to the Items section.
       Patterns:
-        - "HALF_HORIZONTAL:RED"
-        - "RHOMBUS_MIDDLE:BLACK"
-        - "STRIPE_TOP:RED"
-        - "STRIPE_BOTTOM:WHITE"
-        - "STRIPE_MIDDLE:BLACK"
-        - "CIRCLE_MIDDLE:WHITE"
+        - "base:white"
+        - "gradient_up:light_gray"
+        - "straight_cross:light_blue"
+        - "flower:light_blue"
       # Prize settings
       Settings:
         # The custom model data of the item, -1 is disabled.
@@ -285,4 +286,27 @@ Crate:
       MaxRange: 100
       # The chance to win i.e. 15%
       Chance: 15
+      # The list of items to win.
+      Items:
+        - "Item:shield, base:white, gradient_up:light_gray, straight_cross:light_blue, flower:light_blue"
+    '7':
+      # The name of the item to display in the gui.
+      DisplayName: "<green>Creeper Spawner"
+      # The enchants to display in the gui.
+      DisplayItem: "spawner"
+      # Prize settings
+      Settings:
+        # The custom model data of the item, -1 is disabled.
+        Custom-Model-Data: -1
+        # The type of mob for the spawner.
+        Mob-Type: creeper
+      # The amount to display in the gui.
+      DisplayAmount: 1
+      # The max range i.e. 15/100 = 15% chance to win.
+      MaxRange: 100
+      # The chance to win i.e. 15%
+      Chance: 23
+      # The list of items to win.
+      Items:
+        - "Item:spawner, Mob:creeper"
 ```
