@@ -12,13 +12,13 @@ sidebar_position: 8
   Prizes:
     1:
      DisplayName: '<red>An map colored green.'
-     DisplayItem: 'filled_map:GREEN'
+     DisplayItem: 'filled_map:green'
      # DisplayItem: 'filled_map:133,50,73'
      DisplayAmount: 1
      MaxRange: 100
      Chance: 1
      Items:
-     - 'Item:filled_map:GREEN'
+     - 'Item:filled_map:green'
 ```
 
 ```yml

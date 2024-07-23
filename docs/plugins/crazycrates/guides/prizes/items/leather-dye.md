@@ -12,18 +12,18 @@ sidebar_position: 5
   Prizes:
     1:
      DisplayName: '<red>An leather helmet.'
-     DisplayItem: 'leather_helmet:GREEN'
+     DisplayItem: 'leather_helmet:green'
      # DisplayItem: 'leather_helmet:133,50,73'
      DisplayAmount: 1
      MaxRange: 100
      Chance: 1
      Items:
-      - 'Item:{leather_helmet/leather_horse_armor}:GREEN'
+      - 'Item:{leather_helmet/leather_horse_armor}:green'
 ```
 
 ```yml
 Items:
- - 'Item:{leather_helmet/leather_horse_armor}:GREEN'
+ - 'Item:{leather_helmet/leather_horse_armor}:green'
 ```
 You have a selection of [colors](https://jd.papermc.io/paper/1.20.6/org/bukkit/Color.html) to use with this option.
 

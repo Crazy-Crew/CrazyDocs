@@ -12,13 +12,13 @@ sidebar_position: 6
   Prizes:
     1:
      DisplayName: '<red>A green potion.'
-     DisplayItem: 'potion:GREEN'
+     DisplayItem: 'potion:green'
      # DisplayItem: 'potion:133,50,73'
      DisplayAmount: 1
      MaxRange: 100
      Chance: 1
      Items:
-     - 'Item:potion:GREEN'
+     - 'Item:potion:green'
 ```
 ```yml
 Items:
