@@ -15,13 +15,13 @@ RGB: `<Pattern>:<Red>,<Green>,<Blue>`
 <details>
   <summary>Dye Colors</summary>
 
-* https://jd.papermc.io/paper/1.20.6/org/bukkit/DyeColor.html
+* https://jd.papermc.io/paper/1.21/org/bukkit/DyeColor.html
 </details>
 
 <details>
   <summary>Pattern Types</summary>
 
-* https://jd.papermc.io/paper/1.20.6/org/bukkit/block/banner/PatternType.html
+* https://jd.papermc.io/paper/1.21/org/bukkit/block/banner/PatternType.html
 </details>
 
 *Note that the RGB option may not always work due to some internal stuff in MC that doesn't always let every colorwork.

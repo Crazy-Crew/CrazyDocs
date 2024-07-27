@@ -7,7 +7,7 @@ hide_title: false
 sidebar_label: Tipped Arrows
 sidebar_position: 2
 ---
-### [A list of potion types](https://jd.papermc.io/paper/1.20.6/org/bukkit/potion/PotionType.html)
+### [A list of potion types](https://jd.papermc.io/paper/1.21/org/bukkit/potion/PotionType.html)
 
 ### 1. How to make a tipped arrow as a prize item:
 ```yml
