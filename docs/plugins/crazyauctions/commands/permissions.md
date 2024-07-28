@@ -21,7 +21,7 @@ sidebar_position: 1
 | `/ca sell <price> [amount]` | `crazyauctions.sell` `crazyauctions.sell.#` | Add the item currently in your hand to the selling section of the auction house. |
 | `/ca bid <price> [amount]`  | `crazyauctions.bid` `crazyauctions.bid.#`   | Add the item currently in your hand to the bidding section of the auction house. |
 
-Command Aliases: `/ca` `/ah` `/hdv` `/crazyauction` `/crazyauctions`
+Command Aliases: `/ca` `/ah` `/crazyauction` `/crazyauctions`
 
 Force End an auction: `crazyauctions.force-end`
 
