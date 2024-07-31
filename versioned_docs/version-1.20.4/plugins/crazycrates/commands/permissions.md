@@ -35,10 +35,10 @@ sidebar_label: Permissions
 | `/crazycrates give-random <virtual/physical> <amount> <player>`  | `crazycrates.command.admin.giverandomkey` | Gives a random key out of all the crates available.                             | op      |
 
 # Other
-| Node                                         | Description                                            | Default |
-|----------------------------------------------|--------------------------------------------------------|---------|
-| `crazycrates.open.<crate-name>`              | `Lets you choose who can open what crate or not open.` | false   |
-| `crazycrates.command.exclude.player.giveall` | `Prevents you from getting keys when using giveall.`   | op      |
+| Node                                         | Description                                          | Default |
+|----------------------------------------------|------------------------------------------------------|---------|
+| `crazycrates.deny.open.<crate-name>`         | `Prevents you from opening a crate.`                 | false   |
+| `crazycrates.command.exclude.player.giveall` | `Prevents you from getting keys when using giveall.` | op      |
 
 # Permissions
 | Wildcard                                | Description                                            | Default |
