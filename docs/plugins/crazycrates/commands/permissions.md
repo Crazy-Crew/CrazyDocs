@@ -35,11 +35,11 @@ sidebar_label: Permissions
 | `/crazycrates`                                                   | `crazycrates.gui`           | Opens the primary crate menu.                                                   | true    |
 
 # Other
-| Node                            | Description                                                          | Default |
-|---------------------------------|----------------------------------------------------------------------|---------|
-| `crazycrates.open.<crate-name>` | `Lets you choose who can open what crate or not open.`               | false   |
-| `crazycrates.exclude.give-all`  | `Prevents you from getting keys when using giveall.`                 | op      |
-| `crazycrates.setmenu`           | `Sets the block you are looking at to open the (/crate) crate menu.` | op      |
+| Node                                 | Description                                                          | Default |
+|--------------------------------------|----------------------------------------------------------------------|---------|
+| `crazycrates.deny.open.<crate-name>` | `Prevents you from opening a crate`                                  | false   |
+| `crazycrates.exclude.give-all`       | `Prevents you from getting keys when using giveall.`                 | op      |
+| `crazycrates.setmenu`                | `Sets the block you are looking at to open the (/crate) crate menu.` | op      |
 
 # Permissions
 | Wildcard                  | Description                                            | Default |
