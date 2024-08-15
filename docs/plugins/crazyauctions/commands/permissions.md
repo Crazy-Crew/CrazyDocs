@@ -32,7 +32,7 @@ If you wish for a player to add items to the selling and or bidding section of t
 Players need BOTH PERMISSIONS to put their items in the selling section.
 * `crazyauctions.sell`
 * `crazyauctions.sell.#`
-#### *Replace the # with the max amount of items they can have in the bidding section.
+#### *Replace the # with the max amount of items they can have in the selling section.
 ### Bidding:
 Players need BOTH PERMISSIONS to put their items into the bidding section.
 * `crazyauctions.bid`
