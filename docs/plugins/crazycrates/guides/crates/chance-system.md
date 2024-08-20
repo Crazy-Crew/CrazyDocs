@@ -23,7 +23,7 @@ This is how the chance system works in Crazy Crates when finding the display ite
 ### How the Chance/Max Range works:
 The max range option is there to allow for higher chances by using math to allow for decimals. This uses basic math to find out the final chance that the prize has.
 
-#### Examples: (Chance / Max Range = Final Chance)
+#### Examples: (Chance / Max Range * 100 = Final Chance)
 | Chance | Max Range | Final Chance |
 |--------|-----------|--------------|
 | 15     | 100       | 15%          |
