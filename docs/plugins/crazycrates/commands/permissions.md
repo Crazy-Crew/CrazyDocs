@@ -37,6 +37,9 @@ sidebar_label: Permissions
 # Crate Permissions
 There, somewhere in the `config.yml` exists an option to switch what type of permissions are used to open crates.
 
+This configuration option will likely be removed in the next version of Minecraft as this was an experiment, `crazycrates.open.<crate-name>` will stay the default.
+All further experiments will be behind toggles like this one going forward.
+
 `use-new-permission-system`, which accepts true or false.
 ## false
 | Node                            | Description                                                          | Default |
