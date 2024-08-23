@@ -34,10 +34,24 @@ sidebar_label: Permissions
 | `/crazycrates wand`                                              | `crazycrates.wand`          | Gives a wand that lets you select 2 points to create schematics.                | op      |
 | `/crazycrates`                                                   | `crazycrates.gui`           | Opens the primary crate menu.                                                   | true    |
 
-# Other
+# Crate Permissions
+There, somewhere in the `config.yml` exists an option to switch what type of permissions are used to open crates.
+
+`use-old-permission-system`, which accepts true or false.
+
+## true
 | Node                            | Description                                                          | Default |
 |---------------------------------|----------------------------------------------------------------------|---------|
 | `crazycrates.open.<crate-name>` | `Lets you choose who can open what crate or not open.`               | false   |
+
+## false
+| Node                            | Description                                                          | Default |
+|--------------------------------------|----------------------------------------------------------------------|---------|
+| `crazycrates.deny.open.<crate-name>` | `Prevents you from opening a crate.`                                 | false   |
+
+# Other
+| Node                            | Description                                                          | Default |
+|---------------------------------|----------------------------------------------------------------------|---------|
 | `crazycrates.exclude.give-all`  | `Prevents you from getting keys when using giveall.`                 | op      |
 | `crazycrates.setmenu`           | `Sets the block you are looking at to open the (/crate) crate menu.` | op      |
 
