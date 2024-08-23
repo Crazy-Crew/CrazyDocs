@@ -34,28 +34,13 @@ sidebar_label: Permissions
 | `/crazycrates wand`                                              | `crazycrates.wand`          | Gives a wand that lets you select 2 points to create schematics.                | op      |
 | `/crazycrates`                                                   | `crazycrates.gui`           | Opens the primary crate menu.                                                   | true    |
 
-# Crate Permissions
-There, somewhere in the `config.yml` exists an option to switch what type of permissions are used to open crates.
-
-This configuration option will likely be removed in the next version of Minecraft as this was an experiment, `crazycrates.open.<crate-name>` will stay the default.
-All further experiments will be behind toggles like this one going forward.
-
-`use-new-permission-system`, which accepts true or false.
-## false
-| Node                            | Description                                                          | Default |
-|---------------------------------|----------------------------------------------------------------------|---------|
-| `crazycrates.open.<crate-name>` | `Lets you choose who can open what crate or not open.`               | false   |
-
-## true
-| Node                            | Description                                                          | Default |
-|--------------------------------------|----------------------------------------------------------------------|---------|
-| `crazycrates.deny.open.<crate-name>` | `Prevents you from opening a crate.`                                 | false   |
-
 # Other
-| Node                            | Description                                                          | Default |
-|---------------------------------|----------------------------------------------------------------------|---------|
-| `crazycrates.exclude.give-all`  | `Prevents you from getting keys when using giveall.`                 | op      |
-| `crazycrates.setmenu`           | `Sets the block you are looking at to open the (/crate) crate menu.` | op      |
+| Node                                 | Description                                                          | Default | Deprecated & Removing |
+|--------------------------------------|----------------------------------------------------------------------|---------|-----------------------|
+| `crazycrates.open.<crate-name>`      | `Lets you choose who can open what crate or not open.`               | true    | no                    |
+| `crazycrates.deny.open.<crate-name>` | `Prevents you from opening a crate.`                                 | false   | yes                   |
+| `crazycrates.exclude.give-all`       | `Prevents you from getting keys when using giveall.`                 | op      | no                    |
+| `crazycrates.setmenu`                | `Sets the block you are looking at to open the (/crate) crate menu.` | op      | no                    |
 
 # Permissions
 | Wildcard                  | Description                                            | Default |
