@@ -38,7 +38,6 @@ sidebar_label: Permissions
 There, somewhere in the `config.yml` exists an option to switch what type of permissions are used to open crates.
 
 `use-old-permission-system`, which accepts true or false.
-
 ## true
 | Node                            | Description                                                          | Default |
 |---------------------------------|----------------------------------------------------------------------|---------|
