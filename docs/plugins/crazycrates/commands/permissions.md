@@ -37,13 +37,13 @@ sidebar_label: Permissions
 # Crate Permissions
 There, somewhere in the `config.yml` exists an option to switch what type of permissions are used to open crates.
 
-`use-old-permission-system`, which accepts true or false.
-## true
+`use-new-permission-system`, which accepts true or false.
+## false
 | Node                            | Description                                                          | Default |
 |---------------------------------|----------------------------------------------------------------------|---------|
 | `crazycrates.open.<crate-name>` | `Lets you choose who can open what crate or not open.`               | false   |
 
-## false
+## true
 | Node                            | Description                                                          | Default |
 |--------------------------------------|----------------------------------------------------------------------|---------|
 | `crazycrates.deny.open.<crate-name>` | `Prevents you from opening a crate.`                                 | false   |
