@@ -37,7 +37,7 @@ sidebar_label: Permissions
 # Other
 | Node                                 | Description                                                          | Default | Deprecated & Removing |
 |--------------------------------------|----------------------------------------------------------------------|---------|-----------------------|
-| `crazycrates.open.<crate-name>`      | `Lets you choose who can open what crate or not open.`               | true    | no                    |
+| `crazycrates.open.<crate-name>`      | `Allows you to open a crate.`                                        | true    | no                    |
 | `crazycrates.deny.open.<crate-name>` | `Prevents you from opening a crate.`                                 | false   | yes                   |
 | `crazycrates.exclude.give-all`       | `Prevents you from getting keys when using giveall.`                 | op      | no                    |
 | `crazycrates.setmenu`                | `Sets the block you are looking at to open the (/crate) crate menu.` | op      | no                    |
