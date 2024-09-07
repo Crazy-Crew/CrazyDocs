@@ -21,7 +21,7 @@ All our resources will now be uploaded on Hangar and Modrinth, you can find link
 [![Hangar](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/hangar_64h.png)](https://hangar.papermc.io/CrazyCrew)
 
 ### What about CrazyVouchers being paid?
-CrazyVouchers has been a free for a total of 2 years, Any purchase made on Spigot for CrazyVouchers was you simply supporting the Developers.
+CrazyVouchers has been a free for a total of 2 years, Purchases have been disabled recently ( any prior purchase is considered a donation )
 
 ### Will you ever move back to Spigot?
 1) Spigot adds a section for Paper resources.
