@@ -21,8 +21,12 @@ CrazyVouchers has been a free for a total of 2 years, Any purchase made on Spigo
 2) Paper would have to completely disappear without a chance of recovery even through other people taking up the mantle.
 
 ### What if I don't want to use Paper?
-That sucks since Paper simply providers a better experience with plugins and for server performance, however Paper at this time is a drop in replacement... a large share of plugins will simply function as they always do and quite a few plugins will have a lot of improvements with chunk loading or new features not available on Spigot.
+That sucks since Paper provides a better experience for developing plugins with very useful api additions which makes it easier to add new features or improve the current state of the plugins we have, not to mention a large quantity of performance improvements and bug fixes for servers.
 
+#### Paper Forks
+Paper has it's own fork network, The most commonly used one is Purpur which contains a large quantity of fun features like flying squids.
+
+#### Migration
 If you are confused about how to migrate, a migration guide by PaperMC Team exists:
 
 https://docs.papermc.io/paper/getting-started#migrating-to-paper
