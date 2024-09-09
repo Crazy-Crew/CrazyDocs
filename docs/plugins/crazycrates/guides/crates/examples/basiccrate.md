@@ -14,10 +14,6 @@ Crate:
 
   # See CosmicCrate.yml or CasinoCrate.yml to see how the Cosmic/Casino CrateType works.
   CrateType: CSGO
-  # Name of the Inventory if a GUI crate.
-  CrateName: "<green>Basic Crate"
-  # The name of the inventory that will be in the preview GUI.
-  Preview-Name: "<green>Basic Crate Preview"
   # Starting amount of keys when the player 1st joins.
   StartingKeys: 0
   # The amount of keys required to use the crate.
@@ -98,6 +94,8 @@ Crate:
     - "<gray>You have opened this crate: <gold>%crate_opened% times"
     - "<gray>(<yellow>!<gray>) Right click to view rewards."
   Preview:
+    # The name of the inventory for the preview menu.
+    Name: "<green>Basic Crate Preview"
     # Turn on and off the preview for this crate.
     Toggle: true
     # How many lines the Crate Preview should have. Including Header and Bottom (Between 3 and 6)
@@ -167,6 +165,8 @@ Crate:
       Player: "1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e"
       # Only uncomment this if using HeadDatabase by Arcaniax
       # Skull: "7129"
+      Items:
+        - "Item:player_head, Player:1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Name:<gold>BadBones69"
     '2':
       # The name of the item to display in the gui.
       DisplayName: "<red>Diamond Sword"
@@ -186,6 +186,9 @@ Crate:
       MaxRange: 100
       # The chance to win i.e. 15%
       Chance: 15
+      # The list of items to win.
+      Items:
+        - "Item:diamond_sword, Name:<red>Diamond Sword, sharpness:5, looting:3"
     '3':
       # The name of the item to display in the gui.
       DisplayName: "<red>Diamond Helmet"
@@ -213,6 +216,9 @@ Crate:
       MaxRange: 100
       # The chance to win i.e. 15%
       Chance: 15
+      # The list of items to win.
+      Items:
+        - "Item:diamond_helmet, Name:<red>Diamond Helmet, protection:5, unbreaking:3"
     '4':
       # The enchants to be stored on the book.
       DisplayEnchantments:
@@ -234,6 +240,9 @@ Crate:
       MaxRange: 100
       # The chance to win i.e. 25%
       Chance: 25
+      # The list of items to win.
+      Items:
+        - "Item:enchanted_book, protection:5, unbreaking:3"
     '5':
       # The display name of the item.
       DisplayName: "<yellow>$1,000"
@@ -244,12 +253,21 @@ Crate:
       Settings:
         # The custom model data of the item, -1 is disabled.
         Custom-Model-Data: -1
+        # Broadcast a message to the server
+        Broadcast:
+          # If the messages should be sent.
+          Toggle: false
+          # The messages to broadcast.
+          Messages:
+            - '<red>%player% won the prize <yellow>%reward%.'
+          # If the player has this permission, they don't get the broadcast.
+          Permission: 'your_permission'
       # The amount to display in the gui.
       DisplayAmount: 5
       # The lore of the item.
       DisplayLore:
         - "<gray>Make it rain Money."
-        - "<bold><gold>Chance: <red>20%</bold>"
+        - "<bold><gold>Chance: <red>%chance%</bold>"
       # The max range i.e. 20/100 = 25% chance to win.
       MaxRange: 100
       # The chance to win i.e. 20%
@@ -264,14 +282,14 @@ Crate:
         - "<gray>You won <reset>%reward%."
     '6':
       # The name of the item to display in the gui.
-      DisplayName: "<green>Fancy Shield"
+      DisplayName: "<green>Fancy Shield <gray>| <red>%pulls%<gray>/<red>%maxpulls%"
       # The enchants to display in the gui.
       DisplayItem: "shield"
       # A list of patterns: https://jd.papermc.io/paper/1.21/org/bukkit/block/banner/PatternType.html
       # The patterns don't need to be uppercased. you can type them lowercased along with the colors.
       # Patterns have to be laid out in a specific order, otherwise it won't look right.
       # This also applies to the Items section.
-      Patterns:
+      DisplayPatterns:
         - "base:white"
         - "gradient_up:light_gray"
         - "straight_cross:light_blue"
@@ -280,12 +298,14 @@ Crate:
       Settings:
         # The custom model data of the item, -1 is disabled.
         Custom-Model-Data: -1
+        # The amount of times this item can be pulled.
+        Max-Pulls: 10
       # The amount to display in the gui.
       DisplayAmount: 1
       # The max range i.e. 15/100 = 15% chance to win.
       MaxRange: 100
       # The chance to win i.e. 15%
-      Chance: 15
+      Chance: 99
       # The list of items to win.
       Items:
         - "Item:shield, base:white, gradient_up:light_gray, straight_cross:light_blue, flower:light_blue"
