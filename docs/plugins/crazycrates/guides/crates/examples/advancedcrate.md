@@ -14,14 +14,10 @@ Crate:
 
   # See CosmicCrate.yml or CasinoCrate.yml to see how the Cosmic/Casino CrateType works.
   CrateType: CSGO
-  # Name of the Inventory if a GUI crate.
-  CrateName: "<light_purple>Advanced Crate"
-  # The name of the inventory that will be in the preview GUI.
-  Preview-Name: "<light_purple>Advanced Crate Preview"
   # Starting amount of keys when the player 1st joins.
   StartingKeys: 0
   # The amount of keys required to use the crate.
-  RequiredKeys: 0
+  RequiredKeys: 10
   # Max amount of crates that can be opened at once using /crates mass-open
   Max-Mass-Open: 10
   # If the crate shows in /crates.
@@ -98,6 +94,8 @@ Crate:
     - "<gray>You have opened this crate: <gold>%crate_opened% times"
     - "<gray>(<yellow>!<gray>) Right click to view rewards."
   Preview:
+    # The name of the inventory for the preview menu.
+    Name: "<light_purple>Advanced Crate Preview"
     # Turn on and off the preview for this crate.
     Toggle: true
     # How many lines the Crate Preview should have. Including Header and Bottom (Between 3 and 6)
@@ -169,7 +167,7 @@ Crate:
       # The lore of the item.
       DisplayLore:
         - "<gray>Win the warlord's set."
-        - "<bold><gold>Chance: <red>40%</bold>"
+        - "<bold><gold>Chance: <red>%chance%</bold>"
       # The max range i.e. 40/100 = 40% chance to win.
       MaxRange: 100
       # The chance to win i.e. 40%
@@ -222,4 +220,7 @@ Crate:
       MaxRange: 100
       # The chance to win i.e. 25%
       Chance: 25
+      # The list of items to win.
+      Items:
+        - "Item:enchanted_book, protection:5, unbreaking:3"
 ```

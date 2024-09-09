@@ -14,14 +14,10 @@ Crate:
 
   # See CosmicCrate.yml to see how the Cosmic CrateType works.
   CrateType: Casino
-  # Name of the Inventory if a GUI crate.
-  CrateName: "<dark_blue>Casino Crate"
-  # The name of the inventory that will be in the preview GUI.
-  Preview-Name: "<dark_blue>Casino Crate Preview"
   # Starting amount of keys when the player 1st joins.
   StartingKeys: 0
   # The amount of keys required to use the crate.
-  RequiredKeys: 0
+  RequiredKeys: 20
   # Max amount of crates that can be opened at once using /crates mass-open
   Max-Mass-Open: 10
   # If the crate shows in /crates.
@@ -98,6 +94,8 @@ Crate:
     - "<gray>You have opened this crate: <gold>%crate_opened% times"
     - "<gray>(<yellow>!<gray>) Right click to view rewards."
   Preview:
+    # The name of the inventory for the preview menu.
+    Name: "<dark_blue>Casino Crate Preview"
     # Turn on and off the preview for this crate.
     Toggle: true
     # How many lines the Crate Preview should have. Including Header and Bottom (Between 3 and 6)
@@ -148,6 +146,7 @@ Crate:
       # The in-game lore of the tier.
       Lore:
         - "<gray>A basic tier."
+        - "<red>%chance%</red>"
       # The item used for the secondary gui when you right-click for the preview.
       Item: "chest"
       # The custom model data of the item, -1 is disabled.
@@ -164,6 +163,7 @@ Crate:
       # The in-game lore of the tier.
       Lore:
         - "<green>An uncommon tier."
+        - "<red>%chance%</red>"
       # The item used for the secondary gui when you right-click for the preview.
       Item: "chest"
       # The custom model data of the item, -1 is disabled.
@@ -180,6 +180,7 @@ Crate:
       # The in-game lore of the tier.
       Lore:
         - "<red>A rare tier."
+        - "<red>%chance%</red>"
       # The item used for the secondary gui when you right-click for the preview.
       Item: "ender_chest"
       # The custom model data of the item, -1 is disabled.
@@ -245,6 +246,10 @@ Crate:
       # This can be a player head as well.
       # https://minecraft-heads.com/
       Player: "1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e"
+      # Only uncomment this if using HeadDatabase by Arcaniax
+      # Skull: "7129"
+      Items:
+        - "Item:player_head, Player:1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Name:<gold>BadBones69"
     "2":
       # The name of the item to display in the gui.
       DisplayName: "<bold><dark_red>Warlord's Set</bold>"
@@ -269,7 +274,7 @@ Crate:
       # The lore of the item.
       DisplayLore:
         - "<gray>Win the warlord's set."
-        - "<bold><gold>Chance: <red>40%</bold>"
+        - "<bold><gold>Chance: <red>%chance%</bold>"
       # The max range i.e. 40/100 = 40% chance to win.
       MaxRange: 100
       # The chance to win i.e. 40%
@@ -330,6 +335,9 @@ Crate:
       # The Tiers the rewards can be found in.
       Tiers:
         - "Rare"
+      # The list of items to win.
+      Items:
+        - "Item:enchanted_book, protection:5, unbreaking:3"
     "4":
       # The name of the item to display in the gui.
       DisplayName: "<bold><green>Fancy Pants</bold>"
@@ -366,7 +374,7 @@ Crate:
       # The lore of the item.
       DisplayLore:
         - "<gray>Win a fancy pair of pants."
-        - "<bold><gold>Chance: <red>4%</bold>"
+        - "<bold><gold>Chance: <red>%chance%</bold>"
       # The items to win.
       Items:
         - "Item:chainmail_leggings, Amount:1, Damage:75, Trim-Pattern:sentry, Trim-Material:lapis, Name:<bold><green>Fancy Pants</bold>, protection:2"
@@ -395,7 +403,7 @@ Crate:
       # The lore of the item.
       DisplayLore:
         - "<gray>Win a old classic sword."
-        - "<bold><gold>Chance: <red>3.5%</bold>"
+        - "<bold><gold>Chance: <red>%chance%</bold>"
       # The max range i.e. 35/1000 = 3.5% chance to win.
       MaxRange: 1000
       # The chance to win i.e. 3.5%.

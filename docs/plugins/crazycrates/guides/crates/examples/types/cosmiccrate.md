@@ -14,14 +14,10 @@ Crate:
 
   # See CasinoCrate.yml to see how the Cosmic/Casino CrateType works.
   CrateType: Cosmic
-  # Name of the Inventory if a GUI crate.
-  CrateName: "<light_purple>Cosmic Crate"
-  # The name of the inventory that will be in the preview GUI.
-  Preview-Name: "<light_purple>Cosmic Crate Preview"
   # Starting amount of keys when the player 1st joins.
   StartingKeys: 0
   # The amount of keys required to use the crate.
-  RequiredKeys: 0
+  RequiredKeys: 4
   # Max amount of crates that can be opened at once using /crates mass-open
   Max-Mass-Open: 10
   # If the crate shows in the /crates.
@@ -32,7 +28,7 @@ Crate:
   # Enables/Disables the Broadcasts message when they open a crate.
   OpeningBroadCast: true
   # Message that is broadcast when opening the crate.
-  BroadCast: "%prefix%<bold><gold>%player%</bold><reset> <gray>is opening a <bold><light_purple>Cosmic Crate.</bold>"
+  BroadCast: "%prefix%<bold><gold>%player%</bold><reset> <gray>is opening a <bold><gradient:#E43A96:#FF91EA>Cosmic Crate.</gradient></bold>"
   # This section is related to commands opening when a crate is opened.
   opening-command:
     # If the commands should be sent or not.
@@ -90,7 +86,7 @@ Crate:
   # If the crate in the main /crates is glowing or not.
   Glowing: false
   # Name of the item in the GUI.
-  Name: "<bold><light_purple>Cosmic Crate</bold>"
+  Name: "<bold><gradient:#E43A96:#FF91EA>Cosmic Crate</gradient></bold>"
   # The lore of the item in the GUI.
   Lore:
     - "<gray>This crate contains strange objects."
@@ -98,6 +94,8 @@ Crate:
     - "<gray>You have opened this crate: <gold>%crate_opened% times"
     - "<gray>(<yellow>!<gray>) Right click to view rewards."
   Preview:
+    # The name of the inventory for the preview menu.
+    Name: "<gradient:#E43A96:#FF91EA>Cosmic Crate Preview</gradient>"
     # Turn on and off the preview for this crate.
     Toggle: true
     # How many lines the Crate Preview should have. Including Header and Bottom (Between 3 and 6)
@@ -147,6 +145,7 @@ Crate:
       # The in-game lore of the tier.
       Lore:
         - "<gray>A basic tier."
+        - "<red>%chance%</red>"
       # The item used for the secondary gui when you right-click for the preview.
       Item: "chest"
       # The custom model data of the item, -1 is disabled.
@@ -163,6 +162,7 @@ Crate:
       # The in-game lore of the tier.
       Lore:
         - "<green>An uncommon tier."
+        - "<red>%chance%</red>"
       # The item used for the secondary gui when you right-click for the preview.
       Item: "chest"
       # The custom model data of the item, -1 is disabled.
@@ -179,6 +179,7 @@ Crate:
       # The in-game lore of the tier.
       Lore:
         - "<red>A rare tier."
+        - "<red>%chance%</red>"
       # The item used for the secondary gui when you right-click for the preview.
       Item: "ender_chest"
       # The custom model data of the item, -1 is disabled.
@@ -191,13 +192,12 @@ Crate:
       Slot: 24
   PhysicalKey:
     # Name of the Key.
-    Name: "<bold><light_purple>Cosmic Crate Key</bold>"
+    Name: "<bold><gradient:#E43A96:#FF91EA>Cosmic Crate Key</gradient></bold>"
     # The custom model data of the item, -1 is disabled.
     Custom-Model-Data: -1
     # Lore of the Key.
     Lore:
-      - "<gray>A special Key"
-      - "<gray>For a special Crate."
+      - "<gradient:#E43A96:#FF91EA>A fancy key to open a cosmical crate!</gradient>"
     # The item the key is.
     Item: "purple_dye"
     # Makes the key look enchanted.
@@ -270,6 +270,10 @@ Crate:
       # This can be a player head as well.
       # https://minecraft-heads.com/
       Player: "1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e"
+      # Only uncomment this if using HeadDatabase by Arcaniax
+      # Skull: "7129"
+      Items:
+        - "Item:player_head, Player:1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Name:<gold>BadBones69"
     "2":
       DisplayName: "<bold><blue>Cheap Helmet</bold>"
       DisplayItem: "golden_helmet"
@@ -299,7 +303,7 @@ Crate:
       # The lore of the item.
       DisplayLore:
         - "<gray>Win a cheap helmet."
-        - "<bold><gold>Chance: <red>60%</bold>"
+        - "<bold><gold>Chance: <red>%chance%</bold>"
       # The tiers the prize can be won from.
       Tiers:
         - "Basic"
@@ -326,7 +330,7 @@ Crate:
       # The lore of the item.
       DisplayLore:
         - "<gray>Make it rain Money."
-        - "<bold><gold>Chance: <red>20%</bold>"
+        - "<bold><gold>Chance: <red>%chance%</bold>"
       # If the prize should spawn fireworks.
       Firework: true
       # The tiers the prize can be won from.
@@ -362,7 +366,7 @@ Crate:
       # The lore of the item.
       DisplayLore:
         - "<gray>Win a crazy cool sword."
-        - "<bold><gold>Chance: <red>10%</bold>"
+        - "<bold><gold>Chance: <red>%chance%</bold>"
       # The tiers the prize can be won from.
       Tiers:
         - "Rare"
@@ -387,7 +391,7 @@ Crate:
       # The lore of the item.
       DisplayLore:
         - "<gray>Make it rain a butt load of Money."
-        - "<bold><gold>Chance: <red>20%</bold>"
+        - "<bold><gold>Chance: <red>%chance%</bold>"
       # If the prize should spawn fireworks.
       Firework: true
       # The tiers the prize can be won from.
@@ -415,7 +419,7 @@ Crate:
       DisplayLore:
         - "<gray>A special Key"
         - "<gray>For a special Crate."
-        - "<bold><gold>Chance: <red>1.0%</bold>"
+        - "<bold><gold>Chance: <red>%chance%</bold>"
       # If the prize should spawn fireworks.
       Firework: true
       # If the display item should glow.

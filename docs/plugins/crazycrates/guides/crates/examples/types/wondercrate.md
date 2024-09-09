@@ -14,14 +14,10 @@ Crate:
 
   # See CosmicCrate.yml or CasinoCrate.yml to see how the Cosmic/Casino CrateType works.
   CrateType: Wonder
-  # Name of the Inventory if a GUI crate.
-  CrateName: "<light_purple>Wonder Crate"
-  # The name of the inventory that will be in the preview GUI.
-  Preview-Name: "<light_purple>Wonder Crate Preview"
   # Starting amount of keys when the player 1st joins.
   StartingKeys: 0
   # The amount of keys required to use the crate.
-  RequiredKeys: 0
+  RequiredKeys: 5
   # Max amount of crates that can be opened at once using /crates mass-open
   Max-Mass-Open: 10
   # If the crate shows in the /crates.
@@ -32,7 +28,7 @@ Crate:
   # Enables/Disables the Broadcasts message when they open a crate.
   OpeningBroadCast: true
   # Message that is broadcast when opening the crate.
-  BroadCast: "%prefix%<bold><gold>%player%</bold><reset> <gray>is opening a <bold><light_purple>Wonder Crate.</bold>"
+  BroadCast: "%prefix%<bold><gold>%player%</bold><reset> <gray>is opening a <bold><gradient:#084CFB:#ADF3FD>Wonder Crate.</gradient></bold>"
   # This section is related to commands opening when a crate is opened.
   opening-command:
     # If the commands should be sent or not.
@@ -90,7 +86,7 @@ Crate:
   # If the crate in the main /crates is glowing or not.
   Glowing: false
   # Name of the item in the GUI.
-  Name: "<bold><light_purple>Wonder Crate</bold>"
+  Name: "<bold><gradient:#084CFB:#ADF3FD>Wonder Crate</gradient></bold>"
   # The lore of the item in the GUI.
   Lore:
     - "<gray>This crate contains strange objects."
@@ -98,6 +94,8 @@ Crate:
     - "<gray>You have opened this crate: <gold>%crate_opened% times"
     - "<gray>(<yellow>!<gray>) Right click to view rewards."
   Preview:
+    # The name of the inventory for the preview menu.
+    Name: "<gradient:#084CFB:#ADF3FD>Wonder Crate Preview</gradient>"
     # Turn on and off the preview for this crate.
     Toggle: true
     # How many lines the Crate Preview should have. Including Header and Bottom (Between 3 and 6)
@@ -113,11 +111,10 @@ Crate:
       Custom-Model-Data: -1
   PhysicalKey:
     # Name of the Key.
-    Name: "<bold><light_purple>Wonder Crate Key</bold>"
+    Name: "<bold><gradient:#084CFB:#ADF3FD>Wonder Crate Key</gradient></bold>"
     # Lore of the Key.
     Lore:
-      - "<gray>A special Key"
-      - "<gray>For a special Crate."
+      - "<gradient:#084CFB:#ADF3FD>A fancy key to open a wonderful crate!</gradient>"
     # The item the key is.
     Item: "lime_dye"
     # The custom model data of the item, -1 is disabled.
@@ -167,6 +164,8 @@ Crate:
       Player: "1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e"
       # Only uncomment this if using HeadDatabase by Arcaniax
       # Skull: "7129"
+      Items:
+        - "Item:player_head, Player:1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Name:<gold>BadBones69"
     '2':
       # The name of the item to display in the gui.
       DisplayName: "<red>Diamond Sword"
@@ -213,6 +212,9 @@ Crate:
       MaxRange: 100
       # The chance to win i.e. 15%
       Chance: 15
+      # The list of items to win.
+      Items:
+        - "Item:diamond_helmet, Name:<red>Diamond Helmet, protection:5, unbreaking:3"
     '4':
       # The enchants to be stored on the book.
       DisplayEnchantments:
@@ -234,6 +236,9 @@ Crate:
       MaxRange: 100
       # The chance to win i.e. 25%
       Chance: 25
+      # The list of items to win.
+      Items:
+        - "Item:enchanted_book, protection:5, unbreaking:3"
     '5':
       # The display name of the item.
       DisplayName: "<yellow>$1,000"
@@ -249,7 +254,7 @@ Crate:
       # The lore of the item.
       DisplayLore:
         - "<gray>Make it rain Money."
-        - "<bold><gold>Chance: <red>20%</bold>"
+        - "<bold><gold>Chance: <red>%chance%</bold>"
       # The max range i.e. 20/100 = 25% chance to win.
       MaxRange: 100
       # The chance to win i.e. 20%

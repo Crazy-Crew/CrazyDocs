@@ -14,14 +14,10 @@ Crate:
 
   # See CosmicCrate.yml or CasinoCrate.yml to see how the Cosmic/Casino CrateType works.
   CrateType: QuadCrate
-  # Name of the Inventory if a GUI crate.
-  CrateName: "<blue>Quad Crate"
-  # The name of the inventory that will be in the preview GUI.
-  Preview-Name: "<blue>Quad Crate Preview"
   # Starting amount of keys when the player 1st joins.
   StartingKeys: 0
   # The amount of keys required to use the crate.
-  RequiredKeys: 0
+  RequiredKeys: 4
   # Max amount of crates that can be opened at once using /crates mass-open
   Max-Mass-Open: 10
   # If the crate shows in the /crates.
@@ -104,6 +100,8 @@ Crate:
     - "<gray>You have opened this crate: <gold>%crate_opened% times"
     - "<gray>(<yellow>!<gray>) Right click to view rewards."
   Preview:
+    # The name of the inventory for the preview menu.
+    Name: "<blue>Quad Crate Preview"
     # Turn on and off the preview for this crate.
     Toggle: true
     # How many lines the Crate Preview should have. Including Header and Bottom (Between 3 and 6)
@@ -177,6 +175,10 @@ Crate:
       # This can be a player head as well.
       # https://minecraft-heads.com/
       Player: "1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e"
+      # Only uncomment this if using HeadDatabase by Arcaniax
+      # Skull: "7129"
+      Items:
+        - "Item:player_head, Player:1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Name:<gold>BadBones69"
     "2":
       # The name of the item to display in the gui.
       DisplayName: "<bold><green>Fancy Pants</bold>"
@@ -204,7 +206,7 @@ Crate:
       # The lore of the item.
       DisplayLore:
         - "<gray>Win a fancy pair of pants."
-        - "<bold><gold>Chance: <red>4%</bold>"
+        - "<bold><gold>Chance: <red>%chance%</bold>"
       # The max range i.e. 40/1000 = 4% chance to win.
       MaxRange: 1000
       # The chance to win i.e. 4%
@@ -237,7 +239,7 @@ Crate:
       # The lore of the item.
       DisplayLore:
         - "<gray>Win a old classic sword."
-        - "<bold><gold>Chance: <red>3.5%</bold>"
+        - "<bold><gold>Chance: <red>%chance%</bold>"
       # The max range i.e. 35/1000 = 3.5% chance to win.
       MaxRange: 1000
       # The chance to win i.e. 3.5%.
