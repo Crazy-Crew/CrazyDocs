@@ -1,12 +1,14 @@
 ---
 title: Chance System
-description: A guide on how the chance system works
+description: A guide on how the old chance system works
 
 hide_title: false
 
 sidebar_label: Chance System
 sidebar_position: 1
 ---
+## This section will be obsolete as of v3.9
+
 This is how the chance system works in Crazy Crates when finding the display item or final prize of a crate.
 **Don't use `decimals` in the `Chance` option as that is what the Max Range is meant for.** ( i.e 0.3 )
 
