@@ -30,9 +30,8 @@ sidebar_position: 2
       Lore: {} # Optional
       # The enchantments to display in the preview.
       DisplayEnchantments: {} # Optional
-      # https://docs.crazycrew.us/crazycrates/crates/chance-system
-      MaxRange: 100 # Required
-      Chance: 40 # Required
+      # https://docs.crazycrew.us/crazycrates/crates/weight-system
+      Weight: 40.0 # Required
       # If you want fireworks to spawn or not when prize is won.
       Firework: false # Optional
       # If the item glows in the preview.
@@ -141,7 +140,7 @@ The issue is related to a setting in server.properties.
 spawn-protection=0
 ```
 
-### 12. You are already opening this crate!
+### 12. You are already opening this crate! (Only applies to versions prior to v3.9)
  * It is most likely due to you using decimals/bad inputs for the `Chance` and `MaxRange` sections.
 
 ### 13. Why are my Crates/Crate Keys not working?
