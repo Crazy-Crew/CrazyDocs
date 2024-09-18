@@ -24,7 +24,7 @@ Crate:
   # If the type is QuickCrate/CrateOnTheGo/FireCracker, They will not work as they require a Physical Crate.
   InGUI: true
   # Slot the item is in the GUI.
-  Slot: 32
+  Slot: 31
   # Enables/Disables the Broadcasts message when they open a crate.
   OpeningBroadCast: true
   # Message that is broadcast when opening the crate.
@@ -85,6 +85,17 @@ Crate:
   # A default command if the prize doesn't have any commands
   # i.e. Commands: [] or the value isn't there.
   Prize-Commands: []
+  # Global Settings
+  Settings:
+    # Broadcast a message to the server
+    Broadcast:
+      # If the messages should be sent.
+      Toggle: false
+      # The messages to broadcast.
+      Messages:
+        - "<red>%player% won the prize <yellow>%reward%."
+      # If the player has this permission, they don't get the broadcast.
+      Permission: ""
   # Item the crate is in the GUI
   Item: "brewing_stand"
   # The custom model data of the item, -1 is disabled.
@@ -104,7 +115,7 @@ Crate:
     Name: "<blue>Quad Crate Preview"
     # Turn on and off the preview for this crate.
     Toggle: true
-    # How many lines the Crate Preview should have. Including Header and Bottom (Between 3 and 6)
+    # How many lines should the preview be? You can use 1-6.
     ChestLines: 6
     Glass:
       # Turn the glass border in the preview on and off.
@@ -152,7 +163,7 @@ Crate:
     Message:
       - "<bold><blue>Quad Crate</bold>"
   Prizes:
-    '1':
+    "1":
       # The name of the item to display in the gui.
       DisplayName: "<gold>Ryder Belserion"
       # The item to display in the gui.
@@ -163,10 +174,8 @@ Crate:
         Custom-Model-Data: -1
       # The amount to display in the gui.
       DisplayAmount: 1
-      # The max range i.e. 1/100 = 1% chance to win.
-      MaxRange: 100
-      # The chance to win i.e. 1%
-      Chance: 1
+      # The lower the number, the less likely to win it.
+      Weight: 1.0
       # Tiers are available in Cosmic and Casino crate types.
       # The Tiers the rewards can be found in.
       Tiers:
@@ -206,11 +215,9 @@ Crate:
       # The lore of the item.
       DisplayLore:
         - "<gray>Win a fancy pair of pants."
-        - "<bold><gold>Chance: <red>%chance%</bold>"
-      # The max range i.e. 40/1000 = 4% chance to win.
-      MaxRange: 1000
-      # The chance to win i.e. 4%
-      Chance: 40
+        - "<bold><gold>Chance: <red>4%</bold>"
+      # The lower the number, the less likely to win it.
+      Weight: 40.0
       # The items to win.
       Items:
         - "Item:chainmail_leggings, Amount:1, Damage:75, Trim-Pattern:sentry, Trim-Material:lapis, Name:<bold><green>Fancy Pants</bold>, protection:2"
@@ -239,11 +246,9 @@ Crate:
       # The lore of the item.
       DisplayLore:
         - "<gray>Win a old classic sword."
-        - "<bold><gold>Chance: <red>%chance%</bold>"
-      # The max range i.e. 35/1000 = 3.5% chance to win.
-      MaxRange: 1000
-      # The chance to win i.e. 3.5%.
-      Chance: 35
+        - "<bold><gold>Chance: <red>3.5%</bold>"
+      # The lower the number, the less likely to win it.
+      Weight: 35.0
       # The items to win.
       Items:
         - "Item:diamond_sword, Amount:1, Damage:7, Name:<bold><blue>Classic Sword</bold>, sharpness:2, fire_aspect:1"

@@ -24,7 +24,7 @@ Crate:
   # If the type is QuickCrate/CrateOnTheGo/FireCracker, They will not work as they require a Physical Crate.
   InGUI: true
   # Slot the item is in the GUI.
-  Slot: 12
+  Slot: 11
   # Enables/Disables the Broadcasts message when they open a crate.
   OpeningBroadCast: true
   # Message that is broadcast when opening the crate.
@@ -87,9 +87,9 @@ Crate:
       Toggle: false
       # The messages to broadcast.
       Messages:
-        - '<red>%player% won the prize <yellow>%reward%.'
+        - "<red>%player% won the prize <yellow>%reward%."
       # If the player has this permission, they don't get the broadcast.
-      Permission: 'your_permission'
+      Permission: ""
   # Item the crate is in the GUI
   Item: "diamond"
   # The custom model data of the item, -1 is disabled.
@@ -109,7 +109,7 @@ Crate:
     Name: "<green>Basic Crate Preview"
     # Turn on and off the preview for this crate.
     Toggle: true
-    # How many lines the Crate Preview should have. Including Header and Bottom (Between 3 and 6)
+    # How many lines should the preview be? You can use 1-6.
     ChestLines: 6
     Glass:
       # Turn the glass border in the preview on and off.
@@ -155,7 +155,7 @@ Crate:
   # They will give the prizes based on what's already below.
   # See the AdvancedExample.yml for a more advanced crate.
   Prizes:
-    '1':
+    "1":
       # The name of the item to display in the gui.
       DisplayName: "<gold>BadBones69"
       # The item to display in the gui.
@@ -166,10 +166,8 @@ Crate:
         Custom-Model-Data: -1
       # The amount to display in the gui.
       DisplayAmount: 1
-      # The max range i.e. 1/100 = 1% chance to win.
-      MaxRange: 100
-      # The chance to win i.e. 1%
-      Chance: 1
+      # The lower the number, the less likely to win it.
+      Weight: 1.0
       # An example of a custom player head.
       # This can be a player head as well.
       # https://minecraft-heads.com/
@@ -178,7 +176,7 @@ Crate:
       # Skull: "7129"
       Items:
         - "Item:player_head, Player:1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Name:<gold>BadBones69"
-    '2':
+    "2":
       # The name of the item to display in the gui.
       DisplayName: "<red>Diamond Sword"
       # The enchants to display in the gui.
@@ -193,14 +191,12 @@ Crate:
         Custom-Model-Data: -1
       # The amount to display in the gui.
       DisplayAmount: 1
-      # The max range i.e. 15/100 = 15% chance to win.
-      MaxRange: 100
-      # The chance to win i.e. 15%
-      Chance: 15
+      # The lower the number, the less likely to win it.
+      Weight: 15.0
       # The list of items to win.
       Items:
         - "Item:diamond_sword, Name:<red>Diamond Sword, sharpness:5, looting:3"
-    '3':
+    "3":
       # The name of the item to display in the gui.
       DisplayName: "<red>Diamond Helmet"
       DisplayEnchantments:
@@ -223,14 +219,12 @@ Crate:
       # The lore of the item.
       DisplayLore:
         - "<gradient:#8fcfa0:#32a852>A gradient lore!"
-      # The max range i.e. 15/100 = 15% chance to win.
-      MaxRange: 100
-      # The chance to win i.e. 15%
-      Chance: 15
+      # The lower the number, the less likely to win it.
+      Weight: 15.0
       # The list of items to win.
       Items:
         - "Item:diamond_helmet, Name:<red>Diamond Helmet, protection:5, unbreaking:3"
-    '4':
+    "4":
       # The enchants to be stored on the book.
       DisplayEnchantments:
         - "protection:5"
@@ -247,14 +241,12 @@ Crate:
       # The lore of the item.
       DisplayLore:
         - "<gradient:#8fcfa0:#32a852>A gradient lore!"
-      # The max range i.e. 25/100 = 15% chance to win.
-      MaxRange: 100
-      # The chance to win i.e. 25%
-      Chance: 25
+      # The lower the number, the less likely to win it.
+      Weight: 25.0
       # The list of items to win.
       Items:
         - "Item:enchanted_book, protection:5, unbreaking:3"
-    '5':
+    "5":
       # The display name of the item.
       DisplayName: "<yellow>$1,000"
       # The item to display in the gui.
@@ -270,19 +262,17 @@ Crate:
           Toggle: false
           # The messages to broadcast.
           Messages:
-            - '<red>%player% won the prize <yellow>%reward%.'
+            - "<red>%player% won the prize <yellow>%reward%."
           # If the player has this permission, they don't get the broadcast.
-          Permission: 'your_permission'
+          Permission: ""
       # The amount to display in the gui.
       DisplayAmount: 5
       # The lore of the item.
       DisplayLore:
         - "<gray>Make it rain Money."
-        - "<bold><gold>Chance: <red>%chance%</bold>"
-      # The max range i.e. 20/100 = 25% chance to win.
-      MaxRange: 100
-      # The chance to win i.e. 20%
-      Chance: 20
+        - "<bold><gold>Chance: <red>20%</bold>"
+      # The lower the number, the less likely to win it.
+      Weight: 20.0
       # Spawn fireworks.
       Firework: true
       # Run commands when a prize is won.
@@ -291,7 +281,7 @@ Crate:
       # Override the global message.
       Messages:
         - "<gray>You won <reset>%reward%."
-    '6':
+    "6":
       # The name of the item to display in the gui.
       DisplayName: "<green>Fancy Shield <gray>| <red>%pulls%<gray>/<red>%maxpulls%"
       # The enchants to display in the gui.
@@ -313,14 +303,12 @@ Crate:
         Max-Pulls: 10
       # The amount to display in the gui.
       DisplayAmount: 1
-      # The max range i.e. 15/100 = 15% chance to win.
-      MaxRange: 100
-      # The chance to win i.e. 15%
-      Chance: 15
+      # The lower the number, the less likely to win it.
+      Weight: 15.0
       # The list of items to win.
       Items:
         - "Item:shield, base:white, gradient_up:light_gray, straight_cross:light_blue, flower:light_blue"
-    '7':
+    "7":
       # The name of the item to display in the gui.
       DisplayName: "<green>Creeper Spawner"
       # The enchants to display in the gui.
@@ -333,10 +321,8 @@ Crate:
         Mob-Type: creeper
       # The amount to display in the gui.
       DisplayAmount: 1
-      # The max range i.e. 15/100 = 15% chance to win.
-      MaxRange: 100
-      # The chance to win i.e. 15%
-      Chance: 23
+      # The lower the number, the less likely to win it.
+      Weight: 23.5
       # The list of items to win.
       Items:
         - "Item:spawner, Mob:creeper"

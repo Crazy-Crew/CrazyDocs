@@ -24,7 +24,7 @@ Crate:
   # If the type is QuickCrate/CrateOnTheGo/FireCracker, They will not work as they require a Physical Crate.
   InGUI: true
   # Slot the item is in the GUI.
-  Slot: 16
+  Slot: 15
   # Enables/Disables the Broadcasts message when they open a crate.
   OpeningBroadCast: true
   # Message that is broadcast when opening the crate.
@@ -79,6 +79,17 @@ Crate:
   # A default command if the prize doesn't have any commands
   # i.e. Commands: [] or the value isn't there.
   Prize-Commands: []
+  # Global Settings
+  Settings:
+    # Broadcast a message to the server
+    Broadcast:
+      # If the messages should be sent.
+      Toggle: false
+      # The messages to broadcast.
+      Messages:
+        - "<red>%player% won the prize <yellow>%reward%."
+      # If the player has this permission, they don't get the broadcast.
+      Permission: ""
   # Item the crate is in the GUI
   Item: "gold_ingot"
   # The custom model data of the item, -1 is disabled.
@@ -98,7 +109,7 @@ Crate:
     Name: "<dark_blue>Casino Crate Preview"
     # Turn on and off the preview for this crate.
     Toggle: true
-    # How many lines the Crate Preview should have. Including Header and Bottom (Between 3 and 6)
+    # How many lines should the preview be? You can use 1-6.
     ChestLines: 6
     Glass:
       # Turn the glass border in the preview on and off.
@@ -151,10 +162,8 @@ Crate:
       Item: "chest"
       # The custom model data of the item, -1 is disabled.
       Custom-Model-Data: -1
-      # Chance of that item getting picked. It would be 80/100 chance because MaxRange is 100.
-      Chance: 50
-      # The max range that the chance will go though.
-      MaxRange: 100
+      # The lower the number, the less likely to win it.
+      Weight: 50.0
       # The slot this item will be in the secondary gui.
       Slot: 20
     UnCommon:
@@ -168,10 +177,8 @@ Crate:
       Item: "chest"
       # The custom model data of the item, -1 is disabled.
       Custom-Model-Data: -1
-      # Chance of that item getting picked. It would be 35/100 chance because MaxRange is 100.
-      Chance: 35
-      # The max range that the chance will go though.
-      MaxRange: 100
+      # The lower the number, the less likely to win it.
+      Weight: 35.0
       # The slot this item will be in the secondary gui.
       Slot: 22
     Rare:
@@ -185,10 +192,8 @@ Crate:
       Item: "ender_chest"
       # The custom model data of the item, -1 is disabled.
       Custom-Model-Data: -1
-      # Chance of that item getting picked. It would be 25/100 chance because MaxRange is 100.
-      Chance: 25
-      # The max range that the chance will go though.
-      MaxRange: 100
+      # The lower the number, the less likely to win it.
+      Weight: 25.0
       # The slot this item will be in the secondary gui.
       Slot: 24
   PhysicalKey:
@@ -234,10 +239,8 @@ Crate:
         Custom-Model-Data: -1
       # The amount to display in the gui.
       DisplayAmount: 1
-      # The max range i.e. 1/100 = 1% chance to win.
-      MaxRange: 100
-      # The chance to win i.e. 1%
-      Chance: 1
+      # The lower the number, the less likely to win it.
+      Weight: 1.0
       # Tiers are available in Cosmic and Casino crate types.
       # The Tiers the rewards can be found in.
       Tiers:
@@ -274,11 +277,9 @@ Crate:
       # The lore of the item.
       DisplayLore:
         - "<gray>Win the warlord's set."
-        - "<bold><gold>Chance: <red>%chance%</bold>"
-      # The max range i.e. 40/100 = 40% chance to win.
-      MaxRange: 100
-      # The chance to win i.e. 40%
-      Chance: 40
+        - "<bold><gold>Chance: <red>40%</bold>"
+      # The lower the number, the less likely to win it.
+      Weight: 40.0
       # Tiers are available in Cosmic and Casino crate types.
       # The Tiers the rewards can be found in.
       Tiers:
@@ -327,10 +328,8 @@ Crate:
       # The lore of the item.
       DisplayLore:
         - "<gradient:#8fcfa0:#32a852>A gradient lore!"
-      # The max range i.e. 25/100 = 15% chance to win.
-      MaxRange: 100
-      # The chance to win i.e. 25%
-      Chance: 25
+      # The lower the number, the less likely to win it.
+      Weight: 25.0
       # Tiers are available in Cosmic and Casino crate types.
       # The Tiers the rewards can be found in.
       Tiers:
@@ -362,10 +361,8 @@ Crate:
         Pattern: "sentry"
       # The amount to display in the gui.
       DisplayAmount: 1
-      # The max range i.e. 40/1000 = 4% chance to win.
-      MaxRange: 1000
-      # The chance to win i.e. 4%
-      Chance: 40
+      # The lower the number, the less likely to win it.
+      Weight: 40.0
       # Tiers are available in Cosmic and Casino crate types.
       # The Tiers the rewards can be found in.
       Tiers:
@@ -403,11 +400,9 @@ Crate:
       # The lore of the item.
       DisplayLore:
         - "<gray>Win a old classic sword."
-        - "<bold><gold>Chance: <red>%chance%</bold>"
-      # The max range i.e. 35/1000 = 3.5% chance to win.
-      MaxRange: 1000
-      # The chance to win i.e. 3.5%.
-      Chance: 35
+        - "<bold><gold>Chance: <red>3.5%</bold>"
+      # The lower the number, the less likely to win it.
+      Weight: 35.0
       # Tiers are available in Cosmic and Casino crate types.
       # The Tiers the rewards can be found in.
       Tiers:
