@@ -286,7 +286,7 @@ Crate:
       DisplayName: "<green>Fancy Shield <gray>| <red>%pulls%<gray>/<red>%maxpulls%"
       # The enchants to display in the gui.
       DisplayItem: "shield"
-      # A list of patterns: https://jd.papermc.io/paper/1.21/org/bukkit/block/banner/PatternType.html
+      # A list of patterns: https://jd.papermc.io/paper/ 1.21.1/org/bukkit/block/banner/PatternType.html
       # The patterns don't need to be uppercased. you can type them lowercased along with the colors.
       # Patterns have to be laid out in a specific order, otherwise it won't look right.
       # This also applies to the Items section.

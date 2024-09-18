@@ -7,7 +7,7 @@ hide_title: false
 sidebar_label: Tipped Arrows
 sidebar_position: 1
 ---
-### [A list of potion types](https://jd.papermc.io/paper/1.21/org/bukkit/potion/PotionType.html)
+### [A list of potion types](https://jd.papermc.io/paper/ 1.21.1/org/bukkit/potion/PotionType.html)
 
 ### An example of how to use it for display items.
 ```yml

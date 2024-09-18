@@ -9,7 +9,7 @@ sidebar_position: 1
 ---
 ## Requirements
 :::tip
-CrazyAuctions requires you to use **Paper 1.21** or a fork of and **Java 21** to run
+CrazyAuctions requires you to use **Paper 1.21.1** or a fork of and **Java 21** to run
 :::
 
 ### Downloading CrazyAuctions
