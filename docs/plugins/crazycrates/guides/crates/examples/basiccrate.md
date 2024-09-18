@@ -79,6 +79,17 @@ Crate:
   # A default command if the prize doesn't have any commands
   # i.e. Commands: [] or the value isn't there.
   Prize-Commands: []
+  # Global Settings
+  Settings:
+    # Broadcast a message to the server
+    Broadcast:
+      # If the messages should be sent.
+      Toggle: false
+      # The messages to broadcast.
+      Messages:
+        - '<red>%player% won the prize <yellow>%reward%.'
+      # If the player has this permission, they don't get the broadcast.
+      Permission: 'your_permission'
   # Item the crate is in the GUI
   Item: "diamond"
   # The custom model data of the item, -1 is disabled.
@@ -305,7 +316,7 @@ Crate:
       # The max range i.e. 15/100 = 15% chance to win.
       MaxRange: 100
       # The chance to win i.e. 15%
-      Chance: 99
+      Chance: 15
       # The list of items to win.
       Items:
         - "Item:shield, base:white, gradient_up:light_gray, straight_cross:light_blue, flower:light_blue"
