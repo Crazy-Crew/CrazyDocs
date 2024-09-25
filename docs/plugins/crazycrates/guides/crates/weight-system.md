@@ -7,7 +7,7 @@ hide_title: false
 sidebar_label: Weight System
 sidebar_position: 1
 ---
-## This system will be released in v3.9
+## This system will be released in v4.0
 This is already merged into the `main` branch, so you can use the jenkins builds
 
 You will have to run `/crazycrates migrate WeightMigration`, which will convert Chance/MaxRange to Weight!
