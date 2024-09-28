@@ -7,7 +7,7 @@ All `.md` files are located under `docs`, Each directory translates to a directo
 
 ## Editing Pages
 * Simply edit the `.md` files.
-* use the command `npm run start`.
+* use the command `pnpm run start`.
 * Go to http://localhost:3000
 * Make changes until it looks right.
 * Make a pull request once it looks right.
