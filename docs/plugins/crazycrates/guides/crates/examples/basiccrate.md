@@ -90,6 +90,18 @@ Crate:
         - "<red>%player% won the prize <yellow>%reward%."
       # If the player has this permission, they don't get the broadcast.
       Permission: ""
+    # Settings related to rewards.
+    Rewards:
+      # Should a yes/no popup be made, to ask if they want to keep the prize?
+      Re-Roll-Spin: false
+      # Should there be a limit to how many times they can re-roll?
+      Permission:
+        # Should this be enabled?
+        Toggle: false
+        # This will define how many permissions will be registered to the server per crate.
+        # i.e. crazycrates.respin.crate_name.1-20
+        # It will simply register multiple permissions, so it shows up in things like LuckPerms.
+        Max-Cap: 20
   # Item the crate is in the GUI
   Item: "diamond"
   # The custom model data of the item, -1 is disabled.
@@ -286,7 +298,7 @@ Crate:
       DisplayName: "<green>Fancy Shield <gray>| <red>%pulls%<gray>/<red>%maxpulls%"
       # The enchants to display in the gui.
       DisplayItem: "shield"
-      # A list of patterns: https://jd.papermc.io/paper/ 1.21.1/org/bukkit/block/banner/PatternType.html
+      # A list of patterns: https://jd.papermc.io/paper/1.21/org/bukkit/block/banner/PatternType.html
       # The patterns don't need to be uppercased. you can type them lowercased along with the colors.
       # Patterns have to be laid out in a specific order, otherwise it won't look right.
       # This also applies to the Items section.
