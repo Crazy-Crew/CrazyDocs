@@ -35,12 +35,13 @@ sidebar_label: Permissions
 | `/crazycrates`                                                   | `crazycrates.gui`           | Opens the primary crate menu.                                                   | true    |
 
 # Other
-| Node                                 | Description                                                          | Default | Deprecated & Removing |
-|--------------------------------------|----------------------------------------------------------------------|---------|-----------------------|
-| `crazycrates.open.<crate-name>`      | `Allows you to open a crate.`                                        | true    | no                    |
-| `crazycrates.deny.open.<crate-name>` | `Prevents you from opening a crate.`                                 | false   | yes                   |
-| `crazycrates.exclude.give-all`       | `Prevents you from getting keys when using giveall.`                 | op      | no                    |
-| `crazycrates.setmenu`                | `Sets the block you are looking at to open the (/crate) crate menu.` | op      | no                    |
+| Node                                       | Description                                                                                       | Default | Deprecated & Removing |
+|--------------------------------------------|---------------------------------------------------------------------------------------------------|---------|-----------------------|
+| `crazycrates.open.<crate-name>`            | `Allows you to open a crate.`                                                                     | true    | no                    |
+| `crazycrates.respin.<crate-name>.<number>` | `Allows you to control how many times a player can respin, max cap configured in each crate file` | false   | no                    |
+| `crazycrates.deny.open.<crate-name>`       | `Prevents you from opening a crate.`                                                              | false   | yes                   |
+| `crazycrates.exclude.give-all`             | `Prevents you from getting keys when using giveall.`                                              | op      | no                    |
+| `crazycrates.setmenu`                      | `Sets the block you are looking at to open the (/crate) crate menu.`                              | op      | no                    |
 
 # Permissions
 | Wildcard                  | Description                                            | Default |
