@@ -13,7 +13,7 @@ Items:
  - Item:POTION:GREEN
 ```
 This allows you to dye your potion green.
-You have a selection of [colors](https://jd.papermc.io/paper/ 1.21.1/org/bukkit/Color.html) to use with this option.
+You have a selection of [colors](https://jd.papermc.io/paper/1.21.1/org/bukkit/Color.html) to use with this option.
 
 ```yml
 Items:

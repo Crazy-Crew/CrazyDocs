@@ -25,7 +25,7 @@ sidebar_position: 5
 Items:
  - 'Item:{leather_helmet/leather_horse_armor}:green'
 ```
-You have a selection of [colors](https://jd.papermc.io/paper/ 1.21.1/org/bukkit/Color.html) to use with this option.
+You have a selection of [colors](https://jd.papermc.io/paper/1.21.1/org/bukkit/Color.html) to use with this option.
 
 ```yml
 Items:
