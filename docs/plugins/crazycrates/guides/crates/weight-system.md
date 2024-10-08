@@ -9,7 +9,8 @@ sidebar_position: 1
 ---
 ## This system is now released in v4.0
 
-https://modrinth.com/plugin/crazycrates/version/4.0<br>
+https://modrinth.com/plugin/crazycrates/version/4.0
+
 https://hangar.papermc.io/CrazyCrew/CrazyCrates/versions/4.0
 
 ### We no longer calculate, based on Chance/Max Range per prize.
