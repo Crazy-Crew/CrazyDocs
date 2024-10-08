@@ -7,10 +7,10 @@ hide_title: false
 sidebar_label: Weight System
 sidebar_position: 1
 ---
-## This system will be released in v4.0
-This is already merged into the `main` branch, so you can use the jenkins builds
+## This system is now released in v4.0
 
-You will have to run `/crazycrates migrate WeightMigration`, which will convert Chance/MaxRange to Weight!
+https://modrinth.com/plugin/crazycrates/version/4.0
+https://hangar.papermc.io/CrazyCrew/CrazyCrates/versions/4.0
 
 ### We no longer calculate, based on Chance/Max Range per prize.
 We've moved to a weight based system, which will be explained below.
