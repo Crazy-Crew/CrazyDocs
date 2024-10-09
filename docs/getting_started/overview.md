@@ -23,8 +23,7 @@ You can navigate using the `Search` function if you know what you are looking fo
 
 ## Downloads:
 [![Hangar](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/available/hangar_46h.png)](https://hangar.papermc.io/CrazyCrew/)
-[![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/available/modrinth_46h.png)](https://modrinth.com/user/crazycrew)
-
+[![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/available/modrinth_46h.png)](https://modrinth.com/organization/crazycrew)
 ## Bugs / Issues
 Have an issue or bug? Please submit a bug report / issue using one of these links below. You can also join using the Discord link below as well.
 * https://github.com/Crazy-Crew/CrazyEnchantments/issues
