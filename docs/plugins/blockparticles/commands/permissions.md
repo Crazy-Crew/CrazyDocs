@@ -8,4 +8,4 @@ sidebar_label: Permissions
 ---
 | Command           | Permission          | Description                  | Default |
 |-------------------|---------------------|------------------------------|---------|
-| `/blockparticles` | `bpparticles.admin` | Gives access to all commands | true    |
+| `/blockparticles` | `bpparticles.admin` | Gives access to all commands | op      |
