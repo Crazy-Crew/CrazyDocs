@@ -54,7 +54,7 @@ dependencies {
 
 ```xml
 <repository>
-  <id>crazycrew-snapshots</id>
+  <id>crazycrew-releases</id>
   <url>https://repo.crazycrew.us/releases</url>
 </repository>
 ```
