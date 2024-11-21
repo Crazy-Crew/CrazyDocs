@@ -15,7 +15,7 @@ sidebar_label: Permissions
 | `/crazycrates give-random <virtual/physical> <amount> <player>`  | `crazycrates.giverandomkey` | Gives a random key out of all the crates available.                             | op      |
 | `/crazycrates migrate <type> [crate]`                            | `crazycrates.migrate`       | Allows you to migrate crate files to newer formats or from other plugins        | op      |
 | `/crazycrates giveall <virtual/physical> <crate> [amount]`       | `crazycrates.giveall`       | Gives all online players keys to use on a crate.                                | op      |
-| `/crazycrates additem <crate> <prize> <chance> [tier]`           | `crazycrates.additem`       | Add items in-game to a prize in a crate.                                        | op      |
+| `/crazycrates additem <crate> <prize> <weight> [tier]`           | `crazycrates.additem`       | Add items in-game to a prize in a crate.                                        | op      |
 | `/crazycrates transfer <crate> <player> <amount>`                | `crazycrates.transfer`      | Allows players to send virtual keys to another player.                          | op      |
 | `/crazycrates open-others <crate> [player] <virtual/physical>`   | `crazycrates.open-others`   | Tries to open a crate for a player if they have a key.                          | op      |
 | `/crazycrates forceopen <crate> [player]`                        | `crazycrates.forceopen`     | Opens a crate for a player for free.                                            | op      |
