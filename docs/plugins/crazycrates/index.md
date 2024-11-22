@@ -9,7 +9,7 @@ sidebar_position: 1
 ---
 ## Requirements
 :::tip
-CrazyCrates requires you to use **Paper  1.21.1** or a fork of and **Java 21** to run
+CrazyCrates requires you to use **Paper  1.21.3** or a fork of and **Java 21** to run
 :::
 
 ### Downloading CrazyCrates

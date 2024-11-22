@@ -14,9 +14,9 @@ Usage: `{Pattern}:{Color}`
 
 RGB: `{Pattern}:{Red},{Green},{Blue}`
 
-[Colors](https://jd.papermc.io/paper/1.21.1/org/bukkit/DyeColor.html)
+[Colors](https://jd.papermc.io/paper/1.21.3/org/bukkit/DyeColor.html)
 
-[Pattern Types](https://jd.papermc.io/paper/1.21.1/org/bukkit/block/banner/PatternType.html)
+[Pattern Types](https://jd.papermc.io/paper/1.21.3/org/bukkit/block/banner/PatternType.html)
 
 ### Display Items
 Set the item to either a `BANNER` or a `SHIELD`. Use the option called `Patterns:` then follow the example below.
@@ -28,7 +28,7 @@ Set the item to either a `BANNER` or a `SHIELD`. Use the option called `Patterns
  DisplayName: '<bold><green>Fancy Shield</bold>'
  # The item needs to be shield or banner
  DisplayItem: 'shield'
-   # A list of patterns: https://jd.papermc.io/paper/1.21.1/org/bukkit/block/banner/PatternType.html
+   # A list of patterns: https://jd.papermc.io/paper/1.21.3/org/bukkit/block/banner/PatternType.html
    # The patterns don't need to be uppercased. you can type them lowercased along with the colors.
    # Patterns have to be laid out in a specific order, otherwise it won't look right.
    # This also applies to the Items section.
