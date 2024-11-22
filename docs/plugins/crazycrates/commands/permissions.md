@@ -10,12 +10,13 @@ sidebar_label: Permissions
 We are starting to make use of what is called Command Flags, They are short/long identifiers to make handling a large quantity of arguments easier for commands, including optional arguments.
 
 #### Example
-The first command we have moved to the new flag system<br>
+The first command we have moved to the new flag system
 `/crazycrates migrate <migration_type> [crate] [true/false]`
 
 Previously, this was the format above. the `true/false` was going to be a new argument to migrate only user data from a plugin like ExcellentCrates instead of migrating the crates.
 
-The command now is `/crazycrates migrate -mt/--migration_type <migration_type> --crate/-c <crate> --data/-d`<br>
+The command now is `/crazycrates migrate -mt/--migration_type <migration_type> --crate/-c <crate> --data/-d`
+
 Each flag besides `-mt/--migration_type` is optional, and the order in which you add the flag does not matter. Obviously you cannot use `--data/-d` with `--crate/-c` as I specify it to run a migrator specifically for our internal crates.
 
 | Command                                                                  | Permission                  | Description                                                                     | Default |
