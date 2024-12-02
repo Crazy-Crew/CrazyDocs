@@ -27,6 +27,6 @@ An in-depth reason for why you need Vault and LuckPerms, Please go on the chat f
 | Plugin         | Link                                                              |
 |----------------|-------------------------------------------------------------------|
 | SuperVanish    | https://www.spigotmc.org/resources/supervanish-be-invisible.1331/ |
-| PlaceholderAPI | https://www.spigotmc.org/resources/placeholderapi.6245/           |
-| EssentialsX    | https://www.spigotmc.org/resources/essentialsx.9089/              |
+| PlaceholderAPI | https://hangar.papermc.io/HelpChat/PlaceholderAPI           |
+| EssentialsX    | https://modrinth.com/plugin/essentialsx              |
 | MassiveCore    | https://www.spigotmc.org/resources/factions.1900/                 |

@@ -20,7 +20,7 @@ Commands:
 ```
 
 ### PlaceholderAPI Support
-_The first table assumes you are using [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) to parse placeholders._
+_The first table assumes you are using [PlaceholderAPI](https://hangar.papermc.io/HelpChat/PlaceholderAPI) to parse placeholders._
 
 #### Simple Placeholders
 | Placeholder                      | Example                           | Description                                                          |

@@ -8,7 +8,7 @@ sidebar_label: Placeholders
 sidebar_position: 2
 ---
 ### 3rd Party Placeholders
-_The first table assumes you are using [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) to parse placeholders._
+_The first table assumes you are using [PlaceholderAPI](https://hangar.papermc.io/HelpChat/PlaceholderAPI) to parse placeholders._
 
 | Placeholder                 | Description                                                                            |
 |-----------------------------|----------------------------------------------------------------------------------------|

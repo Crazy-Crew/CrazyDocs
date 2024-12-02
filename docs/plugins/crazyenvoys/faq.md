@@ -73,4 +73,4 @@ sidebar_position: 2
      # Needs to have a space, so it's not crunched next to the countdown.
      Message-Seconds: ' seconds.'
   ```
- * You also need to have [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) installed!
+ * You also need to have [PlaceholderAPI](https://hangar.papermc.io/HelpChat/PlaceholderAPI) installed!
