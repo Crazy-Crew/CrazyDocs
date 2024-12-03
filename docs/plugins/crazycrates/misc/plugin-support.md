@@ -24,4 +24,4 @@ sidebar_position: 1
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|----------|------------|---------|-------|---------|
 | Oraxen          | [Download](https://www.spigotmc.org/resources/%E2%98%84%EF%B8%8F-oraxen-custom-items-blocks-emotes-furniture-resourcepack-and-gui-1-18-1-20-4.72448/) | no       | yes        | no      | yes   | N/A     |
 | HeadDatabaseAPI | [Download](https://www.spigotmc.org/resources/head-database.14280/)                                                                                   | no       | no         | no      | yes   | N/A     |
-| Nexo            | No link                                                                                                                                               | no       | no         | no      | no    | yes     |
+| Nexo            | [Download](https://polymart.org/resource/nexo.6901)                                                                                                   | no       | no         | no      | no    | yes     |
