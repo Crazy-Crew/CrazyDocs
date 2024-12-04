@@ -20,17 +20,17 @@ An in-depth reason for why you need Vault and LuckPerms, Please go on the chat f
 ## Permissions
 | Plugin    | Link                                            | Required | Deprecated | Removed | Added | Planned | Required |
 |-----------|-------------------------------------------------|----------|------------|---------|-------|---------|----------|
-| Vault     | https://www.spigotmc.org/resources/vault.34315/ | yes      | no         | no      | yes   | N/A     | yes      |
-| LuckPerms | https://luckperms.net/                          | yes      | no         | no      | yes   | N/A     | yes      |
+| Vault     | https://www.spigotmc.org/resources/vault.34315/ | yes      | no         | no      | yes   | n/a     | yes      |
+| LuckPerms | https://luckperms.net/                          | yes      | no         | no      | yes   | n/a     | yes      |
 
 ## Placeholders
 | Plugin         | Link                                                          | Required | Deprecated | Removed | Added | Planned |
 |----------------|---------------------------------------------------------------|----------|------------|---------|-------|---------|
-| PlaceholderAPI | [Download](https://hangar.papermc.io/HelpChat/PlaceholderAPI) | no       | no         | no      | yes   | N/A     |
+| PlaceholderAPI | [Download](https://hangar.papermc.io/HelpChat/PlaceholderAPI) | no       | no         | no      | yes   | n/a     |
 
 ## Other
 | Plugin         | Link                                                              | Required | Deprecated | Removed | Added | Planned |
 |----------------|-------------------------------------------------------------------|----------|------------|---------|-------|---------|
-| SuperVanish    | https://www.spigotmc.org/resources/supervanish-be-invisible.1331/ | no       | no         | no      | yes   | N/A     |
-| EssentialsX    | https://modrinth.com/plugin/essentialsx                           | no       | no         | no      | yes   | N/A     |
-| MassiveCore    | https://www.spigotmc.org/resources/factions.1900/                 | no       | no         | no      | yes   | N/A     |
+| SuperVanish    | https://www.spigotmc.org/resources/supervanish-be-invisible.1331/ | no       | no         | no      | yes   | n/a     |
+| EssentialsX    | https://modrinth.com/plugin/essentialsx                           | no       | no         | no      | yes   | n/a     |
+| MassiveCore    | https://www.spigotmc.org/resources/factions.1900/                 | no       | no         | no      | yes   | n/a     |
