@@ -7,15 +7,6 @@ hide_title: false
 sidebar_label: Weight System
 sidebar_position: 1
 ---
-## This system is now released in v4.0
-
-https://modrinth.com/plugin/crazycrates/version/4.0
-
-https://hangar.papermc.io/CrazyCrew/CrazyCrates/versions/4.0
-
-### We no longer calculate, based on Chance/Max Range per prize.
-We've moved to a weight based system, which will be explained below.
-
 An example of a weight based prize and weight based tiers.
 ```yml
 Crate:
