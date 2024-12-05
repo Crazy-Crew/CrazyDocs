@@ -8,9 +8,45 @@ sidebar_label: Custom Items
 sidebar_position: 4
 ---
 ### Custom Items
-We directly support [Oraxen](https://www.spigotmc.org/resources/%E2%98%84%EF%B8%8F-oraxen-add-items-blocks-armors-hats-food-furnitures-plants-and-gui-1-18-1-20-1.72448/) and [ItemsAdder](https://www.spigotmc.org/resources/%E2%9C%A8itemsadder%E2%AD%90emotes-mobs-items-armors-hud-gui-emojis-blocks-wings-hats-liquids.73355/)
+See [this section](../../../misc/plugin-support.md#custom-items) for a list of supported custom item plugins.
 
-### Oraxen
+### Nexo (recommended)
+You can simply use the id directly from your config files inside `Nexo/nexo_defaults/items` folder
+
+#### An example of a Nexo custom item.
+The `forest_axe` is the id.
+```yaml
+forest_axe:
+  itemname: Forest Axe
+  material: NETHERITE_AXE
+  Pack:
+    model: nexo:item/nexo_tools/forest_axe
+    custom_model_data: 1000
+```
+
+#### An example of how to use it for display items.
+```yaml
+DisplayItem: 'forest_axe'
+```
+
+#### An example of how to use it for keys.
+```yaml
+PhysicalKey:
+  # Name of the Key.
+  Name: 'A fancy key using Nexo.'
+  # Lore of the Key.
+  Lore: []
+  # The custom item from Nexo.
+  Item: 'forest_axe'
+```
+
+#### An example of how to use it in the items section.
+```yaml
+Items:
+  - 'Item:forest_axe, Amount:1, Name:<green>A custom item'
+```
+
+### Oraxen (deprecated)
 You can simply use the id directly from your config files inside `oraxen/items` folder
 
 #### An example of an oraxen custom item.
@@ -47,13 +83,13 @@ PhysicalKey:
 #### An example of how to use it in the items section.
 ```yaml
 Items:
-  - 'Item:emerald_helmet, Amount:1, Name:&aA custom item'
+  - 'Item:emerald_helmet, Amount:1, Name:<green>A custom item'
 ```
 
-### ItemsAdder
-#### Find the custom model data of your custom item
-You have to do `/iacustommodeldata your_item_id`, The plugin will send you the `ITEM` followed by the `CustomModelData`.
-Note: you can find more places to use `CustomModelData` by going to https://docs.crazycrew.us/docs/plugins/crazycrates/guides/crates/examples/basiccrate
+### General
+If the plugin isn't listed, this is the last remaining way to have custom textures.
+
+This method is usually used for things like data-packs that add their own custom model data in pair with a resource pack.
 
 #### An example of how to use it for display items.
 ```yaml
@@ -62,7 +98,7 @@ Note: you can find more places to use `CustomModelData` by going to https://docs
       # The name of the item to display in the gui.
       DisplayName: "<gold>BadBones69"
       # The item to display in the gui.
-      DisplayItem: "your_item_id"
+      DisplayItem: "diamond_sword"
       # Prize settings
       Settings:
         # The custom model data of the item, -1 is disabled.
@@ -73,11 +109,11 @@ Note: you can find more places to use `CustomModelData` by going to https://docs
 ```yaml
 PhysicalKey:
   # Name of the Key.
-  Name: 'A fancy key using itemsadder.'
+  Name: 'A fancy key using custom model data.'
   # Lore of the Key.
   Lore: []
-  # The custom item from itemsadder.
-  Item: 'your_item_id'
+  # The material for the item i.e. diamond_sword.
+  Item: 'diamond_sword'
   # The custom model data of the item, -1 is disabled.
   Custom-Model-Data: your_custom_model_data
 ```
@@ -85,5 +121,5 @@ PhysicalKey:
 #### An example of how to use it in the items section.
 ```yaml
 Items:
-  - 'Item:your_item_id, Custom-Model-Data:your_custom_model_data, Amount:1, Name:&aA custom item'
+  - 'Item:diamond_sword, Custom-Model-Data:your_custom_model_data, Amount:1, Name:<green>A custom item'
 ```
