@@ -15,6 +15,18 @@ CrazyCrates requires you to use **Paper  1.21.3** or a fork of and **Java 21** t
 ### Downloading CrazyCrates
 [![Hangar](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/hangar_64h.png)](https://hangar.papermc.io/CrazyCrew/CrazyCrates)
 [![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/modrinth_64h.png)](https://modrinth.com/plugin/crazycrates)
+[![Polymart](https://github.com/intergrav/devins-badges/blob/v3/assets/cozy-minimal/available/polymart_64h.png)](https://polymart.org/resource/crazy-crates.2120)
+
+### Current Features
+- Weight based system for picking prizes.
+- Ability to define alternative prizes.
+- Use sounds (even from resource packs) with custom volumes/pitches.
+- Customize almost everything in the plugin. (more customizations available every update)
+- Ability to allow players to re-roll their prizes with a permission cap, and you can choose to persist restarts.
+- 10+ crate types to choose from each their own speciality.
+- Support for giving/taking keys from players who are not on the server.
+- Virtual/Physical Key support.
+- Log all key/crate actions.
 
 ### Feature Requests
 https://github.com/Crazy-Crew/CrazyCrates/issues
