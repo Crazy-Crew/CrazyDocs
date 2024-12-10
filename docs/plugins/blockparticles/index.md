@@ -13,7 +13,7 @@ BlockParticles requires you to use **Paper 1.21.3** or a fork of and **Java 21**
 :::
 
 ### Downloading BlockParticles
-~~[![Hangar](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/hangar_64h.png)](https://hangar.papermc.io/CrazyCrew/CrazyCrates)~~
+[![Hangar](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/hangar_64h.png)](https://hangar.papermc.io/CrazyCrew/BlockParticles)
 [![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/modrinth_64h.png)](https://modrinth.com/plugin/blockparticles)
 
 ### Feature Requests
