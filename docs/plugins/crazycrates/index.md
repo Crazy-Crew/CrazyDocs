@@ -15,7 +15,8 @@ CrazyCrates requires you to use **Paper  1.21.3** or a fork of and **Java 21** t
 ### Downloading CrazyCrates
 [![Hangar](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/hangar_64h.png)](https://hangar.papermc.io/CrazyCrew/CrazyCrates)
 [![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/modrinth_64h.png)](https://modrinth.com/plugin/crazycrates)
-[![Polymart](https://github.com/intergrav/devins-badges/blob/v3/assets/cozy-minimal/available/polymart_64h.png)](https://polymart.org/resource/crazy-crates.2120)
+[![Polymart](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/polymart_64h.png)](https://polymart.org/resource/crazy-crates.2120)
+[![Curseforge](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/curseforge_64h.png)](https://www.curseforge.com/minecraft/bukkit-plugins/crazycrates)
 
 ### Current Features
 - Weight based system for picking prizes.
