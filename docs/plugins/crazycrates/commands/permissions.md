@@ -6,6 +6,11 @@ hide_title: false
 
 sidebar_label: Permissions
 ---
+### Aliases
+- /crates
+- /crate
+- /cc
+
 ### Command Flags
 We are starting to make use of what is called Command Flags, They are short/long identifiers to make handling a large quantity of arguments easier for commands, including optional arguments.
 
