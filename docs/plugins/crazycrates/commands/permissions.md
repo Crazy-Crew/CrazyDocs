@@ -44,7 +44,6 @@ Each flag besides `-mt/--migration_type` is optional, and the order in which you
 | `/crazycrates tp <location>`                                             | `crazycrates.teleport`      | Teleport to a crate.                                                            | op      |
 | `/crazycrates debug <crate>`                                             | `crazycrates.debug`         | Gives all the prizes to you so you can see if your crate works.                 | op      |
 | `/crazycrates open <crate>`                                              | `crazycrates.open`          | Tries to open a crate for yourself if you have a key.                           | op      |
-| `/crazycrates set <crate>`                                               | `crazycrates.set`           | Set a block you are looking at as the specified crate.                          | op      |
 | `/crazycrates convert`                                                   | `crazycrates.convert`       | Tries to convert supported plugin's crate files into crazy crate's crate files. | op      |
 | `/crazycrates reload`                                                    | `crazycrates.reload`        | Reloads the configuration and data files.                                       | op      |
 | `/crazycrates admin`                                                     | `crazycrates.admin`         | Opens the Admin Keys GUI.                                                       | op      |
