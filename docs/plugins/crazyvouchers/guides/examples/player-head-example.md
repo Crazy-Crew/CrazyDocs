@@ -16,17 +16,22 @@ voucher:
   lore:
     - '&7Use this voucher to get fancy trims.'
     - '&7&l(&6&l!&7&l) &7Right click to redeem.'
-  player: 'Rukkhadevata'
-  #player: 'https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e'
+  player: '1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e'
+  # Only uncomment this if using HeadDatabase by Arcaniax
+  # skull: '61151'
   # If the item should glow or not.
   glowing: true
+  # Hide item flags
+  flags:
+    - 'HIDE_ATTRIBUTES'
+    - 'HIDE_ENCHANTS'
   # All options when they right-click it.
   options:
     # The message sent when they right-click it.
     message: '&7Congratulations, you have yourself a fancy head.'
-
   # The items to give when claiming the voucher.
   items:
-    - 'Item:PLAYER_HEAD, Player:https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Name:&cA fancy head, Lore:&eA fancy lore,&7with lines, Amount: 3, Glowing: true'
-    - 'Item:PLAYER_HEAD, Player:Rukkhadevata, Name:&cA fancy head, Lore:&eA fancy lore,&7with lines, Amount: 3, Glowing: true'
+    # Only uncomment this is using HeadDatabase by Arcaniax
+    #- 'Item:PLAYER_HEAD, Skull:61151, Name:&cA fancy head, Lore:&eA fancy lore,&7with lines, Amount:3, Glowing:true'
+    - 'Item:PLAYER_HEAD, Player:1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Name:&cA fancy head, Lore:&eA fancy lore,&7with lines, Amount:3, Glowing:true'
 ```

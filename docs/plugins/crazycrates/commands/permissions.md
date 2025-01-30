@@ -40,10 +40,10 @@ Each flag besides `-mt/--migration_type` is optional, and the order in which you
 | `/crazycrates preview <crate> [player]`                                  | `crazycrates.preview`       | Opens the preview of a crate for a player.                                      | op      |
 | `/crazycrates save <schematic file name>`                                | `crazycrates.save`          | Save the new schematic file to the schematics folder.                           | op      |
 | `/crazycrates mass-open <crate> <virtual/physical> <amount>`             | `crazycrates.massopen`      | Mass opens crates. Defaults to 10 but can be changed in the crate config files. | op      |
+| `/crazycrates editor -c/--crate <crate_name> or -e/--exit`               | `crazycrates.editor`        | Adds you to a mode that lets you set/remove crates in the world.                | op      |
 | `/crazycrates tp <location>`                                             | `crazycrates.teleport`      | Teleport to a crate.                                                            | op      |
 | `/crazycrates debug <crate>`                                             | `crazycrates.debug`         | Gives all the prizes to you so you can see if your crate works.                 | op      |
 | `/crazycrates open <crate>`                                              | `crazycrates.open`          | Tries to open a crate for yourself if you have a key.                           | op      |
-| `/crazycrates set <crate>`                                               | `crazycrates.set`           | Set a block you are looking at as the specified crate.                          | op      |
 | `/crazycrates convert`                                                   | `crazycrates.convert`       | Tries to convert supported plugin's crate files into crazy crate's crate files. | op      |
 | `/crazycrates reload`                                                    | `crazycrates.reload`        | Reloads the configuration and data files.                                       | op      |
 | `/crazycrates admin`                                                     | `crazycrates.admin`         | Opens the Admin Keys GUI.                                                       | op      |
