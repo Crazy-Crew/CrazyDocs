@@ -99,8 +99,9 @@ Adding new crates to CrazyCrates is easy! You have to navigate to the `crates` f
 Check out [this page](guides/crates/weight-system) to figure out how the system works!
 
 ### 7. Is there anyway to make blocks open the CrazyCrates menu?
-* Look at any block besides shulker boxes.
-* Type `/crazycrates set menu`.
+* Type `/crazycrates editor --crate Menu`.
+* Right click to add a location, left click to break a location.
+* Type `/crazycrates editor --exit` to exit the mode.
 * Right click to the view menu. It's that easy!
 
 ### 8. When I set a head as a crate and try to use a physical key. It doesn't do anything?
