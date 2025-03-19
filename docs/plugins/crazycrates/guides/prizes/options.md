@@ -11,13 +11,13 @@ sidebar_position: 1
 ## List of all values that can be used in the `Items:` option
 
 ### Useful Links
-* [Material Names](https://jd.papermc.io/paper/1.21.3/org/bukkit/Material.html)
+* [Material Names](https://jd.papermc.io/paper/1.21.4/org/bukkit/Material.html)
 
-* [Enchantment Names](https://jd.papermc.io/paper/1.21.3/org/bukkit/enchantments/Enchantment.html) 
-* [Leather/Potion Color Names](https://jd.papermc.io/paper/1.21.3/org/bukkit/Color.html)
-* [Item Flags](https://jd.papermc.io/paper/1.21.3/org/bukkit/inventory/ItemFlag.html)
-* [Mob Types](https://jd.papermc.io/paper/1.21.3/org/bukkit/entity/EntityType.html)
-* [Potion Types](https://jd.papermc.io/paper/1.21.3/org/bukkit/potion/PotionType.html)
+* [Enchantment Names](https://jd.papermc.io/paper/1.21.4/org/bukkit/enchantments/Enchantment.html) 
+* [Leather/Potion Color Names](https://jd.papermc.io/paper/1.21.4/org/bukkit/Color.html)
+* [Item Flags](https://jd.papermc.io/paper/1.21.4/org/bukkit/inventory/ItemFlag.html)
+* [Mob Types](https://jd.papermc.io/paper/1.21.4/org/bukkit/entity/EntityType.html)
+* [Potion Types](https://jd.papermc.io/paper/1.21.4/org/bukkit/potion/PotionType.html)
 
 ### `Item:`
 #### Description

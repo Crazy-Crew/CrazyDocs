@@ -9,7 +9,7 @@ sidebar_position: 1
 ---
 ## Requirements
 :::tip
-CrazyVouchers requires you to use at least **Paper  1.21.3** or a fork of and **Java 21** to run
+CrazyVouchers requires you to use at least **Paper  1.21.4** or a fork of and **Java 21** to run
 :::
 
 ### Downloading CrazyVouchers
