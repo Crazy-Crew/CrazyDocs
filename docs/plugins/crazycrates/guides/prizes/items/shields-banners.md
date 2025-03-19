@@ -19,23 +19,6 @@ Set the item to either a `banner` or a `shield`. Use the option called `Patterns
 ### The new way of doing `Items` for prizes which will eventually be default, You can enable this in the `config.yml`
 #### Example
 ```yaml
-1:
- # The name of the shield.
- DisplayName: '<bold><green>Fancy Shield</bold>'
- # The item needs to be shield or banner
- DisplayItem: 'shield'
-   # A list of patterns: https://jd.papermc.io/paper/1.21.4/org/bukkit/block/banner/PatternType.html
-   # The patterns don't need to be uppercased. you can type them lowercased along with the colors.
-   # Patterns have to be laid out in a specific order, otherwise it won't look right.
-   # This also applies to the Items section.
- DisplayPatterns:
-   - "base:white"
-   - "gradient_up:light_gray"
-   - "straight_cross:light_blue"
-   - "flower:light_blue"
-```
-
-```yaml
     "1":
       # The name of the item to display in the gui.
       DisplayName: '<bold><green>Fancy Shield</bold>'
