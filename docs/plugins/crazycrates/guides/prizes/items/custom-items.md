@@ -93,6 +93,7 @@ This method is usually used for things like data-packs that add their own custom
 
 #### An example of how to use it for display items.
 ```yaml
+Crate:
   Prizes:
     "1":
       # The name of the item to display in the gui.
@@ -121,17 +122,28 @@ PhysicalKey:
 ### The new way of doing `Items` for prizes which will eventually be default, You can enable this in the `config.yml`
 #### An example of how to use it in the items section.
 ```yaml
+Crate:
+  Prizes:
+    "1":
+      # The name of the item to display in the gui.
+      DisplayName: "<gold>BadBones69"
+      # The item to display in the gui.
+      DisplayItem: "diamond_sword"
+      # Prize settings
+      Settings:
+        # The custom model data of the item, -1 is disabled.
+        Custom-Model-Data: -1
     # All the items to give to the player.
-    Items:
-      "1":
-        # The name of the item.
-        name: "<red>An item with custom model data."
-        # The material of the item.
-        material: "diamond_sword"
-        # The amount of the item to give.
-        amount: 1
-        # The custom model data of the item.
-        custom-model-data: -1
+      Items:
+        "1":
+         # The name of the item.
+         name: "<red>An item with custom model data."
+         # The material of the item.
+         material: "diamond_sword"
+         # The amount of the item to give.
+         amount: 1
+         # The custom model data of the item.
+         custom-model-data: -1
 ```
 
 ### This is the current way of doing items, however it no longer receives any new features or changes.
