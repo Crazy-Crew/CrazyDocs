@@ -11,6 +11,7 @@ sidebar_position: 1
 
 ### The new way of doing `Items` for prizes which will eventually be default, You can enable this in the `config.yml`
 ```yaml
+Crate:
   # A list of prizes.
   Prizes:
     "1":
@@ -74,6 +75,7 @@ sidebar_position: 1
 ### This is the current way of doing items, however it no longer receives any new features or changes.
 #### An example of how to use it for display items.
 ```yaml
+Crate:
   Prizes:
     1:
      DisplayName: "<red>An arrow with a potion effect."
