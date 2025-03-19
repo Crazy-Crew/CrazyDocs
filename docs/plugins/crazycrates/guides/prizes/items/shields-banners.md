@@ -19,6 +19,8 @@ Set the item to either a `banner` or a `shield`. Use the option called `Patterns
 ### The new way of doing `Items` for prizes which will eventually be default, You can enable this in the `config.yml`
 #### Example
 ```yaml
+Crate:
+  Prizes:
     "1":
       # The name of the item to display in the gui.
       DisplayName: '<bold><green>Fancy Shield</bold>'
