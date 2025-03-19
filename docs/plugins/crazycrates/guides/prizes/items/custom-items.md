@@ -136,14 +136,14 @@ Crate:
     # All the items to give to the player.
       Items:
         "1":
-         # The name of the item.
-         name: "<red>An item with custom model data."
-         # The material of the item.
-         material: "diamond_sword"
-         # The amount of the item to give.
-         amount: 1
-         # The custom model data of the item.
-         custom-model-data: -1
+          # The name of the item.
+          name: "<red>An item with custom model data."
+          # The material of the item.
+          material: "diamond_sword"
+          # The amount of the item to give.
+          amount: 1
+          # The custom model data of the item.
+          custom-model-data: -1
 ```
 
 ### This is the current way of doing items, however it no longer receives any new features or changes.
