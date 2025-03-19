@@ -122,7 +122,7 @@ Crate:
       Player: "1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e"
       Weight: 5.0
       Items:
-        - "Item:player_head, Player:1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Amount:1"
+       - "Item:player_head, Player:1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Amount:1"
 ```
 
 #### This requires [HeadDatabase](https://www.spigotmc.org/resources/head-database.14280/) which pulls heads from minecraft-heads in a safe manner.
@@ -137,7 +137,7 @@ Crate:
       Skull: "7129"
       Weight: 5.0
       Items:
-        - "Item:player_head, Skull:7129, Amount:1"
+       - "Item:player_head, Skull:7129, Amount:1"
 ```
 
 #### This grabs a player name, and tries to display their skull.
@@ -152,5 +152,5 @@ Crate:
       Player: "ryderbelserion"
       Weight: 5.0
       Items:
-        - "Item:player_head, Skull:7129, Amount:1"
+       - "Item:player_head, Skull:7129, Amount:1"
 ```

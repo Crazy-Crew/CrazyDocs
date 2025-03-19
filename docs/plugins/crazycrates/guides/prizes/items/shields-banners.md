@@ -76,7 +76,7 @@ If you wish to give players a banner or shield with the colors and patterns on t
 #### Example
 ```yaml
 Items:
-  - "Item:shield, base:white, gradient_up:light_gray, straight_cross:light_blue, flower:light_blue"
+ - "Item:shield, base:white, gradient_up:light_gray, straight_cross:light_blue, flower:light_blue"
 ```
 
 ### RGB Example:
@@ -84,14 +84,16 @@ This is for if you wish to use a custom color instead of preset ones by Minecraf
 
 #### Example
 ```yaml
-1:
- DisplayName: '<bold><green>Fancy Shield</bold>'
- DisplayItem: 'shield'
- Patterns:
-  - 'half_horizontal:255,0,0'
+Crate:
+  Prizes:
+    "1":
+      DisplayName: '<bold><green>Fancy Shield</bold>'
+      DisplayItem: 'shield'
+      Patterns:
+        - 'half_horizontal:255,0,0'
 ```
 ```yaml
 Items:
-  - 'Item:shield, half_horizontal:255,0,0'
+ - 'Item:shield, half_horizontal:255,0,0'
 ```
 *Note `255,0,0` is red in RGB.

@@ -12,76 +12,79 @@ sidebar_position: 8
 ```yaml
 Crate:
   Prizes:
-    # The name of the item.
-    DisplayName: "<red>A green map."
-    # The amount of the item to display.
-    DisplayAmount: 1
-    # The material of the item.
-    DisplayItem: "filled_map"
-    # Other Settings
-    Settings:
-      # The color of the item displayed.
-      Color: "green"
-    # The weight of the item, the lower the weight, the less likely to win it.
-    Weight: 5.0
-    # All the items to give to the player.
-    Items:
-      "1":
-        # The name of the item.
-        name: "<red>A green map."
-        # The material of the item.
-        material: "filled_map"
-        # The amount of the item to give.
-        amount: 1
-        # Other settings.
-        settings:
-          # The color of the item given.
-          color: "green"
+    "1":
+      # The name of the item.
+      DisplayName: "<red>A green map."
+      # The amount of the item to display.
+      DisplayAmount: 1
+      # The material of the item.
+      DisplayItem: "filled_map"
+      # Other Settings
+      Settings:
+        # The color of the item displayed.
+        Color: "green"
+      # The weight of the item, the lower the weight, the less likely to win it.
+      Weight: 5.0
+      # All the items to give to the player.
+      Items:
+        "1":
+          # The name of the item.
+          name: "<red>A green map."
+          # The material of the item.
+          material: "filled_map"
+          # The amount of the item to give.
+          amount: 1
+          # Other settings.
+          settings:
+            # The color of the item given.
+            color: "green"
 ```
 
 #### An example of how to dye your maps using rgb!
 ```yaml
 Crate:
   Prizes:
-    # The name of the item.
-    DisplayName: "<red>An rgb map."
-    # The amount of the item to display.
-    DisplayAmount: 1
-    # The material of the item.
-    DisplayItem: "filled_map"
-    # Other Settings
-    Settings:
-      # The color of the item displayed.
-      RGB: "133,50,73"
-    # The weight of the item, the lower the weight, the less likely to win it.
-    Weight: 5.0
-    # All the items to give to the player.
-    Items:
-      "1":
-        # The name of the item.
-        name: "<red>An rgb map."
-        # The material of the item.
-        material: "filled_map"
-        # The amount of the item to give.
-        amount: 1
-        # Other settings.
-        settings:
-          # The color of the item given.
-          rgb: "133,50,73"
+    "1":
+      # The name of the item.
+      DisplayName: "<red>An rgb map."
+      # The amount of the item to display.
+      DisplayAmount: 1
+      # The material of the item.
+      DisplayItem: "filled_map"
+      # Other Settings
+      Settings:
+        # The color of the item displayed.
+        RGB: "133,50,73"
+      # The weight of the item, the lower the weight, the less likely to win it.
+      Weight: 5.0
+      # All the items to give to the player.
+      Items:
+        "1":
+          # The name of the item.
+          name: "<red>An rgb map."
+          # The material of the item.
+          material: "filled_map"
+          # The amount of the item to give.
+          amount: 1
+          # Other settings.
+          settings:
+            # The color of the item given.
+            rgb: "133,50,73"
 ```
 
 ### This is the current way of doing items, however it no longer receives any new features or changes.
 #### An example of how to dye your maps!
 ```yaml
+Crate:
   Prizes:
-    1:
-     DisplayName: '<red>A green map.'
-     DisplayItem: 'filled_map:green'
-     # DisplayItem: 'filled_map:133,50,73'
-     DisplayAmount: 1
-     Weight: 1.0
-     Items:
-     - 'Item:filled_map:green'
+    "1":
+      DisplayName: '<red>A green map.'
+      DisplayItem: 'filled_map:green'
+      # DisplayItem: 'filled_map:133,50,73'
+      DisplayAmount: 1
+      Weight: 1.0
+      Items:
+       - 'Item:filled_map:green'
 ```
 
 ```yaml

@@ -150,5 +150,5 @@ Crate:
 #### An example of how to use it in the items section.
 ```yaml
 Items:
-  - "Item:diamond_sword, Custom-Model-Data:-1, Amount:1, Name:<red>An item with custom model data."
+ - "Item:diamond_sword, Custom-Model-Data:-1, Amount:1, Name:<red>An item with custom model data."
 ```

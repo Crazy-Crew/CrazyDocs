@@ -73,15 +73,16 @@ Crate:
 ### This is the current way of doing items, however it no longer receives any new features or changes.
 #### An example of how to dye your potions!
 ```yaml
+Crate:
   Prizes:
-    1:
-     DisplayName: '<red>A potion colored green.'
-     DisplayItem: 'potion:green'
-     # DisplayItem: 'potion:133,50,73'
-     DisplayAmount: 1
-     Weight: 1.0
-     Items:
-     - 'Item:potion:green'
+    "1":
+      DisplayName: '<red>A potion colored green.'
+      DisplayItem: 'potion:green'
+      # DisplayItem: 'potion:133,50,73'
+      DisplayAmount: 1
+      Weight: 1.0
+      Items:
+       - 'Item:potion:green'
 ```
 
 ```yaml

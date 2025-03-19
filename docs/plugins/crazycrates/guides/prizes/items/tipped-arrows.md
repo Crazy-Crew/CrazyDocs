@@ -84,7 +84,7 @@ Crate:
       DisplayAmount: 1
       Weight: 1.0
       Items:
-      - "Item:tipped_arrow:{POTION_EFFECT}"
+       - "Item:tipped_arrow:{POTION_EFFECT}"
 ```
 
 ### 1. How to make a tipped arrow as a prize item:
