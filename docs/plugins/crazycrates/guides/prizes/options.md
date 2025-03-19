@@ -7,6 +7,7 @@ hide_title: false
 sidebar_label: Options
 sidebar_position: 1
 ---
+**This format no longer receives updates, It is considered deprecated. The sections under `Items` category have been updated. Further documentation will be created in the next couple of days.**
 
 ## List of all values that can be used in the `Items:` option
 
