@@ -77,14 +77,14 @@ Crate:
 ```yaml
 Crate:
   Prizes:
-    1:
-     DisplayName: "<red>An arrow with a potion effect."
-     DisplayItem: "tipped_arrow:{POTION_EFFECT}"
-     # DisplayItem: "tipped_arrow:fire_resistance"
-     DisplayAmount: 1
-     Weight: 1.0
-     Items:
-     - "Item:tipped_arrow:{POTION_EFFECT}"
+    "1":
+      DisplayName: "<red>An arrow with a potion effect."
+      DisplayItem: "tipped_arrow:{POTION_EFFECT}"
+      # DisplayItem: "tipped_arrow:fire_resistance"
+      DisplayAmount: 1
+      Weight: 1.0
+      Items:
+      - "Item:tipped_arrow:{POTION_EFFECT}"
 ```
 
 ### 1. How to make a tipped arrow as a prize item:
