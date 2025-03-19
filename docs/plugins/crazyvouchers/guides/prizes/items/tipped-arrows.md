@@ -10,7 +10,7 @@ sidebar_position: 1
 ### [A list of potion types](https://jd.papermc.io/paper/1.21.4/org/bukkit/potion/PotionType.html)
 
 ### An example of how to use it for display items.
-```yml
+```yaml
   Prizes:
     1:
      DisplayName: '&cAn leather helmet.'
@@ -24,20 +24,20 @@ sidebar_position: 1
 ```
 
 ### 1. How to make a tipped arrow as a prize item:
-```yml
+```yaml
 Items:
  - Item:TIPPED_ARROW:{POTION_EFFECT}, Amount:64, Name:Posion Arrow
 ```
 #### Example
-```yml
+```yaml
 Items:
  - Item:TIPPED_ARROW:POISON, Amount:64, Name:Posion Arrow
 ```
 ### 2. How to make a tipped arrow as a display item:
-```yml
+```yaml
 DisplayItem: TIPPED_ARROW:{POTION_EFFECT}
 ```
 #### Example
-```yml
+```yaml
 DisplayItem: TIPPED_ARROW:FIRE_RESISTANCE
 ```

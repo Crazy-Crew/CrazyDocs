@@ -50,7 +50,7 @@ sidebar_position: 7
 </details>
 
 #### An example of how to use the `QUARTZ` trim with pattern `SENTRY` in a prize.
-```yml
+```yaml
 Settings:
   # If they need a permission to claim this envoy. Set too false to disable.
   Claim-Permission: false
@@ -65,7 +65,7 @@ Settings:
 ```
 
 #### An example but instead with `TURTLE_HELMET`
-```yml
+```yaml
 Settings:
   # If they need a permission to claim this envoy. Set too false to disable.
   Claim-Permission: false

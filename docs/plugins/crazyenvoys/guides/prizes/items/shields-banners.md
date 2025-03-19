@@ -22,7 +22,7 @@ RGB: `{Pattern}:{Red},{Green},{Blue}`
 If you wish to give players a banner or shield with the colors and patterns on them then they work just like any other item in the `Items:` section.
 
 #### Example
-```yml
+```yaml
 Items:
   - 'Item:Shield, HALF_HORIZONTAL:RED, RHOMBUS_MIDDLE:BLACK, STRIPE_TOP:RED, STRIPE_BOTTOM:WHITE, STRIPE_MIDDLE:BLACK, CIRCLE_MIDDLE:WHITE'
 ```
@@ -31,7 +31,7 @@ Items:
 This is for if you wish to use a custom color instead of preset ones by Minecraft.
 
 #### Example
-```yml
+```yaml
 Items:
   - 'Item:Shield, HALF_HORIZONTAL:255,0,0'
 ```

@@ -14,7 +14,7 @@ This placeholder can only be used in commands!
 `%random%:min-max`
 
 ### Example:
-```yml
+```yaml
 Commands:
 - 'eco give %player% %random%:10000-100000'
 ```

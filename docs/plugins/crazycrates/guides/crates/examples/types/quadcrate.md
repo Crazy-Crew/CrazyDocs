@@ -5,7 +5,7 @@ hide_title: false
 
 sidebar_label: QuadCrate
 ---
-```yml
+```yaml
 Crate:
   # https://docs.crazycrew.us/docs/plugins/crazycrates/misc/crate-types
 
