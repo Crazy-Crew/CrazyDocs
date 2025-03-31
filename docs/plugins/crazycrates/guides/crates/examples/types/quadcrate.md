@@ -82,8 +82,8 @@ Crate:
   # i.e. Messages: [] or the value isn't there.
   Prize-Message:
     - "<gray>You have won <red>%reward% <gray>from <red>%crate%."
-  # A default command if the prize doesn't have any commands
-  # i.e. Commands: [] or the value isn't there.
+  # A list of commands to run by default on every prize.
+  # If you do not want these commands to run, set this to []
   Prize-Commands: []
   # Global Settings
   Settings:
@@ -100,6 +100,13 @@ Crate:
   Item: "brewing_stand"
   # The custom model data of the item, -1 is disabled.
   Custom-Model-Data: -1
+  # The item model, Mojang introduced this in 1.21.4... this replaces custom model data!
+  # Set this to blank for it to do nothing.
+  Model:
+    # The namespace i.e. nexo
+    Namespace: ""
+    # The id i.e. emerald_helmet
+    Id: ""
   # If the crate in the main /crates is glowing or not.
   Glowing: false
   # Name of the item in the GUI.
@@ -126,6 +133,13 @@ Crate:
       Item: "gray_stained_glass_pane"
       # The custom model data of the item, -1 is disabled.
       Custom-Model-Data: -1
+      # The item model, Mojang introduced this in 1.21.4... this replaces custom model data!
+      # Set this to blank for it to do nothing.
+      Model:
+        # The namespace i.e. nexo
+        Namespace: ""
+        # The id i.e. emerald_helmet
+        Id: ""
   # This section is related to .nbt files.
   structure:
     # If it should randomly use an .nbt file.
@@ -143,6 +157,13 @@ Crate:
     Item: "light_blue_dye"
     # The custom model data of the item, -1 is disabled.
     Custom-Model-Data: -1
+    # The item model, Mojang introduced this in 1.21.4... this replaces custom model data!
+    # Set this to blank for it to do nothing.
+    Model:
+      # The namespace i.e. nexo
+      Namespace: ""
+      # The id i.e. emerald_helmet
+      Id: ""
     # Makes the key look enchanted.
     Glowing: true
   # Settings for the holograms.
@@ -168,10 +189,17 @@ Crate:
       DisplayName: "<gold>Ryder Belserion"
       # The item to display in the gui.
       DisplayItem: "player_head"
-      # Prize settings
+      # Prize display preview settings
       Settings:
         # The custom model data of the item, -1 is disabled.
         Custom-Model-Data: -1
+        # The item model, Mojang introduced this in 1.21.4... this replaces custom model data!
+        # Set this to blank for it to do nothing.
+        Model:
+          # The namespace i.e. nexo
+          Namespace: ""
+          # The id i.e. emerald_helmet
+          Id: ""
       # The amount to display in the gui.
       DisplayAmount: 1
       # The lower the number, the less likely to win it.
@@ -193,10 +221,17 @@ Crate:
       DisplayName: "<bold><green>Fancy Pants</bold>"
       # The item to display in the gui.
       DisplayItem: "chainmail_leggings"
-      # Prize settings
+      # Prize display preview settings
       Settings:
         # The custom model data of the item, -1 is disabled.
         Custom-Model-Data: -1
+        # The item model, Mojang introduced this in 1.21.4... this replaces custom model data!
+        # Set this to blank for it to do nothing.
+        Model:
+          # The namespace i.e. nexo
+          Namespace: ""
+          # The id i.e. emerald_helmet
+          Id: ""
       # The enchants on the item.
       DisplayEnchantments:
         - "protection:2"
@@ -229,10 +264,17 @@ Crate:
       DisplayName: "<bold><blue>Classic Sword</bold>"
       # The item to display in the gui.
       DisplayItem: "diamond_sword"
-      # Prize settings
+      # Prize display preview settings
       Settings:
         # The custom model data of the item, -1 is disabled.
         Custom-Model-Data: -1
+        # The item model, Mojang introduced this in 1.21.4... this replaces custom model data!
+        # Set this to blank for it to do nothing.
+        Model:
+          # The namespace i.e. nexo
+          Namespace: ""
+          # The id i.e. emerald_helmet
+          Id: ""
       # The enchants on the item.
       DisplayEnchantments:
         - "sharpness:2"

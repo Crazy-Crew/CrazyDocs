@@ -76,8 +76,8 @@ Crate:
   # i.e. Messages: [] or the value isn't there.
   Prize-Message:
     - "<gray>You have won <red>%reward% <gray>from <red>%crate%."
-  # A default command if the prize doesn't have any commands
-  # i.e. Commands: [] or the value isn't there.
+  # A list of commands to run by default on every prize.
+  # If you do not want these commands to run, set this to []
   Prize-Commands: []
   # Global Settings
   Settings:
@@ -90,10 +90,28 @@ Crate:
         - "<red>%player% won the prize <yellow>%reward%."
       # If the player has this permission, they don't get the broadcast.
       Permission: ""
+    # Settings related to rewards.
+    Rewards:
+      # Should a yes/no popup be made, to ask if they want to keep the prize?
+      Re-Roll-Spin: false
+      # Should there be a limit to how many times they can re-roll?
+      Permission:
+        Toggle: false
+        # This will define how many permissions will be registered to the server per crate.
+        # i.e. crazycrates.respin.crate_name.1-20
+        # It will simply register multiple permissions, so it shows up in things like LuckPerms.
+        Max-Cap: 20
   # Item the crate is in the GUI
   Item: "shulker_box"
   # The custom model data of the item, -1 is disabled.
   Custom-Model-Data: -1
+  # The item model, Mojang introduced this in 1.21.4... this replaces custom model data!
+  # Set this to blank for it to do nothing.
+  Model:
+    # The namespace i.e. nexo
+    Namespace: ""
+    # The id i.e. emerald_helmet
+    Id: ""
   # If the crate in the main /crates is glowing or not.
   Glowing: false
   # Name of the item in the GUI.
@@ -120,6 +138,13 @@ Crate:
       Item: "gray_stained_glass_pane"
       # The custom model data of the item, -1 is disabled.
       Custom-Model-Data: -1
+      # The item model, Mojang introduced this in 1.21.4... this replaces custom model data!
+      # Set this to blank for it to do nothing.
+      Model:
+        # The namespace i.e. nexo
+        Namespace: ""
+        # The id i.e. emerald_helmet
+        Id: ""
   PhysicalKey:
     # Name of the Key.
     Name: "<bold><gradient:#084CFB:#ADF3FD>Wonder Crate Key</gradient></bold>"
@@ -130,6 +155,13 @@ Crate:
     Item: "blue_dye"
     # The custom model data of the item, -1 is disabled.
     Custom-Model-Data: -1
+    # The item model, Mojang introduced this in 1.21.4... this replaces custom model data!
+    # Set this to blank for it to do nothing.
+    Model:
+      # The namespace i.e. nexo
+      Namespace: ""
+      # The id i.e. emerald_helmet
+      Id: ""
     # Makes the key look enchanted.
     Glowing: true
   # Settings for the holograms.
@@ -159,10 +191,17 @@ Crate:
       DisplayName: "<gold>BadBones69"
       # The item to display in the gui.
       DisplayItem: "player_head"
-      # Prize settings
+      # Prize display preview settings
       Settings:
         # The custom model data of the item, -1 is disabled.
         Custom-Model-Data: -1
+        # The item model, Mojang introduced this in 1.21.4... this replaces custom model data!
+        # Set this to blank for it to do nothing.
+        Model:
+          # The namespace i.e. nexo
+          Namespace: ""
+          # The id i.e. emerald_helmet
+          Id: ""
       # The amount to display in the gui.
       DisplayAmount: 1
       # The chance to win i.e. 1%
@@ -184,10 +223,17 @@ Crate:
         - "looting:3"
       # The item to display in the gui.
       DisplayItem: "diamond_sword"
-      # Prize settings
+      # Prize display preview settings
       Settings:
         # The custom model data of the item, -1 is disabled.
         Custom-Model-Data: -1
+        # The item model, Mojang introduced this in 1.21.4... this replaces custom model data!
+        # Set this to blank for it to do nothing.
+        Model:
+          # The namespace i.e. nexo
+          Namespace: ""
+          # The id i.e. emerald_helmet
+          Id: ""
       # The amount to display in the gui.
       DisplayAmount: 1
       # The chance to win i.e. 15%
@@ -206,10 +252,17 @@ Crate:
         Pattern: "sentry"
       # The item to display in the gui.
       DisplayItem: "diamond_helmet"
-      # Prize settings
+      # Prize display preview settings
       Settings:
         # The custom model data of the item, -1 is disabled.
         Custom-Model-Data: -1
+        # The item model, Mojang introduced this in 1.21.4... this replaces custom model data!
+        # Set this to blank for it to do nothing.
+        Model:
+          # The namespace i.e. nexo
+          Namespace: ""
+          # The id i.e. emerald_helmet
+          Id: ""
       # The amount to display in the gui.
       DisplayAmount: 1
       # The lore of the item.
@@ -228,10 +281,17 @@ Crate:
       # The item to display in the gui.
       # The enchanted book will function with the enchants properly in an anvil.
       DisplayItem: "enchanted_book"
-      # Prize settings
+      # Prize display preview settings
       Settings:
         # The custom model data of the item, -1 is disabled.
         Custom-Model-Data: -1
+        # The item model, Mojang introduced this in 1.21.4... this replaces custom model data!
+        # Set this to blank for it to do nothing.
+        Model:
+          # The namespace i.e. nexo
+          Namespace: ""
+          # The id i.e. emerald_helmet
+          Id: ""
       # The amount to display in the gui.
       DisplayAmount: 3
       # The lore of the item.
@@ -248,10 +308,17 @@ Crate:
       # The item to display in the gui.
       # The enchanted book will function with the enchants properly in an anvil.
       DisplayItem: "sunflower"
-      # Prize settings
+      # Prize display preview settings
       Settings:
         # The custom model data of the item, -1 is disabled.
         Custom-Model-Data: -1
+        # The item model, Mojang introduced this in 1.21.4... this replaces custom model data!
+        # Set this to blank for it to do nothing.
+        Model:
+          # The namespace i.e. nexo
+          Namespace: ""
+          # The id i.e. emerald_helmet
+          Id: ""
       # The amount to display in the gui.
       DisplayAmount: 5
       # The lore of the item.
