@@ -8,13 +8,13 @@ sidebar_label: Map Dye
 sidebar_position: 8
 ---
 ### An example of how to dye your maps!
-```yml
+```yaml
 Items:
  - Item:{FILLED_MAP}:GREEN
 ```
-You have a selection of [colors](https://jd.papermc.io/paper/1.21.3/org/bukkit/Color.html) to use with this option.
+You have a selection of [colors](https://jd.papermc.io/paper/1.21.4/org/bukkit/Color.html) to use with this option.
 
-```yml
+```yaml
 Items:
  - Item:{FILLED_MAP}:133,50,73
 ```

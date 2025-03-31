@@ -8,7 +8,7 @@ sidebar_label: Custom Heads
 sidebar_position: 3
 ---
 ### An example of how to have a custom head as a prize/display item.
-```yml
+```yaml
   Prizes:
     1:
       DisplayName: '&cAn example player head.'
@@ -22,7 +22,7 @@ sidebar_position: 3
 ```
 
 #### You can also do the following if you don't want a custom texture from https://minecraft-heads.com/
-```yml
+```yaml
   Prizes:
     1:
       DisplayName: '&cAn example helmet using Trims.'

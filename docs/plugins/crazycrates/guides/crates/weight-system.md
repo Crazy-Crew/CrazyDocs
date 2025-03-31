@@ -8,7 +8,7 @@ sidebar_label: Weight System
 sidebar_position: 1
 ---
 An example of a weight based prize and weight based tiers.
-```yml
+```yaml
 Crate:
   # Tiers are available in Cosmic and Casino crate types.
   # The Tiers the rewards can be found in.

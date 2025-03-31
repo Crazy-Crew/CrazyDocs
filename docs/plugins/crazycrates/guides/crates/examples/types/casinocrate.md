@@ -5,7 +5,7 @@ hide_title: false
 
 sidebar_label: CasinoCrate
 ---
-```yml
+```yaml
 Crate:
   # https://docs.crazycrew.us/docs/plugins/crazycrates/misc/crate-types
 

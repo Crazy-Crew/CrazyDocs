@@ -8,13 +8,13 @@ sidebar_label: Leather Dye
 sidebar_position: 5
 ---
 ### An example of how to dye your leather armor!
-```yml
+```yaml
 Items:
  - Item:{LEATHER_HELMET/LEATHER_HORSE_ARMOR}:GREEN
 ```
-You have a selection of [colors](https://jd.papermc.io/paper/1.21.3/org/bukkit/Color.html) to use with this option.
+You have a selection of [colors](https://jd.papermc.io/paper/1.21.4/org/bukkit/Color.html) to use with this option.
 
-```yml
+```yaml
 Items:
  - Item:{LEATHER_HELMET/LEATHER_HORSE_ARMOR}:133,50,73
 ```

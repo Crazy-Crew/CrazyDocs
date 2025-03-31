@@ -16,7 +16,7 @@ When using the chance system it uses a raffle type of system. The more tickets y
 ### Example:
 Layout: `- '<Chance> <Command goes after>'`
 
-```yml
+```yaml
 chance-commands:
   - '45 eco give {player} 100'
   - '25 eco give {player} 1000'

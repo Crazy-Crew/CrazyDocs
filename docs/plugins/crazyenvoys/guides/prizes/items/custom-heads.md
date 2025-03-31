@@ -13,12 +13,12 @@ Custom Heads only work on [Paper](https://papermc.io) or [Purpur](https://purpur
 #### Warning: always remember to do some research into forks outside of Paper/Purpur including their configurations
 
 #### An example of how to give it as a prize.
-```yml
+```yaml
 Items: # Give any item you want to the winning player & with a custom texture.
  - 'Item:PLAYER_HEAD, Player:https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Amount:1'
 ```
 
-```yml
+```yaml
 Items: # Give any item you want to the winning player & with a custom texture.
  - 'Item:PLAYER_HEAD, Player:Badbones69, Amount:1
 ```

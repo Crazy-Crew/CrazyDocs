@@ -50,7 +50,7 @@ sidebar_position: 7
 </details>
 
 #### An example of how to use the `QUARTZ` trim with pattern `SENTRY` in a prize.
-```yml
+```yaml
 Crate:
   Prizes:
     1:
@@ -67,7 +67,7 @@ Crate:
 ```
 
 #### An example but instead with `TURTLE_HELMET`
-```yml
+```yaml
 Crate:
   Prizes:
     1:

@@ -22,7 +22,7 @@ If you've opened any of the tier files, you should be able to recognize three se
 If you have multiple prizes, and do not have the setting `Bulk-Prizes.Toggle` set to `false` and a prize has 100% probability, there is no other chance for another prize to be selected. Set to `true` for this to allow for a guaranteed selection of at least one prize and the chance for however many more. 
 
 If you want to give a specific prize every time AND an additional chance/random prize set `Chance` to 100 and configure your file to reflect the following
-```yml
+```yaml
 Bulk-Prizes:
    Toggle: true
    Random: true
