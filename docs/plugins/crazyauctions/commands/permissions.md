@@ -20,6 +20,7 @@ sidebar_position: 1
 | `/ca view <player>`         | `crazyauctions.view`                        | Shows the list items being sold by the searched player.                          |
 | `/ca sell <price> [amount]` | `crazyauctions.sell` `crazyauctions.sell.#` | Add the item currently in your hand to the selling section of the auction house. |
 | `/ca bid <price> [amount]`  | `crazyauctions.bid` `crazyauctions.bid.#`   | Add the item currently in your hand to the bidding section of the auction house. |
+| `/ca force_end_all`         | `crazyauctions.force-end-all`               | Force ends all listed items that the specified player currently has.             |
 
 Command Aliases: `/ca` `/ah` `/crazyauction` `/crazyauctions`
 
