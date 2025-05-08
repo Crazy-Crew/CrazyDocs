@@ -23,6 +23,8 @@ export default defineConfig({
 				}
 			],
 			sidebar: [
+				// A single link item labelled “Home”.
+				{ label: 'Home', link: '/' },
 				/*{
 					label: 'Guides',
 					items: [
