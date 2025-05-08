@@ -6,10 +6,9 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			favicon: '/favicon.png',
 			title: 'CrazyCrew',
 			logo: {
-				src: './src/assets/pumpkin.png',
+				src: './src/assets/logo.webp',
 			},
 			social: [
 				{
