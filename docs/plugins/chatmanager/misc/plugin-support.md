@@ -20,7 +20,7 @@ An in-depth reason for why you need Vault and LuckPerms, Please go on the chat f
 ## Permissions
 | Plugin    | Link                                            | Required | Deprecated | Removed | Added | Planned | Required |
 |-----------|-------------------------------------------------|----------|------------|---------|-------|---------|----------|
-| Vault     | https://www.spigotmc.org/resources/vault.34315/ | yes      | no         | no      | yes   | n/a     | yes      |
+| Vault     | https://www.spigotmc.org/resources/vault.34315/ | no       | no         | no      | yes    | n/a    | yes      |
 | LuckPerms | https://luckperms.net/                          | yes      | no         | no      | yes   | n/a     | yes      |
 
 ## Placeholders
