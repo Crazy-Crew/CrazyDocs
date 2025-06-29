@@ -147,6 +147,11 @@ spawn-protection=0
 ### 13. Why are my Crates/Crate Keys not working?
 This is a very vague question, and this website does not have the ability to steal your data and find out for you. (Or does it?) You will have to go to [our support server](https://discord.gg/badbones-s-live-chat-182615261403283459) to have such issues handled.
 
+### 14. My configuration is 100% super duper ultra correct and match the examples folder, however none of the config changes in the crates folder are being recognized.
+Check the permissions on the files, they must be readable otherwise our internals will do their job, and fall back to default values to ensure you know it's not working. 
+
+This is specificxally related to Linux file permissions, Please double check all your files to ensure that they can be read.
+
 #### Steps you can do before quickly jumping for support.
  * Run all your configuration files through [yamlint](https://www.yamllint.com/), It will tell you if you have any errors.
  * If you are confused on how to fix errors or read yaml, A nifty little guide for you by our favorite [longdick122](https://longbow122.github.io/learnerForYAML/)
