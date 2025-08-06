@@ -25,7 +25,7 @@ sidebar_position: 2
  * Use a plugin such as [LuckPerms](https://luckperms.net), Please do read through their [wiki](https://luckperms.net/wiki)
    * Make sure to check our [Commands](commands/permissions) page for updated permissions.
 
-### 5. Why can I claim envoys but my players can't?
+### 5. Why can I claim envoys but my players can't? or Why are my envoys not appearing?
  #### Potential Solutions
   * Set `spawn-protection` to 0 ( requires server restart )
   * WorldGuard
@@ -50,7 +50,7 @@ sidebar_position: 2
 ### 7. What's wrong with my config or envoy files?
 #### Steps you can do before quickly jumping for support.
  * Run all your configuration files through [yamlint](https://www.yamllint.com/), It will tell you if you have any errors.
- * If you are confused on how to fix errors or read yaml, A nifty little guide for you by [TutorialsPoint](https://www.tutorialspoint.com/yaml/index.htm)
+ * If you are confused on how to fix errors or read yaml, A nifty little guide for you by our favorite [longdick122](https://longbow122.github.io/learnerForYAML/)
 
 #### If you have exhausted the previous steps.
  * Check your console for errors, any errors related to CrazyEnvoys.
