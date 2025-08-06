@@ -50,7 +50,7 @@ sidebar_position: 2
 ### 7. What's wrong with my config or envoy files?
 #### Steps you can do before quickly jumping for support.
  * Run all your configuration files through [yamlint](https://www.yamllint.com/), It will tell you if you have any errors.
- * If you are confused on how to fix errors or read yaml, A nifty little guide for you by our favorite [longdick122](https://longbow122.github.io/learnerForYAML/)
+ * If you are confused on how to fix errors or read yaml, A nifty little guide for you by [TutorialsPoint](https://www.tutorialspoint.com/yaml/index.htm)
 
 #### If you have exhausted the previous steps.
  * Check your console for errors, any errors related to CrazyEnvoys.
