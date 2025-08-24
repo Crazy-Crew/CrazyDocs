@@ -9,14 +9,14 @@ sidebar_position: 1
 ---
 | Command                                                    | Permission             | Description                                                |
 |------------------------------------------------------------|------------------------|------------------------------------------------------------|
-| `/crazyvouchers`                                           | `crazyvouchers.admin`  | Manager your vouchers however you want.                    |
-| `/crazyvouchers help`                                      | `crazyvouchers.access` | Shows the help menu for crazyvouchers.                     |
-| `/crazyvouchers reload`                                    | `crazyvouchers.admin`  | Reloads the plugin.                                        |
-| `/crazyvouchers admin/open`                                | `crazyvouchers.admin`  | Shows a gui of easy to grab vouchers.                      |
-| `/crazyvouchers types/list`                                | `crazyvouchers.admin`  | Shows a list of voucher codes & items.                     |
+| `/crazyvouchers`                                           | `crazyvouchers.access`  | Manager your vouchers however you want.                    |
+| `/crazyvouchers help`                                      | `crazyvouchers.help` | Shows the help menu for crazyvouchers.                     |
+| `/crazyvouchers reload`                                    | `crazyvouchers.reload`  | Reloads the plugin.                                        |
+| `/crazyvouchers admin/open`                                | `crazyvouchers.open`  | Shows a gui of easy to grab vouchers.                      |
+| `/crazyvouchers types/list`                                | `crazyvouchers.types`  | Shows a list of voucher codes & items.                     |
 | `/crazyvouchers redeem <code>`                             | `crazyvouchers.redeem` | Redeems a voucher code from the `codes` directory.         |
-| `/crazyvouchers give <type> <amount> <player> <arguments>` | `crazyvouchers.admin`  | Gives a player a voucher from the `vouchers` directory.    |
-| `/crazyvouchers giveall <type> <amount> <arguments>`       | `crazyvouchers.admin`  | Gives all players a voucher from the `vouchers` directory. |
+| `/crazyvouchers give <type> <amount> <player> <arguments>` | `crazyvouchers.give`  | Gives a player a voucher from the `vouchers` directory.    |
+| `/crazyvouchers giveall <type> <amount> <arguments>`       | `crazyvouchers.giveall`  | Gives all players a voucher from the `vouchers` directory. |
 
 # Permissions
 
