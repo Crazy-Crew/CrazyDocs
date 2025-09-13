@@ -131,6 +131,7 @@ sidebar_position: 2
 | Decapitation | Has a chance to drop the players head on death.                                           |
 | BattleCry    | During combat it has a 10%(+5% per level) chance to send nearby players flying backwards. |
 | DemonForged  | Higher durability damage.                                                                 |
+| TreeFeller   | Cut down trees by breaking the bottom block.                                              |
 
 ## Tools
 | Enchantments | Description                                                          |
