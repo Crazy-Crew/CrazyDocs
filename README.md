@@ -13,4 +13,4 @@ All `.md` files are located under `docs`, Each directory translates to a directo
 * Make a pull request once it looks right.
 
 ## Requirements
-* You must know TypeScript and React
+* You must know TypeScript and React if you plan to add things outside of `md` files.
