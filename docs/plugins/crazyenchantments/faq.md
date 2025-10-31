@@ -62,7 +62,7 @@ There is currently no documented [API](guides/api/intro).
 ### 12. How do I add my own custom enchantments?
 This is not possible unless you have extensive knowledge of Bukkit/Spigot plugin development and Java. If you hold both, you can get acquainted with our [codebase](https://github.com/Crazy-Crew/CrazyEnchantments) and [API](guides/api/intro.md) to develop your own enchantments.
 
-If you have seen someone make use of CrazyEnchantments configurations to make their own custom enchantments, they would have been using an extremely outdated version that allowed for such configurations. We no longer support custom enchantment creation through configurations alone for multiple reasons. If you do not know how to program, it is recommended that you find someone to commission. We (CrazyCrew) do not openly accept or offer commissions.
+If you have seen someone make use of CrazyEnchantments configurations to make their own custom enchantments, they would have been using an extremely outdated version that allowed for such configurations. We no longer support custom enchantment creation through configurations alone for multiple reasons. If you do not know how to program, it is recommended that you find someone to commission.
 
 ### 13. How do I add blocks to blast?
 Add the item to `BlockList.yml`.
