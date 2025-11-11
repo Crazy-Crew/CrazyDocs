@@ -37,15 +37,18 @@ _The first table assumes you are using [PlaceholderAPI](https://hangar.papermc.i
 | `%crazycrates_crates_opened_raw%`    | `%crazycrates_crates_opened_raw%`     | Returns the raw total amount of crates opened.                                 |
 
 #### Player Placeholders ( Only in version 1.16 and higher )
+**As of November 11th builds going forward, You must use {player} rather than {player_name} if you want automatic parsing of player name.**
+**The placeholder to the left reflects `{player}` to use**
+**You can still manually specify the player name as in the example**
 | Placeholder                                   | Example                                            | Description                                                                    |
 |-----------------------------------------------|----------------------------------------------------|--------------------------------------------------------------------------------|
-| `%crazycrates_<player>_opened%`               | `%crazycrates_rukkhadevata_opened%`                | Returns the formatted total amount of crates opened.                           |
-| `%crazycrates_<player>_<crate>_opened%`       | `%crazycrates_rukkhadevata_galactic_opened%`       | Returns the formatted amount of this particular crate opened.                  |
-| `%crazycrates_<player>_<crate>_physical%`     | `%crazycrates_rukkhadevata_galactic_physical%`     | Returns the formatted amount of physical keys a player has in their inventory. |
-| `%crazycrates_<player>_<crate>_virtual%`      | `%crazycrates_rukkhadevata_galactic_virtual%`      | Returns the formatted amount of virtual keys a player has.                     |
-| `%crazycrates_<player>_<crate>_total%`        | `%crazycrates_rukkhadevata_galactic_total%`        | Returns the formatted total amount of virtual and physical keys a player has.  |
-| `%crazycrates_<player>_opened_raw%`           | `%crazycrates_rukkhadevata_opened_raw%`            | Returns the raw total amount of crates opened.                                 |
-| `%crazycrates_<player>_<crate>_opened_raw%`   | `%crazycrates_rukkhadevata_galactic_opened_raw%`   | Returns the raw amount of this particular crate opened.                        |
-| `%crazycrates_<player>_<crate>_physical_raw%` | `%crazycrates_rukkhadevata_galactic_physical_raw%` | Returns the raw amount of physical keys a player has in their inventory.       |
-| `%crazycrates_<player>_<crate>_virtual_raw%`  | `%crazycrates_rukkhadevata_galactic_virtual_raw%`  | Returns the raw amount of virtual keys a player has.                           |
-| `%crazycrates_<player>_<crate>_total_raw%`    | `%crazycrates_rukkhadevata_galactic_total_raw%`    | Returns the raw total amount of virtual and physical keys a player has.        |
+| `%crazycrates_{player}_opened%`               | `%crazycrates_rukkhadevata_opened%`                | Returns the formatted total amount of crates opened.                           |
+| `%crazycrates_{player}_<crate>_opened%`       | `%crazycrates_rukkhadevata_galactic_opened%`       | Returns the formatted amount of this particular crate opened.                  |
+| `%crazycrates_{player}_<crate>_physical%`     | `%crazycrates_rukkhadevata_galactic_physical%`     | Returns the formatted amount of physical keys a player has in their inventory. |
+| `%crazycrates_{player}_<crate>_virtual%`      | `%crazycrates_rukkhadevata_galactic_virtual%`      | Returns the formatted amount of virtual keys a player has.                     |
+| `%crazycrates_{player}_<crate>_total%`        | `%crazycrates_rukkhadevata_galactic_total%`        | Returns the formatted total amount of virtual and physical keys a player has.  |
+| `%crazycrates_{player}_opened_raw%`           | `%crazycrates_rukkhadevata_opened_raw%`            | Returns the raw total amount of crates opened.                                 |
+| `%crazycrates_{player}_<crate>_opened_raw%`   | `%crazycrates_rukkhadevata_galactic_opened_raw%`   | Returns the raw amount of this particular crate opened.                        |
+| `%crazycrates_{player}_<crate>_physical_raw%` | `%crazycrates_rukkhadevata_galactic_physical_raw%` | Returns the raw amount of physical keys a player has in their inventory.       |
+| `%crazycrates_{player}_<crate>_virtual_raw%`  | `%crazycrates_rukkhadevata_galactic_virtual_raw%`  | Returns the raw amount of virtual keys a player has.                           |
+| `%crazycrates_{player}_<crate>_total_raw%`    | `%crazycrates_rukkhadevata_galactic_total_raw%`    | Returns the raw total amount of virtual and physical keys a player has.        |
