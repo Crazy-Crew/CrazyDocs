@@ -17,12 +17,19 @@ const config: Config = {
   deploymentBranch: 'main',
   trailingSlash: false,
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
+  },
+
+  markdown: {
+    format: 'md',
+    mermaid: true,
+    emoji: true,
+    hooks: {
+     onBrokenMarkdownLinks: 'warn',
+     onBrokenMarkdownImages: 'throw'
+    }
   },
 
   future: {

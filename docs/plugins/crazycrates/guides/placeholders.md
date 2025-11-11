@@ -37,7 +37,7 @@ _The first table assumes you are using [PlaceholderAPI](https://hangar.papermc.i
 | `%crazycrates_crates_opened_raw%`    | `%crazycrates_crates_opened_raw%`     | Returns the raw total amount of crates opened.                                 |
 
 #### Player Placeholders ( Only in version 1.16 and higher )
-**As of November 11th builds going forward, You must use {player} in place of <player> rather than {player_name} if you want automatic parsing of player name.**
+**As of November 11th builds going forward, You must use {player} in place of `<player>` rather than {player_name} if you want automatic parsing of player name.**
 **The placeholder to the left reflects `{player}` to use**
 **You can still manually specify the player name as in the example*
 
