@@ -8,11 +8,7 @@ sidebar_label: Migrating
 sidebar_position: 2
 ---
 ## Where can I download the newest versions of X plugin?
-We have a server that listens to Github, and builds on every commit.
-
-https://ci.crazycrew.us/
-
-We will use this for experimental changes, or quick hotfixes before publishing anywhere.
+All builds are published to modrinth!
 
 ## Where are we moving our resources to?
 All our resources will now be uploaded on Hangar and Modrinth, you can find links to our organizations below.
