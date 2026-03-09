@@ -13,25 +13,44 @@ sidebar_position: 1
 
 # Q) Do I need everything in this config?
 # A) No, You can view PlayerHead.yml for an example whereas much as possible can be removed.
+
+###################################
+#             Items: Options
+# Item: <ID:MD> - You can choose the item with its id and meta data.
+# Amount: <Number> - Choose how many of the item you get.
+# Name: <Name> - The display name that goes on the item.
+# Lore: <Line 1>,<Line 2>,<Line 3>,<Line 4> - The lore that will go under the enchantments. Split lines with a ','
+# <Enchantment>:<Level> - Choose the enchantment you want to add to the item. You can use the in-game names of the enchantment if you want. Replace the spaces in the name with a "_".
+###################################################################
+#                         Firework Colors:                        #
+#      Aqua, Black, Blue, Fuchsia, Gray, Green, Lime, Maroon,     #
+#  Navy, Olive, Orange, Purple, Red, Silver, Teal, White, Yellow  #
+###################################################################
 voucher:
   # The material.
-  item: 'PAPER'
+  item: 'paper'
   # The name of the item.
-  name: '&bArg Example &3{arg}'
+  name: '<blue>Arg Example <aqua>{arg}'
   # The lore of the item.
   lore:
-  - '&7Use this voucher to rank up to &c{arg}'
-  - '&8(&e!&8) &dRight click to redeem.'
-  # The player name
-  player: ''
+    - '<gray>Use this voucher to rank up to <red>{arg}'
+    - '<dark_gray>(<yellow>!<dark_gray>) <light_purple>Right click to redeem.'
   # If the item should glow or not.
   glowing: true
+  # Tells the plugin that this command requires an argument.
+  has-argument: true
   # The commands to send.
   commands:
     - 'lp user {player} parent group set {arg}'
+  # Any generic component for the Item.
+  components:
+    # Hides the entire tooltip.
+    hide-tooltip: false
+  # All options when they right-click it.
   options:
     # The message sent when they right-click it.
-    message: '&7Congratulations, you have just ranked up to &6{arg}&7.'
+    message: '<gray>Congratulations, you have just ranked up to <gold>{arg}<gray>.'
+    # The sound settings.
     sound:
       # If the sounds should be enabled.
       toggle: true
@@ -40,7 +59,7 @@ voucher:
       # The sound pitch
       pitch: 1.0
       # The sound or sounds to use.
-      # https://jd.papermc.io/paper/1.21.4/org/bukkit/Sound.html
+      # https://minecraft.wiki/w/Sounds.json
       sounds:
-      - 'BLOCK_AMETHYST_CLUSTER_STEP'
+        - 'block.amethyst_block.step'
 ```

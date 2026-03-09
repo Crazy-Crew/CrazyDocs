@@ -28,54 +28,135 @@ sidebar_position: 3
 ###################################################################
 voucher:
   # The material.
-  item: 'DIAMOND_HELMET'
+  item: 'diamond_helmet'
   # The name of the item.
-  name: '&8&l>&7&l>&cTrim Example&7&l<&8&l<'
+  name: '<dark_gray>><gray>><red>Trim Example<gray><<dark_gray><'
   # The lore of the item.
   lore:
-  - '&7Use this voucher to get fancy trims.'
-  - '&7&l(&6&l!&7&l) &7Right click to redeem.'
-  player: ''
+    - '<gray>Use this voucher to get fancy trims.'
+    - '<gray>(<gold>!<gray>) <gray>Right click to redeem.'
   # If the item should glow or not.
   glowing: true
+  # An example of how to use custom model data
+  custom-model-data: -1
+  # This is only useful if the config option in the config.yml for anti-dupe is set to true.
+  # Changing this from false to true will disable the anti dupe, setting it back to false will enable it again.
+  override-anti-dupe: false
+  # This will allow players to place their vouchers in item frames if set to true.
+  allow-vouchers-in-item-frames: false
   # The commands to send.
   commands:
     - 'msg {player} wow you claimed a voucher.'
-    - 'msg {player} #FCFCFDwew multiple commands with &ccolors'
+  # The items to give when claiming the voucher.
+  items:
+    - 'Item:diamond_helmet, Damage:50, Trim:sentry!quartz, Amount:1, protection:4, respiration:1, aqua_affinity:3, unbreaking:3, thorns:3'
+    - 'Item:diamond_chestplate, Damage:50, Trim:dune!redstone, Amount:1, protection:4, unbreaking:3, thorns:3'
+  # https://docs.crazycrew.us/docs/plugins/crazyvouchers/guides/weight-system
+  # This section has 2 systems, Weight Based, and Random
+  # They run independent of each other, Any commands without a Weight option
+  # will be run separately as how random-commands used to function.
+  random-commands:
+    "1":
+      # The chance for these to run
+      weight: 45.0
+      # The commands to run
+      commands:
+        - "45 eco give {player} 100"
+    "2":
+      # The chance for these to run
+      weight: 25.0
+      # The commands to run
+      commands:
+        - "eco give {player} 1000"
+    "3":
+      # The chance for these to run
+      weight: 15.0
+      # The commands to run
+      commands:
+        - "eco give {player} 10000"
+    "4":
+      # The chance for these to run
+      weight: 10.0
+      # The commands to run
+      commands:
+        - "eco give {player} 100000"
+    "5":
+      # The chance for these to run
+      weight: 5.0
+      # The commands to run
+      commands:
+        - "eco give {player} 1000000"
+    # No chance is provided, thus we will pick random commands.
+    "6":
+      # The commands to run
+      commands:
+        - "give {player} diamond 5"
+  # The durability or damage to the item given in the preview gui.
+  display-damage: 50
+  # The trim applied to the item in the preview gui.
+  display-trim:
+    # The trim material
+    material: 'quartz'
+    # The trim pattern
+    pattern: 'sentry'
+  # Any generic component for the Item.
+  components:
+    # Hides the entire tooltip
+    hide-tooltip: false
+    # Hides components defined in this list. It allows more control than above.
+    # Leave the hide-tooltip false if you plan to use this.
+    hide-tooltip-advanced:
+      - "enchantments"
+    # The item model, Mojang introduced this in 1.21.4... this replaces custom model data!
+    # Set this to blank for it to do nothing.
+    item-model:
+      # The namespace i.e. nexo
+      namespace: ""
+      # The key i.e. emerald_helmet
+      key: ""
+  # All options when they right-click it.
   options:
     # The message sent when they right-click it.
-    message: '&7Congratulations, you have yourself fancy trims'
+    message: '<gray>Congratulations, you have yourself fancy trims'
+    # Settings related to world whitelist.
     whitelist-worlds:
+      # Should we check the worlds players have to be in?
+      toggle: false
       # The message to send.
       message: '{prefix}You are not in any of the whitelisted worlds.'
       # The list of worlds they have to be in.
       worlds:
         - 'world'
         - 'world_nether'
+    # The permission settings.
     permission:
+      # The whitelist permission settings.
       whitelist-permission:
         # If we should check players for this.
         toggle: false
         # If they don't have the permission, send this message.
-        message: '{prefix}You do not have the permission {permission} to use this voucher.'
+        message: '{prefix}You do not have the permission <red>{permission} <gray>to use this voucher.'
         # If they don't have this permission, they can't use the voucher.
         permissions:
           - 'your-permission'
+      # The blacklist permission settings.
       blacklist-permission:
         # If we should check players for this.
         toggle: false
         # The message to send to a player if they can't use the voucher.
-        message: '{prefix}You already have the permission {permission} so you can''t use this voucher.'
+        message: '{prefix}You already have the permission <red>{permission} <gray>so you can''t use this voucher.'
         # If they have this permission, they can't use the voucher.
         permissions:
           - 'your-permission'
+    # Limiter related settings.
     limiter:
       # If this should be enabled.
       toggle: false
-      # The max amount of uses for the voucher.
+      # The max number of uses for the voucher.
       amount: 10
     # If the player has to confirm claiming the voucher.
     two-step-authentication: false
+    # The sound settings.
     sound:
       # If the sounds should be enabled.
       toggle: true
@@ -84,42 +165,15 @@ voucher:
       # The sound pitch
       pitch: 1.0
       # The sound or sounds to use.
-      # https://jd.papermc.io/paper/1.21.4/org/bukkit/Sound.html
+      # https://minecraft.wiki/w/Sounds.json
       sounds:
-      - 'BLOCK_CHERRY_WOOD_BUTTON_CLICK_ON'
+        - 'block.cherry_wood_button.click_on'
+    # The firework settings.
     firework:
       # If the fireworks should be enabled.
       toggle: true
       # The colors of the firework.
       colors: 'Black, Gray, Aqua'
-
     # If the voucher is edible
     is-edible: false
-
-  # The items to give when claiming the voucher.
-  items:
-  - 'Item:DIAMOND_HELMET, Damage:50, Trim-Pattern:SENTRY, Trim-Material:QUARTZ, Amount:1, Protection:4, Respiration:1, Aqua_Affinity:3, Unbreaking:3, Thorns:3'
-  - 'Item:DIAMOND_CHESTPLATE, Damage:50, Trim-Pattern:DUNE, Trim-Material:REDSTONE, Amount:1, Protection:4, Unbreaking:3, Thorns:3'
-  # Random Commands is completely random, It'll run one of these commands.
-  random-commands:
-    - 'eco give 50000'
-    - 'eco give 5000'
-    - 'eco give 1000'
-    - 'give {player} diamond 5'
-  # https://docs.crazycrew.us/crazyvouchers/info/chance-system
-  # Lets you run commands with % chances
-  chance-commands:
-    - '45 eco give {player} 100'
-    - '25 eco give {player} 1000'
-    - '15 eco give {player} 10000'
-    - '10 eco give {player} 100000'
-    - '5 eco give {player} 1000000'
-
-  # The durability or damage to the item given in the preview gui.
-  display-damage: 50
-
-  # The trim applied to the item in the preview gui.
-  display-trim:
-    material: QUARTZ
-    pattern: SENTRY
 ```
