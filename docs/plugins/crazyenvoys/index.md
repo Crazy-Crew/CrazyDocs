@@ -9,7 +9,7 @@ sidebar_position: 1
 ---
 ## Requirements
 :::tip
-CrazyEnvoys requires you to use at least **Paper 1.21.11** or a fork of and **Java 21** to run
+CrazyEnvoys requires you to use at least **Paper 26.X.X** or a fork of and **Java 25** to run
 :::
 
 ### Downloading CrazyEnvoys
