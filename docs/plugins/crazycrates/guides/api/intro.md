@@ -22,7 +22,7 @@ repositories {
 
 ```gradle
 dependencies {
-    compileOnly "us.crazycrew.crazycrates:api:0.8"
+    compileOnly "us.crazycrew.crazycrates:api:0.9"
 }
 ```
 </details>
@@ -41,7 +41,7 @@ repositories {
 
 ```gradle
 dependencies {
-    compileOnly("us.crazycrew.crazycrates:api:0.8")
+    compileOnly("us.crazycrew.crazycrates:api:0.9")
 }
 ```
 </details>
@@ -63,7 +63,7 @@ dependencies {
 <dependency>
   <groupId>us.crazycrew.crazycrates</groupId>
   <artifactId>api</artifactId>
-  <version>0.8</version>
+  <version>0.9</version>
   <scope>provided</scope>
  </dependency>
 ```
