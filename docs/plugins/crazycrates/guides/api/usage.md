@@ -26,7 +26,3 @@ UserManager userManager = CratesProvider.get().getUserManager():
 
 userManager.addOpenedCrate(uuid, "CrateName");
 ```
-
-## An example of the api in use in a plugin.
-> https://github.com/Crazy-Crew/ExamplePlugin/tree/ver/1.21
-> You can compile the plugin using gradle build
