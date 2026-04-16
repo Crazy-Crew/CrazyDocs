@@ -2,4 +2,3 @@ onlyBuiltDependencies:
   - '@swc/core'
   - core-js
   - core-js-pure
-minimumReleaseAge: 1440

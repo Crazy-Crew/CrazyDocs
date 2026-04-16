@@ -33,7 +33,7 @@ const config: Config = {
   },
 
   future: {
-    faster: {
+    experimental_faster: {
       swcJsLoader: true,
       swcJsMinimizer: true,
       swcHtmlMinimizer: true,
