@@ -5,9 +5,6 @@
   "observability": {
     "enabled": true
   },
-  "assets": {
-    "directory": "build"
-  },
   "compatibility_flags": [
     "nodejs_compat"
   ]
