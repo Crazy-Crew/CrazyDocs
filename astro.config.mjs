@@ -8,9 +8,17 @@ import topics from 'starlight-sidebar-topics'
 export default defineConfig({
 	site: 'https://docs.crazycrew.us',
 
+	image: {
+		responsiveStyles: true,
+		layout: "constrained",
+		domains: ["cdn.ryderbelserion.com"],
+	},
+
 	integrations: [
 		starlight({
 			title: 'CrazyCrew Docs',
+
+			favicon: 'https://assets.crazycrew.us/crazycrew/branding/crazycrew_logo.32.svg',
 
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/Crazy-Crew'},
@@ -22,6 +30,8 @@ export default defineConfig({
 			editLink: {
 				baseUrl: 'https://github.com/Crazy-Crew/CrazyDocs/edit/main/',
 			},
+
+			credits: true,
 
 			plugins: [
 				topics([
