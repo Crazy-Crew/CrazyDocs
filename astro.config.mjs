@@ -36,32 +36,30 @@ export default defineConfig({
 			plugins: [
 				topics([
 					{
-						id: "paper",
-						label: "Paper",
-						link: "https://papermc.io/",
-						icon: "paper"
-					},
-					{
-						id: "purpur",
-						label: "Purpur",
-						link: "https://purpurmc.org/",
-						icon: "information"
-					},
-					{
-						id: 'apex',
-						label: 'ApexHosting',
-						link: 'https://billing.apexminecrafthosting.com/aff.php?aff=5511',
-						icon: "information"
-					},
-					{
-						id: "crux",
+						id: "crazycrew",
 						label: "Getting Started",
 						link: "/getting_started/overview",
-						icon: "information",
+						icon: "open-book",
 						items: [
 							"getting_started/overview"
 						],
-					}
+					},
+					{
+						id: "mods",
+						label: {
+							en: "Mods"
+						},
+						link: "/mods/",
+						icon: "paper",
+						items: [
+							{
+								label: "Mods",
+								autogenerate: {
+									directory: "mods"
+								}
+							}
+						]
+					},
 				])
 			]
 		})
