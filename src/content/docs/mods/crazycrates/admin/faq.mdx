@@ -1,0 +1,47 @@
+---
+title: Frequently Asked Questions
+description: Questions frequently asked by our users
+
+slug: crazycrates/faq
+---
+import { Tabs } from "@astrojs/starlight/components";
+import { Steps } from "@astrojs/starlight/components";
+import { FileTree } from "@astrojs/starlight/components";
+
+import TabCard from "@/components/other/TabCard.astro"
+
+<Tabs>
+    <TabCard label="#1">
+        #### Why do some colors look weird?
+        - Add `-Dnet.kyori.ansi.colorLevel=truecolor` to your startup flags!
+    </TabCard>
+    <TabCard label="#3">
+        #### How does the weight system work?
+        Check out [this page](guides/crates/weight-system) to figure out how the system works!
+    </TabCard>
+</Tabs>
+
+### 1. How do I bind /crates to a location?
+<Steps>
+
+    1. Type `/crazycrates editor --crate Menu`.
+
+    2. Right click to add a location, left click to break a location.
+
+    3. Type `/crazycrates editor --exit` to exit the mode.
+
+    4. Right click to the view menu. It's that easy!
+
+</Steps>
+
+### 2. When I set a head as a crate and try to use a physical key. It doesn't do anything?
+<Tabs>
+    <TabCard label="Reason">
+        Certain Items such as a `Tripwire Hook` cannot be used on blocks.
+
+        The event is called, and the server deems the event canceled, which tells our plugin that there was no right click.
+    </TabCard>
+    <TabCard label="Solution">
+        Try using an item that is not a `Tripwire Hook` such as `Feather`
+    </TabCard>
+</Tabs>
