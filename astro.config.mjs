@@ -43,28 +43,26 @@ export default defineConfig({
 					{
 						id: "crazycrew",
 						label: "Getting Started",
-						link: "/getting_started/overview",
+						link: "/getting_started/overview/",
 						icon: "open-book",
 						items: [
 							"getting_started/overview"
 						],
 					},
 					{
-						id: "mods",
-						label: {
-							en: "Mods"
-						},
-						link: "/mods/",
-						icon: "paper",
+						id: "crazycrates",
+						label: "CrazyCrates",
+						link: "/mods/crazycrates/",
+						icon: "open-book",
 						items: [
 							{
-								label: "Mods",
-								autogenerate: {
-									directory: "mods"
-								}
-							}
-						]
-					},
+								label: "Administration",
+								items: [
+									"crazycrates/faq"
+								],
+							},
+						],
+					}
 				])
 			]
 		})
