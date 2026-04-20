@@ -33,6 +33,11 @@ export default defineConfig({
 
 			credits: true,
 
+			components: {
+				// Override the default `Sidebar` component with a custom one.
+				Sidebar: './src/components/Sidebar.astro',
+			},
+
 			plugins: [
 				topics([
 					{
