@@ -77,13 +77,13 @@ PhysicalKey:
   # Lore of the Key.
   Lore: []
   # The custom item from oraxen.
-  Item: "amethyst"
+  Item: "arrow_next_icon"
 ```
 
 #### An example of how to use it in the items section.
 ```yaml
 Items:
-  - "Item:emerald_helmet, Amount:1, Name:<green>A custom item"
+  - "Item:arrow_next_icon, Amount:1, Name:<green>A custom item"
 ```
 
 ### General
