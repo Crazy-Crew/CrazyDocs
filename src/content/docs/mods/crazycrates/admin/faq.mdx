@@ -4,7 +4,7 @@ description: Questions frequently asked by our users
 
 slug: crazycrates/faq
 ---
-import { Tabs } from "@astrojs/starlight/components";
+import {Aside, Tabs} from "@astrojs/starlight/components";
 import { Steps } from "@astrojs/starlight/components";
 import { FileTree } from "@astrojs/starlight/components";
 
@@ -15,7 +15,7 @@ import TabCard from "@/components/other/TabCard.astro"
         #### Why do some colors look weird?
         - Add `-Dnet.kyori.ansi.colorLevel=truecolor` to your startup flags!
     </TabCard>
-    <TabCard label="#3">
+    <TabCard label="#2">
         #### How does the weight system work?
         Check out [this page](guides/crates/weight-system) to figure out how the system works!
     </TabCard>
@@ -34,7 +34,7 @@ import TabCard from "@/components/other/TabCard.astro"
 
 </Steps>
 
-### 2. When I set a head as a crate and try to use a physical key. It doesn't do anything?
+### 2. Why cant I use physical keys on crates?
 <Tabs>
     <TabCard label="Reason">
         Certain Items such as a `Tripwire Hook` cannot be used on blocks.
@@ -43,5 +43,232 @@ import TabCard from "@/components/other/TabCard.astro"
     </TabCard>
     <TabCard label="Solution">
         Try using an item that is not a `Tripwire Hook` such as `Feather`
+    </TabCard>
+</Tabs>
+
+### 3. What are the crate types?
+*All types are case-sensitive, and everything under Generic requires no special configuration*
+<Tabs>
+    <TabCard label="Generic">
+        The generic configuration (CrateExample.yml) on default installation will work for all of these.
+
+        You only have to change the `CrateType` option at the top of the file.
+
+        <details>
+            <summary>Crate Types</summary>
+
+            - CrateOnTheGo
+            - FireCracker
+            - QuickCrate
+            - QuadCrate
+            - Roulette
+            - Wonder
+            - Wheel
+            - War
+        </details>
+    </TabCard>
+
+    <TabCard label="Casino">
+        <Aside type="caution">
+            You should not blindly copy paste it, but read each line, and insert manually.
+        </Aside>
+
+        ```yml
+        Crate:
+          # The crate type!
+          CrateType: Casino
+          # Tiers are available in Cosmic and Casino crate types.
+          # The Tiers the rewards can be found in.
+          Tiers:
+            # The config name for the tier
+            Basic:
+              # The in-game name of the tier.
+              Name: "<dark_gray>Basic Tier</dark_gray>"
+              # The in-game lore of the tier.
+              Lore:
+                - "<gray>A basic tier.</gray>"
+                - "<red>%chance%%</red>"
+              # The item used for the secondary gui when you right-click for the preview.
+              Item: "chest"
+              # The lower the number, the less likely to win it.
+              Weight: 50.0
+              # The slot this item will be in the secondary gui.
+              Slot: 20
+            UnCommon:
+              # The in-game name of the tier.
+              Name: "<green>Uncommon Tier</green>"
+              # The in-game lore of the tier.
+              Lore:
+                - "<green>An uncommon tier.</green>"
+                - "<red>%chance%%</red>"
+              # The item used for the secondary gui when you right-click for the preview.
+              Item: "chest"
+              # The lower the number, the less likely to win it.
+              Weight: 35.0
+              # The slot this item will be in the secondary gui.
+              Slot: 22
+            Rare:
+              # The in-game name of the tier.
+              Name: "<dark_red>Rare Tier</dark_red>"
+              # The in-game lore of the tier.
+              Lore:
+                - "<red>A rare tier.</red>"
+                - "<red>%chance%%</red>"
+              # The item used for the secondary gui when you right-click for the preview.
+              Item: "ender_chest"
+              # The lower the number, the less likely to win it.
+              Weight: 25.0
+              # The slot this item will be in the secondary gui.
+              Slot: 24
+          # The tier preview.
+          tier-preview:
+            # Turn on and off the preview for this crate.
+            toggle: true
+            # How many lines the Tier Preview should have. Including Header and Bottom (Between 3 and 6)
+            rows: 5
+            # The glass border
+            glass:
+              # Turn the glass border in the preview on and off.
+              toggle: true
+              # The name of the border item.
+              name: " "
+              # The item that shows in the border. Can be glass or any other item.
+              item: "red_stained_glass_pane"
+          # Tier related settings only for Casino.
+          random:
+            # If the tiers should be random.
+            toggle: false
+            # The rows with pre-defined tiers.
+            types:
+              # Row 1
+              row-1: Basic
+              # Row 2
+              row-2: UnCommon
+              # Row 3
+              row-3: Rare
+          # All the prizes that can be obtained in the Crate.
+          Prizes:
+            "1":
+              # The name of the item to display in the gui.
+              DisplayName: "<gold>BadBones69</gold>"
+              # The item to display in the gui.
+              DisplayItem: "player_head"
+              # The amount to display in the gui.
+              DisplayAmount: 1
+              # The lower the number, the less likely to win it.
+              Weight: 1.0
+              # Tiers are available in Cosmic and Casino crate types.
+              # The Tiers the rewards can be found in.
+              Tiers:
+                - "Basic"
+              # https://minecraft-heads.com/
+              Player: "1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e"
+              # Only uncomment this if using HeadDatabase by Arcaniax
+              # Skull: "7129"
+              Items:
+                - "Item:player_head, Player:1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Name:<gold>BadBones69</gold>"
+        ```
+    </TabCard>
+
+    <TabCard label="Cosmic">
+        <Aside type="caution">
+            You should not blindly copy paste it, but read each line, and insert manually.
+        </Aside>
+
+        ```yml
+        Crate:
+          # The crate type!
+          CrateType: Cosmic
+          # Tiers are available in Cosmic and Casino crate types.
+          # The Tiers the rewards can be found in.
+          Tiers:
+            # The config name for the tier
+            Basic:
+              # The in-game name of the tier.
+              Name: "<dark_gray>Basic Tier</dark_gray>"
+              # The in-game lore of the tier.
+              Lore:
+                - "<gray>A basic tier.</gray>"
+                - "<red>%chance%%</red>"
+              # The item used for the secondary gui when you right-click for the preview.
+              Item: "chest"
+              # The lower the number, the less likely to win it.
+              Weight: 50.0
+              # The slot this item will be in the secondary gui.
+              Slot: 20
+            UnCommon:
+              # The in-game name of the tier.
+              Name: "<green>Uncommon Tier</green>"
+              # The in-game lore of the tier.
+              Lore:
+                - "<green>An uncommon tier.</green>"
+                - "<red>%chance%%</red>"
+              # The item used for the secondary gui when you right-click for the preview.
+              Item: "chest"
+              # The lower the number, the less likely to win it.
+              Weight: 35.0
+              # The slot this item will be in the secondary gui.
+              Slot: 22
+            Rare:
+              # The in-game name of the tier.
+              Name: "<dark_red>Rare Tier</dark_red>"
+              # The in-game lore of the tier.
+              Lore:
+                - "<red>A rare tier.</red>"
+                - "<red>%chance%%</red>"
+              # The item used for the secondary gui when you right-click for the preview.
+              Item: "ender_chest"
+              # The lower the number, the less likely to win it.
+              Weight: 25.0
+              # The slot this item will be in the secondary gui.
+              Slot: 24
+          # The tier preview.
+          tier-preview:
+            # Turn on and off the preview for this crate.
+            toggle: true
+            # How many lines the Tier Preview should have. Including Header and Bottom (Between 3 and 6)
+            rows: 5
+            # The glass border
+            glass:
+              # Turn the glass border in the preview on and off.
+              toggle: true
+              # The name of the border item.
+              name: " "
+              # The item that shows in the border. Can be glass or any other item.
+              item: "red_stained_glass_pane"
+          # Tier related settings only for Casino.
+          random:
+            # If the tiers should be random.
+            toggle: false
+            # The rows with pre-defined tiers.
+            types:
+              # Row 1
+              row-1: Basic
+              # Row 2
+              row-2: UnCommon
+              # Row 3
+              row-3: Rare
+          # All the prizes that can be obtained in the Crate.
+          Prizes:
+            "1":
+              # The name of the item to display in the gui.
+              DisplayName: "<gold>BadBones69</gold>"
+              # The item to display in the gui.
+              DisplayItem: "player_head"
+              # The amount to display in the gui.
+              DisplayAmount: 1
+              # The lower the number, the less likely to win it.
+              Weight: 1.0
+              # Tiers are available in Cosmic and Casino crate types.
+              # The Tiers the rewards can be found in.
+              Tiers:
+                - "Basic"
+              # https://minecraft-heads.com/
+              Player: "1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e"
+              # Only uncomment this if using HeadDatabase by Arcaniax
+              # Skull: "7129"
+              Items:
+                - "Item:player_head, Player:1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Name:<gold>BadBones69</gold>"
+        ```
     </TabCard>
 </Tabs>
