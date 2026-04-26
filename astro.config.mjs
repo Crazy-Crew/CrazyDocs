@@ -42,9 +42,9 @@ export default defineConfig({
 				topics([
 					{
 						id: "crazycrew",
-						label: "Getting Started",
+						label: "Home",
 						link: "/getting_started/overview/",
-						icon: "open-book",
+						icon: "information",
 						items: [
 							"getting_started/overview"
 						],
@@ -58,9 +58,14 @@ export default defineConfig({
 							{
 								label: "Administration",
 								items: [
-									"crazycrates/faq"
+									"crazycrates/faq",
+									"crazycrates/support"
 								],
 							},
+							{
+								label: "Developers",
+								items: [],
+							}
 						],
 					}
 				])
