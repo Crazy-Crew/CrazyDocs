@@ -4,36 +4,37 @@ description: Plugins supported by us
 
 slug: crazycrates/support
 ---
-import {Aside, Icon, Tabs} from "@astrojs/starlight/components";
-import { Steps } from "@astrojs/starlight/components";
-
 import TabCard from "@/components/other/TabCard.astro"
 
-import IconTest from "@/components/ui/Icon.vue"
+import { Tabs } from "@astrojs/starlight/components";
+
+import { Image } from "astro:assets";
+
+import Polymart from "@/assets/platforms/polymart.svg";
+import Modrinth from "@/assets/platforms/modrinth.svg";
+import Spigot from "@/assets/platforms/spigot.svg";
 
 ### Custom Items
-<IconTest/>
-
 <Tabs>
     <TabCard label="ItemsAdder">
-        #### Downloads
-
-          <a href="https://www.spigotmc.org/resources/%E2%98%84%EF%B8%8F-oraxen-custom-items-blocks-emotes-furniture-resourcepack-and-gui-1-18-1-20-4.72448/">
-
-          </a>
-    </TabCard>
-    <TabCard label="Oraxen">
-        #### Downloads
+        #### Downloads<br/>
 
         <a href="https://www.spigotmc.org/resources/%E2%98%84%EF%B8%8F-oraxen-custom-items-blocks-emotes-furniture-resourcepack-and-gui-1-18-1-20-4.72448/">
+            <Image src={Modrinth} alt="Modrinth Logo"/>
+        </a>
+    </TabCard>
+    <TabCard label="Oraxen">
+        #### Downloads<br/>
 
+        <a href="https://www.spigotmc.org/resources/%E2%98%84%EF%B8%8F-oraxen-custom-items-blocks-emotes-furniture-resourcepack-and-gui-1-18-1-20-4.72448/">
+            <Image src={Spigot} alt="Spigot Logo"/>
         </a>
     </TabCard>
     <TabCard label="Nexo">
-        #### Downloads
+        #### Downloads<br/>
 
         <a href="https://polymart.org/resource/nexo.6901">
-
+            <Image src={Polymart} alt="Polymart Logo"/>
         </a>
     </TabCard>
 </Tabs>
