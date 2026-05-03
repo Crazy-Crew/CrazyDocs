@@ -19,6 +19,10 @@ export default defineConfig({
     integrations: [starlight({
         title: 'CrazyCrew Docs',
 
+        customCss: [
+            './src/styles/custom.css',
+        ],
+
         favicon: 'https://assets.crazycrew.us/crazycrew/branding/crazycrew_logo.32.svg',
 
         social: [
