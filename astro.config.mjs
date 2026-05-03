@@ -68,6 +68,7 @@ export default defineConfig({
                                 {
                                     label: "Reference",
                                     items: [
+                                        "mods/crazycrates/reference/placeholders",
                                         "mods/crazycrates/reference/commands"
                                     ]
                                 },
