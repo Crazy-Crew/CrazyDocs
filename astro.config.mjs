@@ -59,8 +59,14 @@ export default defineConfig({
                         {
                             label: "Administration",
                             items: [
-                                "crazycrates/faq",
-                                "crazycrates/support"
+                                "mods/crazycrates/faq",
+                                "mods/crazycrates/support",
+                                {
+                                    label: "Reference",
+                                    items: [
+                                        "mods/crazycrates/reference/commands"
+                                    ]
+                                },
                             ],
                         },
                         {
