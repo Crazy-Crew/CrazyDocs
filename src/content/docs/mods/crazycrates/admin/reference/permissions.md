@@ -42,11 +42,11 @@ slug: mods/crazycrates/reference/commands
 
 ## Other
 ### Wildcards
-| Permission Node           | Description                                            | Default |
-|---------------------------|--------------------------------------------------------|---------|
-| `crazycrates.players.*`   | `Gives access to all player commands.`                 | No      |
-| `crazycrates.admin.*`     | `Gives access to all admin commands.`                  | No      |
-| `crazycrates.schematic.*` | `Gives access to all commands relating to schematics.` | No      |
+| Permission Node           | Description                                          | Default |
+|---------------------------|------------------------------------------------------|---------|
+| `crazycrates.players.*`   | Gives access to all player commands.                 | No      |
+| `crazycrates.admin.*`     | Gives access to all admin commands.                  | No      |
+| `crazycrates.schematic.*` | Gives access to all commands relating to schematics. | No      |
 
 ### Misc
 | Permission Node                            | Description                                                                                     | Player has by default? | Deprecated |
