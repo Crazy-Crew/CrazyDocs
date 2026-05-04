@@ -1,11 +1,10 @@
 ---
 title: Developer API
-description: Get started with the api
+description: Get started with CrazyCrates API!
 
-hide_title: false
-
-sidebar_label: API Intro
+slug: mods/crazycrates/dev/index
 ---
+
 ### Groovy
 <details>
  <summary>

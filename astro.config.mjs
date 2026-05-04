@@ -69,14 +69,44 @@ export default defineConfig({
                                     label: "Reference",
                                     items: [
                                         "mods/crazycrates/reference/placeholders",
-                                        "mods/crazycrates/reference/commands"
+                                        "mods/crazycrates/reference/commands",
+                                        {
+                                            label: "Prizes",
+                                            items: [
+                                                "mods/crazycrates/reference/prizes/weight-system",
+                                                {
+                                                    label: "Items",
+                                                    items: [
+                                                        "mods/crazycrates/reference/prizes/items/custom-items",
+                                                        "mods/crazycrates/reference/prizes/items/potions",
+                                                        {
+                                                            label: "Cosmetic",
+                                                            items: [
+                                                                "mods/crazycrates/reference/prizes/items/cosmetic/heads",
+                                                                "mods/crazycrates/reference/prizes/items/cosmetic/dyes"
+                                                            ]
+                                                        },
+                                                        {
+                                                            label: "Tools",
+                                                            items: [
+                                                                "mods/crazycrates/reference/prizes/items/tools/patterns",
+                                                                "mods/crazycrates/reference/prizes/items/tools/trim"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
                                     ]
                                 },
                             ],
                         },
                         {
                             label: "Developers",
-                            items: [],
+                            items: [
+                                "mods/crazycrates/dev/index",
+                                "mods/crazycrates/dev/usage"
+                            ],
                         }
                     ],
                 }

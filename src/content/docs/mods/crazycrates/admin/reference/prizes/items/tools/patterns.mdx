@@ -1,0 +1,60 @@
+---
+title: Patterns
+description: Examples of how to use color/patterns on shields/banners!
+
+slug: mods/crazycrates/reference/prizes/items/tools/patterns
+---
+import { Aside, Tabs } from "@astrojs/starlight/components";
+import { Steps } from "@astrojs/starlight/components";
+
+import TabCard from "@/components/other/TabCard.astro";
+
+<Aside type="tip">
+    Pattern Keys: [Click Me](https://jd.papermc.io/paper//io/papermc/paper/registry/keys/BannerPatternKeys.html) `Description` is the field with the valid names, Make sure to remove `minecraft:` while adding to config.
+
+    Colors: [Click Me](https://jd.papermc.io/paper/org/bukkit/DyeColor.html), `Field` are the valid colors.
+
+    These links will automatically send you to the latest version of Paper javadocs.
+</Aside>
+
+<Tabs>
+    <TabCard label="Display">
+        ```yaml
+        Crate:
+          Prizes:
+            "1":
+              # The material of the item for the patterns to work.
+              DisplayItem: 'shield'
+              # The patterns to display on the shield.
+              DisplayPatterns:
+                - "base:white"
+                - "gradient_up:light_gray"
+                - "straight_cross:light_blue"
+                - "flower:light_blue"
+        ```
+    </TabCard>
+
+    <TabCard label="Item">
+        ```yml
+        Crate:
+          Prizes:
+            "1":
+              # The material of the item for the patterns to work.
+              DisplayItem: 'shield'
+              # Configure multiple items with 10 different banner patterns if you wish.
+              Items:
+                "1":
+                  # The material of the item for the patterns to work.
+                  material: "shield"
+                  # Per item settings.
+                  settings:
+                    # The patterns to display on the shield.
+                    patterns:
+                      base: white
+                      gradient_up: light_gray
+                      straight_cross: light_blue
+                      flower: light_blue
+                      half_horizontal: 255,0,0
+        ```
+    </TabCard>
+</Tabs>

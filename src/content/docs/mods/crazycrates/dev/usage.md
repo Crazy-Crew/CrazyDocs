@@ -1,10 +1,8 @@
 ---
-title: API Usage
-description: Examples of how to use the api
+title: Basic Usage
+description: Simple examples of how to use CrazyCrates API
 
-hide_title: false
-
-sidebar_label: API Usage
+slug: mods/crazycrates/dev/usage
 ---
 ## Add virtual keys to a player
 ```java
