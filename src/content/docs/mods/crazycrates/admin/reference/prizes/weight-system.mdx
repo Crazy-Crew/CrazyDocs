@@ -1,0 +1,38 @@
+---
+title: Weight System
+description: A simple guide on how the Weight System works!
+
+slug: mods/crazycrates/reference/prizes/weight-system
+---
+import { Aside, Tabs } from "@astrojs/starlight/components";
+
+import TabCard from "@/components/other/TabCard.astro";
+
+<Aside type="tip">
+    The system in the simplest form is that the lower the `Weight` option, the less likely chance to win the prize, or roll the tier.
+
+    It's similar to having a pool with 500 tickets in it labeled "Chicken Suit" while 1 ticket is labeled "Hot Dog Suit"
+
+    The likelihood of you pulling the Chicken Suit is much more common.
+</Aside>
+
+<Tabs>
+    <TabCard label="What is the max range?">
+        The max range is the sum of each weight option under the `Prizes` section, or `Tiers` section.
+
+        ```yaml
+        Crate:
+          Tiers:
+            Basic:
+              Weight: 20.0
+          Prizes:
+            "1":
+               Weight: 10.0
+        ```
+    </TabCard>
+    <TabCard label="How do I display the chance to win?">
+        %chance% which tries it's best to return an accurate percentage, however with decimals. Math can only do so much.
+
+        In the math world, at some point you will reach 0 which will display 0%. It does not mean that your prize cannot be won, the displayed chance is cosmetic.
+    </TabCard>
+</Tabs>

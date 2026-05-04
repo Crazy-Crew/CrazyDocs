@@ -1,0 +1,75 @@
+---
+title: Placeholders
+description: All available placeholders for CrazyCrates!
+
+slug: mods/crazycrates/reference/placeholders
+
+---
+import { Tabs } from "@astrojs/starlight/components";
+
+import TabCard from "@/components/other/TabCard.astro"
+
+export const name = '{player_name}';
+
+**This page lists all placeholders included in CrazyCrates.**
+
+### Placeholders
+
+<Tabs>
+    <TabCard label="PlaceholderAPI">
+        <Tabs>
+            <TabCard label="Crate">
+                | Placeholder                          | Example                               | Description                                                                    |
+                |--------------------------------------|---------------------------------------|--------------------------------------------------------------------------------|
+                | `%crazycrates_[crate]_physical_raw%` | `%crazycrates_galactic_physical_raw%` | Returns the raw amount of physical keys a player has in their inventory.       |
+                | `%crazycrates_[crate]_physical%`     | `%crazycrates_galactic_physical%`     | Returns the formatted amount of physical keys a player has in their inventory. |
+                | `%crazycrates_[crate]_total_raw%`    | `%crazycrates_galactic_total_raw%`    | Returns the raw total amount of virtual and physical keys a player has.        |
+                | `%crazycrates_[crate]_total%`        | `%crazycrates_galactic_total%`        | Returns the formatted total amount of virtual and physical keys a player has.  |
+                | `%crazycrates_[crate]_opened_raw%`   | `%crazycrates_galactic_opened_raw%`   | Returns the raw amount of times a player has opened an individual crate.       |
+                | `%crazycrates_[crate]_opened%`       | `%crazycrates_galactic_opened%`       | Returns the formatted amount of times a player has opened an individual crate. |
+                | `%crazycrates_[crate]_raw%`          | `%crazycrates_galactic_raw%`          | Returns the raw amount of virtual keys a player has.                           |
+                | `%crazycrates_[crate]%`              | `%crazycrates_galactic%`              | Returns the formatted amount of virtual keys a player has.                     |
+            </TabCard>
+
+            <TabCard label="Simple">
+                | Placeholder                          | Example                               | Description                                                                    |
+                |--------------------------------------|---------------------------------------|--------------------------------------------------------------------------------|
+                | `%crazycrates_crates_opened_raw%`    | `%crazycrates_crates_opened_raw%`     | Returns the raw total amount of crates opened.                                 |
+                | `%crazycrates_crates_opened%`        | `%crazycrates_crates_opened%`         | Returns the formatted total amount of crates opened.                           |
+            </TabCard>
+
+            <TabCard label="Player">
+                {name} is replaced by the player name parsed through PlaceholderAPI.
+
+                | Placeholder                                   | Example                                            | Description                                                                    |
+                |-----------------------------------------------|----------------------------------------------------|--------------------------------------------------------------------------------|
+                | `%crazycrates_[player]_[crate]_opened%`       | %crazycrates_rukkhadevata_galactic_opened%         | Returns the formatted amount of this particular crate opened.                  |
+                | `%crazycrates_[player]_[crate]_physical_raw%` | %crazycrates_{name}_galactic_physical_raw%         | Returns the raw amount of physical keys a player has in their inventory.       |
+                | `%crazycrates_[player]_[crate]_physical%`     | %crazycrates_rukkhadevata_galactic_physical%       | Returns the formatted amount of physical keys a player has in their inventory. |
+                | `%crazycrates_[player]_[crate]_virtual_raw%`  | %crazycrates_{name}_galactic_virtual_raw%          | Returns the raw amount of virtual keys a player has.                           |
+                | `%crazycrates_[player]_[crate]_virtual%`      | %crazycrates_rukkhadevata_galactic_virtual%        | Returns the formatted amount of virtual keys a player has.                     |
+                | `%crazycrates_[player]_[crate]_total_raw%`    | %crazycrates_{name}_galactic_total_raw%            | Returns the raw total amount of virtual and physical keys a player has.        |
+                | `%crazycrates_[player]_[crate]_total%`        | %crazycrates_rukkhadevata_galactic_total%          | Returns the formatted total amount of virtual and physical keys a player has.  |
+                | `%crazycrates_[player]_[crate]_opened_raw%`   | %crazycrates_{name}_galactic_opened_raw%           | Returns the raw amount of this particular crate opened.                        |
+                | `%crazycrates_[player]_opened_raw%`           | %crazycrates_rukkhadevata_opened_raw%              | Returns the raw total amount of crates opened.                                 |
+                | `%crazycrates_[player]_opened%`               | %crazycrates_{name}_opened%                        | Returns the formatted total amount of crates opened.                           |
+            </TabCard>
+        </Tabs>
+    </TabCard>
+
+    <TabCard label="Internal">
+        <Tabs>
+            <TabCard label="Random">
+                `%random%:min-max`
+
+                - Minimum (the lowest the number can go)
+                - Maximum (the highest the number can go)
+
+                ```yml
+                Commands:
+                - 'eco give %player% %random%:10000-100000'
+                ```
+            </TabCard>
+        </Tabs>
+    </TabCard>
+</Tabs>
