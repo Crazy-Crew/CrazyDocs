@@ -1,9 +1,7 @@
-packages:
-  - .
+patchedDependencies:
+  '@astrojs/starlight': patches/@astrojs__starlight.patch
+
 onlyBuiltDependencies:
-  - '@swc/core'
-  - core-js
-  - core-js-pure
+  - workerd
   - esbuild
   - sharp
-  - workerd

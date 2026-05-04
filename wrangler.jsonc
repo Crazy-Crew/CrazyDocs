@@ -1,10 +1,16 @@
 {
-  // wrangler.jsonc
+  "compatibility_date": "2026-04-17",
+  "compatibility_flags": [
+    "global_fetch_strictly_public",
+    "nodejs_compat"
+  ],
   "name": "crazydocs",
-  // Update to today's date
-  // Set this to today's date
-  "compatibility_date": "2026-04-25",
+  "main": "@astrojs/cloudflare/entrypoints/server",
   "assets": {
-    "directory": "./build"
+    "directory": "./dist",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true
   }
 }
