@@ -51,7 +51,8 @@ export default defineConfig({
                     link: "/getting_started/overview/",
                     icon: "information",
                     items: [
-                        "getting_started/overview"
+                        "getting_started/overview",
+                        "getting_started/platforms"
                     ],
                 },
                 {
@@ -109,6 +110,90 @@ export default defineConfig({
                             ],
                         }
                     ],
+                },
+                {
+                    id: "crazyenchantments",
+                    label: "CrazyEnchantments",
+                    link: "/mods/crazyenchantments/",
+                    icon: "open-book",
+                    items: [
+                        {
+                            label: "Administration",
+                            autogenerate: {
+                                directory: "mods/crazyenchantments/"
+                            }
+                        }
+                    ]
+                },
+                {
+                    id: "crazyauctions",
+                    label: "CrazyAuctions",
+                    link: "/mods/crazyauctions/",
+                    icon: "open-book",
+                    items: [
+                        {
+                            label: "Administration",
+                            autogenerate: {
+                                directory: "mods/crazyauctions/"
+                            }
+                        }
+                    ]
+                },
+                {
+                    id: "crazyenvoys",
+                    label: "CrazyEnvoys",
+                    link: "/mods/crazyenvoys/",
+                    icon: "open-book",
+                    items: [
+                        {
+                            label: "Administration",
+                            autogenerate: {
+                                directory: "mods/crazyenvoys/"
+                            }
+                        }
+                    ]
+                },
+                {
+                    id: "crazyvouchers",
+                    label: "CrazyVouchers",
+                    link: "/mods/crazyvouchers/",
+                    icon: "open-book",
+                    items: [
+                        {
+                            label: "Administration",
+                            autogenerate: {
+                                directory: "mods/crazyvouchers/"
+                            }
+                        }
+                    ]
+                },
+                {
+                    id: "chatmanager",
+                    label: "ChatManager",
+                    link: "/mods/chatmanager/",
+                    icon: "open-book",
+                    items: [
+                        {
+                            label: "Administration",
+                            autogenerate: {
+                                directory: "mods/chatmanager/"
+                            }
+                        }
+                    ]
+                },
+                {
+                    id: "blockparticles",
+                    label: "BlockParticles",
+                    link: "/mods/blockparticles/",
+                    icon: "open-book",
+                    items: [
+                        {
+                            label: "Administration",
+                            autogenerate: {
+                                directory: "mods/blockparticles/"
+                            }
+                        }
+                    ]
                 }
             ])
         ]
