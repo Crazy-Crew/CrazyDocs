@@ -1,8 +1,6 @@
 ---
 id: chatmanager-permissions
 title: Permissions
-
-slug: /chatmanager/info/commands/permissions
 ---
 # Chat Manager
 
