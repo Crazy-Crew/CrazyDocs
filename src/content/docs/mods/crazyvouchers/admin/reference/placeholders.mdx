@@ -1,0 +1,49 @@
+---
+title: Placeholders
+description: All available placeholders for CrazyVouchers!
+
+slug: mods/crazyvouchers/reference/placeholders
+
+---
+import { Aside, Tabs } from "@astrojs/starlight/components";
+
+import TabCard from "@/components/other/TabCard.astro"
+
+export const random = '{random}';
+
+**This page lists all placeholders included in CrazyVouchers.**
+
+### Placeholders
+
+<Tabs>
+    <TabCard label="PlaceholderAPI">
+        <Aside type="note">
+            We have no need for such thing yet.
+        </Aside>
+    </TabCard>
+
+    <TabCard label="Internal">
+        <Tabs>
+            <TabCard label="Random">
+                `{random}:min-max`
+
+                - Minimum (the lowest the number can go)
+                - Maximum (the highest the number can go)
+
+                ```yml
+                Commands:
+                - 'eco give %player% {random}:10000-100000'
+                ```
+            </TabCard>
+            <TabCard label="Player">
+                | Placeholder | Description                                          | Example                                                      |
+                |-------------|------------------------------------------------------|--------------------------------------------------------------|
+                | `{player}`  | Name of the player                                   | `- 'eco give {player} 1000'`                                 |
+                | `{world}`   | World player is currently in                         | `- lp user {player} parent set crazyvouchers.redeem {world}` |
+                | `{z}`       | X coordinate of the player.                          | `- 'tp {x} {y} {z}'`                                         |
+                | `{y}`       | Y coordinate of the player.                          | `- 'tp {x} {y} {z}'`                                         |
+                | `{x}`       | Z coordinate of the player.                          | `- 'tp {x} {y} {z}'`                                         |
+            </TabCard>
+        </Tabs>
+    </TabCard>
+</Tabs>

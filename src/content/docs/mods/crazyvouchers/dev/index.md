@@ -1,7 +1,10 @@
 ---
 title: Developer API
-description: Get started with the api
+description: Get started with CrazyVouchers API!
+
+slug: mods/crazyvouchers/dev/index
 ---
+
 ### Groovy
 <details>
  <summary>
@@ -37,7 +40,7 @@ repositories {
 
 ```groovy
 dependencies {
-    compileOnly("com.badbones69.crazyvouchers", "crazyvouchers-paper-api", "3.5.4")
+    compileOnly("com.badbones69.crazyvouchers:"crazyvouchers-paper-api:"3.5.4")
 }
 ```
 </details>

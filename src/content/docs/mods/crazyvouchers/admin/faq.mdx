@@ -1,0 +1,47 @@
+---
+title: Frequently Asked Questions
+description: Questions frequently asked by our users.
+
+slug: mods/crazyvouchers/faq
+---
+import { Aside, Tabs } from "@astrojs/starlight/components";
+import { Steps } from "@astrojs/starlight/components";
+
+import TabCard from "@/components/other/TabCard.astro";
+
+<Aside>
+    Sounds: https://mudkipdev.github.io/minecraft-sound-explorer/
+</Aside>
+
+<Tabs>
+    <TabCard label="#1">
+        #### Why do some colors look weird?
+        - Add `-Dnet.kyori.ansi.colorLevel=truecolor` to your startup flags!
+    </TabCard>
+</Tabs>
+
+### 1. Is there two-factor authentication?
+<Tabs>
+    <TabCard label="Yes">
+        ```yml
+        voucher:
+          # The material.
+          item: 'diamond_helmet'
+          # All options when they right-click it.
+          options:
+          # If the player has to confirm claiming the voucher.
+            two-step-authentication: false
+        ```
+    </TabCard>
+</Tabs>
+
+### 2. My player heads aren't working / Can I use player heads?
+<Tabs>
+    <TabCard label="My player heads aren't working">
+        * You likely have 2 `player` options in your config files, One with the url and one empty so the plugin doesn't know what to do.
+    </TabCard>
+
+    <TabCard label="Can I use player heads?">
+        * Yes
+    </TabCard>
+</Tabs>

@@ -1,0 +1,32 @@
+---
+title: Permissions
+description: All available commands for CrazyVouchers.
+
+slug: mods/crazyvouchers/reference/commands
+---
+**This page lists all permissions included in CrazyVouchers.**
+
+## Commands
+| Command        | Aliases |
+|----------------|---------|
+| /crazyvouchers | /cv     |
+
+### Auction Permissions
+| Command                                                    | Permission Node       | Description                                                | Player has by default? |
+|------------------------------------------------------------|-----------------------|------------------------------------------------------------|------------------------|
+| /crazyvouchers`                                            | crazyvouchers.access  | Manager your vouchers however you want.                    | Unknown                |
+| /crazyvouchers help                                        | crazyvouchers.help    | Shows the help menu for crazyvouchers.                     | Unknown                |
+| /crazyvouchers reload                                      | crazyvouchers.reload  | Reloads the plugin.                                        | Unknown                |
+| /crazyvouchers admin/open                                  | crazyvouchers.open    | Shows a gui of easy to grab vouchers.                      | Unknown                |
+| /crazyvouchers types/list                                  | crazyvouchers.types   | Shows a list of voucher codes & items.                     | Unknown                |
+| /crazyvouchers redeem `<code> `                            | crazyvouchers.redeem  | Redeems a voucher code from the `codes` directory.         | Unknown                |
+| /crazyvouchers give `<type> <amount> <player> <arguments>` | crazyvouchers.give    | Gives a player a voucher from the `vouchers` directory.    | Unknown                |
+| /crazyvouchers giveall `<type> <amount> <arguments>`       | crazyvouchers.giveall | Gives all players a voucher from the `vouchers` directory. | Unknown                |
+
+### Misc Permissions
+| Permission Node       | Description                            | Player has by default? |
+|-----------------------|----------------------------------------|------------------------|
+| crazyvouchers.access  | Gives access to the help menu.         | Unknown                |
+| crazyvouchers.redeem  | Allows you to redeem a code.           | Unknown                |
+| crazyvouchers.migrate | Migrates old vouchers to new vouchers. | Unknown                |
+| crazyvouchers.admin   | Gives access to all admin commands.    | Unknown                |

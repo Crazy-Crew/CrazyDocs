@@ -1,0 +1,53 @@
+---
+title: Potions
+description: Get started with adding potions to your prizes!
+
+slug: mods/crazyvouchers/reference/prizes/items/potions
+---
+import { Aside, Tabs } from "@astrojs/starlight/components";
+
+import TabCard from "@/components/other/TabCard.astro";
+
+<Aside type="caution">
+    *Warning, The prize example assumes you know other options must be added for a Prize to function*
+    *If not, I recommend you read the remaining documentation*
+
+    *The configuration for this can be used with tipped_arrows as well.*
+</Aside>
+
+<Tabs>
+    <TabCard label="Display">
+        Check out [this page](../cosmetic/dyes/) to see how to dye your items!
+    </TabCard>
+    <TabCard label="Item">
+        ```yml
+        voucher:
+          # The item material.
+          item: "potion"
+          # Prize display preview settings
+          items:
+            # The name of the item, good for identification internally and externally.
+            "1":
+               # The item material.
+               material: "potion"
+               # Per item settings.
+               settings:
+                 # The potion settings.
+                 potions:
+                   # The name of the potion effect.
+                   "strength":
+                      # The duration of the potion effect.
+                      duration: 10
+                      # The level of the potion effect.
+                      level: 3
+                      # The potion style settings.
+                      style:
+                        # Should the icon show in the inventory?
+                        icon: false
+                        # Should there be an ambient effect for the player?
+                        ambient: false
+                        # Should the particles show around the player?
+                        particles: false
+        ```
+    </TabCard>
+</Tabs>

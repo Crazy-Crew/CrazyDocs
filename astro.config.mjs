@@ -173,9 +173,56 @@ export default defineConfig({
                   items: [
                       {
                           label: "Administration",
-                          autogenerate: {
-                              directory: "mods/crazyvouchers/"
-                          }
+                          items: [
+                              "mods/crazyvouchers/faq",
+                              "mods/crazyvouchers/support",
+                              {
+                                  label: "References",
+                                  items: [
+                                      "mods/crazyvouchers/reference/commands",
+                                      "mods/crazyvouchers/reference/placeholders",
+                                      {
+                                          label: "Prizes",
+                                          items: [
+                                              {
+                                                  label: "Items",
+                                                  items: [
+                                                      "mods/crazyvouchers/reference/prizes/items/custom-items",
+                                                      "mods/crazyvouchers/reference/prizes/items/potions",
+                                                      {
+                                                          label: "Cosmetic",
+                                                          items: [
+                                                              "mods/crazyvouchers/reference/prizes/items/cosmetic/heads",
+                                                              "mods/crazyvouchers/reference/prizes/items/cosmetic/dyes"
+                                                          ]
+                                                      },
+                                                      {
+                                                          label: "Tools",
+                                                          items: [
+                                                              "mods/crazyvouchers/reference/prizes/items/tools/patterns",
+                                                              "mods/crazyvouchers/reference/prizes/items/tools/trim"
+                                                          ]
+                                                      }
+                                                  ]
+                                              }
+                                          ]
+                                      }
+                                  ]
+                              }
+                          ]
+                      },
+                      {
+                          label: "Developers",
+                          items: [
+                              "mods/crazyvouchers/dev/index",
+                              {
+                                  slug: "mods/crazyvouchers/dev/usage",
+                                  badge: {
+                                      text: 'Stub',
+                                      variant: 'caution'
+                                  }
+                              }
+                          ],
                       }
                   ]
               },

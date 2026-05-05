@@ -1,0 +1,84 @@
+---
+title: Patterns
+description: Examples of how to use color/patterns on shields/banners!
+
+slug: mods/crazyvouchers/reference/prizes/items/tools/patterns
+---
+import { Aside, Tabs } from "@astrojs/starlight/components";
+import { Steps } from "@astrojs/starlight/components";
+
+import TabCard from "@/components/other/TabCard.astro";
+
+<Aside type="tip">
+    Pattern Keys: [Click Me](https://jd.papermc.io/paper//io/papermc/paper/registry/keys/BannerPatternKeys.html) `Description` is the field with the valid names, Make sure to remove `minecraft:` while adding to config.
+
+    Colors: [Click Me](https://jd.papermc.io/paper/org/bukkit/DyeColor.html), `Field` are the valid colors.
+
+    These links will automatically send you to the latest version of Paper javadocs.
+</Aside>
+
+<Tabs>
+    <TabCard label="Default">
+      <Tabs>
+        <TabCard label="Display">
+            ```yml
+            # The voucher section.
+            voucher:
+              # The item material.
+              item: "shield"
+              # Per item settings.
+              settings:
+                # The patterns to display on the shield.
+                patterns:
+                  base: white
+                  gradient_up: light_gray
+                  straight_cross: light_blue
+                  flower: light_blue
+                  half_horizontal: 255,0,0
+            ```
+        </TabCard>
+
+        <TabCard label="Item">
+            ```yml
+            # The voucher section.
+            voucher:
+              # The item material.
+              item: "shield"
+              # The items section.
+              items:
+                # The name of the item, good for identification internally and externally.
+                "1":
+                  # The item material.
+                  material: "shield"
+                  # Per item settings.
+                  settings:
+                    # The patterns to display on the shield.
+                    patterns:
+                      base: white
+                      gradient_up: light_gray
+                      straight_cross: light_blue
+                      flower: light_blue
+                      half_horizontal: 255,0,0
+            ```
+        </TabCard>
+      </Tabs>
+    </TabCard>
+
+    <TabCard label="Legacy">
+        <Aside>
+            There is no "Display" under `Legacy`, because the "Display" in `Default` is sufficient.
+        </Aside><br/>
+
+        <TabCard label="Item">
+            ```yml
+            # The voucher section.
+            voucher:
+              # The item material.
+              item: "shield"
+              # The items section.
+              items:
+                - "item:shield, base:white, gradient_up:light_gray, straight_cross:light_blue, flower:light_blue, half_horizontal:255,0,0"
+            ```
+        </TabCard>
+    </TabCard>
+</Tabs>

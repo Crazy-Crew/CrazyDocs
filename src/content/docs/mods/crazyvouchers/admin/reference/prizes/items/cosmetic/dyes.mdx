@@ -1,0 +1,76 @@
+---
+title: Dyes
+description: Get started with adding dyes to your prizes!
+
+slug: mods/crazyvouchers/reference/prizes/items/cosmetic/dyes
+---
+import { Aside, Tabs } from "@astrojs/starlight/components";
+
+import TabCard from "@/components/other/TabCard.astro";
+
+<Aside type="caution">
+    *Warning, The voucher example assumes you know other options must be added for a Voucher to function*
+    *If not, I recommend you read the remaining documentation*
+
+    *This configuration can be applied to Leather Armor, Filled Map, and other dyeable items liked Tipped Arrows*
+    - Submit a suggestion if there is a dyeable item that is missing.
+</Aside>
+
+<Tabs>
+    <TabCard label="Default">
+      <Tabs>
+        <TabCard label="Display">
+            ```yml
+            # The voucher section.
+            voucher:
+              # The item material.
+              item: "potion"
+              # Per item settings.
+              settings:
+                # The rgb used for the potion.
+                rgb: "229,164,229"
+                # The color of the item displayed.
+                # color: "green"
+            ```
+        </TabCard>
+
+        <TabCard label="Item">
+            ```yml
+            # The voucher section.
+            voucher:
+              # The item material.
+              item: "potion"
+              # The items section.
+              items:
+                # The name of the item, good for identification internally and externally.
+                "1":
+                   # The item material.
+                   material: "potion"
+                   # Per item settings.
+                   settings:
+                     # The rgb of the item.
+                     rgb: "229,164,229"
+                     # The color of the item displayed.
+                     # color: "green"
+            ```
+        </TabCard>
+      </Tabs>
+    </TabCard>
+
+    <TabCard label="Legacy">
+        <Aside>
+            There is no "Display" under `Legacy`, because the "Display" in `Default` is sufficient.
+        </Aside><br/>
+
+        <TabCard label="Item">
+            ```yml
+            # The voucher section.
+            voucher:
+              # The items section.
+              items:
+                - "item:potion:229,164,229"
+                - "item:potion:green"
+            ```
+        </TabCard>
+    </TabCard>
+</Tabs>
