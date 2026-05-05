@@ -63,7 +63,7 @@ export default defineConfig({
                   id: "crazycrates",
                   label: "CrazyCrates",
                   link: "/mods/crazycrates/",
-                  icon: "open-book",
+                  icon: "crazycrates",
                   items: [
                       {
                           label: "Administration",
@@ -119,7 +119,7 @@ export default defineConfig({
                   id: "crazyenchantments",
                   label: "CrazyEnchantments",
                   link: "/mods/crazyenchantments/",
-                  icon: "open-book",
+                  icon: "crazyenchantments",
                   items: [
                       {
                           label: "Administration",
@@ -133,7 +133,7 @@ export default defineConfig({
                   id: "crazyauctions",
                   label: "CrazyAuctions",
                   link: "/mods/crazyauctions/",
-                  icon: "open-book",
+                  icon: "crazyauctions",
                   items: [
                       {
                           label: "Administration",
@@ -155,7 +155,7 @@ export default defineConfig({
                   id: "crazyenvoys",
                   label: "CrazyEnvoys",
                   link: "/mods/crazyenvoys/",
-                  icon: "open-book",
+                  icon: "crazyenvoys",
                   items: [
                       {
                           label: "Administration",
@@ -169,7 +169,7 @@ export default defineConfig({
                   id: "crazyvouchers",
                   label: "CrazyVouchers",
                   link: "/mods/crazyvouchers/",
-                  icon: "open-book",
+                  icon: "crazyvouchers",
                   items: [
                       {
                           label: "Administration",
@@ -197,7 +197,7 @@ export default defineConfig({
                   id: "blockparticles",
                   label: "BlockParticles",
                   link: "/mods/blockparticles/",
-                  icon: "open-book",
+                  icon: "blockparticles",
                   items: [
                       {
                           label: "Administration",
