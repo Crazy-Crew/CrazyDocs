@@ -5,9 +5,11 @@ import type { HTMLAttributes } from 'astro/types';
 interface Props extends Omit<HTMLAttributes<'a'>, 'title'> {
     icon?: keyof typeof Icon;
     title: string;
+    border: string;
+    bg: string;
 }
 
-const { icon, title, ...attributes} = Astro.props;
+const { icon, title, border, bg, ...attributes} = Astro.props;
 ---
 <a {...attributes} class="card">
     <article class="sl-flex">
@@ -23,10 +25,10 @@ const { icon, title, ...attributes} = Astro.props;
     </article>
 </a>
 
-<style>
+<style define:vars={{ border, bg }}>
     .card {
-        --sl-card-border: var(--sl-color-purple);
-        --sl-card-bg: var(--sl-color-purple-low);
+        --sl-card-border: var(--border);
+        --sl-card-bg: var(--bg);
 
         border: 1px solid var(--sl-color-gray-5);
         background-color: var(--sl-color-black);
@@ -48,26 +50,6 @@ const { icon, title, ...attributes} = Astro.props;
         border-color: var(--sl-card-border);
         background-color: var(--sl-card-bg);
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    }
-
-    .card:nth-child(4n + 1) {
-        --sl-card-border: var(--sl-color-orange);
-        --sl-card-bg: var(--sl-color-orange-low);
-    }
-
-    .card:nth-child(4n + 3) {
-        --sl-card-border: var(--sl-color-green);
-        --sl-card-bg: var(--sl-color-green-low);
-    }
-
-    .card:nth-child(4n + 4) {
-        --sl-card-border: var(--sl-color-red);
-        --sl-card-bg: var(--sl-color-red-low);
-    }
-
-    .card:nth-child(4n + 5) {
-        --sl-card-border: var(--sl-color-blue);
-        --sl-card-bg: var(--sl-color-blue-low);
     }
 
     .title {

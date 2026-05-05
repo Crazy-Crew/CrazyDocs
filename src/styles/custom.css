@@ -1,7 +1,3 @@
 :root {
     --sl-content-width: 64rem;
 }
-
-a {
-    display: inline-block;
-}
