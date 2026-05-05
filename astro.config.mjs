@@ -182,27 +182,22 @@ export default defineConfig({
                                       "mods/crazyvouchers/reference/commands",
                                       "mods/crazyvouchers/reference/placeholders",
                                       {
-                                          label: "Prizes",
+                                          label: "Items",
                                           items: [
+                                              "mods/crazyvouchers/reference/prizes/items/custom-items",
+                                              "mods/crazyvouchers/reference/prizes/items/potions",
                                               {
-                                                  label: "Items",
+                                                  label: "Cosmetic",
                                                   items: [
-                                                      "mods/crazyvouchers/reference/prizes/items/custom-items",
-                                                      "mods/crazyvouchers/reference/prizes/items/potions",
-                                                      {
-                                                          label: "Cosmetic",
-                                                          items: [
-                                                              "mods/crazyvouchers/reference/prizes/items/cosmetic/heads",
-                                                              "mods/crazyvouchers/reference/prizes/items/cosmetic/dyes"
-                                                          ]
-                                                      },
-                                                      {
-                                                          label: "Tools",
-                                                          items: [
-                                                              "mods/crazyvouchers/reference/prizes/items/tools/patterns",
-                                                              "mods/crazyvouchers/reference/prizes/items/tools/trim"
-                                                          ]
-                                                      }
+                                                      "mods/crazyvouchers/reference/prizes/items/cosmetic/heads",
+                                                      "mods/crazyvouchers/reference/prizes/items/cosmetic/dyes"
+                                                  ]
+                                              },
+                                              {
+                                                  label: "Tools",
+                                                  items: [
+                                                      "mods/crazyvouchers/reference/prizes/items/tools/patterns",
+                                                      "mods/crazyvouchers/reference/prizes/items/tools/trim"
                                                   ]
                                               }
                                           ]
