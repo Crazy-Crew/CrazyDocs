@@ -184,20 +184,20 @@ export default defineConfig({
                                       {
                                           label: "Items",
                                           items: [
-                                              "mods/crazyvouchers/reference/prizes/items/custom-items",
-                                              "mods/crazyvouchers/reference/prizes/items/potions",
+                                              "mods/crazyvouchers/reference/items/custom-items",
+                                              "mods/crazyvouchers/reference/items/potions",
                                               {
                                                   label: "Cosmetic",
                                                   items: [
-                                                      "mods/crazyvouchers/reference/prizes/items/cosmetic/heads",
-                                                      "mods/crazyvouchers/reference/prizes/items/cosmetic/dyes"
+                                                      "mods/crazyvouchers/reference/items/cosmetic/heads",
+                                                      "mods/crazyvouchers/reference/items/cosmetic/dyes"
                                                   ]
                                               },
                                               {
                                                   label: "Tools",
                                                   items: [
-                                                      "mods/crazyvouchers/reference/prizes/items/tools/patterns",
-                                                      "mods/crazyvouchers/reference/prizes/items/tools/trim"
+                                                      "mods/crazyvouchers/reference/items/tools/patterns",
+                                                      "mods/crazyvouchers/reference/items/tools/trim"
                                                   ]
                                               }
                                           ]
