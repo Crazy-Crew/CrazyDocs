@@ -3,13 +3,13 @@ title: Map Dye
 description: Examples of how to dye your maps!
 ---
 ### An example of how to dye your maps!
-```yaml
+```yml
 Items:
  - Item:{FILLED_MAP}:GREEN
 ```
 You have a selection of [colors](https://jd.papermc.io/paper/1.21.4/org/bukkit/Color.html) to use with this option.
 
-```yaml
+```yml
 Items:
  - Item:{FILLED_MAP}:133,50,73
 ```

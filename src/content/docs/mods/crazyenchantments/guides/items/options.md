@@ -27,7 +27,7 @@ This option is used to set the item material and some of the items data.
 - `Item:{Potion}:{PotionEffect}`
 
 #### Examples
-```yaml
+```yml
 Items:
   - 'Item:Golden_Apple'
   - 'Item:Diamond_Chestplate:50'
@@ -42,7 +42,7 @@ Items:
 - `Item:{MONSTER_EGG}:{Mob Name}`
 
 #### Example
-```yaml
+```yml
 Items:
   - 'Item:MONSTER_EGG:Creeper'
 ```
@@ -55,7 +55,7 @@ This option is used to set the name of the item.
 - `Name:{Name of the item}`
 
 #### Example
-```yaml
+```yml
 Items:
   - 'Item:Diamond_Sword, Name:&4Sword of lost souls'
 ```
@@ -68,7 +68,7 @@ This option is used to set the lore on the item. If you wish to add a line split
 - `Lore:{Line 1},{Line 2>,{Line 3},{Line 4},...etc`
 
 #### Example
-```yaml
+```yml
 Items:
   - 'Item:Diamond_Sword, Lore:&7An old sword once lost in time,&7but has now been found and,&7is eager for battle.'
 ```
@@ -81,7 +81,7 @@ This option is used to set how many items are in the stack given to the player.
 - `Amount:{Number of item in stack}`
 
 #### Example
-```yaml
+```yml
 Items:
   - 'Item:Golden_Apple, Amount:32'
 ```
@@ -99,7 +99,7 @@ This option is used to set the player of a player head item. You can use a few d
     - `Player:http://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e`
 
 #### Examples
-```yaml
+```yml
 Items:
   - 'Item:PLAYER_HEAD, Player:BadBones69'
   - 'Item:PLAYER_HEAD, Player:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWVlMzEyNmZmMmMzNDNkYTUyNWVlZjJiOTMyNzJiOWZlZDM2MjczZDBlYTA4YzI2MTZiODAwMDk5NDhhZDU3ZSJ9fX0='
@@ -114,7 +114,7 @@ This option is used to make an item unbreakable.
 - `Unbreakable-Item:{true/false}`
 
 #### Example
-```yaml
+```yml
 Items:
   - 'Item:Diamond_Sword, Unbreakable-Item:true'
 ```
@@ -127,7 +127,7 @@ This option is used to set the enchantments on the item.
 - `{Enchantment Name}:{Level}`
 
 #### Example
-```yaml
+```yml
 Items:
   - 'Item:Diamond_Sword, Sharpness:5, Durability:2'
 ```
@@ -140,7 +140,7 @@ These options are used to add flags to the item.
 - `{Flag Name}`
 
 #### Examples
-```yaml
+```yml
 Items:
   - 'Item:Potion:lime, HIDE_POTION_EFFECTS'
   - 'Item:Diamond_Sword, Unbreakable-Item:true, HIDE_UNBREAKABLE'

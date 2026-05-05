@@ -3,14 +3,14 @@ title: Potion Dye
 description: Examples of how to dye your potions!
 ---
 ### An example of how to dye your potions!
-```yaml
+```yml
 Items:
  - Item:POTION:GREEN
 ```
 This allows you to dye your potion green.
 You have a selection of [colors](https://jd.papermc.io/paper/1.21.4/org/bukkit/Color.html) to use with this option.
 
-```yaml
+```yml
 Items:
  - Item:POTION:133,50,73
 ```

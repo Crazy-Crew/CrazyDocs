@@ -5,12 +5,12 @@ description: Example of how to apply custom potions to tipped arrows!
 ### [A list of potion types](https://jd.papermc.io/paper/1.21.4/org/bukkit/potion/PotionType.html)
 
 ### 1. How to make a tipped arrow as a prize item:
-```yaml
+```yml
 Items:
  - Item:TIPPED_ARROW:{POTION_EFFECT}, Amount:64, Name:Posion Arrow
 ```
 #### Example
-```yaml
+```yml
 Items:
  - Item:TIPPED_ARROW:POISON, Amount:64, Name:Posion Arrow
 ```

@@ -30,7 +30,7 @@ description: Questions frequently asked by our users
   * Claim Permissions
     * Each tier has the ability to require a permission for a player to claim them.
      * You can turn this off by going into one of your `.yml` files in the `tiers` folder.
-    ```yaml
+    ```yml
     Settings:
     # If they need a permission to claim this envoy. Set too false to disable.
     Claim-Permission: false
@@ -58,7 +58,7 @@ description: Questions frequently asked by our users
 
 ### 9. Why doesn't crate countdown work?
  * You need to have the option enabled in your `config.yml`
-  ```yaml
+  ```yml
   Settings:
    Crate-Countdown:
      Toggle: false # If there should be a grace period when envoys spawn.

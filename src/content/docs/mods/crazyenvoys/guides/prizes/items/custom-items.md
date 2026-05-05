@@ -12,7 +12,7 @@ You can simply use the id directly from your config files inside `oraxen/items` 
 
 #### An example of an oraxen custom item.
 The `arrow_next_icon` is the id.
-```yaml
+```yml
 arrow_next_icon:
   displayname: <#D5D6D8>Next page
   material: PAPER
@@ -26,7 +26,7 @@ arrow_next_icon:
 ```
 
 #### An example of how to use it in the items section.
-```yaml
+```yml
 Items:
   - 'Item:emerald_helmet, Amount:1, Name:&aA custom item'
 ```
@@ -36,7 +36,7 @@ Items:
 You have to do `/iacustommodeldata your_item_id`, The plugin will send you the `ITEM` followed by the `CustomModelData`.
 
 #### An example of how to use it in the items section.
-```yaml
+```yml
 Items:
   - 'Item:your_item_id, Amount:1, Name:&aA custom item'
 ```
