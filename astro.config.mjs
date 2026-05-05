@@ -18,7 +18,7 @@ export default defineConfig({
       domains: ["cdn.ryderbelserion.com"],
     },
 
-    adapter: cloudflare(),
+    //adapter: cloudflare(),
 
     integrations: [starlight({
       title: 'CrazyCrew Docs',
@@ -137,9 +137,15 @@ export default defineConfig({
                   items: [
                       {
                           label: "Administration",
-                          autogenerate: {
-                              directory: "mods/crazyauctions/"
-                          }
+                          items: [
+                              "mods/crazyauctions/faq",
+                              {
+                                  label: "References",
+                                  items: [
+                                      "mods/crazyauctions/reference/commands"
+                                  ]
+                              }
+                          ]
                       }
                   ]
               },
