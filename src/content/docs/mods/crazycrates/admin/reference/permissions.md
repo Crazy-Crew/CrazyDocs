@@ -6,7 +6,12 @@ slug: mods/crazycrates/reference/commands
 ---
 **This page lists all permissions included in CrazyCrates.**
 
+
 ## Commands
+| Command        | Aliases      |
+|----------------|--------------|
+| `/crazycrates` | /crates, /cc |
+
 ### Key permissions
 | Command          | Permission Node  | Player has by default? |
 |------------------|------------------|------------------------|
@@ -40,15 +45,15 @@ slug: mods/crazycrates/reference/commands
 | `/crazycrates wand`                                                      | crazycrates.wand          | Gives a wand that lets you select 2 points to create schematics.                | No                     |
 | `/crazycrates`                                                           | crazycrates.gui           | Opens the primary crate menu.                                                   | Yes                    |
 
-## Other
-### Wildcards
+## Other Permissions
+### Wildcard Permissions
 | Permission Node           | Description                                          | Default |
 |---------------------------|------------------------------------------------------|---------|
 | `crazycrates.players.*`   | Gives access to all player commands.                 | No      |
 | `crazycrates.admin.*`     | Gives access to all admin commands.                  | No      |
 | `crazycrates.schematic.*` | Gives access to all commands relating to schematics. | No      |
 
-### Misc
+### Misc Permissions
 | Permission Node                            | Description                                                                                     | Player has by default? | Deprecated |
 |--------------------------------------------|-------------------------------------------------------------------------------------------------|------------------------|------------|
 | `crazycrates.open.<crate-name>`            | Allows you to open a crate.                                                                     | Yes                    | No         |
