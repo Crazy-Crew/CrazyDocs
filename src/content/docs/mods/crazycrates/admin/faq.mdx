@@ -33,7 +33,36 @@ import TabCard from "@/components/other/TabCard.astro";
 
 </Steps>
 
-### 2. Why cant I use physical keys on crates?
+### 2. HideItemFlags no longer works, what do I use now?
+<Tabs>
+    <Aside type="note">
+        ItemFlags no longer exist, Mojang removed them in favor of components for a long time now.
+
+        The format below can be placed anywhere that configures an ItemStack as of `5.1.0`
+
+        You can find a list of valid components @ [Click Me](https://jd.papermc.io/paper/io/papermc/paper/registry/keys/DataComponentTypeKeys.html).
+
+        The names we are specifically looking for are under the `Description` column, and you must remove `minecraft:`
+
+        Not all components found here can be used on ItemStacks, but through trial and error. You will found out which ones can be used.
+    </Aside>
+
+    <TabCard label="Default">
+        **This is an example where we hide the enchantments on an ItemStack**
+        ```yaml
+         Mystery-Crate:
+            Item: "chest"
+            Name: "<bold><white>???</white></bold>"
+            Lore:
+             - "<gray>You may choose 4 crates.</gray>"
+            flags:
+              components:
+                - "enchantments"
+        ```
+    </TabCard>
+</Tabs>
+
+### 3. Why cant I use physical keys on crates?
 <Tabs>
     <TabCard label="Reason">
         Certain Items such as a `Tripwire Hook` cannot be used on blocks.
@@ -45,14 +74,14 @@ import TabCard from "@/components/other/TabCard.astro";
     </TabCard>
 </Tabs>
 
-### 3. What do I need to do? I've been using the old way of doing Prizes.
+### 4. What do I need to do? I've been using the old way of doing Prizes.
 <Steps>
     1. Run the command /crazycrates migrate -mt [NewItemFormat/CratesDeprecated]
 
     2. You can specify a crate name by doing /crazycrates migrate -mt [insert_migration_type] -c [crate_name]
 </Steps>
 
-### 4. What are the crate types?
+### 5. What are the crate types?
 *All types are case-sensitive, and everything under Generic requires no special configuration*
 <Tabs>
     <TabCard label="Generic">
