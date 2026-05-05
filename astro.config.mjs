@@ -18,7 +18,7 @@ export default defineConfig({
       domains: ["cdn.ryderbelserion.com"],
     },
 
-    //adapter: cloudflare(),
+    adapter: cloudflare(),
 
     integrations: [starlight({
       title: 'CrazyCrew Docs',
