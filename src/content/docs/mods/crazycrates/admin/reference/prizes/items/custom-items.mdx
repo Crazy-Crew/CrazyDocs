@@ -9,7 +9,7 @@ import { Aside, Tabs } from "@astrojs/starlight/components";
 import TabCard from "@/components/other/TabCard.astro";
 
 <Tabs>
-    <TabCard label="ItemsAdder">
+    <TabCard label="ItemsAdder" icon="warning">
         <Aside type="note">
             This is a stub until I look into it myself, if you do know how, and would like to contribute your intelligence.
 
@@ -21,7 +21,7 @@ import TabCard from "@/components/other/TabCard.astro";
         <Aside type="tip">
             All identifiers for items can be found via `/nexo give [item]`, or `nexo_defaults/items` folder
 
-            ```yaml
+            ```yml
             forest_axe: -> forest_axe is the identifier.
               itemname: Forest Axe
               material: NETHERITE_AXE
@@ -34,7 +34,7 @@ import TabCard from "@/components/other/TabCard.astro";
         `forest_axe` can be used in any section that asks for a material such as `diamond_axe`.
 
         ### Physical Keys
-        ```yaml
+        ```yml
         PhysicalKey:
           # Name of the Key.
           Name: "A fancy key using Nexo."

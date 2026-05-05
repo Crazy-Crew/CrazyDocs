@@ -1,6 +1,6 @@
 ---
 title: Basic Usage
-description: Simple examples of how to use CrazyCrates API
+description: Simple examples of how to use CrazyCrates API.
 
 slug: mods/crazycrates/dev/usage
 ---
