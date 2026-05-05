@@ -53,7 +53,7 @@ export default defineConfig({
                   id: "crazycrew",
                   label: "Home",
                   link: "/getting_started/overview/",
-                  icon: "information",
+                  icon: "starlight",
                   items: [
                       "getting_started/overview",
                       "getting_started/platforms"
