@@ -11,7 +11,7 @@ slug: mods/crazycrates/dev/index
    Gradle (Groovy)
  </summary>
 
-```gradle
+```groovy
 repositories {
     maven {
         url = "https://repo.crazycrew.us/releases"
@@ -19,7 +19,7 @@ repositories {
 }
 ```
 
-```gradle
+```groovy
 dependencies {
     compileOnly "us.crazycrew.crazycrates:api:0.9"
 }
@@ -32,13 +32,13 @@ dependencies {
    Gradle (Kotlin)
  </summary>
 
-```gradle
+```groovy
 repositories {
     maven("https://repo.crazycrew.us/releases")
 }
 ```
 
-```gradle
+```groovy
 dependencies {
     compileOnly("us.crazycrew.crazycrates:api:0.9")
 }

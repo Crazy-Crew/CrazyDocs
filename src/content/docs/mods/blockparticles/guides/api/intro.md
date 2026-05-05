@@ -8,7 +8,7 @@ description: Get started with the api
    Gradle (Groovy)
  </summary>
 
-```gradle
+```groovy
 repositories {
     maven {
         url = "https://repo.crazycrew.us/releases"
@@ -16,7 +16,7 @@ repositories {
 }
 ```
 
-```gradle
+```groovy
 dependencies {
     compileOnly "com.badbones69.blockparticles:blockparticles-paper-api:1.13"
 }
@@ -29,13 +29,13 @@ dependencies {
    Gradle (Kotlin)
  </summary>
 
-```gradle
+```groovy
 repositories {
     maven("https://repo.crazycrew.us/releases")
 }
 ```
 
-```gradle
+```groovy
 dependencies {
     compileOnly("com.badbones69.blockparticles:blockparticles-paper-api:1.13")
 }
