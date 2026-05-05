@@ -6,7 +6,7 @@ settings:
 
 patchedDependencies:
   '@astrojs/starlight':
-    hash: 05c07da54d96ea572a4c47117a8872d07a829b88b4ef6a451fc3c619263c158c
+    hash: 447b3f16789fa1f6c3e31f13e2220780bfed1e2032a553522ee381b1013d2836
     path: patches/@astrojs__starlight.patch
 
 importers:
@@ -18,7 +18,7 @@ importers:
         version: 13.3.1(@types/node@24.12.2)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4))(workerd@1.20260430.1)(wrangler@4.87.0)(yaml@2.8.4)
       '@astrojs/starlight':
         specifier: ^0.38.3
-        version: 0.38.4(patch_hash=05c07da54d96ea572a4c47117a8872d07a829b88b4ef6a451fc3c619263c158c)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4))
+        version: 0.38.4(patch_hash=447b3f16789fa1f6c3e31f13e2220780bfed1e2032a553522ee381b1013d2836)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4))
       '@astrojs/vue':
         specifier: ^6.0.1
         version: 6.0.1(@types/node@24.12.2)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4))(vue@3.5.33)(yaml@2.8.4)
@@ -33,10 +33,10 @@ importers:
         version: 0.34.5
       starlight-sidebar-topics:
         specifier: ^0.7.1
-        version: 0.7.1(@astrojs/starlight@0.38.4(patch_hash=05c07da54d96ea572a4c47117a8872d07a829b88b4ef6a451fc3c619263c158c)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4)))
+        version: 0.7.1(@astrojs/starlight@0.38.4(patch_hash=447b3f16789fa1f6c3e31f13e2220780bfed1e2032a553522ee381b1013d2836)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4)))
       starlight-sidebar-topics-dropdown:
         specifier: ^0.6.0
-        version: 0.6.0(@astrojs/starlight@0.38.4(patch_hash=05c07da54d96ea572a4c47117a8872d07a829b88b4ef6a451fc3c619263c158c)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4)))(starlight-sidebar-topics@0.7.1(@astrojs/starlight@0.38.4(patch_hash=05c07da54d96ea572a4c47117a8872d07a829b88b4ef6a451fc3c619263c158c)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4))))
+        version: 0.6.0(@astrojs/starlight@0.38.4(patch_hash=447b3f16789fa1f6c3e31f13e2220780bfed1e2032a553522ee381b1013d2836)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4)))(starlight-sidebar-topics@0.7.1(@astrojs/starlight@0.38.4(patch_hash=447b3f16789fa1f6c3e31f13e2220780bfed1e2032a553522ee381b1013d2836)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4))))
       vue:
         specifier: ^3.5.33
         version: 3.5.33
@@ -2610,7 +2610,7 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 4.4.3
 
-  '@astrojs/starlight@0.38.4(patch_hash=05c07da54d96ea572a4c47117a8872d07a829b88b4ef6a451fc3c619263c158c)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4))':
+  '@astrojs/starlight@0.38.4(patch_hash=447b3f16789fa1f6c3e31f13e2220780bfed1e2032a553522ee381b1013d2836)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4))':
     dependencies:
       '@astrojs/markdown-remark': 7.1.1
       '@astrojs/mdx': 5.0.4(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4))
@@ -5275,14 +5275,14 @@ snapshots:
 
   space-separated-tokens@2.0.2: {}
 
-  starlight-sidebar-topics-dropdown@0.6.0(@astrojs/starlight@0.38.4(patch_hash=05c07da54d96ea572a4c47117a8872d07a829b88b4ef6a451fc3c619263c158c)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4)))(starlight-sidebar-topics@0.7.1(@astrojs/starlight@0.38.4(patch_hash=05c07da54d96ea572a4c47117a8872d07a829b88b4ef6a451fc3c619263c158c)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4)))):
+  starlight-sidebar-topics-dropdown@0.6.0(@astrojs/starlight@0.38.4(patch_hash=447b3f16789fa1f6c3e31f13e2220780bfed1e2032a553522ee381b1013d2836)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4)))(starlight-sidebar-topics@0.7.1(@astrojs/starlight@0.38.4(patch_hash=447b3f16789fa1f6c3e31f13e2220780bfed1e2032a553522ee381b1013d2836)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4)))):
     dependencies:
-      '@astrojs/starlight': 0.38.4(patch_hash=05c07da54d96ea572a4c47117a8872d07a829b88b4ef6a451fc3c619263c158c)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4))
-      starlight-sidebar-topics: 0.7.1(@astrojs/starlight@0.38.4(patch_hash=05c07da54d96ea572a4c47117a8872d07a829b88b4ef6a451fc3c619263c158c)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4)))
+      '@astrojs/starlight': 0.38.4(patch_hash=447b3f16789fa1f6c3e31f13e2220780bfed1e2032a553522ee381b1013d2836)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4))
+      starlight-sidebar-topics: 0.7.1(@astrojs/starlight@0.38.4(patch_hash=447b3f16789fa1f6c3e31f13e2220780bfed1e2032a553522ee381b1013d2836)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4)))
 
-  starlight-sidebar-topics@0.7.1(@astrojs/starlight@0.38.4(patch_hash=05c07da54d96ea572a4c47117a8872d07a829b88b4ef6a451fc3c619263c158c)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4))):
+  starlight-sidebar-topics@0.7.1(@astrojs/starlight@0.38.4(patch_hash=447b3f16789fa1f6c3e31f13e2220780bfed1e2032a553522ee381b1013d2836)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4))):
     dependencies:
-      '@astrojs/starlight': 0.38.4(patch_hash=05c07da54d96ea572a4c47117a8872d07a829b88b4ef6a451fc3c619263c158c)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4))
+      '@astrojs/starlight': 0.38.4(patch_hash=447b3f16789fa1f6c3e31f13e2220780bfed1e2032a553522ee381b1013d2836)(astro@6.2.2(@types/node@24.12.2)(rollup@4.60.3)(yaml@2.8.4))
       picomatch: 4.0.4
 
   stream-replace-string@2.0.0: {}
