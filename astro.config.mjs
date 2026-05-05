@@ -139,10 +139,12 @@ export default defineConfig({
                           label: "Administration",
                           items: [
                               "mods/crazyauctions/faq",
+                              "mods/crazyauctions/support",
                               {
                                   label: "References",
                                   items: [
-                                      "mods/crazyauctions/reference/commands"
+                                      "mods/crazyauctions/reference/commands",
+                                      "mods/crazyauctions/reference/translations"
                                   ]
                               }
                           ]

@@ -1,6 +1,8 @@
 ---
 title: Translations
 description: Translations made by our community!
+
+slug: mods/crazyauctions/reference/translations
 ---
 :::tip
 This requires you to fork CrazyDocs to make your changes and make a pull request!
@@ -28,12 +30,12 @@ Languages are included in a single **deluxe Pack** downloadable both free and pa
 
 **<p style="text-align:center;">Available Translations📝</p>**
 
-| EUROPE | ASIA | OTHERS |
-|-------------|------------|-----|
-| Spanish, French, German, Dutch, Italian, Lithuanian, Hungarian, Polish, Slovak, Danish, Portuguese, Greek, Estonian, Romanian, Swedish.  | Uzbek, Russian, Ukrainian, Hebrew, Arabic, Thai, Hindi, Bengali, Burmese, Khmer, Japanese, Korean, Vietnamese, Filipino, Turkish, Indonesian.  | Maori (NZ)
+| EUROPE                                                                                                                                  | ASIA                                                                                                                                          | OTHERS     |
+|-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| Spanish, French, German, Dutch, Italian, Lithuanian, Hungarian, Polish, Slovak, Danish, Portuguese, Greek, Estonian, Romanian, Swedish. | Uzbek, Russian, Ukrainian, Hebrew, Arabic, Thai, Hindi, Bengali, Burmese, Khmer, Japanese, Korean, Vietnamese, Filipino, Turkish, Indonesian. | Maori (NZ) |
 
-| :zap: Every file is Drag & Drop, just select the one you like and import it into the plugin's language folder, reload to apply changes.|
-|-|
+| :zap: Every file is Drag & Drop, just select the one you like and import it into the plugin's language folder, reload to apply changes. |
+|-----------------------------------------------------------------------------------------------------------------------------------------|
 
 **<p style="text-align:center;">Where to download? 📥</p>**
 
