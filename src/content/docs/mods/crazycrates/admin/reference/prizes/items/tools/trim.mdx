@@ -1,119 +1,121 @@
 ---
-title: Trim
+title: Trims
 description: Examples of how to use armor trims!
 
 slug: mods/crazycrates/reference/prizes/items/tools/trim
 ---
+import { Aside, Tabs } from "@astrojs/starlight/components";
 
-## Armor Trim
-*All armor types ( including `Turtle Helmet` ) except `Leather Armor` support trims*
+import TabCard from "@/components/other/TabCard.astro";
 
-<details>
-  <summary>Trim Materials</summary>
+<Aside type="tip">
+    Armor Trims can be used on everything but Leather Armor.
+</Aside>
 
-  * amethyst
-  * copper
-  * diamond
-  * emerald
-  * gold
-  * iron
-  * lapis
-  * netherite
-  * quartz
-  * redstone
-</details>
+<Tabs>
+    <TabCard label="Materials">
+        - amethyst
+        - copper
+        - diamond
+        - emerald
+        - gold
+        - iron
+        - lapis
+        - netherite
+        - quartz
+        - redstone
+    </TabCard>
+    <TabCard label="Patterns">
+        - bolt
+        - coast
+        - dune
+        - eye
+        - flow
+        - host
+        - raiser
+        - rib
+        - sentry
+        - shaper
+        - silence
+        - snout
+        - spire
+        - tide
+        - vex
+        - ward
+        - wayfinder
+        - wild
+    </TabCard>
+</Tabs>
 
-<details>
-  <summary>Trim Patterns</summary>
+<Tabs>
+    <TabCard label="Default">
+      <Tabs>
+        <TabCard label="Display">
+            ```yml
+            # The crate section.
+            Crate:
+              # The prizes section.
+              Prizes:
+                # The name of the item, good for identification internally and externally.
+                "1":
+                  # The item material.
+                  DisplayItem: "diamond_helmet"
+                  # The trim to display on the helmet.
+                  DisplayTrim:
+                    # The trim material.
+                    Material: "amethyst"
+                    # The trim pattern.
+                    Pattern: "bolt"
+            ```
+        </TabCard>
 
-  * bolt
-  * coast
-  * dune
-  * eye
-  * flow
-  * host
-  * raiser
-  * rib
-  * sentry
-  * shaper
-  * silence
-  * snout
-  * spire
-  * tide
-  * vex
-  * ward
-  * wayfinder
-  * wild
-</details>
+        <TabCard label="Item">
+            ```yml
+            # The crate section.
+            Crate:
+              # The prizes section.
+              Prizes:
+                # The name of the item, good for identification internally and externally.
+                "1":
+                  # The item material.
+                  DisplayItem: "diamond_helmet"
+                  # The items section.
+                  Items:
+                   "1":
+                     # The material of the item.
+                     material: "diamond_helmet"
+                     # Other settings.
+                     settings:
+                       # Settings related to armor trims
+                       trim:
+                         # The trim pattern
+                         pattern: "bolt"
+                         # The trim material
+                         material: "amethyst"
+            ```
+        </TabCard>
+      </Tabs>
+    </TabCard>
 
-### The new way of doing `Items` for prizes which will eventually be default, You can enable this in the `config.yml`
-```yml
-Crate:
-  Prizes:
-    "1":
-      # The name of the item.
-      DisplayName: "<red>An example helmet using Trims."
-      # The amount of the item to display.
-      DisplayAmount: 1
-      # The material of the item.
-      DisplayItem: "diamond_helmet"
-      # Settings related to armor trims
-      DisplayTrim:
-        # The trim material
-        Material: "quartz"
-        # The trim pattern
-        Pattern: "sentry"
-      # The weight of the item, the lower the weight, the less likely to win it.
-      Weight: 1.0
-      # All the items to give to the player.
-      Items:
-        "1":
-          # The name of the item.
-          name: "<red>An example helmet using Trims."
-          # The material of the item.
-          material: "diamond_helmet"
+    <TabCard label="Legacy">
+        <Aside>
+            There is no "Display" under `Legacy`, because the "Display" in `Default` is sufficient.
+        </Aside><br/>
 
-          # The amount of the item to give.
-          amount: 1
-          # Other settings.
-          settings:
-            # Settings related to armor trims
-            trim:
-              # The trim pattern
-              pattern: "bolt"
-              # The trim material
-              material: "redstone"
-```
-
-### This is the current way of doing items, however it no longer receives any new features or changes.
-#### An example of how to use the `quartz` trim with pattern `sentry` in a prize.
-```yml
-Crate:
-  Prizes:
-    "1":
-      DisplayName: "<red>An example helmet using Trims."
-      DisplayItem: "golden_helmet"
-      DisplayAmount: 1
-      DisplayTrim:
-        Material: "quartz"
-        Pattern: "sentry"
-      Weight: 1.0
-      Items:
-       - "Item:golden_helmet, Amount:1, Trim-Material:quartz, Trim-Pattern:sentry, Name:<red>An example helmet using trims."
-```
-
-#### An example but instead with `turtle_helmet`
-```yml
-Crate:
-  Prizes:
-    "1":
-      DisplayName: "<red>An example helmet using Trims."
-      DisplayItem: "turtle_helmet"
-      DisplayAmount: 1
-      DisplayTrim:
-        Material: "quartz"
-        Pattern: "sentry"
-      Weight: 1.0
-      Items:
-       - "Item:turtle_helmet, Amount:1, Trim-Material:quartz, Trim-Pattern:sentry, Name:<red>An example helmet using trims."
-```
+        <TabCard label="Item">
+            ```yml
+            # The crate section.
+            Crate:
+              # The prizes section.
+              Prizes:
+                 # The name of the item, good for identification internally and externally.
+                 "1":
+                   # The item material.
+                   DisplayItem: "diamond_helmet"
+                   # The items section.
+                   Items:
+                     - "item:diamond_helmet, trim:bolt!amethyst"
+            ```
+        </TabCard>
+    </TabCard>
+</Tabs>
