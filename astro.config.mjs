@@ -65,6 +65,7 @@ export default defineConfig({
                   link: "/mods/crazycrates/",
                   icon: "crazycrates",
                   items: [
+                      "mods/crazycrates/contributing",
                       {
                           label: "Administration",
                           items: [

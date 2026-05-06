@@ -1,0 +1,46 @@
+---
+title: Contributing
+description: Contribute to CrazyCrates!
+
+slug: mods/crazycrates/contributing
+---
+import { Aside, Tabs } from "@astrojs/starlight/components";
+
+import TabCard from "@/components/other/TabCard.astro";
+
+<Aside type="tip">
+    Contributions to CrazyCrates is a much easier process if you discuss it in Discord *before* making a pull request.
+</Aside>
+
+<Aside type="caution">
+    - Pull Requests that update Grade, and things like that which are not the solution to fixing something will be closed.
+    - Pull Requests that have been found to have been entirely AI generated will be closed.
+</Aside>
+
+### Compiling CrazyCrates
+<Tabs>
+    <TabCard label="Requirements">
+        - Java 25 JDK or newer
+        - Gradle 9.5.0
+    </TabCard>
+</Tabs>
+
+#### Local Commands
+```sh
+git clone https://github.com/Crazy-Crew/CrazyCrates.git
+cd CrazyCrates
+./gradlew assemble
+```
+
+### Coding Practices
+- Copy the style of code in the class you are editing.
+- No extra lines at the end of files.
+- No extra lines between imports.
+- No wildcard imports.
+
+### Project Structure
+- Api Module - This module is the API used by other plugins that wish to properly integrate with our plugin, and receive data from CrazyCrates for use in their own plugins. No implementation details are in this module.
+- Core Module - This module handles a small portion of the implementation for CrazyCrates, mainly the configuration files. and independent enums or utilities.
+  - The module does not yet handle implementation details for each platform.
+- Paper Module - This module currently is what provides the implementation for the `API Module`, I have not written an exact abstract module to sit between, and reduce more duplicated code between platforms.
+  - Pull Requests that attempt to implement the remaining work of an abstract layer for multi-platform support will likely be ignored, I would like to handle that when the time comes.
