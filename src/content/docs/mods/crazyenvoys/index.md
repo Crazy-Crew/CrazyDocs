@@ -1,5 +1,5 @@
 ---
-title: CrazyEnvoys
+title: Getting Started
 description: How to get started with CrazyEnvoys
 ---
 ## Requirements

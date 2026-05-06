@@ -1,5 +1,5 @@
 ---
-title: CrazyEnchantments
+title: Getting Started
 description: How to get started with CrazyEnchantments
 ---
 ## Requirements

@@ -1,5 +1,4 @@
 ---
-id: chatmanager-plugin-support
 title: Plugin Support
 ---
 Chat Manager is a complex plugin that cant work by itself, the plugin has a few requirements before it can work on your server.

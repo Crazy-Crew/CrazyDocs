@@ -1,5 +1,4 @@
 ---
-id: chatmanager-placeholders
 title: Placeholders
 ---
 PlaceholderAPI is supported in `all` aspects of the plugin except for console messages.
