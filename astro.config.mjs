@@ -136,6 +136,7 @@ export default defineConfig({
                   link: "/mods/crazyauctions/",
                   icon: "crazyauctions",
                   items: [
+                      "mods/crazyauctions/contributing",
                       {
                           label: "Administration",
                           items: [
