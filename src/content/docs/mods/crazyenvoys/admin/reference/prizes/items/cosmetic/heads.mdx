@@ -1,0 +1,52 @@
+---
+title: Heads
+description: Examples of how to use custom heads!
+
+slug: mods/crazyenvoys/reference/prizes/items/cosmetic/heads
+---
+import { Aside, Tabs } from "@astrojs/starlight/components";
+import { Steps } from "@astrojs/starlight/components";
+
+import TabCard from "@/components/other/TabCard.astro";
+
+<Tabs>
+    <TabCard label="Default">
+        <Aside type="tip">
+            You can find the catalog of heads that can be used by visiting https://minecraft-heads.com/
+
+            The identifier used in the "Default" example can be found by clicking any head.
+
+            <Steps>
+                1. Click any head on the website, for this example. We shall use https://minecraft-heads.com/custom-heads/head/127259-pumpkin
+
+                2. Scroll to the bottom, look for `Minecraft URL`
+
+                3. Copy the url starting with textures.minecraft.net.
+
+                4. You now can build the player head!
+            </Steps>
+        </Aside>
+
+        ```yml
+        # The items section.
+        Items:
+          - 'Item:PLAYER_HEAD, Player:https://textures.minecraft.net/texture/9cd583e846fd2196f50b3f95ffdc40ab99a09f5a4f2e840b8629d73edd979f2d, Amount:1'
+        ```
+    </TabCard>
+
+    <TabCard label="Player">
+        <Aside type="caution">
+            This uses a player name, and this player must exist on namemc.com.
+
+            If the player is not on the server, a web request is made which can be heavy, but it's offloaded to another thread.
+
+            In the future, I shall implement caching since there no need to keep querying web services.
+        </Aside>
+
+        ```yml
+        # The items section.
+        Items:
+          - 'Item:PLAYER_HEAD, Player:ryderbelserion, Amount:1
+        ```
+    </TabCard>
+</Tabs>

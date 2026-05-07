@@ -1,0 +1,32 @@
+---
+title: Placeholders
+description: All available placeholders for CrazyEnvoys!
+
+slug: mods/crazyenvoys/reference/placeholders
+---
+import { Aside, Tabs } from "@astrojs/starlight/components";
+
+import TabCard from "@/components/other/TabCard.astro"
+
+export const name = '{player_name}';
+
+**This page lists all placeholders included in CrazyEnvoys.**
+
+### Placeholders
+
+<Tabs>
+    <TabCard label="PlaceholderAPI">
+        | Placeholder                 | Description                                                                            |
+        |-----------------------------|----------------------------------------------------------------------------------------|
+        | `%crazyenvoys_cooldown%`    | `Shows the cooldown until the next envoy.`                                             |
+        | `%crazyenvoys_time_left%`   | `Shows how much time is left on the current envoy.`                                    |
+        | `%crazyenvoys_envoys_left%` | `Shows how many envoys are left.`                                                      |
+        | `%crazyenvoys_envoys_time%` | `If crate count down is enabled. It shows how long until players can claim the envoy.` |
+    </TabCard>
+
+    <TabCard label="Internal">
+        <Aside type="note">
+            We have no need for such thing yet.
+        </Aside>
+    </TabCard>
+</Tabs>

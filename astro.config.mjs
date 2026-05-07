@@ -146,7 +146,7 @@ export default defineConfig({
                                   label: "References",
                                   items: [
                                       "mods/crazyauctions/reference/commands",
-                                      "mods/crazyauctions/reference/translations"
+                                      "mods/crazyauctions/reference/translations",
                                   ]
                               }
                           ]
@@ -159,11 +159,53 @@ export default defineConfig({
                   link: "/mods/crazyenvoys/",
                   icon: "crazyenvoys",
                   items: [
+                      "mods/crazyenvoys/contributing",
                       {
                           label: "Administration",
-                          autogenerate: {
-                              directory: "mods/crazyenvoys/"
-                          }
+                          items: [
+                              "mods/crazyenvoys/faq",
+                              "mods/crazyenvoys/support",
+                              {
+                                  label: "References",
+                                  items: [
+                                      "mods/crazyenvoys/reference/commands",
+                                      "mods/crazyenvoys/reference/translations",
+                                      "mods/crazyenvoys/reference/placeholders",
+                                      {
+                                          label: "Prizes",
+                                          items: [
+                                              {
+                                                  label: "Items",
+                                                  items: [
+                                                      "mods/crazyenvoys/reference/prizes/items/custom-items",
+                                                      "mods/crazyenvoys/reference/prizes/items/potions",
+                                                      {
+                                                          label: "Cosmetic",
+                                                          items: [
+                                                              "mods/crazyenvoys/reference/prizes/items/cosmetic/heads",
+                                                              "mods/crazyenvoys/reference/prizes/items/cosmetic/dyes"
+                                                          ]
+                                                      },
+                                                      {
+                                                          label: "Tools",
+                                                          items: [
+                                                              "mods/crazyenvoys/reference/prizes/items/tools/patterns",
+                                                              "mods/crazyenvoys/reference/prizes/items/tools/trim"
+                                                          ]
+                                                      }
+                                                  ]
+                                              }
+                                          ]
+                                      },
+                                      {
+                                          label: "Tiers",
+                                          items: [
+                                              "mods/crazyenvoys/reference/tiers/chance-system"
+                                          ]
+                                      }
+                                  ]
+                              }
+                          ]
                       }
                   ]
               },

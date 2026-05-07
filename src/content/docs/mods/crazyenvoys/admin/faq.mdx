@@ -1,0 +1,78 @@
+---
+title: Frequently Asked Questions
+description: Questions frequently asked by our users.
+
+slug: mods/crazyenvoys/faq
+---
+import { Aside, Tabs } from "@astrojs/starlight/components";
+import { Steps } from "@astrojs/starlight/components";
+
+import TabCard from "@/components/other/TabCard.astro";
+
+<Tabs>
+    <TabCard label="#1">
+        #### Why do some colors look weird?
+        - Add `-Dnet.kyori.ansi.colorLevel=truecolor` to your startup flags!
+    </TabCard>
+    <TabCard label="#2">
+        #### How does the chance system work?
+        Check out [this page](reference/tiers/chance-system) to figure out how the system works!
+    </TabCard>
+</Tabs>
+
+### 1. How do I add items?
+<Steps>
+
+    1. Open up your `tiers` folder.
+
+    2. Open up one of your `.yml` files.
+
+    3. Scroll down to the `prize` section and copy and paste what's already there.
+
+</Steps>
+
+### 2. Why can I claim envoys but my players can't? or Why are my envoys not appearing?
+<Tabs>
+    <TabCard label="#1">
+        Set `spawn-protection` in server.properties to 0 then restart your server!
+    </TabCard>
+    <TabCard label="2">
+        WorldGuard made a change a few years back to how region flags involving build flags such as `block-break` or `build`.
+
+        You no longer have to use these flags to protect your spawn, as per WorldGuard, if the person is not a member of the region. They cannot build or break by default.
+
+        Would you like to know more? [WorldGuard's Flag Section](https://worldguard.enginehub.org/en/latest/regions/flags/)
+    </TabCard>
+    <TabCard label="3">
+        Each tier has the ability to require a permission for a player to claim them.
+
+        You can turn this off by going into one of your `.yml` files in the `tiers` folder.
+
+        ```yml
+        Settings:
+         # If they need a permission to claim this envoy. Set too false to disable.
+         Claim-Permission: false
+         # What permission they need.
+         Claim-Permission-Name: 'lucky.envoy.use'
+        ```
+    </TabCard>
+</Tabs>
+
+### 3. Why doesn't crate countdown work?
+ - You need to have the option `toggle` set to `true` in your `config.yml`
+  ```yml
+  envoys:
+    grace-period:
+      # If there should be a grace period when an envoy spawns. What this means is the player will have to wait a certain amount of time.
+      toggle: false
+      # The time they have to wait to claim the envoy.
+      timer: 120
+      # The message shown above the envoy when the grace period is over.
+      message: '&cReady to claim.'
+      # The unit of time to show at the end of the countdown since it's in seconds. The space is required!
+      time-unit: ' seconds.'
+  ```
+ - You also need to have [PlaceholderAPI](https://modrinth.com/plugin/placeholderapi) installed!
+
+### 4. Can I make supply drops spawn in multiple worlds?
+ - You can only make supply drops spawn in multiple worlds by using `/envoy edit`

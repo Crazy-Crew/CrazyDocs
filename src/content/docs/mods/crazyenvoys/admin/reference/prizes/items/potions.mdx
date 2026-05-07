@@ -1,0 +1,33 @@
+---
+title: Potions
+description: Get started with adding potions to your prizes!
+
+slug: mods/crazyenvoys/reference/prizes/items/potions
+---
+import { Aside, Tabs } from "@astrojs/starlight/components";
+
+import TabCard from "@/components/other/TabCard.astro";
+
+<Aside type="caution">
+    *Warning, The prize example assumes you know other options must be added for a Prize to function*
+    *If not, I recommend you read the remaining documentation*
+
+    *The configuration for this can be used with tipped_arrows as well.*
+</Aside>
+
+<Tabs>
+    <TabCard label="Dyes">
+        Check out [this page](../cosmetic/dyes/) to see how to dye your items!
+    </TabCard>
+    <TabCard label="Item">
+        ```yml
+        # The prizes section.
+        Prizes:
+          # The name of the prize.
+          "1":
+            # Prize display preview settings
+            Items:
+              - "Item:POTION:POISON, AMOUNT:1"
+        ```
+    </TabCard>
+</Tabs>

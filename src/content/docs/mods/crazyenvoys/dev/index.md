@@ -1,6 +1,8 @@
 ---
 title: Developer API
-description: Get started with the api
+description: Get started with CrazyEnvoys API!
+
+slug: mods/crazyenvoys/dev/index
 ---
 ### Groovy
 <details>

@@ -1,0 +1,51 @@
+---
+title: Custom Items
+description: Examples of how to use custom items!
+
+slug: mods/crazyenvoys/reference/prizes/items/custom-items
+---
+import { Aside, Tabs } from "@astrojs/starlight/components";
+
+import TabCard from "@/components/other/TabCard.astro";
+
+<Tabs>
+    <TabCard label="ItemsAdder" icon="warning">
+        <Aside type="note">
+            This is a stub until I look into it myself, if you do know how, and would like to contribute your intelligence.
+
+            A pull request is always welcome! You can hit `Edit page` at the bottom.
+        </Aside>
+    </TabCard>
+
+    <TabCard label="Nexo">
+        <Aside type="tip">
+            All identifiers for items can be found via `/nexo give [item]`, or `nexo_defaults/items` folder
+
+            ```yml
+            forest_axe: -> forest_axe is the identifier.
+              itemname: Forest Axe
+              material: NETHERITE_AXE
+              Pack:
+                model: nexo:item/nexo_tools/forest_axe
+                custom_model_data: 1000
+            ```
+        </Aside>
+
+        `forest_axe` can be used in any section that asks for a material such as `diamond_axe`.
+
+        ### Items Section
+        ```yml
+        # The items section.
+        Items:
+          - 'Item:forest_axe, Amount:1'
+        ```
+    </TabCard>
+
+    <TabCard label="Vanilla" icon="warning">
+        <Aside type="note">
+            This is a stub until I look into it myself, if you do know how, and would like to contribute your intelligence.
+
+            A pull request is always welcome! You can hit `Edit page` at the bottom.
+        </Aside>
+    </TabCard>
+</Tabs>

@@ -1,0 +1,64 @@
+---
+title: Trims
+description: Examples of how to use armor trims!
+
+slug: mods/crazyenvoys/reference/prizes/items/tools/trim
+---
+import { Aside, Tabs } from "@astrojs/starlight/components";
+
+import TabCard from "@/components/other/TabCard.astro";
+
+<Aside type="tip">
+    Armor Trims can be used on everything but Leather Armor.
+</Aside>
+
+<Tabs>
+    <TabCard label="Materials">
+        - amethyst
+        - copper
+        - diamond
+        - emerald
+        - gold
+        - iron
+        - lapis
+        - netherite
+        - quartz
+        - redstone
+    </TabCard>
+    <TabCard label="Patterns">
+        - bolt
+        - coast
+        - dune
+        - eye
+        - flow
+        - host
+        - raiser
+        - rib
+        - sentry
+        - shaper
+        - silence
+        - snout
+        - spire
+        - tide
+        - vex
+        - ward
+        - wayfinder
+        - wild
+    </TabCard>
+</Tabs>
+
+<Tabs>
+    <TabCard label="Default">
+        <TabCard label="Item">
+            ```yml
+            # The prizes section.
+            Prizes:
+              # The name of the item, good for identification internally and externally.
+              "1":
+                # The items section.
+                Items:
+                  - "item:diamond_helmet, trim:bolt!amethyst"
+            ```
+        </TabCard>
+    </TabCard>
+</Tabs>
