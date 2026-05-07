@@ -9,12 +9,52 @@ import { Aside, Tabs } from "@astrojs/starlight/components";
 import TabCard from "@/components/other/TabCard.astro";
 
 <Tabs>
-    <TabCard label="ItemsAdder" icon="warning">
-        <Aside type="note">
-            This is a stub until I look into it myself, if you do know how, and would like to contribute your intelligence.
+    <TabCard label="ItemsAdder">
+        <Aside type="tip">
+            All identifiers for items can be found via `ItemsAdder/contents` folder
 
-            A pull request is always welcome! You can hit `Edit page` at the bottom.
+            ```yml
+            info:
+              namespace: iaalchemy -> this is the namespace.
+            items:
+              arcane_ring: -> arcane_ring is the identifier.
+                enabled: true
+                display_name: display-name-arcane_ring
+                permission: iaalchemy.items.arcane_ring
+                lore:
+                  - lore-1-arcane_ring
+                  - lore-2-arcane_ring
+                resource:
+                  material: TOTEM_OF_UNDYING
+                  generate: true
+                  textures:
+                    - item/arcane_ring
+               attribute_modifiers:
+                 mainhand:
+                   movementSpeed:
+                     value: 0.1
+                     operation: multiply_base
+                 offhand:
+                   movementSpeed:
+                     value: 0.1
+                     operation: multiply_base
+            ```
+
+            iaalchemy:arcane_ring is the combined result needed!
         </Aside>
+		
+		`iaalchemy:arcane_ring` can be used in any section that asks for a material such as `diamond_axe`.
+
+        ### Physical Keys
+        ```yml
+        PhysicalKey:
+          # Name of the Key.
+          Name: "A fancy key using Nexo."
+          # Lore of the Key.
+          Lore: []
+          # The custom item from Nexo.
+          Item: "iaalchemy:arcane_ring"
+        ```
     </TabCard>
 
     <TabCard label="Nexo">
