@@ -4,12 +4,16 @@ description: Contribute to CrazyCrates!
 
 slug: mods/crazycrates/contributing
 ---
-import { Aside, Tabs } from "@astrojs/starlight/components";
+import { Aside, Tabs, Steps } from "@astrojs/starlight/components";
 
 import TabCard from "@/components/other/TabCard.astro";
 
 <Aside type="tip">
     Contributions to CrazyCrates is a much easier process if you discuss it in Discord *before* making a pull request.
+
+    Pull Requests *must* always be made as a personal repository, and not under an organization. If it's under an organization, It prevents us from modifying your fork.
+
+    If you do not fork the repository to your personal profile, The pull request will be marked as closed instead of merged.
 </Aside>
 
 <Aside type="caution">
@@ -20,17 +24,23 @@ import TabCard from "@/components/other/TabCard.astro";
 ### Compiling CrazyCrates
 <Tabs>
     <TabCard label="Requirements">
-        - Java 25 JDK or newer
+        - [Intellij IDEA](https://www.jetbrains.com/idea/download/)
+        - Java 25 JDK(Amazon Corretto) or newer
         - Gradle 9.5.0
+        - Brain
     </TabCard>
 </Tabs>
 
-#### Local Commands
-```sh
-git clone https://github.com/Crazy-Crew/CrazyCrates.git
-cd CrazyCrates
-./gradlew assemble
-```
+#### Process
+<Steps>
+    1. git clone https://github.com/Crazy-Crew/CrazyCrates.git
+
+    2. cd CrazyCrates
+
+    3. ./gradlew build
+
+    4. Check `build/libs`
+</Steps>
 
 ### Coding Practices
 - Copy the style of code in the class you are editing.
@@ -41,6 +51,30 @@ cd CrazyCrates
 ### Project Structure
 - Api Module - This module is the API used by other plugins that wish to properly integrate with our plugin, and receive data from CrazyCrates for use in their own plugins. No implementation details are in this module.
 - Core Module - This module handles a small portion of the implementation for CrazyCrates, mainly the configuration files. and independent enums or utilities.
-  - The module does not yet handle implementation details for each platform.
+    - The module does not yet handle implementation details for each platform.
 - Paper Module - This module currently is what provides the implementation for the `API Module`, I have not written an exact abstract module to sit between, and reduce more duplicated code between platforms.
-  - Pull Requests that attempt to implement the remaining work of an abstract layer for multi-platform support will likely be ignored, I would like to handle that when the time comes.
+    - Pull Requests that attempt to implement the remaining work of an abstract layer for multi-platform support will likely be ignored, I would like to handle that when the time comes.
+
+### Pull Requests Labels
+Pull Requests must be labeled properly according to if it's a bug fix, a new feature or enhancements to the code base.
+- `git checkout -b fix/your_fix`
+- `git checkout -b feature/your_feature`
+- `git checkout -b quality/your_enhancement`
+- Commit your changes using `git commit -m 'your commit'`
+- Push to your branch using `git push`
+
+### What's next?
+You must explain what your pull request is changing and if needed, If needed, supply a video of your change as Pull Requests are a way to get feedback.
+
+- The branch you open the pull request to depends on the scope of your change.
+  - Anything considered a "fix" or "internal" clean up that will not cripple a server or vastly change the experience of a server can be sent as a pull request to the `main` branch
+
+### Api Additions
+Additions to our API are much more delicate as they can directly impact end users much more than adding a new feature or fixing a bug.
+
+Adding new methods is perfectly fine as it won't break current plugins depending on our plugin. Replacing methods is also fine as long as you keep the old around but deprecated.
+
+Under no circumstance is existing methods suppose to have a change to the variables in the methods. You can change anything inside the method.
+- i.e. UUID cannot become Player in `getKeys`, You should create a new method and deprecate the old one.
+
+If trying to expose internal HashMap's or ArrayLists using the API, Return an Unmodifiable Version of the Map/ArrayLists
