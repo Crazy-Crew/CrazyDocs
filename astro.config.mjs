@@ -172,6 +172,7 @@ export default defineConfig({
                   link: "/mods/crazyvouchers/",
                   icon: "crazyvouchers",
                   items: [
+                      "mods/crazyvouchers/contributing",
                       {
                           label: "Administration",
                           items: [
