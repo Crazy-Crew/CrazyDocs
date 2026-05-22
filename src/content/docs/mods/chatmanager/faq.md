@@ -20,7 +20,7 @@ The most common causes of this problem could be caused by not having Vault on yo
  * No
 
 ### What are the available placeholders?
- * You can find available placeholders at [Placeholders](guides/placeholders.md)
+ * You can find available placeholders at [Placeholders](../guides/placeholders)
 
 ### Why can players use color codes in chat?
  * External plugins might override or have their own color codes in chat.

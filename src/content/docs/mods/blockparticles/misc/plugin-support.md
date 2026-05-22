@@ -5,7 +5,7 @@ description: A list of supported plugins!
 ## Placeholders
 | Plugin         | Link                                                          | Required | Deprecated | Removed | Added | Planned |
 |----------------|---------------------------------------------------------------|----------|------------|---------|-------|---------|
-| PlaceholderAPI | [Download](https://hangar.papermc.io/HelpChat/PlaceholderAPI) | no       | no         | no      | yes   | n/a     |
+| PlaceholderAPI | [Download](https://modrinth.com/plugin/placeholderapi) | no       | no         | no      | yes   | n/a     |
 
 ## Custom Items
 | Plugin          | Link                                                                                                                                                  | Required | Deprecated | Removed | Added | Planned |

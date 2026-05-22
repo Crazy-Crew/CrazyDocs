@@ -13,9 +13,9 @@ description: A list of plugins we support!
 | Towny                                                               | [Download](https://github.com/TownyAdvanced/Towny)                   | no       | no         | no      | yes   | n/a     |
 
 ## Placeholders
-| Plugin         | Link                                                          | Required | Deprecated | Removed | Added | Planned |
-|----------------|---------------------------------------------------------------|----------|------------|---------|-------|---------|
-| PlaceholderAPI | [Download](https://hangar.papermc.io/HelpChat/PlaceholderAPI) | no       | no         | no      | yes   | n/a     |
+| Plugin         | Link                                                   | Required | Deprecated | Removed | Added | Planned |
+|----------------|--------------------------------------------------------|----------|------------|---------|-------|---------|
+| PlaceholderAPI | [Download](https://modrinth.com/plugin/placeholderapi) | no       | no         | no      | yes   | n/a     |
 
 ## Custom Items
 | Plugin          | Link                                                                                                                                                  | Required | Deprecated | Removed | Added | Planned |
