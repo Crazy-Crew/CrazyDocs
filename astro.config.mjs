@@ -11,6 +11,8 @@ import vue from '@astrojs/vue';
 export default defineConfig({
     site: 'https://docs.crazycrew.us',
 
+    adapter: cloudflare(),
+
     image: {
       responsiveStyles: true,
       layout: "constrained",
