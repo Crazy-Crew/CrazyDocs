@@ -211,6 +211,19 @@ export default defineConfig({
                                   ]
                               }
                           ]
+                      },
+                      {
+                          label: "Developers",
+                          items: [
+                              "mods/crazyenvoys/dev/index",
+                              {
+                                  slug: "mods/crazyenvoys/dev/usage",
+                                  badge: {
+                                      text: 'Stub',
+                                      variant: 'caution'
+                                  }
+                              }
+                          ],
                       }
                   ]
               },
