@@ -23,10 +23,11 @@ import TabCard from "@/components/other/TabCard.astro";
         Crate:
           # The prizes section.
           Prizes:
-            # The name of the prize.
+            # The name of the prize, good for identification internally and externally.
             "1":
+              # The material of the item.
               DisplayItem: "potion"
-              # Prize display preview settings
+              # Extra options to configure the items in this pool.
               Settings:
                 # The rgb used for the potion.
                 RGB: "229,164,229"
@@ -40,16 +41,17 @@ import TabCard from "@/components/other/TabCard.astro";
         Crate:
           # The prizes section.
           Prizes:
-            # The name of the prize.
+            # The name of the prize, good for identification internally and externally.
             "1":
+              # The material of the item.
               DisplayItem: "potion"
-              # Prize display preview settings
+              # Configure multiple items with whatever you want.
               Items:
                 # The name of the item, good for identification internally and externally.
                 "1":
-                  # The item material.
+                  # The material of the item.
                   material: "potion"
-                  # Per item settings.
+                  # Extra options to configure the items in this pool.
                   settings:
                     # The rgb of the item.
                     rgb: "229,164,229"

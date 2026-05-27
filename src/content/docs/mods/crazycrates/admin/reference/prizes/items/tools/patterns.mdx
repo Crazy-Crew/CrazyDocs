@@ -19,10 +19,12 @@ import TabCard from "@/components/other/TabCard.astro";
 <Tabs>
     <TabCard label="Display">
         ```yml
+        # The crate section.
         Crate:
+          # The prizes section.
           Prizes:
             "1":
-              # The material of the item for the patterns to work.
+              # The material of the item.
               DisplayItem: 'shield'
               # The patterns to display on the shield.
               DisplayPatterns:
@@ -35,17 +37,21 @@ import TabCard from "@/components/other/TabCard.astro";
 
     <TabCard label="Item">
         ```yml
+        # The crate section.
         Crate:
+          # The prizes section.
           Prizes:
+            # The name of the prize, good for identification internally and externally.
             "1":
-              # The material of the item for the patterns to work.
+              # The material of the item.
               DisplayItem: 'shield'
-              # Configure multiple items with 10 different banner patterns if you wish.
+              # Configure multiple items with whatever you want.
               Items:
+                # The name of the item, good for identification internally and externally.
                 "1":
-                  # The material of the item for the patterns to work.
+                  # The material of the item.
                   material: "shield"
-                  # Per item settings.
+                  # Extra options to configure the items in this pool.
                   settings:
                     # The patterns to display on the shield.
                     patterns:

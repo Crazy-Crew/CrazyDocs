@@ -25,33 +25,34 @@ import TabCard from "@/components/other/TabCard.astro";
         Crate:
           # The prizes section.
           Prizes:
-            # The name of the prize.
+            # The name of the prize, good for identification internally and externally.
             "1":
+              # The material of the item.
               DisplayItem: "potion"
-              # Prize display preview settings
+              # Configure multiple items with whatever you want.
               Items:
                 # The name of the item, good for identification internally and externally.
-                "strength_potion":
-                # The item material.
-                material: "potion"
-                # Per item settings.
-                settings:
-                  # The potion settings.
-                  potions:
-                    # The name of the potion effect.
-                    "strength":
-                    # The duration of the potion effect.
-                    duration: 10
-                    # The level of the potion effect.
-                    level: 3
-                    # The potion style settings.
-                    style:
-                      # Should the icon show in the inventory?
-                      icon: false
-                      # Should there be an ambient effect for the player?
-                      ambient: false
-                      # Should the particles show around the player?
-                      particles: false
+                "1":
+                  # The material of the item.
+                  material: "potion"
+                  # Extra options to configure the items in this pool.
+                  settings:
+                    # The potion settings.
+                    potions:
+                      # The name of the potion effect.
+                      "strength":
+                        # The duration of the potion effect.
+                        duration: 10
+                        # The level of the potion effect.
+                        level: 3
+                        # The potion style settings.
+                        style:
+                          # Should the icon show in the inventory?
+                          icon: false
+                          # Should there be an ambient effect for the player?
+                          ambient: false
+                          # Should the particles show around the player?
+                          particles: false
         ```
     </TabCard>
 </Tabs>

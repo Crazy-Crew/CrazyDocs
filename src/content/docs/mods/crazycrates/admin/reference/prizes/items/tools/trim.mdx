@@ -56,11 +56,11 @@ import TabCard from "@/components/other/TabCard.astro";
             Crate:
               # The prizes section.
               Prizes:
-                # The name of the item, good for identification internally and externally.
+                # The name of the prize, good for identification internally and externally.
                 "1":
-                  # The item material.
+                  # The material of the item.
                   DisplayItem: "diamond_helmet"
-                  # The trim to display on the helmet.
+                  # The patterns to display on the armor.
                   DisplayTrim:
                     # The trim material.
                     Material: "amethyst"
@@ -75,22 +75,23 @@ import TabCard from "@/components/other/TabCard.astro";
             Crate:
               # The prizes section.
               Prizes:
-                # The name of the item, good for identification internally and externally.
+                # The name of the prize, good for identification internally and externally.
                 "1":
-                  # The item material.
+                  # The material of the item.
                   DisplayItem: "diamond_helmet"
-                  # The items section.
+                  # Configure multiple items with whatever you want.
                   Items:
+                   # The name of the item, good for identification internally and externally.
                    "1":
                      # The material of the item.
                      material: "diamond_helmet"
-                     # Other settings.
+                     # Extra options to configure the items in this pool.
                      settings:
-                       # Settings related to armor trims
+                       # The patterns to display on the armor.
                        trim:
-                         # The trim pattern
+                         # The trim pattern.
                          pattern: "bolt"
-                         # The trim material
+                         # The trim material.
                          material: "amethyst"
             ```
         </TabCard>
@@ -108,11 +109,11 @@ import TabCard from "@/components/other/TabCard.astro";
             Crate:
               # The prizes section.
               Prizes:
-                 # The name of the item, good for identification internally and externally.
+                 # The name of the prize, good for identification internally and externally.
                  "1":
-                   # The item material.
+                   # The material of the item.
                    DisplayItem: "diamond_helmet"
-                   # The items section.
+                   # Configure multiple items with whatever you want.
                    Items:
                      - "item:diamond_helmet, trim:bolt!amethyst"
             ```
