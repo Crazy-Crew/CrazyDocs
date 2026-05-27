@@ -1,0 +1,75 @@
+---
+title: Broadcast
+description: Broadcast message to your server if a player wins a prize!
+
+slug: mods/crazycrates/reference/prizes/settings/broadcast
+---
+import { Aside, Tabs } from "@astrojs/starlight/components";
+
+import TabCard from "@/components/other/TabCard.astro";
+
+<Aside>
+    This page explains multiple ways to send a broadcast to the players on the server if a Prize is won.
+</Aside>
+
+<Tabs>
+    <TabCard label="Way #1">
+		<Aside>
+		   This requires you have a plugin with a command such as /broadcast such as [ChatterBox](https://modrinth.com/plugin/chatterbox)
+
+           This example is made in mind if you do use ChatterBox! You do not have to use ChatterBox.
+	    </Aside>
+	
+        ```yml
+        # The crate section.
+        Crate:
+          # The prizes section.
+          Prizes:
+            # The name of the prize, good for identification internally and externally.
+            "1":
+              # The material of the item.
+              DisplayItem: "diamond_sword"
+              # Extra options to configure the items in this pool.
+              Commands:
+			    - "cb broadcast %player% won %reward% from %crate%!"
+        ```
+    </TabCard>
+    <TabCard label="Way #2">
+		<Aside>
+		   This requires you have a plugin with a command such as /broadcast such as [ChatterBox](https://modrinth.com/plugin/chatterbox)
+
+           This example is made in mind if you do use ChatterBox! You do not have to use ChatterBox.
+	    </Aside>
+	
+        ```yml
+        # The crate section.
+        Crate:
+		  # A list of commands to run when a player wins a prize!
+          Prize-Commands: 
+		    - "cb broadcast %player% won %reward% from %crate%!"
+        ```
+    </TabCard>
+    <TabCard label="Way #3">
+        ```yml
+        # The crate section.
+        Crate:
+          # The prizes section.
+          Prizes:
+            # The name of the prize, good for identification internally and externally.
+            "1":
+              # The material of the item.
+              DisplayItem: "diamond_sword"
+              # Extra options to configure the items in this pool.
+              Settings:
+                # The settings related to sending messages when a prize is won.
+                Broadcast:
+                  # Set to true to send.
+                  Toggle: false
+                  # The messages to send.
+                  Messages:
+                    - "<red>%player%</red> has won %reward% from %crate%!"
+                  # The permission they must have to see it if this is not blank.
+                  Permission: ""
+        ```
+    </TabCard>
+</Tabs>

@@ -1,12 +1,11 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import cloudflare from "@astrojs/cloudflare";
 
 import topics from 'starlight-sidebar-topics'
 
 import vue from '@astrojs/vue';
-
-import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
@@ -17,8 +16,6 @@ export default defineConfig({
       layout: "constrained",
       domains: ["cdn.ryderbelserion.com"],
     },
-
-    adapter: cloudflare(),
 
     integrations: [starlight({
       title: 'CrazyCrew Docs',
@@ -99,6 +96,12 @@ export default defineConfig({
                                                               "mods/crazycrates/reference/prizes/items/tools/trim"
                                                           ]
                                                       }
+                                                  ]
+                                              },
+                                              {
+                                                  label: "Settings",
+                                                  items: [
+                                                      "mods/crazycrates/reference/prizes/settings/broadcast"
                                                   ]
                                               }
                                           ]
