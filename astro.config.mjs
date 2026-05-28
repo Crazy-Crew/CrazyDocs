@@ -129,9 +129,13 @@ export default defineConfig({
                   items: [
                       {
                           label: "Administration",
-                          autogenerate: {
-                              directory: "mods/crazyenchantments/"
-                          }
+                          items: [
+                              {
+                                  autogenerate: {
+                                      directory: "mods/crazyenchantments"
+                                  }
+                              }
+                          ]
                       }
                   ]
               },
@@ -292,9 +296,13 @@ export default defineConfig({
                   items: [
                       {
                           label: "Administration",
-                          autogenerate: {
-                              directory: "mods/chatmanager/"
-                          }
+                          items: [
+                              {
+                                  autogenerate: {
+                                      directory: "mods/chatmanager"
+                                  }
+                              }
+                          ]
                       }
                   ]
               },
@@ -306,9 +314,13 @@ export default defineConfig({
                   items: [
                       {
                           label: "Administration",
-                          autogenerate: {
-                              directory: "mods/blockparticles/"
-                          }
+                          items: [
+                              {
+                                  autogenerate: {
+                                      directory: "mods/blockparticles"
+                                  }
+                              }
+                          ]
                       }
                   ]
               }
