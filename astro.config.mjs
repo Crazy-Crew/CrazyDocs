@@ -16,7 +16,7 @@ export default defineConfig({
     image: {
       responsiveStyles: true,
       layout: "constrained",
-      domains: ["cdn.ryderbelserion.com"],
+      domains: ["assets.crazycrew.us"],
     },
 
     integrations: [starlight({

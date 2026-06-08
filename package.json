@@ -1,6 +1,5 @@
 {
   "name": "crazycrew-docs",
-  "packageManager": "pnpm@10.11.1",
   "type": "module",
   "version": "1.0.0",
   "scripts": {
