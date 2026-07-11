@@ -76,6 +76,22 @@ export default defineConfig({
                                       "mods/crazycrates/reference/placeholders",
                                       "mods/crazycrates/reference/commands",
                                       {
+                                        label: "Menus",
+                                        items: [
+                                            {
+                                                label: "Items",
+                                                items: [
+                                                    {
+                                                        label: "Cosmetic",
+                                                        items: [
+                                                            "mods/crazycrates/reference/menus/main/items/cosmetic/heads"
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                      },
+                                      {
                                           label: "Prizes",
                                           items: [
                                               "mods/crazycrates/reference/prizes/weight-system",
