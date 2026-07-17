@@ -79,6 +79,14 @@ export default defineConfig({
                                             label: "Menus",
                                             items: [
                                                 {
+                                                    label: "Buttons",
+                                                    items: [
+                                                        {
+                                                            slug: "mods/crazycrates/reference/menus/buttons/index"
+                                                        }
+                                                    ]
+                                                },
+                                                {
                                                     label: "Main Menu",
                                                     items: [
                                                         {

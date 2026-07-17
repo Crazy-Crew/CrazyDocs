@@ -1,0 +1,79 @@
+---
+title: Getting Started
+description: Configure everything related to buttons here!
+
+slug: mods/crazycrates/reference/menus/buttons/index
+---
+import { Aside, Tabs } from "@astrojs/starlight/components";
+import { Steps } from "@astrojs/starlight/components";
+
+import TabCard from "@/components/other/TabCard.astro";
+
+<Aside>
+    CrazyCrates 5.2.0 has added support for creating, and adding multiple items to the preview menus displaying the current prizes.
+
+    This category in the future will be expanded on, and include anything new that buttons may do.
+
+    As such, you should check back on this page every time an update is released.
+</Aside>
+
+<Tabs>
+    <TabCard label="Introduction">
+        <Aside type="tip">
+            You may now notice that there is directory in your `CrazyCrates` folder called `buttons` now!
+
+            This allows you to create, and re-use items across multiple crate previews.
+        </Aside>
+
+        An example of a file in the `buttons` directory which is named `redglasss.yml`
+        ```yml
+        # Settings related to the crate i.e. things like the display item.
+        button:
+          # Display related settings i.e. the look of the item.
+          display:
+            # If the item should be displayed in the gui, or not.
+            enabled: true
+            # The item configuration.
+            item:
+              # The item material.
+              material: "blue_stained_glass_pane"
+              # The name of the item.
+              name: ""
+              # The lore of the item.
+              lore: []
+              # The amount to display.
+              amount: 1
+          # The commands to execute when an item is clicked.
+          commands: []
+          # The commands to execute when an item is clicked.
+          messages: []
+        ```
+    </TabCard>
+    <TabCard label="Crate Example">
+        <Aside>
+            If you followed the introduction above, You should already have existing items you want to add.
+
+            We will be using that for the example! All items applied in the `buttons` section are static items, and are added *before* the prizes.
+        </Aside>
+
+        The value that is specified in `key` is the name of the file from the `buttons` directory, which in our case is `redglass.yml`.
+        This means that the key we specify in `key` is redglass! Once you add this, save the file.. and do /crates reload
+
+        ```yml
+        # The crates section.
+        Crate:
+          # The buttons section, All items here are *applied* before prizes, and count as static items.
+          buttons:
+            "1":
+              # The name of the file, but remove .yml
+              key: "redglass"
+              # The slot to set it in the crate preview.
+              slot: 0
+            "1":
+              # The name of the file, but remove .yml
+              key: "redglass"
+              # The slot to set it in the crate preview.
+              slot: 1
+        ```
+    </TabCard>
+</Tabs>
