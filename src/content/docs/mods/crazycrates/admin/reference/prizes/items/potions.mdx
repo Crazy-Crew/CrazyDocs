@@ -29,6 +29,24 @@ import TabCard from "@/components/other/TabCard.astro";
             "1":
               # The material of the item.
               DisplayItem: "potion"
+              # The potions to display in the gui.
+              DisplayPotions:
+                # The internal identifier, which can be anything as long as it's not a duplicate.
+                "strength_potion":
+                  # The duration of the potion effect.
+                  duration: 10
+                  # The name of the potion effect.
+                  type: "strength"
+                  # The level of the potion effect.
+                  level: 3
+                  # The potion style settings.
+                  style:
+                    # Should the icon show in the inventory?
+                    icon: false
+                    # Should there be an ambient effect for the player?
+                    ambient: false
+                    # Should the particles show around the player?
+                    particles: false
               # Configure multiple items with whatever you want.
               Items:
                 # The name of the item, good for identification internally and externally.
@@ -39,10 +57,12 @@ import TabCard from "@/components/other/TabCard.astro";
                   settings:
                     # The potion settings.
                     potions:
-                      # The name of the potion effect.
-                      "strength":
+                      # The internal identifier, which can be anything as long as it's not a duplicate.
+                      "strength_potion":
                         # The duration of the potion effect.
                         duration: 10
+                        # The name of the potion effect.
+                        type: "strength"
                         # The level of the potion effect.
                         level: 3
                         # The potion style settings.
