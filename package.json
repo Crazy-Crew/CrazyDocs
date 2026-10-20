@@ -15,7 +15,6 @@
     "@astrojs/cloudflare": "^14.4.1",
     "@astrojs/starlight": "^0.42.6",
     "@astrojs/vue": "^7.1.1",
-    "@bruits/satteri-wasm32-wasi": "^0.10.5",
     "astro": "^7.2.8",
     "astro-contributors": "^0.10.0",
     "astro-icon": "^1.2.0",
@@ -27,14 +26,6 @@
   },
   "overrides": {
     "vite": "^7"
-  },
-  "pnpm": {
-    "supportedArchitectures": {
-      "cpu": [
-        "current",
-        "wasm32"
-      ]
-    }
   },
   "devDependencies": {
     "@iconify-json/mdi": "^1.2.3",
