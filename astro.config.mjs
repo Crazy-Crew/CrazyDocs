@@ -7,6 +7,8 @@ import topics from 'starlight-sidebar-topics'
 
 import vue from '@astrojs/vue';
 
+import icon from "astro-icon";
+
 // https://astro.build/config
 export default defineConfig({
     site: 'https://docs.crazycrew.us',
@@ -357,5 +359,5 @@ export default defineConfig({
                 }
             ])
         ]
-    }), vue()]
+    }), vue(), icon()]
 });

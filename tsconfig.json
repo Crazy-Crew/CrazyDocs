@@ -16,6 +16,9 @@
       ],
       "$/*": [
         "./public/*"
+      ],
+      "~/assets/*": [
+        "./src/assets/*"
       ]
     },
     "jsx": "preserve"
