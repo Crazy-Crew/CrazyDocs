@@ -15,7 +15,9 @@ import mdx from "@astrojs/mdx";
 export default defineConfig({
     site: 'https://docs.crazycrew.us',
 
-    adapter: cloudflare(),
+    adapter: cloudflare({
+        prerenderEnvironment: 'node'
+    }),
     output: 'server',
 
     image: {
