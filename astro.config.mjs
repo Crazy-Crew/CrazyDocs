@@ -13,7 +13,8 @@ import icon from "astro-icon";
 export default defineConfig({
     site: 'https://docs.crazycrew.us',
 
-    //adapter: cloudflare(),
+    adapter: cloudflare(),
+    output: 'server',
 
     image: {
         responsiveStyles: true,
