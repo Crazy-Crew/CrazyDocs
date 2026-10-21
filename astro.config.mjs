@@ -1,8 +1,8 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import cloudflare from "@astrojs/cloudflare";
 
+import cloudflare from '@astrojs/cloudflare';
 import topics from 'starlight-sidebar-topics'
 
 import vue from '@astrojs/vue';
@@ -16,9 +16,21 @@ export default defineConfig({
     site: 'https://docs.crazycrew.us',
 
     adapter: cloudflare({
-        prerenderEnvironment: 'node'
+        prerenderEnvironment: 'node',
+        imageService: "cloudflare"
     }),
+
     output: 'server',
+
+    vite: {
+        build: {
+            rolldownOptions: {
+                external: [
+                    '@bruits/satteri-wasm32-wasi'
+                ]
+            }
+        }
+    },
 
     image: {
         responsiveStyles: true,
@@ -36,9 +48,21 @@ export default defineConfig({
         favicon: 'https://assets.crazycrew.us/crazycrew/branding/crazycrew_logo.32.svg',
 
         social: [
-            {icon: 'github', label: 'GitHub', href: 'https://github.com/Crazy-Crew'},
-            {icon: 'discord', label: 'Discord', href: 'https://discord.gg/badbones-s-live-chat-182615261403283459'},
-            {icon: 'patreon', label: 'Kofi', href: 'https://ko-fi.com/ryderbelserion'}
+            {
+                icon: 'github',
+                label: 'GitHub',
+                href: 'https://github.com/Crazy-Crew'
+            },
+            {
+                icon: 'discord',
+                label: 'Discord',
+                href: 'https://discord.gg/badbones-s-live-chat-182615261403283459'
+            },
+            {
+                icon: 'patreon',
+                label: 'Kofi',
+                href: 'https://ko-fi.com/ryderbelserion'
+            }
         ],
 
         lastUpdated: true,

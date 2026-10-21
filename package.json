@@ -1,20 +1,24 @@
 {
   "name": "crazycrew-docs",
-  "packageManager": "pnpm@11.1.0",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
+    "preview": "astro build && wrangler pages dev",
     "astro": "astro",
-    "generate-types": "wrangler types"
+    "generate-types": "wrangler types",
+    "deploy": "astro build && wrangler pages deploy",
+    "cf-typegen": "wrangler types"
   },
   "dependencies": {
     "@astrojs/cloudflare": "^14.4.1",
+    "@astrojs/markdown-satteri": "^0.4.4",
+    "@astrojs/mdx": "^8.1.0",
     "@astrojs/starlight": "^0.42.6",
     "@astrojs/vue": "^7.1.1",
+    "@bruits/satteri-wasm32-wasi": "^0.10.5",
     "astro": "^7.2.8",
     "astro-contributors": "^0.10.0",
     "astro-icon": "^1.2.0",
@@ -24,11 +28,9 @@
     "vue": "^3.5.44",
     "yaml": "^2.9.1"
   },
-  "overrides": {
-    "vite": "^7"
-  },
   "devDependencies": {
     "@iconify-json/mdi": "^1.2.3",
+    "@types/node": "^26.6.5",
     "wrangler": "^4.151.3"
   }
 }
