@@ -11,6 +11,9 @@
   "observability": {
     "enabled": true
   },
+  "assets": {
+    "directory": "./dist"
+  },
   "upload_source_maps": true
   /**
    * Smart Placement
