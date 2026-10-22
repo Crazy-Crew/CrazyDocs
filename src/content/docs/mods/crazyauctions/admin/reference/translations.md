@@ -45,6 +45,6 @@ We offer also **many more** languages for a wide amount of **popular** plugins o
 Links below lead to **all** the platforms we operate on:
 | BuiltByBit | Voxel Shop | voxelinc.net (20% OFF!) |
 |-------------|------------|-----|
-| [Go to product ➔]([https://builtbybit.com/resources/crazyenchantments-translations-pack.85423/](https://builtbybit.com/resources/crazyauctions-translations-pack.87242/))| [Go to product ➔](https://voxel.shop/product/9059/crazyauctions-translations-pack) | [Browse our website ➔](https://voxelinc.net/store)| 
+| [Go to product ➔](https://builtbybit.com/resources/crazyauctions-translations-pack.87242/)| [Go to product ➔](https://voxel.shop/product/9059/crazyauctions-translations-pack) | [Browse our website ➔](https://voxelinc.net/store)| 
 
 ![Made by Voxel Inc](https://img.shields.io/badge/Enchantext™_is_a_registered_project_by%20-Voxel_Inc.-darkred?logo=https://images2.imgbox.com/69/85/SyfquA6Y_o.png)
