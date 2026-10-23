@@ -15,12 +15,6 @@
     "directory": "./dist",
     "binding": "ASSETS"
   },
-  "kv_namespaces": [
-    {
-      "binding": "SESSION",
-      "id": "765553df1f8143dcabfb353a311c08c9"
-    }
-  ],
   "upload_source_maps": true
   /**
    * Smart Placement
