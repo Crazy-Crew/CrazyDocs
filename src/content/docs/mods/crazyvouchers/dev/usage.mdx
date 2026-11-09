@@ -4,8 +4,64 @@ description: Simple examples of how to use CrazyVouchers API.
 
 slug: mods/crazyvouchers/dev/usage
 ---
-import { Aside } from "@astrojs/starlight/components";
+import { Aside, Tabs } from "@astrojs/starlight/components";
+
+import TabCard from "@/components/other/TabCard.astro";
 
 <Aside type="note">
-    I have not gotten here yet.
+    CrazyVouchers fires two Bukkit events, both in `com.badbones69.crazyvouchers.api.events`. Both are cancellable.
 </Aside>
+
+| Event                    | Fired when                         | Getters                                                    | Cancellable |
+|--------------------------|------------------------------------|------------------------------------------------------------|-------------|
+| `VoucherRedeemEvent`     | A player redeems a voucher item.   | `getPlayer()`, `getVoucher()`, `getArgument()`             | true        |
+| `VoucherRedeemCodeEvent` | A player runs `/crazyvouchers redeem <code>`. | `getPlayer()`, `getVoucherCode()`               | true        |
+
+`getArgument()` returns a blank string when the voucher has no argument.
+
+<Tabs>
+    <TabCard label="VoucherRedeemEvent">
+        ```java
+        import com.badbones69.crazyvouchers.api.events.VoucherRedeemEvent;
+        import com.badbones69.crazyvouchers.api.objects.Voucher;
+        import org.bukkit.entity.Player;
+        import org.bukkit.event.EventHandler;
+        import org.bukkit.event.Listener;
+
+        public class VoucherListener implements Listener {
+
+            @EventHandler
+            public void onVoucherRedeem(VoucherRedeemEvent event) {
+                final Player player = event.getPlayer();
+                final Voucher voucher = event.getVoucher();
+                final String argument = event.getArgument();
+
+                if (voucher.getStrippedName().equalsIgnoreCase("Example") && !player.hasPermission("example.use")) {
+                    event.setCancelled(true);
+                }
+            }
+        }
+        ```
+    </TabCard>
+
+    <TabCard label="VoucherRedeemCodeEvent">
+        ```java
+        import com.badbones69.crazyvouchers.api.events.VoucherRedeemCodeEvent;
+        import com.badbones69.crazyvouchers.api.objects.VoucherCode;
+        import org.bukkit.entity.Player;
+        import org.bukkit.event.EventHandler;
+        import org.bukkit.event.Listener;
+
+        public class CodeListener implements Listener {
+
+            @EventHandler
+            public void onCodeRedeem(VoucherRedeemCodeEvent event) {
+                final Player player = event.getPlayer();
+                final VoucherCode code = event.getVoucherCode();
+
+                player.sendMessage("You redeemed " + code.getCode());
+            }
+        }
+        ```
+    </TabCard>
+</Tabs>

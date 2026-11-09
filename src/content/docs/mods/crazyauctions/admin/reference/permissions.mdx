@@ -1,6 +1,6 @@
 ---
-title: Permissions
-description: All available commands for CrazyAuctions.
+title: Commands & Permissions
+description: All available commands and permission nodes for CrazyAuctions.
 
 slug: mods/crazyauctions/reference/commands
 ---
@@ -8,46 +8,54 @@ import { Aside, Tabs } from "@astrojs/starlight/components";
 
 import TabCard from "@/components/other/TabCard.astro";
 
-**This page lists all permissions included in CrazyAuctions.**
+**This page lists all commands and permissions included in CrazyAuctions.**
 
 ## Commands
-| Command | Aliases                            |
-|---------|------------------------------------|
-| `/ca`   | /crazyauctions, /crazyauction, /ah |
+| Command          | Aliases  |
+|------------------|----------|
+| `/crazyauctions` | /ah, /ca |
 
 ### Auction Permissions
-| Command                     | Permission Node                         | Description                                                                      | Player has by default? |
-|-----------------------------|-----------------------------------------|----------------------------------------------------------------------------------|------------------------|
-| `/ca`                       | crazyauctions.access                    | Opens up the auction house.                                                      | Unknown                |
-| `/ca help`                  | crazyauctions.access                    | Shows all available commands.                                                    | Unknown                |
-| `/ca expire`                | crazyauctions.access                    | Opens up the players expired items list.                                         | Unknown                |
-| `/ca collect`               | crazyauctions.access                    | Opens up the player's collectible items list.                                    | Unknown                |
-| `/ca listed`                | crazyauctions.acces                     | Opens up the player's items they are currently selling.                          | Unknown                |
-| `/ca reload`                | crazyauctions.admin                     | Reloads all the files.                                                           | Unknown                |
-| `/ca view <player>`         | crazyauctions.view                      | Shows the list items being sold by the searched player.                          | Unknown                |
-| `/ca sell <price> [amount]` | crazyauctions.sell crazyauctions.sell.# | Add the item currently in your hand to the selling section of the auction house. | Unknown                |
-| `/ca bid <price> [amount]`  | crazyauctions.bid crazyauctions.bid.#   | Add the item currently in your hand to the bidding section of the auction house. | Unknown                |
-| `/ca force_end_all`         | crazyauctions.force-end-all             | Force ends all listed items.                                                     | Unknown                |
+| Command                                       | Permission Node                                    | Description                                                                      | Default |
+|-----------------------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------|---------|
+| `/ca`                                         | crazyauctions.access                               | Opens up the auction house.                                                      | true    |
+| `/ca help`                                    | crazyauctions.help **or** crazyauctions.access     | Shows all available commands.                                                    | true    |
+| `/ca expired`                                 | crazyauctions.expired **or** crazyauctions.access  | Opens up the player's expired items list.                                        | true    |
+| `/ca collect`                                 | crazyauctions.collect **or** crazyauctions.access  | Opens up the player's collectible items list.                                    | true    |
+| `/ca listed`                                  | crazyauctions.listed **or** crazyauctions.access   | Opens up the player's items they are currently selling.                          | true    |
+| `/ca view <player>`                           | crazyauctions.view                                 | Shows the list of items being sold by the searched player.                       | true    |
+| `/ca sell <price> [amount]`                   | crazyauctions.sell                                 | Add the item currently in your hand to the selling section of the auction house. | true    |
+| `/ca bid <price> [amount]`                    | crazyauctions.bid                                  | Add the item currently in your hand to the bidding section of the auction house. | true    |
+| `/ca reload`                                  | crazyauctions.reload                               | Reloads all the files. Also granted by the `crazyauctions.admin` wildcard.       | OP      |
+| `/ca force_end_all`                           | crazyauctions.force-end-all                        | Force ends all listed items.                                                     | OP      |
+| `/ca migrate <legacy_messages\|legacy_config>` | crazyauctions.view                                 | Converts legacy color codes to MiniMessage: `legacy_messages` converts all messages in messages.yml, `legacy_config` converts only `Settings.Prefix` in config.yml.| true    |
+
+`[amount]` is how many items to take from the stack you are holding (1-64). If left out, the whole stack is listed.
 
 ### Misc Permissions
-| Permission Node         | Description                              | Player has by default? |
-|-------------------------|------------------------------------------|------------------------|
-| crazyauctions.force-end | Allows a player to force end an auction. | Unknown                |
+| Permission Node      | Description                                                                                                              | Default |
+|----------------------|--------------------------------------------------------------------------------------------------------------------------|---------|
+| crazyauctions.bypass | Bypasses most plugin restrictions, including the `sell.#` / `bid.#` listing cap.                                          | false   |
+| crazyauctions.player | Wildcard: grants `crazyauctions.bid`, `crazyauctions.sell`, `crazyauctions.access` and `crazyauctions.view`.              | false   |
+| crazyauctions.admin  | Wildcard: grants `crazyauctions.player.*`, `crazyauctions.reload`, `crazyauctions.bypass` and `crazyauctions.view`.       | false   |
 
 <Aside type="caution">
-    Players when selling or bidding **NEED** both permissions from each section before they use /ca sell or /ca bid.
+    `crazyauctions.sell.#` and `crazyauctions.bid.#` are an **optional** listing cap. Replace `#` with a number, such as `5`, to limit a player to 5 active listings.
 
-    Replace `#` with a number, such as 5 which means they can bid on 5 items, or sell 5 items.
+    - The cap is shared: both `sell.#` (checked on `/ca sell`) and `bid.#` (checked on `/ca bid`) count all of the player's current listings, selling and bidding combined.
+    - If a player has more than one node of the same kind, the highest number wins.
+    - Players with `crazyauctions.bypass` skip the cap.
+    - If a player has no `sell.#` / `bid.#` node at all, they can list an unlimited number of items.
 </Aside>
 
 <Tabs>
     <TabCard label="Selling">
         * `crazyauctions.sell`
-        * `crazyauctions.sell.#`
+        * `crazyauctions.sell.#` (optional cap)
     </TabCard>
 
     <TabCard label="Bidding">
         * `crazyauctions.bid`
-        * `crazyauctions.bid.#`
+        * `crazyauctions.bid.#` (optional cap)
     </TabCard>
 </Tabs>

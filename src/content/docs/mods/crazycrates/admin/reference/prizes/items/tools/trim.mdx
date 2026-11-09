@@ -24,6 +24,7 @@ import TabCard from "@/components/other/TabCard.astro";
         - netherite
         - quartz
         - redstone
+        - resin
     </TabCard>
     <TabCard label="Patterns">
         - bolt
@@ -103,6 +104,8 @@ import TabCard from "@/components/other/TabCard.astro";
             There is no "Display" under `Legacy`, because the "Display" in `Default` is sufficient.
         </Aside><br/>
 
+        The legacy format combines the pattern and material into one option, `trim:<pattern>;<material>` i.e. `trim:sentry;quartz`
+
         <TabCard label="Item">
             ```yml
             # The crate section.
@@ -115,7 +118,7 @@ import TabCard from "@/components/other/TabCard.astro";
                    DisplayItem: "diamond_helmet"
                    # Configure multiple items with whatever you want.
                    Items:
-                     - "item:diamond_helmet, trim:bolt!amethyst"
+                     - "item:diamond_helmet, trim:bolt;amethyst"
             ```
         </TabCard>
     </TabCard>

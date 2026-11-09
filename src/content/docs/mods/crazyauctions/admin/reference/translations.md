@@ -10,6 +10,12 @@ The layout of the page is undecided but that can be figured out eventually.
 :::
 * https://github.com/Crazy-Crew/CrazyDocs/pulls
 
+:::caution
+Current versions of CrazyAuctions use **MiniMessage** formatting in `config.yml` and `messages.yml`.
+The translations linked as 1.8.8-1.12.2 / 1.13+ gists were made for old versions and are **legacy**: they use the old `&` color codes and may be missing newer options.
+`/crazyauctions migrate legacy_messages` converts messages.yml. `legacy_config` only converts `Settings.Prefix`, so other color codes in a legacy config.yml must be updated by hand.
+:::
+
 ### Italiano:
 * [1.8.8-1.12.2 Config.yml](https://gist.github.com/badbones69/01e267e21b2cddf628b8beb9ad84caba) / [1.13+ Config.yml](https://gist.github.com/badbones69/3d2e973a36ab48d5544bea9a3f555258)
 * [Messages.yml](https://gist.github.com/badbones69/fa36f2f77ae2b05de242ca48f7984928)
@@ -25,20 +31,20 @@ The layout of the page is undecided but that can be figured out eventually.
 * [Messages.yml](https://gist.github.com/badbones69/055dfdeee58d8aad29b6a2993c149d95)
 #### *Credit to IBM_ESP on SpigotMC.
 
-## 25+ Translations by Enchantext :file_folder:
+## Community Translation Pack: 25+ Translations by Enchantext
 More than 25 CrazyAuctions' **translations** are offered and updated regularly by the **Enchantext project**, which aims to bring **endless** translations for **popular plugins** around the Minecraft community.
 Languages are included in a single **deluxe Pack** downloadable on multiple marketplaces or by our Website (voxelinc.net/store).
 
-**<p style="text-align:center;">Available Translations:pencil:</p>**
+**<p style="text-align:center;">Available Translations</p>**
 
 | EUROPE                                                                                                                                  | ASIA                                                                                                                                          | OTHERS     |
 |-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------|
 | Spanish, French, German, Dutch, Italian, Lithuanian, Hungarian, Polish, Slovak, Danish, Portuguese, Greek, Estonian, Romanian, Swedish. | Uzbek, Russian, Ukrainian, Hebrew, Arabic, Thai, Hindi, Bengali, Burmese, Khmer, Japanese, Korean, Vietnamese, Filipino, Turkish, Indonesian. | Maori (NZ) |
 
-| :zap: Every file is Drag & Drop, just select the one you like and import it into the plugin's language folder, reload to apply changes. |
-|-----------------------------------------------------------------------------------------------------------------------------------------|
+| Every file is Drag & Drop, just select the one you like and import it into the plugin's language folder, reload to apply changes. |
+|-----------------------------------------------------------------------------------------------------------------------------------|
 
-**<p style="text-align:center;">Where to download? :inbox_tray:</p>**
+**<p style="text-align:center;">Where to download?</p>**
 
 The translations pack can be **downloaded** with a **contribution of $2-$3** (one-time!) by joining Voxel Inc.'s [**Discord Server**](https://discord.voxelinc.net).
 We offer also **many more** languages for a wide amount of **popular** plugins out there. 

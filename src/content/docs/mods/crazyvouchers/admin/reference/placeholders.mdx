@@ -39,9 +39,17 @@ export const random = '{random}';
                 |-------------|------------------------------------------------------|--------------------------------------------------------------|
                 | `{player}`  | Name of the player                                   | `- 'eco give {player} 1000'`                                 |
                 | `{world}`   | World player is currently in                         | `- lp user {player} parent set crazyvouchers.redeem {world}` |
-                | `{z}`       | X coordinate of the player.                          | `- 'tp {x} {y} {z}'`                                         |
+                | `{x}`       | X coordinate of the player.                          | `- 'tp {x} {y} {z}'`                                         |
                 | `{y}`       | Y coordinate of the player.                          | `- 'tp {x} {y} {z}'`                                         |
-                | `{x}`       | Z coordinate of the player.                          | `- 'tp {x} {y} {z}'`                                         |
+                | `{z}`       | Z coordinate of the player.                          | `- 'tp {x} {y} {z}'`                                         |
+                | `{arg}`     | The argument the voucher was given with, or the code name when redeeming a code. | `- 'lp user {player} parent set {arg}'`  |
+                | `{prefix}`  | The command prefix from `config.yml`.                | `- 'msg {player} {prefix}Thanks!'`                           |
+            </TabCard>
+            <TabCard label="Messages">
+                | Placeholder    | Description                                                              |
+                |----------------|--------------------------------------------------------------------------|
+                | `{permission}` | The permission that blocked the player (permission check messages only). |
+                | `{time}`       | The voucher's `cooldown.interval` (cooldown message only).            |
             </TabCard>
         </Tabs>
     </TabCard>

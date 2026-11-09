@@ -8,6 +8,10 @@ import { Aside, Tabs } from "@astrojs/starlight/components";
 
 import TabCard from "@/components/other/TabCard.astro";
 
+<Aside type="note">
+    The map-style `items:` layout (`"1":` with `material:` and `settings:`) only applies when `root.use-different-items-layout: true` is set in `config.yml` (default `false`). You can migrate existing vouchers with `/crazyvouchers migrate -mt NewItemFormat`. Otherwise the map-style `items:` section is ignored.
+</Aside>
+
 <Aside type="tip">
     Armor Trims can be used on everything but Leather Armor.
 </Aside>
@@ -56,15 +60,10 @@ import TabCard from "@/components/other/TabCard.astro";
             voucher:
               # The item material.
               item: "diamond_helmet"
-              # Per item settings.
-              settings:
-                # The patterns to display on the shield.
-                patterns:
-                  base: white
-                  gradient_up: light_gray
-                  straight_cross: light_blue
-                  flower: light_blue
-                  half_horizontal: 255,0,0
+              # The trim to display on the voucher item.
+              display-trim:
+                material: amethyst
+                pattern: bolt
             ```
         </TabCard>
 
@@ -96,6 +95,7 @@ import TabCard from "@/components/other/TabCard.astro";
             There is no "Display" under `Legacy`, because the "Display" in `Default` is sufficient.
         </Aside><br/>
 
+        <Tabs>
         <TabCard label="Item">
             ```yml
             # The voucher section.
@@ -107,5 +107,6 @@ import TabCard from "@/components/other/TabCard.astro";
                 - "item:diamond_helmet, trim:bolt!amethyst"
             ```
         </TabCard>
+        </Tabs>
     </TabCard>
 </Tabs>

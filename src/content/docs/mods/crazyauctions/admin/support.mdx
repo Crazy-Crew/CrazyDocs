@@ -6,7 +6,7 @@ slug: mods/crazyauctions/support
 ---
 import TabCard from "@/components/other/TabCard.astro"
 
-import { Tabs } from "@astrojs/starlight/components";
+import { Aside, Tabs } from "@astrojs/starlight/components";
 
 import { Image } from "astro:assets";
 
@@ -14,26 +14,11 @@ import Polymart from "@/assets/platforms/cozy/polymart.svg";
 import Modrinth from "@/assets/platforms/cozy/modrinth.svg";
 import Spigot from "@/assets/platforms/cozy/spigot.svg";
 
-### Item Plugins
-<Tabs>
-    <TabCard label="ItemsAdder">
-        <a href="https://www.spigotmc.org/resources/%E2%9C%A8itemsadder%E2%AD%90emotes-mobs-items-armors-hud-gui-emojis-blocks-wings-hats-liquids.73355/" style={"width: fit-content;"}>
-            <Image src={Spigot} alt="Spigot Logo"/>
-        </a>
-    </TabCard>
-    <TabCard label="Oraxen">
-        <a href="https://www.spigotmc.org/resources/%E2%98%84%EF%B8%8F-oraxen-custom-items-blocks-emotes-furniture-resourcepack-and-gui-1-18-1-20-4.72448/">
-            <Image src={Spigot} alt="Spigot Logo"/>
-        </a>
-    </TabCard>
-    <TabCard label="Nexo">
-        <a href="https://polymart.org/resource/nexo.6901">
-            <Image src={Polymart} alt="Polymart Logo"/>
-        </a>
-    </TabCard>
-</Tabs>
-
 ### Economy Plugins
+<Aside type="caution">
+    **Vault is required.** CrazyAuctions will not load without it, and you also need an economy plugin that hooks into Vault.
+</Aside>
+
 <Tabs>
     <TabCard label="Vault">
         <a href="https://www.spigotmc.org/resources/vault.34315/">
@@ -42,7 +27,36 @@ import Spigot from "@/assets/platforms/cozy/spigot.svg";
     </TabCard>
 </Tabs>
 
+### Item Plugins
+<Aside type="note">
+    Only **Oraxen** has a code hook right now. ItemsAdder and Nexo are listed as soft dependencies but are **not currently integrated**.
+</Aside>
+
+<Tabs>
+    <TabCard label="Oraxen">
+        <a href="https://www.spigotmc.org/resources/%E2%98%84%EF%B8%8F-oraxen-custom-items-blocks-emotes-furniture-resourcepack-and-gui-1-18-1-20-4.72448/">
+            <Image src={Spigot} alt="Spigot Logo"/>
+        </a>
+    </TabCard>
+    <TabCard label="ItemsAdder (not currently integrated)">
+        <a href="https://www.spigotmc.org/resources/%E2%9C%A8itemsadder%E2%AD%90emotes-mobs-items-armors-hud-gui-emojis-blocks-wings-hats-liquids.73355/" style={"width: fit-content;"}>
+            <Image src={Spigot} alt="Spigot Logo"/>
+        </a>
+    </TabCard>
+    <TabCard label="Nexo (not currently integrated)">
+        <a href="https://polymart.org/resource/nexo.6901">
+            <Image src={Polymart} alt="Polymart Logo"/>
+        </a>
+    </TabCard>
+</Tabs>
+
 ### Other Plugins
+<Aside type="note">
+    PlaceholderAPI placeholders are parsed in GUI item names and lore only. CrazyAuctions does **not** provide its own PlaceholderAPI expansion.
+
+    HeadDatabase is listed as a soft dependency but is **not currently integrated**.
+</Aside>
+
 <Tabs>
     <TabCard label="PlaceholderAPI">
         <a href="https://modrinth.com/plugin/placeholderapi">

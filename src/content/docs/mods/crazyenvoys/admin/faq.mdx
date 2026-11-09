@@ -16,7 +16,7 @@ import TabCard from "@/components/other/TabCard.astro";
     </TabCard>
     <TabCard label="#2">
         #### How does the chance system work?
-        Check out [this page](reference/tiers/chance-system) to figure out how the system works!
+        Check out [this page](/mods/crazyenvoys/reference/tiers/chance-system/) to figure out how the system works!
     </TabCard>
 </Tabs>
 
@@ -68,11 +68,30 @@ import TabCard from "@/components/other/TabCard.astro";
       # The time they have to wait to claim the envoy.
       timer: 120
       # The message shown above the envoy when the grace period is over.
-      message: '&cReady to claim.'
+      message: '<red>Ready to claim.'
       # The unit of time to show at the end of the countdown since it's in seconds. The space is required!
       time-unit: ' seconds.'
   ```
  - You also need to have [PlaceholderAPI](https://modrinth.com/plugin/placeholderapi) installed!
+ - Messages use [MiniMessage](https://docs.advntr.dev/minimessage/format.html). If your files still use old `&` color codes, run `/crazyenvoys migrate -mt LegacyColorAll` to convert them.
 
 ### 4. Can I make supply drops spawn in multiple worlds?
- - You can only make supply drops spawn in multiple worlds by using `/envoy edit`
+ - Yes, but only with locations you place yourself using `/envoy edit`. Saved locations can be in any world.
+ - Random locations (`envoys.generation.random-locations.toggle: true`) only spawn around the single center set with `/envoy center`, so they always stay in that one world.
+ - To use your own locations, set `random-locations.toggle` to `false` in your `config.yml`, then place the drops with `/envoy edit`.
+  ```yml
+  envoys:
+    generation:
+      random-locations:
+        toggle: false
+  ```
+
+### 5. Why is the hologram countdown blank?
+ - The default tier files use `%crazyenvoys_crates_time%` in `Hologram`, but CrazyEnvoys does not handle that placeholder, so it returns an empty line.
+ - Replace it with `%crazyenvoys_envoys_time%` in each of your tier files.
+  ```yml
+  Settings:
+    Hologram:
+      - '%crazyenvoys_envoys_time%'
+  ```
+ - The countdown only shows while `envoys.grace-period.toggle` is `true`; otherwise it shows your `envoys.grace-period.message`. [PlaceholderAPI](https://modrinth.com/plugin/placeholderapi) must be installed.

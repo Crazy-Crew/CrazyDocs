@@ -8,6 +8,12 @@ import { Aside, Tabs } from "@astrojs/starlight/components";
 
 import TabCard from "@/components/other/TabCard.astro";
 
+<Aside type="note">
+    Since 5.2.0, custom items use the `plugin@id` format: `itemsadder@<item_id>`, `nexo@<item_id>`, `oraxen@<item_id>`, `craftengine@<item_id>` or `hmcwraps@<item_id>`.
+
+    Any place you can input `diamond_axe` allows you to use this format.
+</Aside>
+
 <Tabs>
     <TabCard label="ItemsAdder">
         <Aside type="tip">
@@ -40,16 +46,16 @@ import TabCard from "@/components/other/TabCard.astro";
                      operation: multiply_base
             ```
 
-            iaalchemy:arcane_ring is the combined result needed!
+            `iaalchemy:arcane_ring` is the combined result needed, used as `itemsadder@iaalchemy:arcane_ring`!
         </Aside>
-		
-		`iaalchemy:arcane_ring` can be used in any section that asks for a material such as `diamond_axe`.
+
+        `itemsadder@iaalchemy:arcane_ring` can be used in any section that asks for a material such as `diamond_axe`.
 
         ### Example
         ```yml
         voucher:
           # The custom item from ItemsAdder.
-          item: "iaalchemy:arcane_ring"
+          item: "itemsadder@iaalchemy:arcane_ring"
         ```
     </TabCard>
 
@@ -67,13 +73,13 @@ import TabCard from "@/components/other/TabCard.astro";
             ```
         </Aside>
 
-        `forest_axe` can be used in any section that asks for a material such as `diamond_axe`.
+        `nexo@forest_axe` can be used in any section that asks for a material such as `diamond_axe`.
 
         ### Example
         ```yml
         voucher:
           # The custom item from Nexo.
-          item: "forest_axe"
+          item: "nexo@forest_axe"
         ```
     </TabCard>
 

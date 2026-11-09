@@ -21,7 +21,7 @@ repositories {
 
 ```groovy
 dependencies {
-    compileOnly "us.crazycrew.crazycrates:api:0.9"
+    compileOnly "us.crazycrew.crazycrates:api:0.9.0"
 }
 ```
 </details>
@@ -32,15 +32,15 @@ dependencies {
    Gradle (Kotlin)
  </summary>
 
-```groovy
+```kotlin
 repositories {
     maven("https://repo.crazycrew.us/releases")
 }
 ```
 
-```groovy
+```kotlin
 dependencies {
-    compileOnly("us.crazycrew.crazycrates:api:0.9")
+    compileOnly("us.crazycrew.crazycrates:api:0.9.0")
 }
 ```
 </details>
@@ -62,7 +62,7 @@ dependencies {
 <dependency>
   <groupId>us.crazycrew.crazycrates</groupId>
   <artifactId>api</artifactId>
-  <version>0.9</version>
+  <version>0.9.0</version>
   <scope>provided</scope>
  </dependency>
 ```

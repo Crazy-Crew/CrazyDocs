@@ -1,0 +1,22 @@
+---
+/**
+ * Renders a sidebar topic icon from either source:
+ * - a file in `src/icons/` (e.g. "crazycrates") or an Iconify name (e.g. "mdi:shimmer") via astro-icon
+ * - otherwise a Starlight built-in icon (e.g. "open-book")
+ */
+import { Icon as StarlightIcon } from "@astrojs/starlight/components";
+import { Icon as AstroIcon } from "astro-icon/components";
+
+interface Props {
+  name: string;
+}
+
+const { name } = Astro.props;
+
+const localIcons = Object.keys(import.meta.glob("../icons/*.svg")).map((path) =>
+  path.replace("../icons/", "").replace(".svg", "")
+);
+const useAstroIcon = name.includes(":") || localIcons.includes(name);
+---
+
+{useAstroIcon ? <AstroIcon name={name} size="1em" /> : <StarlightIcon name={name as any} />}

@@ -5,6 +5,10 @@ description: Get started with CrazyVouchers API!
 slug: mods/crazyvouchers/dev/index
 ---
 
+:::caution
+No API artifact is published for the current version of CrazyVouchers (5.2.x). The last published artifact is `com.badbones69.crazyvouchers:crazyvouchers-paper-api:3.6.4`, which does not match the current plugin. Until a new API ships, compile against the plugin jar to use the [events](/mods/crazyvouchers/dev/usage/).
+:::
+
 ### Groovy
 <details>
  <summary>
@@ -21,7 +25,7 @@ repositories {
 
 ```groovy
 dependencies {
-    compileOnly "com.badbones69.crazyvouchers:crazyvouchers-paper-api:3.5.4"
+    compileOnly "com.badbones69.crazyvouchers:crazyvouchers-paper-api:3.6.4"
 }
 ```
 </details>
@@ -32,15 +36,15 @@ dependencies {
    Gradle (Kotlin)
  </summary>
 
-```groovy
+```kotlin
 repositories {
     maven("https://repo.crazycrew.us/releases")
 }
 ```
 
-```groovy
+```kotlin
 dependencies {
-    compileOnly("com.badbones69.crazyvouchers:"crazyvouchers-paper-api:"3.5.4")
+    compileOnly("com.badbones69.crazyvouchers:crazyvouchers-paper-api:3.6.4")
 }
 ```
 </details>
@@ -62,7 +66,7 @@ dependencies {
 <dependency>
     <groupId>com.badbones69.crazyvouchers</groupId>
     <artifactId>crazyvouchers-paper-api</artifactId>
-    <version>3.5.4</version>
+    <version>3.6.4</version>
     <scope>provided</scope>
 </dependency>
 ```

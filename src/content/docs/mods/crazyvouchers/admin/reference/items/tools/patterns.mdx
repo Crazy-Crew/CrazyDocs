@@ -8,6 +8,10 @@ import { Aside, Tabs } from "@astrojs/starlight/components";
 
 import TabCard from "@/components/other/TabCard.astro";
 
+<Aside type="note">
+    The map-style `items:` layout (`"1":` with `material:` and `settings:`) only applies when `root.use-different-items-layout: true` is set in `config.yml` (default `false`). You can migrate existing vouchers with `/crazyvouchers migrate -mt NewItemFormat`. Otherwise the map-style `items:` section is ignored.
+</Aside>
+
 <Aside type="tip">
     Pattern Keys: [Click Me](https://jd.papermc.io/paper/io/papermc/paper/registry/keys/BannerPatternKeys.html) `Description` is the field with the valid names, Make sure to remove `minecraft:` while adding to config.
 
@@ -20,21 +24,11 @@ import TabCard from "@/components/other/TabCard.astro";
     <TabCard label="Default">
       <Tabs>
         <TabCard label="Display">
-            ```yml
-            # The voucher section.
-            voucher:
-              # The item material.
-              item: "shield"
-              # Per item settings.
-              settings:
-                # The patterns to display on the shield.
-                patterns:
-                  base: white
-                  gradient_up: light_gray
-                  straight_cross: light_blue
-                  flower: light_blue
-                  half_horizontal: 255,0,0
-            ```
+            <Aside type="note">
+                Patterns are not read from the voucher-level `settings.patterns`, so the voucher item itself cannot show patterns.
+
+                Patterns only work per item, in `items.<n>.settings.patterns` (see the "Item" tab).
+            </Aside>
         </TabCard>
 
         <TabCard label="Item">
@@ -65,9 +59,10 @@ import TabCard from "@/components/other/TabCard.astro";
 
     <TabCard label="Legacy">
         <Aside>
-            There is no "Display" under `Legacy`, because the "Display" in `Default` is sufficient.
+            There is no "Display" under `Legacy`, because patterns only work per item.
         </Aside><br/>
 
+        <Tabs>
         <TabCard label="Item">
             ```yml
             # The voucher section.
@@ -79,5 +74,6 @@ import TabCard from "@/components/other/TabCard.astro";
                 - "item:shield, base:white, gradient_up:light_gray, straight_cross:light_blue, flower:light_blue, half_horizontal:255,0,0"
             ```
         </TabCard>
+        </Tabs>
     </TabCard>
 </Tabs>

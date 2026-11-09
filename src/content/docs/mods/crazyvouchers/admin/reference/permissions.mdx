@@ -1,32 +1,46 @@
 ---
-title: Permissions
-description: All available commands for CrazyVouchers.
+title: Commands & Permissions
+description: All available commands and permissions for CrazyVouchers.
 
 slug: mods/crazyvouchers/reference/commands
 ---
-**This page lists all permissions included in CrazyVouchers.**
+**This page lists all commands and permissions included in CrazyVouchers.**
 
 ## Commands
-| Command        | Aliases |
-|----------------|---------|
-| /crazyvouchers | /cv     |
+| Command        | Aliases             |
+|----------------|---------------------|
+| /crazyvouchers | /vouchers, /voucher |
 
-### Auction Permissions
-| Command                                                    | Permission Node       | Description                                                | Player has by default? |
-|------------------------------------------------------------|-----------------------|------------------------------------------------------------|------------------------|
-| /crazyvouchers`                                            | crazyvouchers.access  | Manager your vouchers however you want.                    | Unknown                |
-| /crazyvouchers help                                        | crazyvouchers.help    | Shows the help menu for crazyvouchers.                     | Unknown                |
-| /crazyvouchers reload                                      | crazyvouchers.reload  | Reloads the plugin.                                        | Unknown                |
-| /crazyvouchers admin/open                                  | crazyvouchers.open    | Shows a gui of easy to grab vouchers.                      | Unknown                |
-| /crazyvouchers types/list                                  | crazyvouchers.types   | Shows a list of voucher codes & items.                     | Unknown                |
-| /crazyvouchers redeem `<code> `                            | crazyvouchers.redeem  | Redeems a voucher code from the `codes` directory.         | Unknown                |
-| /crazyvouchers give `<type> <amount> <player> <arguments>` | crazyvouchers.give    | Gives a player a voucher from the `vouchers` directory.    | Unknown                |
-| /crazyvouchers giveall `<type> <amount> <arguments>`       | crazyvouchers.giveall | Gives all players a voucher from the `vouchers` directory. | Unknown                |
+### Command Permissions
+| Command                                                    | Permission Node        | Description                                                | Default |
+|------------------------------------------------------------|------------------------|------------------------------------------------------------|---------|
+| `/crazyvouchers`                                           | crazyvouchers.access   | Gates the base command, shows the help menu.               | OP      |
+| `/crazyvouchers help`                                      | crazyvouchers.help     | Shows the help menu for CrazyVouchers.                     | OP      |
+| `/crazyvouchers reload`                                    | crazyvouchers.reload   | Reloads the plugin.                                        | OP      |
+| `/crazyvouchers version`                                   | crazyvouchers.version  | Shows the plugin version and git commits.                  | OP      |
+| `/crazyvouchers open <page>` (alias: `admin`)              | crazyvouchers.open     | Shows a gui of easy to grab vouchers.                      | OP      |
+| `/crazyvouchers types` (alias: `list`)                     | crazyvouchers.types    | Shows a list of voucher codes & items.                     | OP      |
+| `/crazyvouchers redeem <code>`                             | crazyvouchers.redeem   | Redeems a voucher code from the `codes` directory.         | OP      |
+| `/crazyvouchers give <voucher> <amount> <player> [arg]`    | crazyvouchers.give     | Gives a player a voucher from the `vouchers` directory.    | OP      |
+| `/crazyvouchers giveall <voucher> <amount> [arg]`          | crazyvouchers.giveall  | Gives all players a voucher from the `vouchers` directory. | OP      |
+| `/crazyvouchers migrate -mt <type>`                        | crazyvouchers.migrate  | Migrates old vouchers/config to the new formats.           | OP      |
+
+#### Migration Types
+The values accepted by `/crazyvouchers migrate -mt <type>`:
+
+| Type                 |
+|----------------------|
+| `VouchersDeprecated` |
+| `VouchersNbtApi`     |
+| `VouchersSwitch`     |
+| `NewItemFormat`      |
+| `VouchersColor`      |
+| `VouchersRename`     |
 
 ### Misc Permissions
-| Permission Node       | Description                            | Player has by default? |
-|-----------------------|----------------------------------------|------------------------|
-| crazyvouchers.access  | Gives access to the help menu.         | Unknown                |
-| crazyvouchers.redeem  | Allows you to redeem a code.           | Unknown                |
-| crazyvouchers.migrate | Migrates old vouchers to new vouchers. | Unknown                |
-| crazyvouchers.admin   | Gives access to all admin commands.    | Unknown                |
+| Permission Node            | Description                                                                         | Default |
+|----------------------------|-------------------------------------------------------------------------------------|---------|
+| crazyvouchers.admin        | Shows all vouchers and codes in tab completion.                                     | OP      |
+| crazyvouchers.notify.duped | Notifies you if a duped voucher is used.                                            | OP      |
+| crazyvouchers.bypass       | Bypasses restrictions such as the limiter and code permission/world checks.          | OP      |
+| crazyvouchers.bypass.2fa   | Bypasses the two-factor confirmation when clicking a voucher.                        | OP      |
