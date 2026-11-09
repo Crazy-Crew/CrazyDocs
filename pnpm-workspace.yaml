@@ -14,3 +14,6 @@ allowBuilds:
   esbuild: true
   sharp: true
   workerd: true
+
+patchedDependencies:
+  starlight-sidebar-topics-dropdown: patches/starlight-sidebar-topics-dropdown.patch

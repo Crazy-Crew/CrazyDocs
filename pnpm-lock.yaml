@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  starlight-sidebar-topics-dropdown: 072a9e2a713561ea9134bb235f6f77d7bbf91af458bea764f004c9f3b6f6ca08
+
 importers:
 
   .:
@@ -43,7 +46,7 @@ importers:
         version: 0.9.0(@astrojs/starlight@0.42.6(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1))(supports-color@10.2.2))(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1))
       starlight-sidebar-topics-dropdown:
         specifier: ^0.7.0
-        version: 0.7.0(@astrojs/starlight@0.42.6(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1))(supports-color@10.2.2))(starlight-sidebar-topics@0.9.0(@astrojs/starlight@0.42.6(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1))(supports-color@10.2.2))(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1)))
+        version: 0.7.0(patch_hash=072a9e2a713561ea9134bb235f6f77d7bbf91af458bea764f004c9f3b6f6ca08)(@astrojs/starlight@0.42.6(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1))(supports-color@10.2.2))(starlight-sidebar-topics@0.9.0(@astrojs/starlight@0.42.6(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1))(supports-color@10.2.2))(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1)))
       vue:
         specifier: ^3.5.44
         version: 3.5.44
@@ -4697,7 +4700,7 @@ snapshots:
 
   space-separated-tokens@2.0.2: {}
 
-  starlight-sidebar-topics-dropdown@0.7.0(@astrojs/starlight@0.42.6(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1))(supports-color@10.2.2))(starlight-sidebar-topics@0.9.0(@astrojs/starlight@0.42.6(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1))(supports-color@10.2.2))(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1))):
+  starlight-sidebar-topics-dropdown@0.7.0(patch_hash=072a9e2a713561ea9134bb235f6f77d7bbf91af458bea764f004c9f3b6f6ca08)(@astrojs/starlight@0.42.6(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1))(supports-color@10.2.2))(starlight-sidebar-topics@0.9.0(@astrojs/starlight@0.42.6(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1))(supports-color@10.2.2))(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1))):
     dependencies:
       '@astrojs/starlight': 0.42.6(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1))(supports-color@10.2.2)
       starlight-sidebar-topics: 0.9.0(@astrojs/starlight@0.42.6(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1))(supports-color@10.2.2))(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1))

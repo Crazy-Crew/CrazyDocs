@@ -83,7 +83,7 @@ export default defineConfig({
                     id: "crazycrew",
                     label: "Home",
                     link: "/getting_started/overview/",
-                    icon: "starlight",
+                    icon: "mdi:home",
                     items: [
                         "getting_started/overview",
                         "getting_started/platforms"
@@ -355,7 +355,7 @@ export default defineConfig({
                     id: "chatmanager",
                     label: "ChatManager",
                     link: "/mods/chatmanager/",
-                    icon: "open-book",
+                    icon: "mdi:shimmer",
                     items: [
                         {
                             label: "Administration",
