@@ -1,5 +1,5 @@
 ---
-title: Radius
+title: Chat Radius
 ---
 ## Understanding Chat Radius
 Chat radius has three chat channels that players are allowed to talk to each other in, local chat, global chat, and world chat. Local chat only allows players to talk to one and another if they are in range. 
