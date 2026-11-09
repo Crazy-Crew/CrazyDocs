@@ -34,10 +34,6 @@ description: A list of commands with updated permissions
 | `/ce bottle <player> <xp> <amount>`                                             | `crazyenchantments.bottle`       | OP      | Give a player a bottle with the specified amount of xp stored.                                                                 |
 | `/ce check <player>` (alias `checkenchants`)                                    | `crazyenchantments.check`        | OP      | Loops through all armor that the specified player has and sends the information about what crazy enchantments they are using.  |
 
-:::caution
-In 2.8.1, `/ce spawn` reads the `-enchantment`, `-category` and `-world` flags under the wrong names, so it cannot currently drop a book. Use `/ce book` or `/ce lostbook` instead.
-:::
-
 ## Options
 | Option            | Permission                          | Default | Description                                                                                                                                  |
 |-------------------|-------------------------------------|---------|----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -51,17 +47,11 @@ In 2.8.1, `/ce spawn` reads the `-enchantment`, `-category` and `-world` flags u
 |---------------------|----------------------------------------------|---------|-----------------------------------------------------------------------------------------------------|
 | Max Enchantments    | `crazyenchantments.bypass.limit`             | false   | Bypasses the enchantment limit.                                                                     |
 | Aura Enchantments   | `crazyenchantments.bypass.aura`              | false   | Bypass all the aura enchantment effects.                                                            |
-| Enchant Blacklist   | `crazyenchantments.<enchantment>.deny`       | OP      | Stops players from being able to use an enchant. Replace `<enchantment>` with the enchantment name. Has no effect on operators. |
+| Enchant Blacklist   | `crazyenchantments.<enchantment>.deny`       | OP      | Stops players from being able to use an enchant. Replace `<enchantment>` with the enchantment name. |
 | Wings Enemy Bypass  | `crazyenchantments.bypass.wings`             | false   | Bypass the enemy detection for the wings enchantment.                                               |
 | Gkit Timers Bypass  | `crazyenchantments.bypass.gkitz`             | false   | Bypass the gkit cooldowns, and allows claiming any gkit.                                            |
 | GKit Give Bypass    | `crazyenchantments.gkitz.give`               | OP      | When a player with this is given a gkit through `/gkitz give`, the cooldown and kit permission are skipped. |
 | Protection Crystals | `crazyenchantments.bypass.protectioncrystal` | false   | Make protection crystals work every time.                                                           |
-
-:::caution
-`crazyenchantments.gkitz.<kit>` and `crazyenchantments.<enchantment>.deny` are not registered in `plugin.yml`, so operators have them by default.
-
-`crazyenchantments.<enchantment>.deny` only affects non-operators who are given it, because operators always pass the enchantment check.
-:::
 
 ## Permissions
 | Wildcard                     | Default | Description                                                                                                                                                                         |

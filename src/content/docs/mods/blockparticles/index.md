@@ -4,7 +4,7 @@ description: How to get started with BlockParticles
 ---
 ## Requirements
 :::tip
-BlockParticles requires **Paper 1.21.1** or newer (or a fork of Paper) and **Java 21** to run.
+BlockParticles requires you to use at least **Paper 26.X.X** or a fork of it and **Java 25** to run.
 :::
 
 :::caution

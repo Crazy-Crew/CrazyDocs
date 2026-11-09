@@ -11,10 +11,6 @@ Available Placeholders:
 Chat Format only:
 * `{radius}` - The players chat radius channel prefix, when Chat Radius is enabled.
 
-:::caution
-`{server_name}` appears in the default join and title messages, but it is currently not replaced by the plugin. Replace it with your server's name until this is fixed.
-:::
-
 PlaceholderAPI Placeholders:
 * %chatmanager_radius% - Shows what chat radius channel the player is in.
 * %chatmanager_toggle_pm% - Shows if toggle pm is enabled or disabled.

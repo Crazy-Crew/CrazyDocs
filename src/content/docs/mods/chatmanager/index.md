@@ -11,7 +11,7 @@ Our goal is to make Chat Manager as simple as possible to configure and customiz
 These pages should contain everything you need to use ChatManager. if you have any question feel free to join our [discord server](https://discord.gg/badbones-s-live-chat-182615261403283459)
 
 ### Requirements
-ChatManager runs on Paper, Folia, or Purpur for Minecraft 26.1.2 - 26.2, and requires Java 25.
+ChatManager requires you to use at least **Paper 26.X.X** or a fork of it and **Java 25** to run.
 
 ### Downloads
 [![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/compact/available/modrinth_46h.png)](https://modrinth.com/plugin/chatmanager)

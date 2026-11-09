@@ -57,10 +57,6 @@ slug: mods/crazycrates/reference/commands
 | `crazycrates.admin.*`   | Give all admin based permissions.   | crazycrates.open-others, crazycrates.forceopen, crazycrates.preview, crazycrates.additem, crazycrates.setmenu, crazycrates.giveall, crazycrates.convert, crazycrates.admin, crazycrates.debug, crazycrates.list, crazycrates.save, crazycrates.claim | OP      |
 | `crazycrates.players.*` | Give all player based permissions.  | crazycrates.key-others, crazycrates.gui, crazycrates.help                                                                                                                                                                     | OP      |
 
-:::caution
-`crazycrates.players.*` grants `crazycrates.key-others`, which is a misspelling of `crazycrates.keys-others`. To let players use `/keys view`, grant `crazycrates.keys-others` directly.
-:::
-
 ### Misc Permissions
 | Permission Node                            | Description                                                                                     | Default |
 |--------------------------------------------|-------------------------------------------------------------------------------------------------|---------|

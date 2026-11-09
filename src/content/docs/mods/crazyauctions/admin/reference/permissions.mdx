@@ -45,7 +45,6 @@ import TabCard from "@/components/other/TabCard.astro";
     - Both limits start at **0**: a player with no `sell.#` node cannot list with `/ca sell`, and a player with no `bid.#` node cannot list with `/ca bid`.
     - The limits are separate: `sell.#` (checked on `/ca sell`) counts only the player's selling listings, and `bid.#` (checked on `/ca bid`) counts only their bidding listings.
     - If a player has more than one node of the same kind, the highest number wins.
-    - Server operators can list up to 99 of each without any node, because the numbered nodes are not declared by the plugin and so default to OP.
     - Players with `crazyauctions.bypass` skip the limit.
 </Aside>
 

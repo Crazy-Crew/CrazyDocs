@@ -11,7 +11,7 @@ All of these settings live under `Messages` in the config.yml.
 
 ## Understanding first join messages
 First Join Messages is the first message players send when they join the server for the first time. This section offers the message, title message, and actionbar messages. 
-You can also set a sound that players will receive when a player joins the server for the first time. Note: the first-join sound is currently not played because of a config path bug.
+You can also set a sound that players will receive when a player joins the server for the first time.
 
 First Join Title Messages is the title the player will receive when they join the server for the first time. In this section you can set the Header (message on top), the Footer (message on the bottom), 
 as well as the time it will stay up for as in Fade In, Stay, Fade Out.
@@ -69,7 +69,5 @@ Messages:
 * `sound` - The sound played to everyone when a player in this group joins.
 
 Groups are checked from top to bottom and every group the player has the permission for is applied. Each one's actionbar, title and sound are sent, and with `Messages.Async: false` the last matching group's join/quit message is the one shown (with `Messages.Async: true` the first matching group's join message is broadcast). Opped players have every permission, so they match every group.
-
-The `{server_name}` placeholder used in the shipped messages is currently not replaced by the plugin, so replace it with your server's name. See [Placeholders](/mods/chatmanager/guides/placeholders/).
 
 If for some reason Join Messages don't send at all, please do /chatmanager debug config in console to see if you are missing any sections in the config. Missing sections can cause this feature not to work correctly.

@@ -6,7 +6,7 @@ slug: mods/crazyvouchers/dev/index
 ---
 
 :::caution
-No API artifact is published for the current version of CrazyVouchers (5.2.x). The last published artifact is `com.badbones69.crazyvouchers:crazyvouchers-paper-api:3.6.4`, which does not match the current plugin. Until a new API ships, compile against the plugin jar to use the [events](/mods/crazyvouchers/dev/usage/).
+No API artifact is published for the current version of CrazyVouchers (5.2.x). Until a new API ships, compile against the plugin jar to use the [events](/mods/crazyvouchers/dev/usage/).
 :::
 
 ### Groovy

@@ -23,7 +23,7 @@ Players can also switch channel by starting a chat message with that channel's o
 | Global  | `Chat_Radius.Global_Chat.Override_Symbol` | `!`     | chatmanager.chatradius.global.override |
 | World   | `Chat_Radius.World_Chat.Override_Symbol`  | `$`     | chatmanager.chatradius.world.override  |
 
-The message that starts with the symbol is sent to all players on the server. The player then stays in that channel for their next messages, the same as running `/chatradius {channel}`. The local and world symbols are removed from the message, but the global `!` stays in the message text.
+The player then stays in that channel for their next messages, the same as running `/chatradius {channel}`.
 
 ## Understanding Chat Radius Spy
 Chat radius spy allows staff to spy on all the chat channels at once. When you are in spy mode players chats will look like normal, 

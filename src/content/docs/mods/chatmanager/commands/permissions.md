@@ -85,7 +85,6 @@ Every permission node defaults to **OP**, except the grouped `chatmanager.chatra
 | chatmanager.bypass.bannedcommands | OP | Bypass the banned commands checker so players can use blacklisted commands. |
 | chatmanager.bypass.caps | OP | Bypass the anti-caps checker so players can use caps in chat. |
 | chatmanager.bypass.chatdelay | OP | Bypass the chat delay so players can spam in chat. |
-| chatmanager.bypass.chatradius | OP | Registered on startup, but not currently checked by the plugin. Use `chatmanager.chatradius.spy` (/chatradius spy) to see every channel. |
 | chatmanager.bypass.clearchat | OP | Bypass the clear chat so players chat wont be cleared. |
 | chatmanager.bypass.clearchat.onjoin | OP | Players with this permission wont have their chat cleared when they join the server. |
 | chatmanager.bypass.coloncommands | OP | Players with this permission can use colons in commands. |
@@ -98,7 +97,6 @@ Every permission node defaults to **OP**, except the grouped `chatmanager.chatra
 | chatmanager.bypass.socialspy | OP | Players with this permission cant be spied on with social spy. |
 | chatmanager.bypass.spectator | OP | Players with this permission can send private messages to players in spectator mode. |
 | chatmanager.bypass.togglepm | OP | Players with this permission can send private messages to players that has pm's disabled |
-| chatmanager.bypass.togglementions | OP | Registered on startup, but not currently checked by the plugin. |
 | chatmanager.bypass.vanish | OP | This permission will allow players to send private messages to players that are in vanish. |
 
 ## Chat Color and Format Permissions

@@ -14,8 +14,8 @@ The menu itself is configured in `config.yml` under the `gui` section:
 | `gui.inventory.name`          | The title of the menu.                                                                                       | `"<bold><gradient:#e91e63:blue>Crazy Crates</gradient></bold>"` |
 | `gui.inventory.rows`          | The amount of rows the menu has.                                                                             | `5`     |
 | `gui.inventory.buttons.menu`  | Not shown in the main menu. The button in crate previews and tier menus that returns to the main menu, only shown while `gui.toggle` is `true`. Set `override.toggle` to `true` to run the commands in `override.list` instead. |         |
-| `gui.inventory.buttons.next`  | Not shown in the main menu, which has no pages. The next page button in crate previews and the admin keys menu (`/crazycrates admin`). |         |
-| `gui.inventory.buttons.back`  | Not shown in the main menu, which has no pages. The previous page button in crate previews and the admin keys menu (`/crazycrates admin`). |         |
+| `gui.inventory.buttons.next`  | The next page button in crate previews and the admin keys menu (`/crazycrates admin`). |         |
+| `gui.inventory.buttons.back`  | The previous page button in crate previews and the admin keys menu (`/crazycrates admin`). |         |
 | `gui.inventory.buttons.filler.toggle` | Fill the menu with a single item.                                                                    | `false` |
 | `gui.inventory.buttons.customizer.toggle` | Enable per-slot items from `customizer.items`, i.e. `"slot:0, item:red_stained_glass_pane, name: "`. | `true`  |
 

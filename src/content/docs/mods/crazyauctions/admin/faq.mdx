@@ -23,7 +23,7 @@ import TabCard from "@/components/other/TabCard.astro";
         #### How do I limit how many items a player can list?
         - Give them `crazyauctions.sell.#` and/or `crazyauctions.bid.#`, replacing `#` with a number.
         - `sell.#` counts only the player's selling listings and `bid.#` counts only their bidding listings. If a player has more than one node of the same kind, the highest number wins.
-        - With no such node, the limit is 0 and the player cannot list. Server operators can list up to 99 of each without a node. `crazyauctions.bypass` skips the limit.
+        - With no such node, the limit is 0 and the player cannot list. `crazyauctions.bypass` skips the limit.
     </TabCard>
     <TabCard label="#4">
         #### Can I use MySQL or SQLite for storage?
