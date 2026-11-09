@@ -1,8 +1,8 @@
 ---
-title: Formatting
+title: Chat Formatting
 ---
 ## Chat Format
-Chat format is a simple yet powerful per-group chat formatting feature where players will automatically be placed in their chat format group, 
+Chat format is a simple yet powerful per-group chat formatting feature where players will automatically be placed in their chat format group,
 depending on which permission group they are in. A default chat format is added so if the players format group doesn't exist for their permissions rank, they will be placed in the default format group automatically.
 
 Per-group formats require Vault and a permissions plugin that registers Vault's chat and permission services, such as LuckPerms. ChatManager asks Vault for the player's **primary group** and uses that name as the key under `Groups`. Without Vault, everyone uses `Default_Format`.
@@ -65,7 +65,7 @@ You can add as many or as little groups as you like and configure them to your l
 
 **Important Information when using LuckPerms**
 
-If you are using the permissions plugin LuckPerms please make sure all the group names are set to **lowercase** when adding the groups to the chat format! ALSO, make sure you do NOT add a displayname to the groups, or they will not work with the chat format. 
+If you are using the permissions plugin LuckPerms please make sure all the group names are set to **lowercase** when adding the groups to the chat format! ALSO, make sure you do NOT add a displayname to the groups, or they will not work with the chat format.
 To see and remove the displayname do /lp editor, click the link, click the group, and remove the permission looking node displayname.`{name}` and that will remove it.
 
 ## Available Variables

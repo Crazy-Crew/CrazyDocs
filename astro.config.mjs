@@ -104,8 +104,8 @@ export default defineConfig({
                                 {
                                     label: "Reference",
                                     items: [
-                                        "mods/crazycrates/reference/placeholders",
                                         "mods/crazycrates/reference/commands",
+                                        "mods/crazycrates/reference/placeholders",
                                         {
                                             label: "Menus",
                                             items: [
@@ -309,6 +309,7 @@ export default defineConfig({
                                     label: "References",
                                     items: [
                                         "mods/crazyvouchers/reference/commands",
+                                        "mods/crazyvouchers/reference/weight-system",
                                         "mods/crazyvouchers/reference/placeholders",
                                         {
                                             label: "Items",

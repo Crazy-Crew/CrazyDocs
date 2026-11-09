@@ -1,26 +1,26 @@
 ---
-title: Join Quit Messages
+title: Join & Quit Messages
 ---
 ## Join & Quit messages
 
-This section will help you better understand the concept and the how to use Join and Quit messages. Chat Manager offers per group join and quit messages, so you can have a separate message for each group. 
-If you don't want to use them just keep `Group_Messages.Enable` set to `false` and enable the plain `Join_Message`, `Quit_Message`, `Actionbar_Message` and `Title_Message` sections instead. 
+This section will help you better understand the concept and the how to use Join and Quit messages. Chat Manager offers per group join and quit messages, so you can have a separate message for each group.
+If you don't want to use them just keep `Group_Messages.Enable` set to `false` and enable the plain `Join_Message`, `Quit_Message`, `Actionbar_Message` and `Title_Message` sections instead.
 Each section can be enabled/disabled and customized to your liking in any way.
 
 All of these settings live under `Messages` in the config.yml.
 
 ## Understanding first join messages
-First Join Messages is the first message players send when they join the server for the first time. This section offers the message, title message, and actionbar messages. 
+First Join Messages is the first message players send when they join the server for the first time. This section offers the message, title message, and actionbar messages.
 You can also set a sound that players will receive when a player joins the server for the first time.
 
-First Join Title Messages is the title the player will receive when they join the server for the first time. In this section you can set the Header (message on top), the Footer (message on the bottom), 
+First Join Title Messages is the title the player will receive when they join the server for the first time. In this section you can set the Header (message on top), the Footer (message on the bottom),
 as well as the time it will stay up for as in Fade In, Stay, Fade Out.
 
 First Join Actionbar Message is the message players will receive just above their hot bar when they join the server for the first time.
 
 ## Understanding join and quit messages
 
-Join Messages is the message players send when they join the server anytime after the first time they joined. Quit Messages is the message players send when they quit the server. 
+Join Messages is the message players send when they join the server anytime after the first time they joined. Quit Messages is the message players send when they quit the server.
 The plain sections live under `Messages.Join_Quit_Messages` (`Join_Message`, `Quit_Message`, `Actionbar_Message` and `Title_Message`), and each one has its own `Enable` toggle. `Join_Message` and `Quit_Message` also have a sound that's played to all players on the server.
 
 The Fade In, Stay and Fade Out times in `Title_Message` are used for both the plain title and every group title.
