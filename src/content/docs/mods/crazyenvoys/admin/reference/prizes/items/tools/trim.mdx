@@ -48,17 +48,16 @@ import TabCard from "@/components/other/TabCard.astro";
 </Tabs>
 
 <Tabs>
-    <TabCard label="Default">
-        <TabCard label="Item">
-            ```yml
-            # The prizes section.
-            Prizes:
-              # The name of the item, good for identification internally and externally.
-              "1":
-                # The items section.
-                Items:
-                  - "item:diamond_helmet, trim:bolt;amethyst"
-            ```
-        </TabCard>
+    <TabCard label="Item">
+        ```yml
+        # The prizes section.
+        Prizes:
+          # The name of the item, good for identification internally and externally.
+          "1":
+            # The items section.
+            Items:
+              # trim:<pattern>;<material>
+              - "item:diamond_helmet, trim:bolt;amethyst"
+        ```
     </TabCard>
 </Tabs>

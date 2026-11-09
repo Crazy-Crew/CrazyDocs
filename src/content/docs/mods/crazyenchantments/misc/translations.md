@@ -4,9 +4,11 @@ description: Translations made by our community!
 ---
 :::tip
 This requires you to fork CrazyDocs to make your changes and make a pull request!
-The layout of the page is undecided but that can be figured out eventually.
 :::
 * https://github.com/Crazy-Crew/CrazyDocs/pulls
+
+The bundled `Messages.yml` uses legacy `&` color codes and `#rrggbb` hex colors, so translations should use the same format.
+
 ## 25+ Translations by Enchantext 📁
 More than 25 CrazyEnchantments' **translations** are offered and updated regularly by the **Enchantext project**, which aims to bring **endless** translations for **popular plugins** around the Minecraft community.
 Languages are included in a single **deluxe Pack** downloadable on multiple marketplaces or by our Website (voxelinc.net/store).

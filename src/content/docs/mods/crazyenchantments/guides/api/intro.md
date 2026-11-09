@@ -2,6 +2,10 @@
 title: Developer API
 description: Get started with the api
 ---
+:::caution
+The latest published `crazyenchantments-paper-api` is 2.5, released in August 2024. The current plugin does not publish an API, so this artifact does not match current plugin versions.
+:::
+
 ## Groovy
 <details>
  <summary>
@@ -29,13 +33,13 @@ dependencies {
    Gradle (Kotlin)
  </summary>
 
-```groovy
+```kotlin
 repositories {
     maven("https://repo.crazycrew.us/releases")
 }
 ```
 
-```groovy
+```kotlin
 dependencies {
     compileOnly("com.badbones69.crazyenchantments", "crazyenchantments-paper-api", "2.5")
 }

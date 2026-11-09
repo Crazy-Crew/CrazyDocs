@@ -4,6 +4,10 @@ description: Get started with CrazyEnvoys API!
 
 slug: mods/crazyenvoys/dev/index
 ---
+:::caution
+The newest published API is `com.badbones69.crazyenvoys:crazyenvoys-paper-api:1.8.2`, released in December 2023. No newer API has been published: the current build's `us.crazycrew.crazyenvoys:api:0.1.0` is not on the repository, so 1.8.2 may not match the latest plugin.
+:::
+
 ### Groovy
 <details>
  <summary>
@@ -31,13 +35,13 @@ dependencies {
    Gradle (Kotlin)
  </summary>
 
-```groovy
+```kotlin
 repositories {
     maven("https://repo.crazycrew.us/releases")
 }
 ```
 
-```groovy
+```kotlin
 dependencies {
     compileOnly("com.badbones69.crazyenvoys", "crazyenvoys-paper-api", "1.8.2")
 }

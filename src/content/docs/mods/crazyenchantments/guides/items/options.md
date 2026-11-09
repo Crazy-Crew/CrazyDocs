@@ -5,13 +5,13 @@ description: An in-depth guide on how to use the `Items:` section!
 ## List of all values that can be used in the `Items:` option
 
 ### Useful Links
-* [Material Names](https://jd.papermc.io/paper/1.21.4/org/bukkit/Material.html)
+* [Material Names](https://jd.papermc.io/paper/org/bukkit/Material.html)
 
-* [Enchantment Names](https://jd.papermc.io/paper/1.21.4/org/bukkit/enchantments/Enchantment.html) 
-* [Leather/Potion Color Names](https://jd.papermc.io/paper/1.21.4/org/bukkit/Color.html)
-* [Item Flags](https://jd.papermc.io/paper/1.21.4/org/bukkit/inventory/ItemFlag.html)
-* [Mob Types](https://jd.papermc.io/paper/1.21.4/org/bukkit/entity/EntityType.html)
-* [Potion Types](https://jd.papermc.io/paper/1.21.4/org/bukkit/potion/PotionType.html)
+* [Enchantment Names](https://jd.papermc.io/paper/org/bukkit/enchantments/Enchantment.html) 
+* [Leather/Potion Color Names](https://jd.papermc.io/paper/org/bukkit/Color.html)
+* [Item Flags](https://jd.papermc.io/paper/org/bukkit/inventory/ItemFlag.html)
+* [Mob Types](https://jd.papermc.io/paper/org/bukkit/entity/EntityType.html)
+* [Potion Types](https://jd.papermc.io/paper/org/bukkit/potion/PotionType.html)
 
 ### `Item:`
 #### Description
@@ -147,4 +147,4 @@ Items:
 ```
 
 ### `Patterns`
-[Wiki Page: Banner Patterns](types/shields-banners.md)
+[Wiki Page: Banner Patterns](/mods/crazyenchantments/guides/items/types/shields-banners/)

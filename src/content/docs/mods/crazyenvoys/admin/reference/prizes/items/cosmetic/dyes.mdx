@@ -17,15 +17,28 @@ import TabCard from "@/components/other/TabCard.astro";
 </Aside>
 
 <Tabs>
-    <TabCard label="Item">
+    <TabCard label="Color">
         ```yml
         # The prizes section.
         Prizes:
           # The name of the prize.
           "1":
-            # Prize display preview settings
+            # The items section.
             Items:
-              - "Item:POTION:GREEN"
+              # Uses a color name.
+              - "Item:leather_chestplate, Color:green, Amount:1"
+        ```
+    </TabCard>
+    <TabCard label="RGB">
+        ```yml
+        # The prizes section.
+        Prizes:
+          # The name of the prize.
+          "1":
+            # The items section.
+            Items:
+              # Uses red,green,blue values. Do not put spaces between the numbers.
+              - "Item:leather_chestplate, RGB:229,164,229, Amount:1"
         ```
     </TabCard>
 </Tabs>

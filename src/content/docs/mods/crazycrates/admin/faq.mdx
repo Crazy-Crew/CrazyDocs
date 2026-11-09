@@ -20,7 +20,7 @@ import TabCard from "@/components/other/TabCard.astro";
     </TabCard>
     <TabCard label="#2">
         #### How does the weight system work?
-        Check out [this page](reference/prizes/weight-system) to figure out how the system works!
+        Check out [this page](/mods/crazycrates/reference/prizes/weight-system/) to figure out how the system works!
     </TabCard>
 </Tabs>
 
@@ -37,13 +37,6 @@ import TabCard from "@/components/other/TabCard.astro";
 
 </Steps>
 
-### 2. Why can't my players open crates, but people who have /op etc. can?
-<Tabs>
-    <TabCard label="#1">
-        Set `spawn-protection` to 0 in `server.properties` then restart your server!
-    </TabCard>
-</Tabs>
-
 ### 2. HideItemFlags no longer works, what do I use now?
 <Tabs>
     <Aside type="note">
@@ -56,6 +49,8 @@ import TabCard from "@/components/other/TabCard.astro";
         The names we are specifically looking for are under the `Description` column, and you must remove `minecraft:`
 
         Not all components found here can be used on ItemStacks, but through trial and error. You will found out which ones can be used.
+
+        For the crate's own menu item (the `Item` option at the top of a crate file), `Components` and `flags.components` only take effect when `Hide-Flags: true` is set.
     </Aside>
 
     <TabCard label="Default">
@@ -73,7 +68,14 @@ import TabCard from "@/components/other/TabCard.astro";
     </TabCard>
 </Tabs>
 
-### 3. Why cant I use physical keys on crates?
+### 3. Why can't my players open crates, but people who have /op etc. can?
+<Tabs>
+    <TabCard label="#1">
+        Set `spawn-protection` to 0 in `server.properties` then restart your server!
+    </TabCard>
+</Tabs>
+
+### 4. Why cant I use physical keys on crates?
 <Tabs>
     <TabCard label="Reason">
         Certain Items such as a `Tripwire Hook` cannot be used on blocks.
@@ -84,13 +86,6 @@ import TabCard from "@/components/other/TabCard.astro";
         Try using an item that is not a `Tripwire Hook` such as `Feather`
     </TabCard>
 </Tabs>
-
-### 4. What do I need to do? I've been using the old way of doing Prizes.
-<Steps>
-    1. Run the command /crazycrates migrate -mt [NewItemFormat/CratesDeprecated]
-
-    2. You can specify a crate name by doing /crazycrates migrate -mt [insert_migration_type] -c [crate_name]
-</Steps>
 
 ### 5. What are the crate types?
 *All types are case-sensitive, and everything under Generic requires no special configuration*
@@ -104,6 +99,7 @@ import TabCard from "@/components/other/TabCard.astro";
             <summary>Crate Types</summary>
 
             - CrateOnTheGo
+            - CSGO
             - FireCracker
             - QuickCrate
             - QuadCrate
@@ -112,6 +108,11 @@ import TabCard from "@/components/other/TabCard.astro";
             - Wheel
             - War
         </details>
+
+        <Aside type="note">
+            `QuadCrate` also uses the `structure` settings (`random`, and `file` which points to an `.nbt` file in the `schematics` folder) and the `particles` settings (`type` and `color`).
+            See the default `QuadCrate.yml` for an example.
+        </Aside>
     </TabCard>
 
     <TabCard label="Casino">
@@ -318,3 +319,10 @@ import TabCard from "@/components/other/TabCard.astro";
         ```
     </TabCard>
 </Tabs>
+
+### 6. What do I need to do? I've been using the old way of doing Prizes.
+<Steps>
+    1. Run the command /crazycrates migrate -mt [NewItemFormat/CratesDeprecated]
+
+    2. You can specify a crate name by doing /crazycrates migrate -mt [insert_migration_type] -c [crate_name]
+</Steps>

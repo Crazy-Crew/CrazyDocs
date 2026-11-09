@@ -2,6 +2,10 @@
 title: Developer API
 description: Get started with the api
 ---
+:::caution
+The current source does not publish an API artifact. `1.13` is the latest version these docs reference, and it may not match the current plugin.
+:::
+
 ### Groovy
 <details>
  <summary>
@@ -29,13 +33,13 @@ dependencies {
    Gradle (Kotlin)
  </summary>
 
-```groovy
+```kotlin
 repositories {
     maven("https://repo.crazycrew.us/releases")
 }
 ```
 
-```groovy
+```kotlin
 dependencies {
     compileOnly("com.badbones69.blockparticles:blockparticles-paper-api:1.13")
 }

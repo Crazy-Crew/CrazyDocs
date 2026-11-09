@@ -10,16 +10,18 @@ RGB: `<Pattern>:<Red>,<Green>,<Blue>`
 <details>
   <summary>Dye Colors</summary>
 
-* https://jd.papermc.io/paper/1.21.4/org/bukkit/DyeColor.html
+* https://jd.papermc.io/paper/org/bukkit/DyeColor.html
 </details>
 
 <details>
   <summary>Pattern Types</summary>
 
-* https://jd.papermc.io/paper/1.21.4/org/bukkit/block/banner/PatternType.html
+* https://jd.papermc.io/paper/org/bukkit/block/banner/PatternType.html
 </details>
 
-*Note that the RGB option may not always work due to some internal stuff in MC that doesn't always let every colorwork.
+:::note
+The RGB option may not always work due to some internal stuff in MC that doesn't always let every color work.
+:::
 
 ### Display Items
 If you wish to add the colors and patterns to your shields and banners this is how you would for the Display Items.
@@ -67,4 +69,6 @@ Example:
 Items:
   - 'Item:shield, HALF_HORIZONTAL:255,0,0'
 ```
-*Note `255,0,0` is red in RGB.
+:::note
+`255,0,0` is red in RGB.
+:::

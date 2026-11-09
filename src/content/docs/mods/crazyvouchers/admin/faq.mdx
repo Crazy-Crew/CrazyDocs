@@ -29,8 +29,19 @@ import TabCard from "@/components/other/TabCard.astro";
           # All options when they right-click it.
           options:
             # If the player has to confirm claiming the voucher.
-            two-step-authentication: false
+            two-step-authentication: true
+            # The confirmation settings.
+            two-factor:
+              # The messages to send to confirm.
+              message:
+                - "{prefix}<gray>Right click again to confirm that you want to use this voucher."
         ```
+
+        <Aside type="note">
+            The plugin reads the toggle from `options.two-step-authentication`. If that key is missing, it reads `two-factor.toggle` from the voucher root instead, not from `options`, so the `options.two-factor.toggle` key in the shipped `vouchers/Example.yml` is ignored (upstream bug).
+
+            Players with `crazyvouchers.bypass.2fa` skip the confirmation.
+        </Aside>
     </TabCard>
 </Tabs>
 
@@ -42,5 +53,25 @@ import TabCard from "@/components/other/TabCard.astro";
 
     <TabCard label="Can I use player heads?">
         * Yes
+    </TabCard>
+</Tabs>
+
+### 3. My voucher or code stops working after one use with the limiter on
+<Tabs>
+    <TabCard label="Fix">
+        The plugin reads the limit from `options.limiter.limit`, which defaults to `0`.
+
+        The shipped example files use `options.limiter.amount`, which the plugin ignores (upstream bug), so with `toggle: true` the voucher (or code) is blocked after its first use. Set `limit` instead:
+
+        ```yml
+        voucher:
+          options:
+            # Limiter related settings.
+            limiter:
+              # If this should be enabled.
+              toggle: true
+              # The max number of uses for the voucher.
+              limit: 10
+        ```
     </TabCard>
 </Tabs>

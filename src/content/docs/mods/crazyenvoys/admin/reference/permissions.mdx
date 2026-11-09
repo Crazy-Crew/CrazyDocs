@@ -1,33 +1,40 @@
 ---
-title: Permissions
-description: All available commands for CrazyEnvoys.
+title: Commands & Permissions
+description: All available commands and permissions for CrazyEnvoys.
 
 slug: mods/crazyenvoys/reference/commands
 ---
-**This page lists all permissions included in CrazyEnvoys.**
+**This page lists all commands and permissions included in CrazyEnvoys.**
 
 ## Commands
-| Command      | Aliases |
-|--------------|---------|
-| /crazyenvoys | /cev    |
+| Command      | Aliases          |
+|--------------|------------------|
+| /crazyenvoys | /envoys, /envoy  |
 
-### Auction Permissions
-| Command                          | Permission Node  | Description                                                                    | Player has by default? |
-|----------------------------------|------------------|--------------------------------------------------------------------------------|------------------------|
-| /envoy /envoy time               | envoy.time       | Shows the time till the envoy starts or ends.                                  | Yes                    |
-| /envoy help                      | envoy.help       | Shows all crazy envoy commands.                                                | Yes                    |
-| /envoy reload                    | envoy.reload     | Reloads all the files and tiers.                                               | No                     |
-| `/envoy drops [page]`            | envoy.drops      | Shows all the current crate locations.                                         | Yes                    |
-| /envoy ignore                    | envoy.ignore     | Mutes the envoy collecting message for the user.                               | Yes                    |
-| `/envoy flare [amount] [player]` | envoy.flare.give | Gives a player a flare to start the envoy.                                     | No                     |
-| /envoy edit                      | envoy.edit       | Sets the player into editor mode which allows them to edit the drop locations. | false                  |
-| /envoy start                     | envoy.start      | Starts the envoy event.                                                        | false                  |
-| /envoy stop                      | envoy.stop       | Stops the current envoy event.                                                 | false                  |
-| /envoy center                    | envoy.center     | Sets the center for the random crate drops.                                    | false                  |
+### Command Permissions
+| Command                                                      | Aliases  | Permission Node     | Description                                                                                                     | Default |
+|--------------------------------------------------------------|----------|---------------------|-----------------------------------------------------------------------------------------------------------------|---------|
+| /envoy, /envoy time                                          |          | envoy.time          | Shows the time till the envoy starts or ends.                                                                   | true    |
+| /envoy help                                                  |          | envoy.help          | Shows all crazy envoy commands.                                                                                 | true    |
+| `/envoy drop <page>`                                         | drops    | envoy.drops         | Shows all the current crate locations.                                                                          | true    |
+| `/envoy ignore [-s\|-n]`                                     |          | envoy.ignore        | Mutes the envoy collecting message for the user. `-s` toggles silently, `-n` stops ignoring.                    | true    |
+| /envoy reload                                                |          | envoy.reload        | Reloads all the files and tiers.                                                                                | OP      |
+| `/envoy flare <amount> <player>`                             |          | envoy.flare.give    | Gives a player a flare to start the envoy.                                                                      | OP      |
+| /envoy edit                                                  |          | envoy.edit          | Sets the player into editor mode which allows them to edit the drop locations.                                  | OP      |
+| /envoy clear                                                 |          | envoy.clear         | Clears all drop locations. Only works while you are in editor mode (`/envoy edit`).                             | OP      |
+| /envoy start                                                 | begin    | envoy.start         | Starts the envoy event.                                                                                         | OP      |
+| /envoy stop                                                  | end      | envoy.stop          | Stops the current envoy event.                                                                                  | OP      |
+| /envoy center                                                |          | envoy.center        | Sets the center for the random crate drops.                                                                     | OP      |
+| `/crazyenvoys migrate -mt <MojangMappedAll\|LegacyColorAll>` |          | crazyenvoys.migrate | Migrates your files. `MojangMappedAll` converts item and block names to lowercase (Mojang mapped) names, `LegacyColorAll` converts legacy `&` color codes to MiniMessage. | OP      |
+
+:::caution
+The `<player>` argument of `/envoy flare` is **required**. The command shows it as optional, but leaving it out throws an error (upstream bug).
+:::
 
 ### Misc Permissions
-| Permission Node | Description                                             | Player has by default? |
-|-----------------|---------------------------------------------------------|------------------------|
-| envoy.flare.use | Allows you to use flares.                               | No                     |
-| envoy.locations | Allows you to see envoy locations when an event starts. | No                     |
-| envoy.bypass    | Allows you to use all commands.                         | No                     |
+| Permission Node       | Description                                                                                          | Default |
+|-----------------------|------------------------------------------------------------------------------------------------------|---------|
+| envoy.flare.use       | Allows you to use flares.                                                                            | false   |
+| envoy.locations       | Allows you to see the envoy locations when an event starts. The list is always sent to players with this permission, limited to the `envoys.world-messages.worlds` worlds while `envoys.world-messages.toggle` is `true`. `envoys.broadcast` only controls whether players who ran `/envoy ignore` are skipped, not whether the list is sent. | false   |
+| envoy.bypass          | Skips the grace period, the grab cooldown and the tier claim permission when claiming an envoy.      | OP      |
+| envoy.gamemode-bypass | Allows you to claim envoys while in creative mode. Not declared in plugin.yml, so Bukkit's default applies: operators have it and non-ops need it granted. | OP      |

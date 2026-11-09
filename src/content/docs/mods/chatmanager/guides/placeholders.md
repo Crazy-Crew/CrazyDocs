@@ -6,7 +6,14 @@ PlaceholderAPI is supported in `all` aspects of the plugin except for console me
 Available Placeholders:
 * `{player}` - Shows the players name.
 * `{prefix}` - Shows the prefix that's set in the messages file.
-* `{server_name}` - Shows the server name, can be configured in the config.
+* `{message}` - The message the player typed. Used in the chat format, staff chat, social spy, announcement and warning messages, and the staff notification formats.
+
+Chat Format only:
+* `{radius}` - The players chat radius channel prefix, when Chat Radius is enabled.
+
+:::caution
+`{server_name}` appears in the default join and title messages, but it is currently not replaced by the plugin. Replace it with your server's name until this is fixed.
+:::
 
 PlaceholderAPI Placeholders:
 * %chatmanager_radius% - Shows what chat radius channel the player is in.

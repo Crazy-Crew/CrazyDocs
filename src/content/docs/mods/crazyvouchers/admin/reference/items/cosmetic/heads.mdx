@@ -9,6 +9,10 @@ import { Steps } from "@astrojs/starlight/components";
 
 import TabCard from "@/components/other/TabCard.astro";
 
+<Aside type="note">
+    The map-style `items:` layout (`"1":` with `material:` and `settings:`) only applies when `root.use-different-items-layout: true` is set in `config.yml` (default `false`). You can migrate existing vouchers with `/crazyvouchers migrate -mt NewItemFormat`. Otherwise the map-style `items:` section is ignored.
+</Aside>
+
 <Tabs>
     <TabCard label="Default">
         <Aside type="tip">

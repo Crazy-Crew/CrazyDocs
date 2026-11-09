@@ -12,7 +12,7 @@ CrazyEnchantments requires you to use at least **Paper 26.X.X** or a fork of and
 [![Modrinth](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy-minimal/available/modrinth_64h.png)](https://modrinth.com/plugin/crazyenchantments)
 
 ### Feature Requests
-https://github.com/Crazy-Crew/CrazyEnchantments/issues
+https://github.com/Crazy-Crew/CrazyEnchantments/issues/new?labels=type%3A+feature&template=features.yml
 
 ### Bug Reports
-https://github.com/Crazy-Crew/CrazyEnchantments/issues
+https://github.com/Crazy-Crew/CrazyEnchantments/issues/new?assignees=ryderbelserion&labels=type%3A+bug&template=bugs.yml
