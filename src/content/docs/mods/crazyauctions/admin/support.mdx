@@ -10,7 +10,6 @@ import { Aside, Tabs } from "@astrojs/starlight/components";
 
 import { Image } from "astro:assets";
 
-import Polymart from "@/assets/platforms/cozy/polymart.svg";
 import Modrinth from "@/assets/platforms/cozy/modrinth.svg";
 import Spigot from "@/assets/platforms/cozy/spigot.svg";
 
@@ -29,7 +28,7 @@ import Spigot from "@/assets/platforms/cozy/spigot.svg";
 
 ### Item Plugins
 <Aside type="note">
-    Only **Oraxen** has a code hook right now. ItemsAdder and Nexo are listed as soft dependencies but are **not currently integrated**.
+    Only **Oraxen** is supported: GUI buttons in `config.yml` can use an Oraxen item ID as their `Item`.
 </Aside>
 
 <Tabs>
@@ -38,23 +37,11 @@ import Spigot from "@/assets/platforms/cozy/spigot.svg";
             <Image src={Spigot} alt="Spigot Logo"/>
         </a>
     </TabCard>
-    <TabCard label="ItemsAdder (not currently integrated)">
-        <a href="https://www.spigotmc.org/resources/%E2%9C%A8itemsadder%E2%AD%90emotes-mobs-items-armors-hud-gui-emojis-blocks-wings-hats-liquids.73355/" style={"width: fit-content;"}>
-            <Image src={Spigot} alt="Spigot Logo"/>
-        </a>
-    </TabCard>
-    <TabCard label="Nexo (not currently integrated)">
-        <a href="https://polymart.org/resource/nexo.6901">
-            <Image src={Polymart} alt="Polymart Logo"/>
-        </a>
-    </TabCard>
 </Tabs>
 
 ### Other Plugins
 <Aside type="note">
-    PlaceholderAPI placeholders are parsed in GUI item names and lore only. CrazyAuctions does **not** provide its own PlaceholderAPI expansion.
-
-    HeadDatabase is listed as a soft dependency but is **not currently integrated**.
+    PlaceholderAPI placeholders are parsed in single-line plugin messages (`messages.yml`) sent to players. GUI item names and lore are not parsed. CrazyAuctions does **not** provide its own PlaceholderAPI expansion.
 </Aside>
 
 <Tabs>

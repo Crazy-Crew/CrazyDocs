@@ -49,7 +49,7 @@ Try out `Rage-Boss-Bar: true` in config.yml or set the message to ''.
 - 2.0.0 will work with all builds after.
 - 1.9.9.4-rc was a test build and is not compatible with any other builds.
 - 1.9.9.3 items and below will not work on newer versions.
-  - `/ce updateenchants` could be used to convert enchanted items only, but it has since been removed. `/ce migrate` only migrates configuration files, not items.
+  - `/ce updateenchants` could be used to convert enchanted items only, but it has since been removed. `/ce convert` only converts `Tinker.yml` to the current format, not items.
 - Check the [modrinth versions tab](https://modrinth.com/plugin/crazyenchantments/versions) for server version compatability.
 
 ### 11. Where is the API?

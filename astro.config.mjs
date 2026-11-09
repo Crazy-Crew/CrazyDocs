@@ -59,8 +59,8 @@ export default defineConfig({
                 href: 'https://discord.gg/badbones-s-live-chat-182615261403283459'
             },
             {
-                icon: 'heart',
-                label: 'Ko-fi',
+                icon: 'patreon',
+                label: 'Kofi',
                 href: 'https://ko-fi.com/ryderbelserion'
             }
         ],
@@ -354,7 +354,7 @@ export default defineConfig({
                     id: "chatmanager",
                     label: "ChatManager",
                     link: "/mods/chatmanager/",
-                    icon: "mdi:chat-processing",
+                    icon: "open-book",
                     items: [
                         {
                             label: "Administration",
@@ -372,7 +372,7 @@ export default defineConfig({
                     id: "blockparticles",
                     label: "BlockParticles",
                     link: "/mods/blockparticles/",
-                    icon: "mdi:shimmer",
+                    icon: "blockparticles",
                     items: [
                         {
                             label: "Administration",

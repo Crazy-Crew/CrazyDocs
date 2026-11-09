@@ -11,9 +11,8 @@ The layout of the page is undecided but that can be figured out eventually.
 * https://github.com/Crazy-Crew/CrazyDocs/pulls
 
 :::caution
-Current versions of CrazyAuctions use **MiniMessage** formatting in `config.yml` and `messages.yml`.
-The translations linked as 1.8.8-1.12.2 / 1.13+ gists were made for old versions and are **legacy**: they use the old `&` color codes and may be missing newer options.
-`/crazyauctions migrate legacy_messages` converts messages.yml. `legacy_config` only converts `Settings.Prefix`, so other color codes in a legacy config.yml must be updated by hand.
+CrazyAuctions uses `&` color codes (and `#rrggbb` hex colors) in `config.yml` and `messages.yml`. MiniMessage tags are not supported and show up as plain text.
+The translations linked as 1.8.8-1.12.2 / 1.13+ gists were made for old versions and may be missing newer options.
 :::
 
 ### Italiano:
@@ -41,8 +40,8 @@ Languages are included in a single **deluxe Pack** downloadable on multiple mark
 |-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------|
 | Spanish, French, German, Dutch, Italian, Lithuanian, Hungarian, Polish, Slovak, Danish, Portuguese, Greek, Estonian, Romanian, Swedish. | Uzbek, Russian, Ukrainian, Hebrew, Arabic, Thai, Hindi, Bengali, Burmese, Khmer, Japanese, Korean, Vietnamese, Filipino, Turkish, Indonesian. | Maori (NZ) |
 
-| Every file is Drag & Drop, just select the one you like and import it into the plugin's language folder, reload to apply changes. |
-|-----------------------------------------------------------------------------------------------------------------------------------|
+| Every file is Drag & Drop, just select the one you like and import it into the plugin's folder, reload to apply changes. |
+|--------------------------------------------------------------------------------------------------------------------------|
 
 **<p style="text-align:center;">Where to download?</p>**
 

@@ -6,9 +6,9 @@ PlaceholderAPI is supported in `all` aspects of the plugin except for console me
 Available Placeholders:
 * `{player}` - Shows the players name.
 * `{prefix}` - Shows the prefix that's set in the messages file.
+* `{message}` - The message the player typed. Used in the chat format, staff chat, social spy, announcement and warning messages, and the staff notification formats.
 
 Chat Format only:
-* `{message}` - The message the player typed.
 * `{radius}` - The players chat radius channel prefix, when Chat Radius is enabled.
 
 :::caution

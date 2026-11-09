@@ -7,7 +7,7 @@ This requires you to fork CrazyDocs to make your changes and make a pull request
 :::
 * https://github.com/Crazy-Crew/CrazyDocs/pulls
 
-The bundled `Messages.yml` uses [MiniMessage](https://docs.advntr.dev/minimessage/format.html) formatting, so translations should use MiniMessage tags as well.
+The bundled `Messages.yml` uses legacy `&` color codes and `#rrggbb` hex colors, so translations should use the same format.
 
 ## 25+ Translations by Enchantext 📁
 More than 25 CrazyEnchantments' **translations** are offered and updated regularly by the **Enchantext project**, which aims to bring **endless** translations for **popular plugins** around the Minecraft community.

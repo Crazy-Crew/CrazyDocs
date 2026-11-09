@@ -12,7 +12,7 @@ If chat manager isn't working please go in console and restart the server and lo
 Vault is optional. It is only needed for per-group chat formats, where ChatManager uses Vault (chat + permission services) to look up the player's primary group.
 
 ### 3. Why can't my players use any commands or features?
-Almost every ChatManager permission node defaults to OP (the grouped `.all` nodes default to false), so normal players have none of them until you grant them with your permissions plugin.
+Almost every ChatManager permission node defaults to OP (the grouped `chatmanager.chatradius.all`, `chatmanager.bypass.all`, `chatmanager.commands.all` and `chatmanager.notify.all` nodes default to false), so normal players have none of them until you grant them with your permissions plugin.
  * Common player nodes are `chatmanager.message`, `chatmanager.reply`, `chatmanager.mention`, `chatmanager.mention.receive`, `chatmanager.rules`, `chatmanager.ping`, `chatmanager.toggle.pm`, `chatmanager.toggle.chat` and `chatmanager.toggle.togglementions`.
  * A player needs `chatmanager.mention` to send mentions, and the target needs `chatmanager.mention.receive` to be notified.
  * See [Permissions](/mods/chatmanager/commands/permissions/) for the full list.

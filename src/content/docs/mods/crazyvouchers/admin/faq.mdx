@@ -28,17 +28,17 @@ import TabCard from "@/components/other/TabCard.astro";
           item: 'diamond_helmet'
           # All options when they right-click it.
           options:
-            # Enables the ability to require a player to confirm claiming the voucher.
+            # If the player has to confirm claiming the voucher.
+            two-step-authentication: true
+            # The confirmation settings.
             two-factor:
-              # If this should be enabled.
-              toggle: false
               # The messages to send to confirm.
               message:
                 - "{prefix}<gray>Right click again to confirm that you want to use this voucher."
         ```
 
         <Aside type="note">
-            The legacy `options.two-step-authentication` key still works, and if it is present it takes precedence over `options.two-factor.toggle`.
+            The plugin reads the toggle from `options.two-step-authentication`. If that key is missing, it reads `two-factor.toggle` from the voucher root instead, not from `options`, so the `options.two-factor.toggle` key in the shipped `vouchers/Example.yml` is ignored (upstream bug).
 
             Players with `crazyvouchers.bypass.2fa` skip the confirmation.
         </Aside>

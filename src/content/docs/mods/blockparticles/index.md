@@ -4,11 +4,11 @@ description: How to get started with BlockParticles
 ---
 ## Requirements
 :::tip
-BlockParticles requires **Paper 1.21.11** or newer (or a fork of Paper) and **Java 21** to run.
+BlockParticles requires **Paper 1.21.1** or newer (or a fork of Paper) and **Java 21** to run.
 :::
 
 :::caution
-Folia is not currently supported. The plugin does not declare `folia-supported` in its `plugin.yml`.
+Folia is not currently supported.
 :::
 
 ### Downloading BlockParticles

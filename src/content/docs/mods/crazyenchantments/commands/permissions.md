@@ -19,7 +19,8 @@ description: A list of commands with updated permissions
 | `/ce info [enchantment]`                                                        | `crazyenchantments.info`         | OP      | Shows info on all enchantments.                                                                                                |
 | `/ce reload`                                                                    | `crazyenchantments.reload`       | OP      | Reloads all the configuration files.                                                                                           |
 | `/ce debug`                                                                     | `crazyenchantments.debug`        | OP      | Checks your configuration for enchantments or enchantment types that are missing or broken.                                    |
-| `/ce migrate <broken_enchantments/legacy_to_minimessage/missing_options/tinker>` | `crazyenchantments.migrate`     | OP      | Runs a migration on your configuration files.                                                                                  |
+| `/ce convert`                                                                   | `crazyenchantments.convert`      | OP      | Converts an old-format `Tinker.yml` to the current format. The old file is kept as `Tinker-v1.yml`.                            |
+| `/ce fix`                                                                       | `crazyenchantments.fix`          | OP      | Adds default entries to `Enchantments.yml` for any enchantments that are missing from it.                                      |
 | `/ce remove <enchantment>`                                                      | `crazyenchantments.remove`       | OP      | Removes an enchantment from the item in your hand.                                                                             |
 | `/ce add <enchantment> <level>`                                                 | `crazyenchantments.add`          | OP      | Adds an enchantment to the item in your hand.                                                                                  |
 | `/ce spawn [-enchantment <name>/-category <name>] [-world <world>] [-level <#>] [-x <#>] [-y <#>] [-z <#>]` | `crazyenchantments.spawn` | OP | Drops an enchantment book, or a lost book from a category, where you tell it to. The level can be a range such as `1-3`. |
@@ -50,14 +51,14 @@ In 2.8.1, `/ce spawn` reads the `-enchantment`, `-category` and `-world` flags u
 |---------------------|----------------------------------------------|---------|-----------------------------------------------------------------------------------------------------|
 | Max Enchantments    | `crazyenchantments.bypass.limit`             | false   | Bypasses the enchantment limit.                                                                     |
 | Aura Enchantments   | `crazyenchantments.bypass.aura`              | false   | Bypass all the aura enchantment effects.                                                            |
-| Enchant Blacklist   | `crazyenchantments.<enchantment>.deny`       | false   | Stops players from being able to use an enchant. Replace `<enchantment>` with the enchantment name. Has no effect on operators. |
+| Enchant Blacklist   | `crazyenchantments.<enchantment>.deny`       | OP      | Stops players from being able to use an enchant. Replace `<enchantment>` with the enchantment name. Has no effect on operators. |
 | Wings Enemy Bypass  | `crazyenchantments.bypass.wings`             | false   | Bypass the enemy detection for the wings enchantment.                                               |
 | Gkit Timers Bypass  | `crazyenchantments.bypass.gkitz`             | false   | Bypass the gkit cooldowns, and allows claiming any gkit.                                            |
 | GKit Give Bypass    | `crazyenchantments.gkitz.give`               | OP      | When a player with this is given a gkit through `/gkitz give`, the cooldown and kit permission are skipped. |
 | Protection Crystals | `crazyenchantments.bypass.protectioncrystal` | false   | Make protection crystals work every time.                                                           |
 
 :::caution
-`crazyenchantments.gkitz.<kit>` is not registered in `plugin.yml`, so operators have it by default.
+`crazyenchantments.gkitz.<kit>` and `crazyenchantments.<enchantment>.deny` are not registered in `plugin.yml`, so operators have them by default.
 
 `crazyenchantments.<enchantment>.deny` only affects non-operators who are given it, because operators always pass the enchantment check.
 :::

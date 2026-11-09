@@ -85,13 +85,3 @@ import TabCard from "@/components/other/TabCard.astro";
       random-locations:
         toggle: false
   ```
-
-### 5. Why is the hologram countdown blank?
- - The default tier files use `%crazyenvoys_crates_time%` in `Hologram`, but CrazyEnvoys does not handle that placeholder, so it returns an empty line.
- - Replace it with `%crazyenvoys_envoys_time%` in each of your tier files.
-  ```yml
-  Settings:
-    Hologram:
-      - '%crazyenvoys_envoys_time%'
-  ```
- - The countdown only shows while `envoys.grace-period.toggle` is `true`; otherwise it shows your `envoys.grace-period.message`. [PlaceholderAPI](https://modrinth.com/plugin/placeholderapi) must be installed.

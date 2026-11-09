@@ -11,7 +11,7 @@ description: A list of plugins we support!
 | FactionsUUID                                                        | [Download](https://www.spigotmc.org/resources/factionsuuid.1035/)    | no       | no         | no      | yes   | n/a     |
 | PlotSquared                                                         | [Download](https://github.com/IntellectualSites/PlotSquared/)        | no       | no         | no      | yes   | n/a     |
 | Lands                                                               | [Download](https://www.spigotmc.org/resources/lands.53313/)          | no       | no         | no      | yes   | n/a     |
-| Towny - Currently disabled                                          | [Download](https://github.com/TownyAdvanced/Towny)                   | no       | no         | no      | no    | n/a     |
+| Towny                                                               | [Download](https://github.com/TownyAdvanced/Towny)                   | no       | no         | no      | yes   | n/a     |
 
 ## Placeholders
 | Plugin         | Link                                                   | Required | Deprecated | Removed | Added | Planned |

@@ -31,8 +31,8 @@ All 105 enchantments are listed below by the item type set in `Enchantments.yml`
 | Drunk        | 3         | Gives strength, mining fatigue, and slowness when put on.                                       |
 | Ninja        | 2         | Gives speed and health boost when you put it on.                                                |
 | *Angel       | 5         | Heals nearby faction members when you are wearing item.                                         |
-| Tamer        | 5         | Spawns wolves to help when you are in trouble.                                                  |
-| Guards       | 3         | Spawns in iron golems when you are in trouble.                                                  |
+| Tamer        | 5         | Spawns 1 wolf per level that fights for you for 60 seconds.                                     |
+| Guards       | 3         | Spawns 1 iron golem per level that fights for you for 60 seconds.                               |
 | Voodoo       | 3         | Has a chance to give your enemy weakness.                                                       |
 | Molten       | 5         | Has a chance to set your enemy on fire.                                                         |
 | Savior       | 5         | Has a chance to cut your incoming damage by half.                                               |
@@ -40,20 +40,20 @@ All 105 enchantments are listed below by the item type set in `Enchantments.yml`
 | Freeze       | 2         | Has a chance to give your enemy slowness.                                                       |
 | Recover      | 1         | When you kill a player you get absorption and regen.                                            |
 | Nursery      | 5         | Has a chance to heal you while walking.                                                         |
-| Radiant      | 3         | Sets enemies within 3 blocks on fire for a short time.                                          |
+| Radiant      | 3         | Sets enemies within 3 blocks on fire for 5 seconds.                                             |
 | Fortify      | 3         | Has a chance to give your enemy weakness.                                                       |
 | OverLoad     | 5         | Gives a health boost when you put it on.                                                        |
 | Blizzard     | 1         | Gives enemies within 3 blocks slowness for a short time.                                        |
 | Insomnia     | 1         | Gives confusion, mining fatigue, and slowness but has a high chance of doing double the damage. |
-| AcidRain     | 3         | Gives enemies within 3 blocks poison for a short time.                                          |
-| SandStorm    | 1         | Gives enemies within 3 blocks blindness for a short time.                                       |
+| AcidRain     | 3         | Gives enemies within 3 blocks poison II for 4 seconds.                                          |
+| SandStorm    | 1         | Gives enemies within 3 blocks blindness for 10 seconds.                                         |
 | SmokeBomb    | 3         | Has a chance to blind and slow your enemy so you can escape.                                    |
 | PainGiver    | 4         | Has a chance to give your enemy poison.                                                         |
 | Intimidate   | 2         | Gives enemies within 3 blocks weakness for a short time.                                        |
 | BurnShield   | 1         | Gives fire resistance when you put it on.                                                       |
 | *Leadership  | 5         | Your attacks are stronger when you have allies around you.                                      |
-| Infestation  | 2         | Spawns in endermites and silverfish when you are in trouble.                                    |
-| Necromancer  | 3         | Spawns in zombies when you are in trouble.                                                      |
+| Infestation  | 2         | Spawns 3 endermites and 3 silverfish per level that fight for you for 60 seconds.               |
+| Necromancer  | 3         | Spawns 2 zombies per level that fight for you for 60 seconds.                                   |
 | StormCaller  | 5         | Has a chance to strike your enemy down with a lightning strike.                                 |
 | Enlightened  | 5         | Has a chance to heal you while being attacked.                                                  |
 | SelfDestruct | 5         | When you die there will be an explosion where you died.                                         |
@@ -63,6 +63,8 @@ All 105 enchantments are listed below by the item type set in `Enchantments.yml`
 | Crouch       | 3         | During combat you take 10%(+5% per level) less damage while crouched.                           |
 | Shockwave    | 3         | Chance to knockback enemies when they attack you.                                               |
 | SystemReboot | 3         | Chance to become full hp when attacked at low hp.                                               |
+
+Tamer, Guards, Infestation, Necromancer and BeeKeeper share a 2 minute cooldown.
 
 ## Bow
 | Enchantments | Max Level | Description                                                                          |
@@ -151,8 +153,8 @@ All 105 enchantments are listed below by the item type set in `Enchantments.yml`
 | HellForged   | 4         | Has a chance to fix up your items as you walk. |
 
 ___
-Any enchantment prefixed with an asterisk(*) only works with allies, which come from one of these plugins: [FactionsUUID](https://www.spigotmc.org/resources/factionsuuid.1035/), [Lands](https://www.spigotmc.org/resources/lands.53313/), [SuperiorSkyblock2](https://bg-software.com/superiorskyblock/), [mcMMO](https://www.spigotmc.org/resources/official-mcmmo-original-author-returns.64348/) parties, or [GriefPrevention](https://www.spigotmc.org/resources/griefprevention.1884/) (players trusted in the same claim).
+Any enchantment prefixed with an asterisk(*) only works with allies, which come from one of these plugins: [FactionsUUID](https://www.spigotmc.org/resources/factionsuuid.1035/), [Lands](https://www.spigotmc.org/resources/lands.53313/), [SuperiorSkyblock2](https://bg-software.com/superiorskyblock/), [mcMMO](https://www.spigotmc.org/resources/official-mcmmo-original-author-returns.64348/) parties, [Towny](https://github.com/TownyAdvanced/Towny) (residents of the same town or nation, or of allied nations), or [GriefPrevention](https://www.spigotmc.org/resources/griefprevention.1884/) (players trusted in the same claim).
 
-Any enchantment prefixed with two asterisks(**) only works in your own territory, or in a claim you are a member of, from [GriefPrevention](https://www.spigotmc.org/resources/griefprevention.1884/), [FactionsUUID](https://www.spigotmc.org/resources/factionsuuid.1035/), [Lands](https://www.spigotmc.org/resources/lands.53313/), [PlotSquared](https://github.com/IntellectualSites/PlotSquared/), [SuperiorSkyblock2](https://bg-software.com/superiorskyblock/) or [World Guard](https://enginehub.org/worldguard) (including the regions listed under `Wings` in `config.yml`).
+Any enchantment prefixed with two asterisks(**) only works in your own territory, or in a claim you are a member of, from [GriefPrevention](https://www.spigotmc.org/resources/griefprevention.1884/), [FactionsUUID](https://www.spigotmc.org/resources/factionsuuid.1035/), [Lands](https://www.spigotmc.org/resources/lands.53313/), [PlotSquared](https://github.com/IntellectualSites/PlotSquared/), [SuperiorSkyblock2](https://bg-software.com/superiorskyblock/), [Towny](https://github.com/TownyAdvanced/Towny) or [World Guard](https://enginehub.org/worldguard) (including the regions listed under `Wings` in `config.yml`). The check passes if any installed plugin allows it, and some of them allow more than your own territory. With [mcMMO](https://www.spigotmc.org/resources/official-mcmmo-original-author-returns.64348/) installed it always passes, so Wings works everywhere. Towny also allows anywhere outside a town, PlotSquared also allows plot roads, and FactionsUUID also allows worlds where Factions is disabled. The Wings enemy check and blacklisted worlds still apply.
 
 The plugin list stated above might be outdated, so feel free to check out [supported plugins](/mods/crazyenchantments/misc/plugin-support/) for more that might work.

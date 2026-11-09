@@ -35,6 +35,6 @@ The `<player>` argument of `/envoy flare` is **required**. The command shows it 
 | Permission Node       | Description                                                                                          | Default |
 |-----------------------|------------------------------------------------------------------------------------------------------|---------|
 | envoy.flare.use       | Allows you to use flares.                                                                            | false   |
-| envoy.locations       | Allows you to see envoy locations when an event starts (if `envoys.broadcast` is enabled).            | false   |
+| envoy.locations       | Allows you to see the envoy locations when an event starts. The list is always sent to players with this permission, limited to the `envoys.world-messages.worlds` worlds while `envoys.world-messages.toggle` is `true`. `envoys.broadcast` only controls whether players who ran `/envoy ignore` are skipped, not whether the list is sent. | false   |
 | envoy.bypass          | Skips the grace period, the grab cooldown and the tier claim permission when claiming an envoy.      | OP      |
-| envoy.gamemode-bypass | Allows you to claim envoys while in creative mode. Not declared in plugin.yml, so nobody has it unless granted. | false   |
+| envoy.gamemode-bypass | Allows you to claim envoys while in creative mode. Not declared in plugin.yml, so Bukkit's default applies: operators have it and non-ops need it granted. | OP      |

@@ -17,26 +17,20 @@ import TabCard from "@/components/other/TabCard.astro";
         #### Why can't my players use /ah?
         - CrazyAuctions requires **Vault** and an economy plugin that hooks into Vault. Without Vault the plugin will not load.
         - Check that players have `crazyauctions.access` (and `crazyauctions.sell` / `crazyauctions.bid` to list items). All of these are true by default.
-        - `crazyauctions.sell.#` / `crazyauctions.bid.#` are a listing **cap**, not an access permission. See [Commands & Permissions](/mods/crazyauctions/reference/commands/).
+        - To list items, players also need `crazyauctions.sell.#` / `crazyauctions.bid.#` with a number, because without one their listing limit is 0. See [Commands & Permissions](/mods/crazyauctions/reference/commands/).
     </TabCard>
     <TabCard label="#3">
         #### How do I limit how many items a player can list?
         - Give them `crazyauctions.sell.#` and/or `crazyauctions.bid.#`, replacing `#` with a number.
-        - The cap counts all of the player's current listings (selling and bidding combined), and the highest number wins.
-        - With no such node, listings are unlimited. `crazyauctions.bypass` skips the cap.
+        - `sell.#` counts only the player's selling listings and `bid.#` counts only their bidding listings. If a player has more than one node of the same kind, the highest number wins.
+        - With no such node, the limit is 0 and the player cannot list. Server operators can list up to 99 of each without a node. `crazyauctions.bypass` skips the limit.
     </TabCard>
     <TabCard label="#4">
-        #### How does tax work?
-        - `Settings.Percent-Tax` in `config.yml` is the percent taken from the seller's earnings. Use a whole number, such as `5` for 5%.
-        - Tax currently only applies to buy-now (selling) sales, not to won bids.
-        - `Settings.Auction-List-Fee` is a flat amount the player pays every time they list an item with `/ca sell` or `/ca bid`.
-    </TabCard>
-    <TabCard label="#5">
         #### Can I use MySQL or SQLite for storage?
         - No. Storage is YAML only, and all listings are saved in `data.yml`.
     </TabCard>
-    <TabCard label="#6">
+    <TabCard label="#5">
         #### Are there any PlaceholderAPI placeholders?
-        - No. CrazyAuctions does not provide a PlaceholderAPI expansion. PlaceholderAPI is only used to parse placeholders in GUI item names and lore.
+        - No. CrazyAuctions does not provide its own PlaceholderAPI expansion. When PlaceholderAPI is installed, placeholders in single-line `messages.yml` messages sent to players are parsed. GUI item names and lore are not run through PlaceholderAPI.
     </TabCard>
 </Tabs>
