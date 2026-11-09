@@ -1,5 +1,5 @@
 ---
-title: Commands & Permissions
+title: Permissions
 description: A list of commands with updated permissions
 ---
 `/crazyenchantments` can also be run as `/ce` or `/enchanter`.

@@ -1,5 +1,5 @@
 ---
-title: Item Options
+title: Options
 description: An in-depth guide on how to use the `Items:` section!
 ---
 ## List of all values that can be used in the `Items:` option

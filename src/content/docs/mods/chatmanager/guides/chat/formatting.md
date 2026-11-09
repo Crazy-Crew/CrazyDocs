@@ -1,5 +1,5 @@
 ---
-title: Chat Formatting
+title: Formatting
 ---
 ## Chat Format
 Chat format is a simple yet powerful per-group chat formatting feature where players will automatically be placed in their chat format group, 

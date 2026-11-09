@@ -80,204 +80,312 @@ export default defineConfig({
         plugins: [
             topics([
                 {
-                    id: 'crazycrew',
-                    label: 'Home',
-                    link: '/getting_started/overview/',
-                    icon: 'starlight',
+                    id: "crazycrew",
+                    label: "Home",
+                    link: "/getting_started/overview/",
+                    icon: "starlight",
                     items: [
-                        'getting_started/overview',
-                        'getting_started/platforms',
+                        "getting_started/overview",
+                        "getting_started/platforms"
                     ],
                 },
                 {
-                    id: 'crazycrates',
-                    label: 'CrazyCrates',
-                    link: '/mods/crazycrates/',
-                    icon: 'crazycrates',
+                    id: "crazycrates",
+                    label: "CrazyCrates",
+                    link: "/mods/crazycrates/",
+                    icon: "crazycrates",
                     items: [
-                        { slug: 'mods/crazycrates', label: 'Getting Started' },
-                        'mods/crazycrates/reference/commands',
-                        'mods/crazycrates/reference/placeholders',
-                        'mods/crazycrates/faq',
-                        'mods/crazycrates/support',
+                        "mods/crazycrates/contributing",
                         {
-                            label: 'Prize Configuration',
-                            collapsed: true,
+                            label: "Administration",
                             items: [
-                                'mods/crazycrates/reference/prizes/weight-system',
-                                'mods/crazycrates/reference/prizes/items/custom-items',
-                                'mods/crazycrates/reference/prizes/items/potions',
-                                'mods/crazycrates/reference/prizes/items/cosmetic/heads',
-                                'mods/crazycrates/reference/prizes/items/cosmetic/dyes',
-                                'mods/crazycrates/reference/prizes/items/tools/patterns',
-                                'mods/crazycrates/reference/prizes/items/tools/trim',
-                                'mods/crazycrates/reference/prizes/settings/broadcast',
+                                "mods/crazycrates/faq",
+                                "mods/crazycrates/support",
+                                {
+                                    label: "Reference",
+                                    items: [
+                                        "mods/crazycrates/reference/placeholders",
+                                        "mods/crazycrates/reference/commands",
+                                        {
+                                            label: "Menus",
+                                            items: [
+                                                {
+                                                    label: "Buttons",
+                                                    items: [
+                                                        {
+                                                            slug: "mods/crazycrates/reference/menus/buttons/index"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    label: "Main Menu",
+                                                    items: [
+                                                        {
+                                                            slug: "mods/crazycrates/reference/menus/main/index",
+                                                            badge: {
+                                                                text: 'Stub',
+                                                                variant: 'caution'
+                                                            }
+                                                        },
+                                                        {
+                                                            label: "Cosmetic",
+                                                            items: [
+                                                                "mods/crazycrates/reference/menus/main/items/cosmetic/heads"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            label: "Prizes",
+                                            items: [
+                                                "mods/crazycrates/reference/prizes/weight-system",
+                                                {
+                                                    label: "Items",
+                                                    items: [
+                                                        "mods/crazycrates/reference/prizes/items/custom-items",
+                                                        "mods/crazycrates/reference/prizes/items/potions",
+                                                        {
+                                                            label: "Cosmetic",
+                                                            items: [
+                                                                "mods/crazycrates/reference/prizes/items/cosmetic/heads",
+                                                                "mods/crazycrates/reference/prizes/items/cosmetic/dyes"
+                                                            ]
+                                                        },
+                                                        {
+                                                            label: "Tools",
+                                                            items: [
+                                                                "mods/crazycrates/reference/prizes/items/tools/patterns",
+                                                                "mods/crazycrates/reference/prizes/items/tools/trim"
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    label: "Settings",
+                                                    items: [
+                                                        "mods/crazycrates/reference/prizes/settings/broadcast"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
                             ],
                         },
                         {
-                            label: 'Menus',
-                            collapsed: true,
+                            label: "Developers",
                             items: [
-                                { slug: 'mods/crazycrates/reference/menus/main/index', badge: { text: 'Stub', variant: 'caution' } },
-                                'mods/crazycrates/reference/menus/buttons/index',
-                                'mods/crazycrates/reference/menus/main/items/cosmetic/heads',
+                                "mods/crazycrates/dev/index",
+                                "mods/crazycrates/dev/usage"
                             ],
-                        },
-                        {
-                            label: 'Developers',
-                            collapsed: true,
-                            items: [
-                                'mods/crazycrates/dev/index',
-                                'mods/crazycrates/dev/usage',
-                            ],
-                        },
-                        'mods/crazycrates/contributing',
+                        }
                     ],
                 },
                 {
-                    id: 'crazyenchantments',
-                    label: 'CrazyEnchantments',
-                    link: '/mods/crazyenchantments/',
-                    icon: 'crazyenchantments',
+                    id: "crazyenchantments",
+                    label: "CrazyEnchantments",
+                    link: "/mods/crazyenchantments/",
+                    icon: "crazyenchantments",
                     items: [
-                        { slug: 'mods/crazyenchantments', label: 'Getting Started' },
-                        'mods/crazyenchantments/guides/features',
-                        'mods/crazyenchantments/misc/enchantments',
-                        'mods/crazyenchantments/commands/permissions',
-                        'mods/crazyenchantments/faq',
-                        'mods/crazyenchantments/misc/plugin-support',
-                        'mods/crazyenchantments/misc/currency',
-                        'mods/crazyenchantments/misc/translations',
                         {
-                            label: 'Item Configuration',
-                            collapsed: true,
+                            label: "Administration",
                             items: [
-                                'mods/crazyenchantments/guides/items/options',
-                                'mods/crazyenchantments/guides/items/types/shields-banners',
-                            ],
-                        },
-                        'mods/crazyenchantments/guides/api/intro',
-                    ],
+                                {
+                                    autogenerate: {
+                                        directory: "mods/crazyenchantments"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    id: 'crazyauctions',
-                    label: 'CrazyAuctions',
-                    link: '/mods/crazyauctions/',
-                    icon: 'crazyauctions',
+                    id: "crazyauctions",
+                    label: "CrazyAuctions",
+                    link: "/mods/crazyauctions/",
+                    icon: "crazyauctions",
                     items: [
-                        { slug: 'mods/crazyauctions', label: 'Getting Started' },
-                        'mods/crazyauctions/reference/commands',
-                        'mods/crazyauctions/reference/translations',
-                        'mods/crazyauctions/faq',
-                        'mods/crazyauctions/support',
-                        'mods/crazyauctions/contributing',
-                    ],
+                        "mods/crazyauctions/contributing",
+                        {
+                            label: "Administration",
+                            items: [
+                                "mods/crazyauctions/faq",
+                                "mods/crazyauctions/support",
+                                {
+                                    label: "References",
+                                    items: [
+                                        "mods/crazyauctions/reference/commands",
+                                        "mods/crazyauctions/reference/translations",
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    id: 'crazyenvoys',
-                    label: 'CrazyEnvoys',
-                    link: '/mods/crazyenvoys/',
-                    icon: 'crazyenvoys',
+                    id: "crazyenvoys",
+                    label: "CrazyEnvoys",
+                    link: "/mods/crazyenvoys/",
+                    icon: "crazyenvoys",
                     items: [
-                        { slug: 'mods/crazyenvoys', label: 'Getting Started' },
-                        'mods/crazyenvoys/reference/commands',
-                        'mods/crazyenvoys/reference/placeholders',
-                        'mods/crazyenvoys/reference/translations',
-                        'mods/crazyenvoys/faq',
-                        'mods/crazyenvoys/support',
+                        "mods/crazyenvoys/contributing",
                         {
-                            label: 'Prize Configuration',
-                            collapsed: true,
+                            label: "Administration",
                             items: [
-                                'mods/crazyenvoys/reference/tiers/chance-system',
-                                { slug: 'mods/crazyenvoys/reference/prizes/items/custom-items', badge: { text: 'Stub', variant: 'caution' } },
-                                'mods/crazyenvoys/reference/prizes/items/potions',
-                                'mods/crazyenvoys/reference/prizes/items/cosmetic/heads',
-                                'mods/crazyenvoys/reference/prizes/items/cosmetic/dyes',
-                                'mods/crazyenvoys/reference/prizes/items/tools/patterns',
-                                'mods/crazyenvoys/reference/prizes/items/tools/trim',
-                            ],
+                                "mods/crazyenvoys/faq",
+                                "mods/crazyenvoys/support",
+                                {
+                                    label: "References",
+                                    items: [
+                                        "mods/crazyenvoys/reference/commands",
+                                        "mods/crazyenvoys/reference/translations",
+                                        "mods/crazyenvoys/reference/placeholders",
+                                        {
+                                            label: "Prizes",
+                                            items: [
+                                                {
+                                                    label: "Items",
+                                                    items: [
+                                                        "mods/crazyenvoys/reference/prizes/items/custom-items",
+                                                        "mods/crazyenvoys/reference/prizes/items/potions",
+                                                        {
+                                                            label: "Cosmetic",
+                                                            items: [
+                                                                "mods/crazyenvoys/reference/prizes/items/cosmetic/heads",
+                                                                "mods/crazyenvoys/reference/prizes/items/cosmetic/dyes"
+                                                            ]
+                                                        },
+                                                        {
+                                                            label: "Tools",
+                                                            items: [
+                                                                "mods/crazyenvoys/reference/prizes/items/tools/patterns",
+                                                                "mods/crazyenvoys/reference/prizes/items/tools/trim"
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            label: "Tiers",
+                                            items: [
+                                                "mods/crazyenvoys/reference/tiers/chance-system"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
-                            label: 'Developers',
-                            collapsed: true,
+                            label: "Developers",
                             items: [
-                                'mods/crazyenvoys/dev/index',
-                                { slug: 'mods/crazyenvoys/dev/usage', badge: { text: 'Stub', variant: 'caution' } },
+                                "mods/crazyenvoys/dev/index",
+                                {
+                                    slug: "mods/crazyenvoys/dev/usage",
+                                    badge: {
+                                        text: 'Stub',
+                                        variant: 'caution'
+                                    }
+                                }
                             ],
-                        },
-                        'mods/crazyenvoys/contributing',
-                    ],
+                        }
+                    ]
                 },
                 {
-                    id: 'crazyvouchers',
-                    label: 'CrazyVouchers',
-                    link: '/mods/crazyvouchers/',
-                    icon: 'crazyvouchers',
+                    id: "crazyvouchers",
+                    label: "CrazyVouchers",
+                    link: "/mods/crazyvouchers/",
+                    icon: "crazyvouchers",
                     items: [
-                        { slug: 'mods/crazyvouchers', label: 'Getting Started' },
-                        'mods/crazyvouchers/reference/commands',
-                        'mods/crazyvouchers/reference/placeholders',
-                        'mods/crazyvouchers/faq',
-                        'mods/crazyvouchers/support',
+                        "mods/crazyvouchers/contributing",
                         {
-                            label: 'Voucher Configuration',
-                            collapsed: true,
+                            label: "Administration",
                             items: [
-                                'mods/crazyvouchers/reference/weight-system',
-                                'mods/crazyvouchers/reference/items/custom-items',
-                                'mods/crazyvouchers/reference/items/potions',
-                                'mods/crazyvouchers/reference/items/cosmetic/heads',
-                                'mods/crazyvouchers/reference/items/cosmetic/dyes',
-                                'mods/crazyvouchers/reference/items/tools/patterns',
-                                'mods/crazyvouchers/reference/items/tools/trim',
-                            ],
+                                "mods/crazyvouchers/faq",
+                                "mods/crazyvouchers/support",
+                                {
+                                    label: "References",
+                                    items: [
+                                        "mods/crazyvouchers/reference/commands",
+                                        "mods/crazyvouchers/reference/placeholders",
+                                        {
+                                            label: "Items",
+                                            items: [
+                                                "mods/crazyvouchers/reference/items/custom-items",
+                                                "mods/crazyvouchers/reference/items/potions",
+                                                {
+                                                    label: "Cosmetic",
+                                                    items: [
+                                                        "mods/crazyvouchers/reference/items/cosmetic/heads",
+                                                        "mods/crazyvouchers/reference/items/cosmetic/dyes"
+                                                    ]
+                                                },
+                                                {
+                                                    label: "Tools",
+                                                    items: [
+                                                        "mods/crazyvouchers/reference/items/tools/patterns",
+                                                        "mods/crazyvouchers/reference/items/tools/trim"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
-                            label: 'Developers',
-                            collapsed: true,
+                            label: "Developers",
                             items: [
-                                'mods/crazyvouchers/dev/index',
-                                'mods/crazyvouchers/dev/usage',
+                                "mods/crazyvouchers/dev/index",
+                                {
+                                    slug: "mods/crazyvouchers/dev/usage",
+                                    badge: {
+                                        text: 'Stub',
+                                        variant: 'caution'
+                                    }
+                                }
                             ],
-                        },
-                        'mods/crazyvouchers/contributing',
-                    ],
+                        }
+                    ]
                 },
                 {
-                    id: 'chatmanager',
-                    label: 'ChatManager',
-                    link: '/mods/chatmanager/',
-                    icon: 'open-book',
+                    id: "chatmanager",
+                    label: "ChatManager",
+                    link: "/mods/chatmanager/",
+                    icon: "open-book",
                     items: [
-                        { slug: 'mods/chatmanager', label: 'Getting Started' },
-                        'mods/chatmanager/commands/permissions',
-                        'mods/chatmanager/guides/placeholders',
-                        'mods/chatmanager/faq',
-                        'mods/chatmanager/misc/plugin-support',
                         {
-                            label: 'Chat Configuration',
-                            collapsed: true,
+                            label: "Administration",
                             items: [
-                                'mods/chatmanager/guides/chat/formatting',
-                                'mods/chatmanager/guides/chat/join-quit',
-                                'mods/chatmanager/guides/chat/radius',
-                            ],
-                        },
-                    ],
+                                {
+                                    autogenerate: {
+                                        directory: "mods/chatmanager"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    id: 'blockparticles',
-                    label: 'BlockParticles',
-                    link: '/mods/blockparticles/',
-                    icon: 'blockparticles',
+                    id: "blockparticles",
+                    label: "BlockParticles",
+                    link: "/mods/blockparticles/",
+                    icon: "blockparticles",
                     items: [
-                        { slug: 'mods/blockparticles', label: 'Getting Started' },
-                        'mods/blockparticles/commands/permissions',
-                        'mods/blockparticles/misc/plugin-support',
-                        'mods/blockparticles/guides/api/intro',
-                    ],
-                },
+                        {
+                            label: "Administration",
+                            items: [
+                                {
+                                    autogenerate: {
+                                        directory: "mods/blockparticles"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
             ])
         ]
     }), vue(), icon(), mdx()]

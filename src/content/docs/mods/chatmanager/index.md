@@ -1,5 +1,5 @@
 ---
-title: ChatManager
+title: Getting Started
 description: How to get started with ChatManager
 ---
 # Welcome to the ChatManager wiki!

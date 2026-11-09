@@ -1,5 +1,5 @@
 ---
-title: Commands & Permissions
+title: Permissions
 ---
 
 ChatManager has a lot of commands and permissions, so please read this page entirely before asking for help.

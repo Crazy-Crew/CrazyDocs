@@ -1,5 +1,5 @@
 ---
-title: Join & Quit Messages
+title: Join Quit Messages
 ---
 ## Join & Quit messages
 

@@ -1,5 +1,5 @@
 ---
-title: Commands & Permissions
+title: Permissions
 description: A list of commands with updated permissions
 ---
 The base command is `/blockparticle`. Aliases: `/blockparticles`, `/bp`, `/bparticle`, `/bparticles`.
