@@ -163,6 +163,7 @@ settings:
   excludeLinksFromLockfile: false
 
 patchedDependencies:
+  astro-contributors: fb49415bb8b703a31aa077078b43c7c8fc4f87b74f36b4ced4afb8840a254123
   starlight-sidebar-topics-dropdown: 072a9e2a713561ea9134bb235f6f77d7bbf91af458bea764f004c9f3b6f6ca08
 
 importers:
@@ -191,8 +192,8 @@ importers:
         specifier: ^7.2.8
         version: 7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1)
       astro-contributors:
-        specifier: ^0.10.0
-        version: 0.10.0(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1))
+        specifier: ^0.10.1
+        version: 0.10.1(patch_hash=fb49415bb8b703a31aa077078b43c7c8fc4f87b74f36b4ced4afb8840a254123)(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1))
       astro-icon:
         specifier: ^1.2.0
         version: 1.2.0
@@ -1373,8 +1374,8 @@ packages:
     resolution: {integrity: sha512-COROpnaoap1E2F000S62r6A60uHZnmlvomhfyT2DlTcrY1OrBKn2UhH7qn5wTC9zMvD0AY7csdPSNwKP+7WiQw==}
     engines: {node: '>= 0.4'}
 
-  astro-contributors@0.10.0:
-    resolution: {integrity: sha512-UoLefrf3CQEWeWjmkIGtPVZOnfRhjoiuK/10Jwb5URK6tilUlon7H3FOS66hih05cWjG2r7z+EICTVn1lrvXyw==}
+  astro-contributors@0.10.1:
+    resolution: {integrity: sha512-a9KaTTQwL5abQYHfHz8orUrFRmVJk6LWITw7xMMP5oiNgzTdjEnuJR/CNBh3cI7zrFDlWGVCbPNBEj0gjqoZPg==}
     engines: {node: '>=22.12.0'}
     peerDependencies:
       astro: ^5.0.0 || ^6.0.0 || ^7.0.0
@@ -3737,7 +3738,7 @@ snapshots:
 
   aria-query@5.3.2: {}
 
-  astro-contributors@0.10.0(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1)):
+  astro-contributors@0.10.1(patch_hash=fb49415bb8b703a31aa077078b43c7c8fc4f87b74f36b4ced4afb8840a254123)(astro@7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1)):
     dependencies:
       astro: 7.4.1(@types/node@26.6.5)(esbuild@0.28.2)(yaml@2.9.1)
 

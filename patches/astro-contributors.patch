@@ -1,0 +1,33 @@
+diff --git a/components/FacePile.astro b/components/FacePile.astro
+index c042a7d6513b4450bda58f18f9c04ccf127d00fe..4fe742c89c8e27598311f2d8c7c33d3dfe2fe88e 100644
+--- a/components/FacePile.astro
++++ b/components/FacePile.astro
+@@ -6,6 +6,7 @@ import {
+ } from "../libs/github";
+ import { type FormatLink, getContributorLink } from "../libs/link";
+ import { getStyleVariables } from "../libs/style";
++import {Image} from "astro:assets";
+ 
+ interface Props {
+   contributors: GitHubContributor[];
+@@ -29,13 +30,13 @@ const style = getStyleVariables({ "--avatar-focus-color": focusColor });
+             formatLink
+           )}
+         >
+-          <img
+-            alt={contributor.login}
+-            title={contributor.login}
+-            width="3rem"
+-            height="3rem"
+-            src={getGitHubAvatarUrl(contributor.id)}
+-            loading="lazy"
++          <Image
++              alt={contributor.login}
++              title={contributor.login}
++              src={getGitHubAvatarUrl(contributor.id)}
++              width="3rem"
++              height="3rem"
++              loading={"lazy"}
+           />
+         </a>
+       </li>
