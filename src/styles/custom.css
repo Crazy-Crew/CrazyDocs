@@ -1,3 +1,7 @@
 :root[data-theme='dark'], :root[data-theme='light'] {
     --sl-content-width: 64rem;
 }
+
+.group-label > .large {
+    text-transform: capitalize;
+}

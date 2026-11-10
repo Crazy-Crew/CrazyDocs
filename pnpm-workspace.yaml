@@ -16,6 +16,5 @@ allowBuilds:
   workerd: true
 
 patchedDependencies:
-  '@astrojs/starlight': patches/@astrojs__starlight.patch
   astro-contributors: patches/astro-contributors.patch
   starlight-sidebar-topics-dropdown: patches/starlight-sidebar-topics-dropdown.patch
