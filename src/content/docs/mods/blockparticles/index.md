@@ -1,5 +1,5 @@
 ---
-title: BlockParticles
+title: Getting Started
 description: How to get started with BlockParticles
 ---
 ## Requirements

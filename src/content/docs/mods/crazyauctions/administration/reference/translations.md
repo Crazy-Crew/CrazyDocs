@@ -1,8 +1,6 @@
 ---
 title: Translations
 description: Translations made by our community!
-
-slug: mods/crazyauctions/reference/translations
 ---
 :::tip
 This requires you to fork CrazyDocs to make your changes and make a pull request!

@@ -1,6 +1,8 @@
 ---
 title: Getting Started
 description: How to get started with ChatManager
+sidebar:
+  order: 2
 ---
 # Welcome to the ChatManager wiki!
 

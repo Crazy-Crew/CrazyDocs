@@ -1,0 +1,24 @@
+diff --git a/dist/components/SidebarSublist.astro b/dist/components/SidebarSublist.astro
+index 706dfba180e435c4caf8b1141e54582f8ee2e522..34afe46827ab24ca554b46cfacb61f13c81f096d 100644
+--- a/dist/components/SidebarSublist.astro
++++ b/dist/components/SidebarSublist.astro
+@@ -11,6 +11,10 @@ interface Props {
+ }
+ 
+ const { sublist, nested } = Astro.props;
++
++function replaceUnderscore(value: String) {
++    return value.includes("_") ? value.replace("_", " ") : value;
++}
+ ---
+ 
+ <ul class:list={{ 'top-level': !nested }}>
+@@ -31,7 +35,7 @@ const { sublist, nested } = Astro.props;
+ 			<details open={sidebarGroupHasCurrent(entry) || !entry.collapsed}>
+ 				<summary>
+ 					<span class="group-label">
+-						<span class="large">{entry.label}</span>
++						<span class="large">{replaceUnderscore(entry.label)}</span>
+ 						{entry.badge && (
+ 							<Badge
+ 								variant={entry.badge.variant}

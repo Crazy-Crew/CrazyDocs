@@ -207,18 +207,13 @@ export default defineConfig({
                     link: "/mods/crazyauctions/",
                     icon: "crazyauctions",
                     items: [
-                        "mods/crazyauctions/contributing",
                         {
-                            label: "Administration",
+                            label: "CrazyAuctions",
                             items: [
-                                "mods/crazyauctions/faq",
-                                "mods/crazyauctions/support",
                                 {
-                                    label: "References",
-                                    items: [
-                                        "mods/crazyauctions/reference/commands",
-                                        "mods/crazyauctions/reference/translations",
-                                    ]
+                                    autogenerate: {
+                                        directory: "mods/crazyauctions"
+                                    }
                                 }
                             ]
                         }
@@ -358,7 +353,7 @@ export default defineConfig({
                     icon: "mdi:shimmer",
                     items: [
                         {
-                            label: "Administration",
+                            label: "ChatManager",
                             items: [
                                 {
                                     autogenerate: {
@@ -376,7 +371,7 @@ export default defineConfig({
                     icon: "blockparticles",
                     items: [
                         {
-                            label: "Administration",
+                            label: "BlockParticles",
                             items: [
                                 {
                                     autogenerate: {
